@@ -1,5 +1,5 @@
 # 是否开启快速模式，快速模式下仅测试连通性
-fast_mode = false
+fast_mode = true
 
 # 待测速的订阅节点
 # 支持网络地址 https://xxx
@@ -29,10 +29,10 @@ test_group_size = 50
 [connect_test]
 url = "http://www.google.com/generate_204"
 expected = 204
-timeout = 1000
+timeout = 1500
 
 # 带宽测速配置
 [speed_test]
-enabled = true
+enabled = false
 url = "https://speed.cloudflare.com/__down?bytes=1048576"
 timeout = 3000

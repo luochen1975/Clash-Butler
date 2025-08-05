@@ -330,12 +330,12 @@ async fn test_node_with_delay_config(
     clash_meta: &ClashMeta,
     delay_test_config: &DelayTestConfig,
 ) -> Vec<HashMap<String, i64>> {
-    const ROUND: i32 = 5;
+    const ROUND: i32 = 3;
     info!("测试配置：{:?}", delay_test_config);
     let mut delay_results = vec![];
 
     // 预热 2 轮，DNS lookup
-    for _ in 0..2 {
+    for _ in 0..3 {
         let _ = clash_meta
             .test_group(TEST_PROXY_GROUP_NAME, delay_test_config)
             .await;

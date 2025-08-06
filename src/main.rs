@@ -110,52 +110,78 @@ async fn run(config: Settings) {
     let mut useful_proxies = Vec::new();
     for (index, proxies) in proxies_group.iter().enumerate() {
         if group_size > 1 {
-            info!("正在测试第 {} 组", index + 1)
+            info!("正在测试第 {} 组", index + 1);
         }
 
-        SubManager::save_proxies_into_clash_file(
-            proxies,
-            test_clash_template_path.to_string(),
-            test_yaml_path.to_string(),
-        );
+        let max_retries = 3;
+        let mut retry_count = 0;
+        let mut current_proxies = proxies;
 
-        let mut clash_meta = ClashMeta::new(external_port, mixed_port);
-        if let Err(e) = clash_meta.start().await {
-            error!("原神启动失败，第一次启动可能会下载 geo 相关的文件，重新启动即可，打开 logs/clash.log，查看具体错误原因，{}", e);
-            clash_meta.stop().unwrap();
-            index=index-1
-            continue;
-        }
+        'retry_loop: while retry_count <= max_retries {
+            SubManager::save_proxies_into_clash_file(
+                current_proxies,
+                test_clash_template_path.to_string(),
+                test_yaml_path.to_string(),
+            );
 
-        match clash_meta.get_group(TEST_PROXY_GROUP_NAME).await {
-            Ok(nodes) => {
-                info!(
-                    "开始测试 subs/test/config.yaml 中节点的延迟速度，节点总数：{}",
-                    nodes.all.len()
-                )
-            }
-            Err(e) => {
-                error!("获取节点数失败，请检查 clash 日志文件和 subs/test/config.yaml 生成的节点是否正确, {}", e);
+            let mut clash_meta = ClashMeta::new(external_port, mixed_port);
+            if let Err(e) = clash_meta.start().await {
+                retry_count += 1;
+                error!("Clash启动失败(重试 {}/{}): {}, 第一次启动可能会下载 geo 相关的文件，重新启动即可，打开 logs/clash.log 查看具体错误原因", 
+                    retry_count, max_retries, e);
                 clash_meta.stop().unwrap();
-                continue;
+            
+                if retry_count <= max_retries {
+                    info!("等待2秒后重试...");
+                    tokio::time::sleep(std::time::Duration::from_secs(2)).await;
+                    continue 'retry_loop;
+                } else {
+                    error!("已达到最大重试次数，跳过本组");
+                    break 'retry_loop;
+                }
             }
-        }
 
-        info!("开始测试连通性");
-        let delay_results = test_node_with_delay_config(&clash_meta, &config.connect_test).await;
-        let nodes = get_all_tested_nodes(&delay_results);
-        info!("连通性测试结果：{} 个节点可用", nodes.len());
-        if !nodes.is_empty() {
-            let cur_useful_proxies = proxies
-                .iter()
-                .filter(|&proxy| nodes.contains(&proxy.get_name().to_string()))
-                .cloned()
-                .collect::<Vec<Proxy>>();
-            info!("cur_useful_proxies len: {}", &cur_useful_proxies.len());
-            useful_proxies.extend(cur_useful_proxies);
-            info!("useful_proxies len: {}", useful_proxies.len());
+            match clash_meta.get_group(TEST_PROXY_GROUP_NAME).await {
+                Ok(nodes) => {
+                    info!(
+                        "开始测试 subs/test/config.yaml 中节点的延迟速度，节点总数：{}",
+                        nodes.all.len()
+                    );
+                }
+                Err(e) => {
+                    retry_count += 1;
+                    error!("获取节点数失败(重试 {}/{}): 请检查 clash 日志文件和 subs/test/config.yaml 生成的节点是否正确, {}", 
+                        retry_count, max_retries, e);
+                    clash_meta.stop().unwrap();
+                
+                    if retry_count <= max_retries {
+                        info!("等待2秒后重试...");
+                        tokio::time::sleep(std::time::Duration::from_secs(2)).await;
+                        continue 'retry_loop;
+                    } else {
+                        error!("已达到最大重试次数，跳过本组");
+                        break 'retry_loop;
+                    }
+                }
+            }
+
+            info!("开始测试连通性");
+            let delay_results = test_node_with_delay_config(&clash_meta, &config.connect_test).await;
+            let nodes = get_all_tested_nodes(&delay_results);
+            info!("连通性测试结果：{} 个节点可用", nodes.len());
+            if !nodes.is_empty() {
+                let cur_useful_proxies = current_proxies
+                    .iter()
+                    .filter(|&proxy| nodes.contains(&proxy.get_name().to_string()))
+                    .cloned()
+                    .collect::<Vec<Proxy>>();
+                info!("当前组可用代理数: {}", &cur_useful_proxies.len());
+                useful_proxies.extend(cur_useful_proxies);
+                info!("累计可用代理总数: {}", useful_proxies.len());
+            }
+            clash_meta.stop().unwrap();
+            break; // 成功完成测试，跳出重试循环
         }
-        clash_meta.stop().unwrap();
     }
 
     if useful_proxies.is_empty() {

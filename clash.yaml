@@ -682,19 +682,6 @@ proxies:
     headers:
       Host: carlotta.shoorekeeper.cloudns.org
     path: /?ed=2560
-- name: 07-0137-RELAY
-  network: ws
-  port: 8080
-  server: 172.66.40.99
-  servername: ab.shangoli4.motorphrotan.ir
-  tls: false
-  type: vless
-  udp: true
-  uuid: 17341938-2f40-4aca-a3c7-4e65655f7285
-  ws-opts:
-    headers:
-      Host: ab.shangoli4.motorphrotan.ir
-    path: /telegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE?ed=80
 - name: 07-0151-RELAY
   network: ws
   port: 443
@@ -903,19 +890,6 @@ proxies:
     headers:
       Host: rayan-fg-4.medicalhistory.filegear-sg.me
     path: /?ed=2560
-- name: 07-0989-RELAY
-  network: ws
-  port: 443
-  server: 104.21.36.57
-  servername: banana.fullmargintraders.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 48f477f3-906a-4bb6-be96-8201d8a62a6d
-  ws-opts:
-    headers:
-      Host: banana.fullmargintraders.com
-    path: /wsv/48f477f3-906a-4bb6-be96-8201d8a62a6d
 - name: 07-0990-RELAY
   network: ws
   port: 443
@@ -5631,19 +5605,6 @@ proxies:
   skip-cert-verify: true
   sni: yaml7.ggff.net
   type: trojan
-- name: 09-0580-RELAY
-  network: ws
-  port: 80
-  server: 188.114.96.223
-  servername: 188.114.96.223
-  tls: false
-  type: vless
-  udp: true
-  uuid: eb201923-0e39-4425-bd0f-6244cd24ef2a
-  ws-opts:
-    headers:
-      Host: zaq11000d.b835a8094d.workers.dev
-    path: /?ed=2560
 - name: 09-0581-RELAY
   network: ws
   port: 443
@@ -6210,19 +6171,6 @@ proxies:
     headers:
       Host: vle.amclubsapp.dpdns.org
     path: /?ed=2560
-- name: 09-0633-RELAY
-  network: ws
-  port: 443
-  server: 104.16.125.228
-  servername: qwa-d40.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 96806a27-3e67-4927-ac62-0557249be651
-  ws-opts:
-    headers:
-      Host: qwa-d40.pages.dev
-    path: /?ed=2560
 - cipher: aes-128-gcm
   name: 09-0634-US
   password: shadowsocks
@@ -6442,12 +6390,6 @@ proxies:
     headers:
       Host: vle.amclubsapp.dpdns.org
     path: /?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 09-0666-US
-  password: 360e21d21977dc11
-  port: 57456
-  server: 104.167.197.25
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 09-0667-US
   password: um2h1vWlmNLwKcN18ySgLQ
@@ -6678,12 +6620,6 @@ proxies:
   port: 443
   server: 156.146.62.161
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0757-LT
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.171
-  type: ss
 - cipher: aes-128-gcm
   name: 09-0758-CH
   password: shadowsocks
@@ -6858,10 +6794,10 @@ proxies:
   server: 176.96.136.168
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 09-0786-AT
-  password: 9JeYy8SkViXuSHVs9GFeSe
-  port: 443
-  server: 77.110.110.117
+  name: 09-0784-NL
+  password: VpKABcOpNNA0l5G2AVOmw8
+  port: 62685
+  server: 213.109.147.242
   type: ss
 - cipher: aes-128-gcm
   name: 09-0787-GB
@@ -6882,6 +6818,12 @@ proxies:
     headers:
       Host: edgb.aimercc.dpdns.org
     path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 09-0789-PL
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 92.118.205.228
+  type: ss
 - alterId: 2
   cipher: auto
   name: 09-0840-HK
@@ -6908,11 +6850,11 @@ proxies:
     headers:
       Host: rs-sg4.lzjnb.shop
     path: /lzj
-- cipher: chacha20-ietf-poly1305
-  name: 09-0843-LT
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.192
+- cipher: aes-256-cfb
+  name: 09-0844-IN
+  password: amazonskr05
+  port: 443
+  server: 65.0.98.253
   type: ss
 - name: 09-0847-KR
   network: ws
@@ -6938,6 +6880,19 @@ proxies:
   type: vmess
   udp: true
   uuid: a2313fba-74a6-11ed-a8bf-f23c91cfbbc9
+  ws-opts:
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 09-0849-HK
+  network: ws
+  port: 80
+  server: 1.36.223.42
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6e3ee1de-381f-11ee-87f9-f23c91cfbbc9
   ws-opts:
     path: /
 - alterId: 2
@@ -7024,6 +6979,19 @@ proxies:
     headers:
       Host: jp.laoyoutiao.link
     path: /Telegram%40WangCai2/?ed=2560
+- alterId: 2
+  cipher: auto
+  name: 09-0857-HK
+  network: ws
+  port: 80
+  server: 1.36.223.42
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d1d13cd2-329f-11ed-bb74-f23c9164ca5d
+  ws-opts:
+    path: /
 - alterId: 2
   cipher: auto
   name: 09-0858-HK
@@ -7214,6 +7182,32 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
+  name: 09-0873-HK
+  network: ws
+  port: 80
+  server: 1.36.223.42
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 49396d98-f4b4-11ef-8c3f-f23c913c8d2b
+  ws-opts:
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 09-0876-HK
+  network: ws
+  port: 80
+  server: 1.36.223.42
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ba78226c-b772-11ef-ab53-f23c91cfbbc9
+  ws-opts:
+    path: /
+- alterId: 2
+  cipher: auto
   name: 09-0877-HK
   network: ws
   port: 80
@@ -7223,6 +7217,19 @@ proxies:
   type: vmess
   udp: true
   uuid: 7960b6cc-1c95-11ef-ac7f-f23c91cfbbc9
+  ws-opts:
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 09-0878-HK
+  network: ws
+  port: 80
+  server: 1.36.223.42
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 8bb68d04-6973-11ee-b518-f23c9164ca5d
   ws-opts:
     path: /
 - alterId: 2
@@ -7249,6 +7256,19 @@ proxies:
   type: vmess
   udp: true
   uuid: 8815622e-7598-11ef-a01c-f23c913c8d2b
+  ws-opts:
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 09-0881-HK
+  network: ws
+  port: 80
+  server: 1.36.223.42
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
   ws-opts:
     path: /
 - name: 09-0882-RELAY
@@ -7303,12 +7323,6 @@ proxies:
   uuid: 7c129766-8656-11ea-8fc9-f23c913c8d2b
   ws-opts:
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 09-0887-NL
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 193.29.139.189
-  type: ss
 - alterId: 2
   cipher: auto
   name: 09-0888-HK
@@ -7322,6 +7336,12 @@ proxies:
   uuid: 9bfd0dde-957e-11ec-a8bf-f23c91cfbbc9
   ws-opts:
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 09-0889-LT
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 45.87.175.178
+  type: ss
 proxy-groups:
 - name: PROXY
   type: select
@@ -7386,7 +7406,6 @@ proxy-groups:
   - 06-0107-RELAY
   - 06-0108-RELAY
   - 07-0119-RELAY
-  - 07-0137-RELAY
   - 07-0151-RELAY
   - 07-0152-RELAY
   - 07-0159-RELAY
@@ -7403,7 +7422,6 @@ proxy-groups:
   - 07-0216-RELAY
   - 07-0987-RELAY
   - 07-0988-RELAY
-  - 07-0989-RELAY
   - 07-0990-RELAY
   - 07-0991-RELAY
   - 07-0992-RELAY
@@ -7774,7 +7792,6 @@ proxy-groups:
   - 09-0577-RELAY
   - 09-0578-RELAY
   - 09-0579-RELAY
-  - 09-0580-RELAY
   - 09-0581-RELAY
   - 09-0583-RELAY
   - 09-0584-RELAY
@@ -7820,7 +7837,6 @@ proxy-groups:
   - 09-0629-RELAY
   - 09-0630-RELAY
   - 09-0632-RELAY
-  - 09-0633-RELAY
   - 09-0634-US
   - 09-0635-US
   - 09-0637-US
@@ -7843,7 +7859,6 @@ proxy-groups:
   - 09-0663-US
   - 09-0664-US
   - 09-0665-RELAY
-  - 09-0666-US
   - 09-0667-US
   - 09-0669-US
   - 09-0670-RELAY
@@ -7871,7 +7886,6 @@ proxy-groups:
   - 09-0753-AE
   - 09-0755-NL
   - 09-0756-CH
-  - 09-0757-LT
   - 09-0758-CH
   - 09-0759-CH
   - 09-0760-CH
@@ -7895,14 +7909,16 @@ proxy-groups:
   - 09-0779-SE
   - 09-0781-RELAY
   - 09-0783-DE
-  - 09-0786-AT
+  - 09-0784-NL
   - 09-0787-GB
   - 09-0788-JP
+  - 09-0789-PL
   - 09-0840-HK
   - 09-0842-RELAY
-  - 09-0843-LT
+  - 09-0844-IN
   - 09-0847-KR
   - 09-0848-HK
+  - 09-0849-HK
   - 09-0850-HK
   - 09-0851-NO
   - 09-0852-HK
@@ -7910,6 +7926,7 @@ proxy-groups:
   - 09-0854-HK
   - 09-0855-HK
   - 09-0856-KR
+  - 09-0857-HK
   - 09-0858-HK
   - 09-0859-HK
   - 09-0860-MD
@@ -7925,15 +7942,19 @@ proxy-groups:
   - 09-0870-HK
   - 09-0871-HK
   - 09-0872-HK
+  - 09-0873-HK
+  - 09-0876-HK
   - 09-0877-HK
+  - 09-0878-HK
   - 09-0879-HK
   - 09-0880-HK
+  - 09-0881-HK
   - 09-0882-RELAY
   - 09-0883-HK
   - 09-0884-HK
   - 09-0885-HK
-  - 09-0887-NL
   - 09-0888-HK
+  - 09-0889-LT
 - name: Best
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -8003,7 +8024,6 @@ proxy-groups:
   - 06-0107-RELAY
   - 06-0108-RELAY
   - 07-0119-RELAY
-  - 07-0137-RELAY
   - 07-0151-RELAY
   - 07-0152-RELAY
   - 07-0159-RELAY
@@ -8020,7 +8040,6 @@ proxy-groups:
   - 07-0216-RELAY
   - 07-0987-RELAY
   - 07-0988-RELAY
-  - 07-0989-RELAY
   - 07-0990-RELAY
   - 07-0991-RELAY
   - 07-0992-RELAY
@@ -8391,7 +8410,6 @@ proxy-groups:
   - 09-0577-RELAY
   - 09-0578-RELAY
   - 09-0579-RELAY
-  - 09-0580-RELAY
   - 09-0581-RELAY
   - 09-0583-RELAY
   - 09-0584-RELAY
@@ -8437,7 +8455,6 @@ proxy-groups:
   - 09-0629-RELAY
   - 09-0630-RELAY
   - 09-0632-RELAY
-  - 09-0633-RELAY
   - 09-0634-US
   - 09-0635-US
   - 09-0637-US
@@ -8460,7 +8477,6 @@ proxy-groups:
   - 09-0663-US
   - 09-0664-US
   - 09-0665-RELAY
-  - 09-0666-US
   - 09-0667-US
   - 09-0669-US
   - 09-0670-RELAY
@@ -8488,7 +8504,6 @@ proxy-groups:
   - 09-0753-AE
   - 09-0755-NL
   - 09-0756-CH
-  - 09-0757-LT
   - 09-0758-CH
   - 09-0759-CH
   - 09-0760-CH
@@ -8512,14 +8527,16 @@ proxy-groups:
   - 09-0779-SE
   - 09-0781-RELAY
   - 09-0783-DE
-  - 09-0786-AT
+  - 09-0784-NL
   - 09-0787-GB
   - 09-0788-JP
+  - 09-0789-PL
   - 09-0840-HK
   - 09-0842-RELAY
-  - 09-0843-LT
+  - 09-0844-IN
   - 09-0847-KR
   - 09-0848-HK
+  - 09-0849-HK
   - 09-0850-HK
   - 09-0851-NO
   - 09-0852-HK
@@ -8527,6 +8544,7 @@ proxy-groups:
   - 09-0854-HK
   - 09-0855-HK
   - 09-0856-KR
+  - 09-0857-HK
   - 09-0858-HK
   - 09-0859-HK
   - 09-0860-MD
@@ -8542,15 +8560,19 @@ proxy-groups:
   - 09-0870-HK
   - 09-0871-HK
   - 09-0872-HK
+  - 09-0873-HK
+  - 09-0876-HK
   - 09-0877-HK
+  - 09-0878-HK
   - 09-0879-HK
   - 09-0880-HK
+  - 09-0881-HK
   - 09-0882-RELAY
   - 09-0883-HK
   - 09-0884-HK
   - 09-0885-HK
-  - 09-0887-NL
   - 09-0888-HK
+  - 09-0889-LT
 - name: HK
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -8562,11 +8584,13 @@ proxy-groups:
   proxies:
   - 09-0840-HK
   - 09-0848-HK
+  - 09-0849-HK
   - 09-0850-HK
   - 09-0852-HK
   - 09-0853-HK
   - 09-0854-HK
   - 09-0855-HK
+  - 09-0857-HK
   - 09-0858-HK
   - 09-0859-HK
   - 09-0862-HK
@@ -8580,9 +8604,13 @@ proxy-groups:
   - 09-0870-HK
   - 09-0871-HK
   - 09-0872-HK
+  - 09-0873-HK
+  - 09-0876-HK
   - 09-0877-HK
+  - 09-0878-HK
   - 09-0879-HK
   - 09-0880-HK
+  - 09-0881-HK
   - 09-0883-HK
   - 09-0884-HK
   - 09-0885-HK
@@ -8699,7 +8727,6 @@ proxy-groups:
   - 09-0662-US
   - 09-0663-US
   - 09-0664-US
-  - 09-0666-US
   - 09-0667-US
   - 09-0669-US
   - 09-0678-US

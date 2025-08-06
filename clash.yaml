@@ -279,6 +279,21 @@ proxies:
     headers:
       Host: light-presence.oneeat.co
     path: /
+- cipher: aes-256-gcm
+  name: 05-0020-HK
+  password: 9bfdde71b4c0
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: newroot2v1.dsjsapp.com
+    mode: websocket
+    mux: true
+    path: /cauejypbltqt
+    restls: false
+    skip-cert-verify: true
+    tls: true
+  port: 636
+  server: 103.103.245.158
+  type: ss
 - alterId: 0
   cipher: auto
   name: 05-0021-RELAY
@@ -305,19 +320,6 @@ proxies:
     headers:
       Host: blaze-can-118.blazecanada.site
     path: /
-- name: 05-0025-RELAY
-  network: ws
-  port: 443
-  server: 104.21.44.248
-  servername: EDfrT.frEEvPNatm2025.DPdNS.oRG
-  tls: true
-  type: vless
-  udp: true
-  uuid: ffcf7ec1-3e09-4821-b3d9-b426a107b73b
-  ws-opts:
-    headers:
-      Host: EDfrT.frEEvPNatm2025.DPdNS.oRG
-    path: /O9jlBCbIm3xr1D40NK
 - name: 05-0027-RELAY
   network: ws
   port: 8880
@@ -474,6 +476,19 @@ proxies:
   uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
   ws-opts:
     path: /6We3U9Df1WGxgFnoFPw1
+- alterId: 0
+  cipher: none
+  name: 05-0041-RELAY
+  network: ws
+  port: 80
+  server: test.flha.ru
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2bab6b8f-8d6e-463a-8331-b9de3d56921d
+  ws-opts:
+    path: /2bab6b8f-8d6e-463a-8331-b9de3d56921d-vmess
 - alterId: 0
   cipher: auto
   name: 05-0042-RELAY
@@ -5372,19 +5387,6 @@ proxies:
     headers:
       Host: hk.laoyoutiao.link
     path: /
-- name: 09-0598-RELAY
-  network: ws
-  port: 80
-  server: 45.131.5.111
-  servername: feng4.l1ut8bi9.workers.dev
-  tls: false
-  type: vless
-  udp: true
-  uuid: d6ff33a6-03bf-4338-8a63-62ab284a9466
-  ws-opts:
-    headers:
-      Host: feng4.l1ut8bi9.workers.dev
-    path: /Telegram
 - name: 09-0599-RELAY
   network: ws
   port: 2096
@@ -5893,19 +5895,6 @@ proxies:
   port: 8080
   server: 193.29.139.240
   type: ss
-- name: 09-0719-RELAY
-  network: ws
-  port: 443
-  server: 172.67.206.152
-  servername: EDfrT.frEEvPNatm2025.DPdNS.oRG
-  tls: true
-  type: vless
-  udp: true
-  uuid: ffcf7ec1-3e09-4821-b3d9-b426a107b73b
-  ws-opts:
-    headers:
-      Host: EDfrT.frEEvPNatm2025.DPdNS.oRG
-    path: /O9jlBCbIm3xr1D40NK
 - cipher: chacha20-ietf-poly1305
   name: 09-0720-AE
   password: QCXDxuDlTTMD7jtgHUjIoj
@@ -6068,19 +6057,6 @@ proxies:
   port: 8080
   server: 45.87.175.166
   type: ss
-- name: 09-0748-RELAY
-  network: ws
-  port: 443
-  server: 172.67.220.32
-  servername: xXCvVBNhJ.999836.XYz
-  tls: true
-  type: vless
-  udp: true
-  uuid: ffcf7ec1-3e09-4821-b3d9-b426a107b73b
-  ws-opts:
-    headers:
-      Host: xXCvVBNhJ.999836.XYz
-    path: /O9jlBCbIm3xr1D40NK
 - cipher: chacha20-ietf-poly1305
   name: 09-0750-NL
   password: QCXDxuDlTTMD7jtgHUjIoj
@@ -6187,6 +6163,12 @@ proxies:
   password: 3DpxGqxiET9cqEGy99UYYE
   port: 8594
   server: 77.105.166.12
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0769-DE
+  password: trErto8XzLALaQEslTp_jw
+  port: 2222
+  server: 2.59.133.216
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 09-0770-DE
@@ -6301,9 +6283,9 @@ proxy-groups:
   - 05-0017-RELAY
   - 05-0018-RELAY
   - 05-0019-RELAY
+  - 05-0020-HK
   - 05-0021-RELAY
   - 05-0023-RELAY
-  - 05-0025-RELAY
   - 05-0027-RELAY
   - 05-0029-RELAY
   - 05-0030-RELAY
@@ -6316,6 +6298,7 @@ proxy-groups:
   - 05-0038-RELAY
   - 05-0039-RELAY
   - 05-0040-RELAY
+  - 05-0041-RELAY
   - 05-0042-RELAY
   - 05-0043-RELAY
   - 05-0044-RELAY
@@ -6700,7 +6683,6 @@ proxy-groups:
   - 09-0595-RELAY
   - 09-0596-US
   - 09-0597-RELAY
-  - 09-0598-RELAY
   - 09-0599-RELAY
   - 09-0600-RELAY
   - 09-0601-US
@@ -6757,7 +6739,6 @@ proxy-groups:
   - 09-0716-NL
   - 09-0717-FR
   - 09-0718-NL
-  - 09-0719-RELAY
   - 09-0720-AE
   - 09-0721-AE
   - 09-0724-FR
@@ -6779,7 +6760,6 @@ proxy-groups:
   - 09-0745-RELAY
   - 09-0746-FR
   - 09-0747-LT
-  - 09-0748-RELAY
   - 09-0750-NL
   - 09-0755-GB
   - 09-0756-LT
@@ -6795,6 +6775,7 @@ proxy-groups:
   - 09-0766-RELAY
   - 09-0767-DE
   - 09-0768-FR
+  - 09-0769-DE
   - 09-0770-DE
   - 09-0771-GB
   - 09-0772-FR
@@ -6844,9 +6825,9 @@ proxy-groups:
   - 05-0017-RELAY
   - 05-0018-RELAY
   - 05-0019-RELAY
+  - 05-0020-HK
   - 05-0021-RELAY
   - 05-0023-RELAY
-  - 05-0025-RELAY
   - 05-0027-RELAY
   - 05-0029-RELAY
   - 05-0030-RELAY
@@ -6859,6 +6840,7 @@ proxy-groups:
   - 05-0038-RELAY
   - 05-0039-RELAY
   - 05-0040-RELAY
+  - 05-0041-RELAY
   - 05-0042-RELAY
   - 05-0043-RELAY
   - 05-0044-RELAY
@@ -7243,7 +7225,6 @@ proxy-groups:
   - 09-0595-RELAY
   - 09-0596-US
   - 09-0597-RELAY
-  - 09-0598-RELAY
   - 09-0599-RELAY
   - 09-0600-RELAY
   - 09-0601-US
@@ -7300,7 +7281,6 @@ proxy-groups:
   - 09-0716-NL
   - 09-0717-FR
   - 09-0718-NL
-  - 09-0719-RELAY
   - 09-0720-AE
   - 09-0721-AE
   - 09-0724-FR
@@ -7322,7 +7302,6 @@ proxy-groups:
   - 09-0745-RELAY
   - 09-0746-FR
   - 09-0747-LT
-  - 09-0748-RELAY
   - 09-0750-NL
   - 09-0755-GB
   - 09-0756-LT
@@ -7338,6 +7317,7 @@ proxy-groups:
   - 09-0766-RELAY
   - 09-0767-DE
   - 09-0768-FR
+  - 09-0769-DE
   - 09-0770-DE
   - 09-0771-GB
   - 09-0772-FR
@@ -7358,7 +7338,7 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
-  - DIRECT
+  - 05-0020-HK
   filter: (?i)港|HK|HongKong|hong kong
 - name: TW
   type: url-test

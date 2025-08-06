@@ -123,6 +123,7 @@ async fn run(config: Settings) {
         if let Err(e) = clash_meta.start().await {
             error!("原神启动失败，第一次启动可能会下载 geo 相关的文件，重新启动即可，打开 logs/clash.log，查看具体错误原因，{}", e);
             clash_meta.stop().unwrap();
+            index=index-1
             continue;
         }
 

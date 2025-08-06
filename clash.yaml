@@ -277,19 +277,6 @@ proxies:
     headers:
       Host: bitget1.asdasd.click
     path: /Telegram
-- name: 05-0018-RELAY
-  network: ws
-  port: 443
-  server: 190.93.247.159
-  servername: jack.jack-cq.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: 72982133-27fb-46fc-9061-61113e77e201
-  ws-opts:
-    headers:
-      Host: jack.jack-cq.click
-    path: /?ed=2560fp=random
 - name: 05-0019-RELAY
   network: ws
   port: 8880
@@ -446,6 +433,19 @@ proxies:
     headers:
       Host: kjgx.laoyoutiao.link
     path: /Telegram🇨🇳 %40WangCai2
+- name: 05-0032-KR
+  network: ws
+  port: 50000
+  server: 221.161.207.216
+  servername: zx01.ylka.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: zx01.ylka.dpdns.org
+    path: /
 - name: 05-0033-RELAY
   network: ws
   port: 8880
@@ -550,6 +550,19 @@ proxies:
     headers:
       Host: jp.laoyoutiao.link
     path: /Telegram🇨🇳
+- name: 05-0041-RELAY
+  network: ws
+  port: 8443
+  server: ipw.gfdv54cvghhgfhgj-njhgj64.info
+  servername: EzPsSkBwR6.wAsAaBi2.OrG
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e769ce1-34be-4e3f-b0a6-823f30eb8f69
+  ws-opts:
+    headers:
+      Host: EzPsSkBwR6.wAsAaBi2.OrG
+    path: /
 - name: 05-0042-RELAY
   network: ws
   port: 443
@@ -693,7 +706,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /Telegram🇨🇳
-- name: 05-1082-RELAY
+- name: 05-1084-RELAY
   network: ws
   port: 443
   server: al-akhbar.com
@@ -706,7 +719,7 @@ proxies:
     headers:
       Host: rayan-p11.parastoo.dpdns.org
     path: /Rayan_Config
-- name: 05-1083-RELAY
+- name: 05-1085-RELAY
   network: ws
   port: 443
   server: 172.67.66.177
@@ -719,7 +732,7 @@ proxies:
     headers:
       Host: rayan-roof.atena.dpdns.org
     path: /V2ray_Alpha
-- name: 05-1084-US
+- name: 05-1086-US
   network: ws
   port: 8880
   server: 141.193.27.143
@@ -732,7 +745,7 @@ proxies:
     headers:
       Host: yg.bantony199.top
     path: /Telegram🇨🇳 %40WangCai2
-- name: 05-1085-RELAY
+- name: 05-1087-RELAY
   network: ws
   port: 8880
   server: 5.182.34.251
@@ -745,7 +758,7 @@ proxies:
     headers:
       Host: cf.d3z.net
     path: /Telegram🇨🇳 %40WangCai2
-- name: 05-1086-RELAY
+- name: 05-1088-RELAY
   network: ws
   port: 8880
   server: 94.247.142.251
@@ -758,7 +771,7 @@ proxies:
     headers:
       Host: cf.d3z.net
     path: /Telegram🇨🇳 %40WangCai2 /?ed=2560fp=chrome
-- name: 05-1087-RELAY
+- name: 05-1089-RELAY
   network: ws
   port: 443
   server: 104.21.44.248
@@ -771,7 +784,7 @@ proxies:
     headers:
       Host: EDfrT.frEEvPNatm2025.DPdNS.oRG
     path: /O9jlBCbIm3xr1D40NK
-- name: 05-1088-RELAY
+- name: 05-1090-RELAY
   network: ws
   port: 8880
   server: 45.131.211.177
@@ -784,7 +797,7 @@ proxies:
     headers:
       Host: ip.langmanshanxi.top
     path: /Telegram🇨🇳 %40WangCai2
-- name: 05-1089-RELAY
+- name: 05-1091-RELAY
   network: ws
   port: 443
   server: 104.26.6.18
@@ -797,7 +810,7 @@ proxies:
     headers:
       Host: albedoalbedochan.violetchaan.ip-ddns.com
     path: /?Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI
-- name: 05-1090-RELAY
+- name: 05-1092-RELAY
   network: ws
   port: 8443
   server: ovhwuxian.pai50288.uk
@@ -810,7 +823,7 @@ proxies:
     headers:
       Host: ovhwuxian.pai50288.uk
     path: /57ba2ab1
-- name: 05-1091-RELAY
+- name: 05-1093-RELAY
   network: ws
   port: 8880
   server: 91.193.58.67
@@ -2260,7 +2273,7 @@ proxies:
     headers:
       Host: rayan-fg-4.sahel.filegear-sg.me
     path: /Telegram-V2ray_Alpha/?ed=2560
-- name: 07-1093-RELAY
+- name: 07-1094-RELAY
   network: ws
   port: 443
   server: 104.18.36.24
@@ -2273,7 +2286,7 @@ proxies:
     headers:
       Host: carlotta.shoorekeeper.cloudns.org
     path: /=zani.yaemiko.ggff.net/?Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560
-- name: 07-1094-RELAY
+- name: 07-1095-RELAY
   network: ws
   port: 443
   server: 172.67.164.1
@@ -2286,20 +2299,7 @@ proxies:
     headers:
       Host: verina.ccantarella.dns-dynamic.net
     path: /BIA_CHANEL%40V2rayBaaz
-- name: 07-1095-RELAY
-  network: ws
-  port: 443
-  server: 104.21.36.57
-  servername: mirror.fullmargintraders.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6c11247b-6078-461a-93d5-22e4df284e6d
-  ws-opts:
-    headers:
-      Host: mirror.fullmargintraders.com
-    path: /wsv/6c11247b-6078-461a-93d5-22e4df284e6d
-- name: 07-1096-RELAY
+- name: 07-1097-RELAY
   network: ws
   port: 2096
   server: 104.26.15.69
@@ -2312,7 +2312,7 @@ proxies:
     headers:
       Host: carlotta.shoorekeeper.cloudns.org
     path: /=zani.yaemiko.ggff.net#TELEGRAM-YamYamProxy_YamYamProxy?ed=512
-- name: 07-1097-RELAY
+- name: 07-1098-RELAY
   network: ws
   port: 8880
   server: 102.177.176.213
@@ -2325,7 +2325,7 @@ proxies:
     headers:
       Host: jp.laoyoutiao.link
     path: /
-- name: 07-1098-RELAY
+- name: 07-1099-RELAY
   network: ws
   port: 2087
   server: 104.21.75.120
@@ -2338,7 +2338,7 @@ proxies:
     headers:
       Host: invincible.fafa20.shop
     path: /hoOUCl9QWMZ9zBtD/c2hpcmVuLnlhZW1pa28uZ2dmZi5uZXQ
-- name: 07-1099-RELAY
+- name: 07-1100-RELAY
   network: ws
   port: 80
   server: 104.16.191.195
@@ -2351,7 +2351,7 @@ proxies:
     headers:
       Host: barayeiran.mahiozonboroon.qzz.io
     path: /?ed=2560
-- name: 07-1100-RELAY
+- name: 07-1101-RELAY
   network: ws
   port: 443
   server: 172.66.40.99
@@ -2364,7 +2364,7 @@ proxies:
     headers:
       Host: carlotta.shoorekeeper.cloudns.org
     path: /proxyip=zani.yaemiko.ggff.net/?JOKERRVPN_BIA_CHANEL%40JOKERRVPN
-- name: 07-1101-RELAY
+- name: 07-1102-RELAY
   network: ws
   port: 443
   server: 104.26.7.18
@@ -2377,7 +2377,7 @@ proxies:
     headers:
       Host: albedoalbedochan.violetchaan.ip-ddns.com
     path: /JOKERRVPN_BIA_CHANEL%40JOKERRVPN
-- name: 07-1102-RELAY
+- name: 07-1103-RELAY
   network: ws
   port: 2096
   server: 104.26.14.69
@@ -2390,7 +2390,7 @@ proxies:
     headers:
       Host: carlotta.shoorekeeper.cloudns.org
     path: /=zani.yaemiko.ggff.net/?Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560
-- name: 07-1103-RELAY
+- name: 07-1104-RELAY
   network: ws
   port: 443
   server: 104.21.67.12
@@ -2403,7 +2403,7 @@ proxies:
     headers:
       Host: carlotta.shoorekeeper.cloudns.org
     path: /proxyip
-- name: 07-1104-RELAY
+- name: 07-1105-RELAY
   network: ws
   port: 443
   server: 104.25.227.244
@@ -2416,7 +2416,7 @@ proxies:
     headers:
       Host: f1.parsa.filegear-sg.me
     path: /?ed=2560
-- name: 07-1105-RELAY
+- name: 07-1106-RELAY
   network: ws
   port: 443
   server: 172.66.40.99
@@ -2429,7 +2429,7 @@ proxies:
     headers:
       Host: hrtfwe.pages.dev
     path: /Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray?ed=2048
-- name: 07-1106-RELAY
+- name: 07-1107-RELAY
   network: ws
   port: 8880
   server: 104.16.68.95
@@ -2442,7 +2442,7 @@ proxies:
     headers:
       Host: vghavi32.ip-ddns.com
     path: /
-- name: 07-1107-RELAY
+- name: 07-1108-RELAY
   network: ws
   port: 443
   server: 188.114.96.6
@@ -2455,7 +2455,7 @@ proxies:
     headers:
       Host: F1.paRsa.fiLegEar-Sg.Me
     path: /
-- name: 07-1108-RELAY
+- name: 07-1109-RELAY
   network: ws
   port: 8443
   server: 172.67.153.156
@@ -2468,7 +2468,7 @@ proxies:
     headers:
       Host: ovhwuxian.pai50288.uk
     path: /57ba2ab1
-- name: 07-1109-RELAY
+- name: 07-1110-RELAY
   network: ws
   port: 443
   server: 104.26.14.69
@@ -2481,7 +2481,7 @@ proxies:
     headers:
       Host: carlotta.shoorekeeper.cloudns.org
     path: /proxyip=zani.yaemiko.ggff.net
-- name: 07-1110-RELAY
+- name: 07-1111-RELAY
   network: ws
   port: 443
   server: 172.67.164.4
@@ -2494,7 +2494,7 @@ proxies:
     headers:
       Host: verina.ccantarella.dns-dynamic.net
     path: /proxyip
-- name: 07-1111-RELAY
+- name: 07-1112-RELAY
   network: ws
   port: 2096
   server: 104.21.27.178
@@ -2507,7 +2507,7 @@ proxies:
     headers:
       Host: verina.ccantarella.dns-dynamic.net
     path: /V2rayBaaz
-- name: 07-1112-RELAY
+- name: 07-1113-RELAY
   network: ws
   port: 80
   server: 104.16.53.11
@@ -2520,7 +2520,7 @@ proxies:
     headers:
       Host: zoomgov.vipren.biz.id
     path: /193.123.81.105=443
-- name: 07-1113-RELAY
+- name: 07-1114-RELAY
   network: ws
   port: 8080
   server: 104.17.41.52
@@ -2533,7 +2533,7 @@ proxies:
     headers:
       Host: v2ngsupply2.ip-ddns.com
     path: /ijiDwDw8BcM9ieHc?ed=2560
-- name: 07-1114-RELAY
+- name: 07-1115-RELAY
   network: ws
   port: 443
   server: 172.67.68.240
@@ -2546,7 +2546,7 @@ proxies:
     headers:
       Host: rayan-fg-4.medicalhistory.filegear-sg.me
     path: /?ed=2560
-- name: 07-1115-RELAY
+- name: 07-1116-RELAY
   network: ws
   port: 443
   server: 104.18.26.90
@@ -2559,7 +2559,7 @@ proxies:
     headers:
       Host: barayeiranmahsang.mahmoodchitooz.dpdns.org
     path: /?ed=2560
-- name: 07-1116-RELAY
+- name: 07-1117-RELAY
   network: ws
   port: 8443
   server: 190.93.246.246
@@ -2576,7 +2576,7 @@ proxies:
   - h3
   auth-str: dongtaiwang.com
   down: 50 Mbps
-  name: 08-0281-US
+  name: 08-0282-US
   port: 37872
   protocol: udp
   server: 108.181.24.77
@@ -2597,29 +2597,14 @@ proxies:
   ws-opts:
     path: /
 - cipher: aes-256-cfb
-  name: 08-0286-GR
+  name: 08-0285-MD
   password: f8f7aCzcPKbsF8p3
   port: 989
-  server: 192.71.166.100
-  type: ss
-- cipher: aes-256-gcm
-  name: 08-0288-HK
-  password: 9bfdde71b4c0
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: newroot2v1.dsjsapp.com
-    mode: websocket
-    mux: true
-    path: /cauejypbltqt
-    restls: false
-    skip-cert-verify: true
-    tls: true
-  port: 636
-  server: 103.103.245.158
+  server: 185.153.197.5
   type: ss
 - alterId: 0
   cipher: auto
-  name: 08-0290-RELAY
+  name: 08-0287-RELAY
   network: ws
   port: 443
   server: tTtTttTttGgGGHHhnMk.iraN2035.DPDNS.ORG
@@ -2630,7 +2615,26 @@ proxies:
   uuid: a94fafdb-10d6-46c2-be8a-5c2e8358fbb0
   ws-opts:
     path: /CjJ9A46ZRHvgWvVcmjyiKVby2Lp
-- name: 08-0292-RELAY
+- alterId: 0
+  cipher: auto
+  name: 08-0289-RELAY
+  network: ws
+  port: 443
+  server: JJJjjjjjmMMmM.4444926.XYZ
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: dc50eb1d-244d-4711-b168-a101a5e6fb1b
+  ws-opts:
+    path: /awmqq79B17rfnpXiNaWb
+- cipher: aes-256-cfb
+  name: 08-0291-GR
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 192.71.166.100
+  type: ss
+- name: 08-0293-RELAY
   network: ws
   port: 443
   server: cloudflare.182682.xyz
@@ -2643,115 +2647,7 @@ proxies:
     headers:
       Host: test.saas.cname.123153.xyz
     path: /snippets
-- cipher: aes-256-cfb
-  name: 08-0293-MD
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.153.197.5
-  type: ss
-- cipher: aes-256-cfb
-  name: 08-0295-MT
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 171.22.254.17
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: 08-0297-HK
-  network: ws
-  port: 80
-  server: 1fee460c-sv6hs0-tbcla6-194tt.hk.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 602e99aa-718d-11eb-b77b-f23c913c8d2b
-  ws-opts:
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 08-0298-LT
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 45.87.175.157
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: 08-0299-HK
-  network: ws
-  port: 80
-  server: 16033f27-sv2sg0-tcdlur-1qwom.hk.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9
-  ws-opts:
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 08-1117-HK
-  network: ws
-  port: 80
-  server: 4da7f22d-sv2sg0-tcp4th-1c4g6.hk.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 676c67c6-5e73-11ee-9a79-f23c9164ca5d
-  ws-opts:
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 08-1118-HK
-  network: ws
-  port: 80
-  server: 8b31a356-sv2sg0-tb224g-1h0r9.hk3.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9bfd0dde-957e-11ec-a8bf-f23c91cfbbc9
-  ws-opts:
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 08-1119-HK
-  network: ws
-  port: 80
-  server: 58be51e1-sv2sg0-tasors-1tdqt.hk.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 167db97c-ee01-11ef-b737-f23c91cfbbc9
-  ws-opts:
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 08-1120-HK
-  network: ws
-  port: 80
-  server: 5e4eabfc-sv2sg0-t2lc1c-1mim2.hk.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6e3ee1de-381f-11ee-87f9-f23c91cfbbc9
-  ws-opts:
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 08-1121-LT
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 45.87.175.22
-  type: ss
-- cipher: aes-256-cfb
-  name: 08-1122-HR
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 46.183.184.60
-  type: ss
-- name: 08-1123-RELAY
+- name: 08-0294-RELAY
   network: ws
   port: 443
   server: openai.com
@@ -2766,7 +2662,123 @@ proxies:
     path: /?ed=2560
 - alterId: 2
   cipher: auto
-  name: 08-1124-HK
+  name: 08-0299-HK
+  network: ws
+  port: 80
+  server: 4a1ed0f2-sv0xs0-tbvl5i-1mebs.hk.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 80f73b42-8264-11ef-8dc4-f23c91cfbbc9
+  ws-opts:
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 08-0304-HK
+  network: ws
+  port: 80
+  server: 8b5da18e-szpgg0-t13s3a-zn8y.hk.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
+  ws-opts:
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 08-1118-HK
+  network: ws
+  port: 80
+  server: 1fee460c-sv6hs0-tbcla6-194tt.hk.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 602e99aa-718d-11eb-b77b-f23c913c8d2b
+  ws-opts:
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 08-1119-HK
+  network: ws
+  port: 80
+  server: 16033f27-sv2sg0-tcdlur-1qwom.hk.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9
+  ws-opts:
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 08-1120-HK
+  network: ws
+  port: 80
+  server: 4da7f22d-sv2sg0-tcp4th-1c4g6.hk.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 676c67c6-5e73-11ee-9a79-f23c9164ca5d
+  ws-opts:
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 08-1121-HK
+  network: ws
+  port: 80
+  server: 8b31a356-sv2sg0-tb224g-1h0r9.hk3.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9bfd0dde-957e-11ec-a8bf-f23c91cfbbc9
+  ws-opts:
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 08-1122-HK
+  network: ws
+  port: 80
+  server: 58be51e1-sv2sg0-tasors-1tdqt.hk.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 167db97c-ee01-11ef-b737-f23c91cfbbc9
+  ws-opts:
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 08-1123-HK
+  network: ws
+  port: 80
+  server: 5e4eabfc-sv2sg0-t2lc1c-1mim2.hk.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6e3ee1de-381f-11ee-87f9-f23c91cfbbc9
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 08-1124-LT
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 45.87.175.22
+  type: ss
+- cipher: aes-256-cfb
+  name: 08-1125-HR
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 46.183.184.60
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 08-1126-HK
   network: ws
   port: 80
   server: c6008c16-sydb40-tgzvop-hns7.hk.p5pv.com
@@ -2777,7 +2789,7 @@ proxies:
   uuid: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
   ws-opts:
     path: /
-- name: 08-1125-RELAY
+- name: 08-1127-RELAY
   network: ws
   port: 8443
   server: 160.153.0.153
@@ -2790,7 +2802,7 @@ proxies:
     headers:
       Host: InviNCIble.FAfA20.shOP
     path: /KvNugxSUpljMOjgF/NzguNDcuMTU3LjY=?ed=#Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560
-- name: 08-1126-RELAY
+- name: 08-1128-RELAY
   network: ws
   port: 80
   server: 104.16.228.91
@@ -8612,7 +8624,20 @@ proxies:
   port: 443
   server: 149.34.244.68
   type: ss
-- name: 09-0907-HK
+- alterId: 2
+  cipher: auto
+  name: 09-0907-HK
+  network: ws
+  port: 80
+  server: 1.36.223.42
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9cccea7a-b6ab-11eb-a0fc-f23c913c8d2b
+  ws-opts:
+    path: /
+- name: 09-0908-HK
   network: ws
   port: 443
   server: 54.46.28.138
@@ -8627,7 +8652,7 @@ proxies:
     path: /?ed=2560
 - alterId: 2
   cipher: auto
-  name: 09-0908-HK
+  name: 09-0909-HK
   network: ws
   port: 80
   server: 1.65.202.174
@@ -8640,7 +8665,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 09-0909-HK
+  name: 09-0910-HK
   network: ws
   port: 80
   server: 1.65.202.174
@@ -8653,7 +8678,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 09-0910-HK
+  name: 09-0911-HK
   network: ws
   port: 80
   server: 1.36.223.42
@@ -8666,7 +8691,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 09-0911-HK
+  name: 09-0912-HK
   network: ws
   port: 80
   server: 1.65.204.11
@@ -8679,7 +8704,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 09-0912-HK
+  name: 09-0913-HK
   network: ws
   port: 80
   server: 1.36.223.42
@@ -8691,14 +8716,14 @@ proxies:
   ws-opts:
     path: /
 - cipher: aes-256-cfb
-  name: 09-0913-DK
+  name: 09-0914-DK
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 192.36.27.94
   type: ss
 - alterId: 2
   cipher: auto
-  name: 09-0914-HK
+  name: 09-0915-HK
   network: ws
   port: 80
   server: 1.36.223.42
@@ -8711,7 +8736,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 09-0916-HK
+  name: 09-0917-HK
   network: ws
   port: 80
   server: 1.36.223.42
@@ -8724,7 +8749,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 09-0917-HK
+  name: 09-0918-HK
   network: ws
   port: 80
   server: 1.65.202.174
@@ -8736,20 +8761,14 @@ proxies:
   ws-opts:
     path: /
 - cipher: aes-256-cfb
-  name: 09-0918-RO
+  name: 09-0919-RO
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 194.14.217.38
   type: ss
-- cipher: aes-256-cfb
-  name: 09-0919-NO
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.213.23.226
-  type: ss
 - alterId: 2
   cipher: auto
-  name: 09-0920-HK
+  name: 09-0921-HK
   network: ws
   port: 80
   server: 1.36.223.42
@@ -8760,7 +8779,7 @@ proxies:
   uuid: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   ws-opts:
     path: /
-- name: 09-0921-KR
+- name: 09-0922-KR
   network: ws
   port: 12335
   server: 121.170.103.94
@@ -8775,7 +8794,7 @@ proxies:
     path: /?ed=2560
 - alterId: 2
   cipher: auto
-  name: 09-0922-HK
+  name: 09-0923-HK
   network: ws
   port: 80
   server: 1.36.223.42
@@ -8788,7 +8807,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 09-0923-HK
+  name: 09-0924-HK
   network: ws
   port: 80
   server: 1.36.223.42
@@ -8801,7 +8820,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 09-0924-HK
+  name: 09-0925-HK
   network: ws
   port: 80
   server: 1.36.223.42
@@ -8812,7 +8831,7 @@ proxies:
   uuid: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
   ws-opts:
     path: /
-- name: 09-0926-TW
+- name: 09-0927-TW
   network: ws
   password: ttfang
   port: 81
@@ -8822,7 +8841,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 09-0927-HK
+  name: 09-0928-HK
   network: ws
   port: 80
   server: 1.36.223.42
@@ -8835,7 +8854,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 09-0928-HK
+  name: 09-0929-HK
   network: ws
   port: 80
   server: 1.36.223.42
@@ -8848,7 +8867,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 09-0929-HK
+  name: 09-0930-HK
   network: ws
   port: 80
   server: 1.36.223.42
@@ -8861,7 +8880,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 09-0930-HK
+  name: 09-0931-HK
   network: ws
   port: 80
   server: 1.36.223.42
@@ -8872,22 +8891,9 @@ proxies:
   uuid: b4e40aa2-74a1-11ed-b0b5-f23c9164ca5d
   ws-opts:
     path: /
-- alterId: 2
-  cipher: auto
-  name: 09-0931-HK
-  network: ws
-  port: 80
-  server: 1.65.202.174
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f73c64bc-9e8c-11ec-bd7c-f23c913c8d2b
-  ws-opts:
-    path: /
 - alterId: 1
   cipher: auto
-  name: 09-0932-HK
+  name: 09-0933-HK
   network: ws
   port: 80
   server: 1.36.223.42
@@ -8900,7 +8906,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 09-0933-HK
+  name: 09-0934-HK
   network: ws
   port: 80
   server: 1.36.223.42
@@ -8911,7 +8917,7 @@ proxies:
   uuid: 88f6e3c4-1d01-11ef-812c-f23c91cfbbc9
   ws-opts:
     path: /
-- name: 09-0934-PL
+- name: 09-0935-PL
   network: ws
   port: 443
   server: 176.105.253.98
@@ -8926,7 +8932,7 @@ proxies:
     path: /?ed=2560
 - alterId: 2
   cipher: auto
-  name: 09-0935-HK
+  name: 09-0936-HK
   network: ws
   port: 80
   server: 1.65.202.174
@@ -8939,7 +8945,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 09-0936-HK
+  name: 09-0937-HK
   network: ws
   port: 80
   server: 1.36.223.42
@@ -8952,7 +8958,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 09-0937-HK
+  name: 09-0938-HK
   network: ws
   port: 80
   server: 1.36.223.42
@@ -8965,7 +8971,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 09-0939-HK
+  name: 09-0940-HK
   network: ws
   port: 80
   server: 1.36.223.42
@@ -8978,7 +8984,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 09-0940-HK
+  name: 09-0941-HK
   network: ws
   port: 80
   server: 1.36.223.42
@@ -8991,7 +8997,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 09-0941-HK
+  name: 09-0942-HK
   network: ws
   port: 80
   server: 1.36.223.42
@@ -9004,7 +9010,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 09-0942-HK
+  name: 09-0943-HK
   network: ws
   port: 80
   server: 1.36.223.42
@@ -9017,7 +9023,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 09-0944-HK
+  name: 09-0945-HK
   network: ws
   port: 80
   server: 1.36.223.42
@@ -9030,7 +9036,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 09-0945-HK
+  name: 09-0946-HK
   network: ws
   port: 80
   server: 1.65.204.11
@@ -9043,7 +9049,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 09-0946-HK
+  name: 09-0947-HK
   network: ws
   port: 80
   server: 1.65.204.11
@@ -9056,7 +9062,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 09-0947-HK
+  name: 09-0948-HK
   network: ws
   port: 80
   server: 1.65.204.11
@@ -9069,7 +9075,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 09-0948-HK
+  name: 09-0949-HK
   network: ws
   port: 80
   server: 1.65.204.11
@@ -9082,7 +9088,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 09-0949-HK
+  name: 09-0950-HK
   network: ws
   port: 80
   server: 1.36.223.42
@@ -9095,7 +9101,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 09-0950-HK
+  name: 09-0951-HK
   network: ws
   port: 80
   server: 1.36.223.42
@@ -9104,25 +9110,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 331cae90-f7e9-11ed-b4e2-f23c913c8d2b
-  ws-opts:
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 09-0951-NL
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 193.29.139.138
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: 09-0952-HK
-  network: ws
-  port: 80
-  server: 1.36.223.42
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d1d13cd2-329f-11ed-bb74-f23c9164ca5d
   ws-opts:
     path: /
 - alterId: 2
@@ -9135,7 +9122,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 9bfd0dde-957e-11ec-a8bf-f23c91cfbbc9
+  uuid: d1d13cd2-329f-11ed-bb74-f23c9164ca5d
   ws-opts:
     path: /
 - alterId: 2
@@ -9148,7 +9135,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8bb68d04-6973-11ee-b518-f23c9164ca5d
+  uuid: 9bfd0dde-957e-11ec-a8bf-f23c91cfbbc9
   ws-opts:
     path: /
 - alterId: 2
@@ -9161,16 +9148,22 @@ proxies:
   tls: false
   type: vmess
   udp: true
+  uuid: 8bb68d04-6973-11ee-b518-f23c9164ca5d
+  ws-opts:
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 09-0956-HK
+  network: ws
+  port: 80
+  server: 1.36.223.42
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
   uuid: e29de954-ea01-11ef-a271-f23c91cfbbc9
   ws-opts:
     path: /
-- name: 09-0956-SG
-  password: 664S8kkvFHXmO1auxV6A9gKAHI
-  port: 8030
-  server: 18.143.168.252
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
 proxy-groups:
 - name: PROXY
   type: select
@@ -9204,7 +9197,6 @@ proxy-groups:
   - 05-0015-RELAY
   - 05-0016-RELAY
   - 05-0017-RELAY
-  - 05-0018-RELAY
   - 05-0019-RELAY
   - 05-0020-FR
   - 05-0021-RELAY
@@ -9217,6 +9209,7 @@ proxy-groups:
   - 05-0029-RELAY
   - 05-0030-RELAY
   - 05-0031-RELAY
+  - 05-0032-KR
   - 05-0033-RELAY
   - 05-0034-RELAY
   - 05-0035-RELAY
@@ -9225,6 +9218,7 @@ proxy-groups:
   - 05-0038-RELAY
   - 05-0039-RELAY
   - 05-0040-US
+  - 05-0041-RELAY
   - 05-0042-RELAY
   - 05-0043-RELAY
   - 05-0045-RELAY
@@ -9236,16 +9230,16 @@ proxy-groups:
   - 05-0051-RELAY
   - 05-0052-US
   - 05-0053-RELAY
-  - 05-1082-RELAY
-  - 05-1083-RELAY
-  - 05-1084-US
+  - 05-1084-RELAY
   - 05-1085-RELAY
-  - 05-1086-RELAY
+  - 05-1086-US
   - 05-1087-RELAY
   - 05-1088-RELAY
   - 05-1089-RELAY
   - 05-1090-RELAY
   - 05-1091-RELAY
+  - 05-1092-RELAY
+  - 05-1093-RELAY
   - 06-0054-RELAY
   - 06-0055-RELAY
   - 06-0056-RELAY
@@ -9358,10 +9352,8 @@ proxy-groups:
   - 07-0264-RELAY
   - 07-0272-RELAY
   - 07-0280-RELAY
-  - 07-1093-RELAY
   - 07-1094-RELAY
   - 07-1095-RELAY
-  - 07-1096-RELAY
   - 07-1097-RELAY
   - 07-1098-RELAY
   - 07-1099-RELAY
@@ -9382,27 +9374,28 @@ proxy-groups:
   - 07-1114-RELAY
   - 07-1115-RELAY
   - 07-1116-RELAY
-  - 08-0281-US
+  - 07-1117-RELAY
+  - 08-0282-US
   - 08-0283-HK
-  - 08-0286-GR
-  - 08-0288-HK
-  - 08-0290-RELAY
-  - 08-0292-RELAY
-  - 08-0293-MD
-  - 08-0295-MT
-  - 08-0297-HK
-  - 08-0298-LT
+  - 08-0285-MD
+  - 08-0287-RELAY
+  - 08-0289-RELAY
+  - 08-0291-GR
+  - 08-0293-RELAY
+  - 08-0294-RELAY
   - 08-0299-HK
-  - 08-1117-HK
+  - 08-0304-HK
   - 08-1118-HK
   - 08-1119-HK
   - 08-1120-HK
-  - 08-1121-LT
-  - 08-1122-HR
-  - 08-1123-RELAY
-  - 08-1124-HK
-  - 08-1125-RELAY
-  - 08-1126-RELAY
+  - 08-1121-HK
+  - 08-1122-HK
+  - 08-1123-HK
+  - 08-1124-LT
+  - 08-1125-HR
+  - 08-1126-HK
+  - 08-1127-RELAY
+  - 08-1128-RELAY
   - 09-0309-US
   - 09-0310-US
   - 09-0311-RELAY
@@ -9876,46 +9869,43 @@ proxy-groups:
   - 09-0910-HK
   - 09-0911-HK
   - 09-0912-HK
-  - 09-0913-DK
-  - 09-0914-HK
-  - 09-0916-HK
+  - 09-0913-HK
+  - 09-0914-DK
+  - 09-0915-HK
   - 09-0917-HK
-  - 09-0918-RO
-  - 09-0919-NO
-  - 09-0920-HK
-  - 09-0921-KR
-  - 09-0922-HK
+  - 09-0918-HK
+  - 09-0919-RO
+  - 09-0921-HK
+  - 09-0922-KR
   - 09-0923-HK
   - 09-0924-HK
-  - 09-0926-TW
-  - 09-0927-HK
+  - 09-0925-HK
+  - 09-0927-TW
   - 09-0928-HK
   - 09-0929-HK
   - 09-0930-HK
   - 09-0931-HK
-  - 09-0932-HK
   - 09-0933-HK
-  - 09-0934-PL
-  - 09-0935-HK
+  - 09-0934-HK
+  - 09-0935-PL
   - 09-0936-HK
   - 09-0937-HK
-  - 09-0939-HK
+  - 09-0938-HK
   - 09-0940-HK
   - 09-0941-HK
   - 09-0942-HK
-  - 09-0944-HK
+  - 09-0943-HK
   - 09-0945-HK
   - 09-0946-HK
   - 09-0947-HK
   - 09-0948-HK
   - 09-0949-HK
   - 09-0950-HK
-  - 09-0951-NL
-  - 09-0952-HK
+  - 09-0951-HK
   - 09-0953-HK
   - 09-0954-HK
   - 09-0955-HK
-  - 09-0956-SG
+  - 09-0956-HK
 - name: Best
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -9954,7 +9944,6 @@ proxy-groups:
   - 05-0015-RELAY
   - 05-0016-RELAY
   - 05-0017-RELAY
-  - 05-0018-RELAY
   - 05-0019-RELAY
   - 05-0020-FR
   - 05-0021-RELAY
@@ -9967,6 +9956,7 @@ proxy-groups:
   - 05-0029-RELAY
   - 05-0030-RELAY
   - 05-0031-RELAY
+  - 05-0032-KR
   - 05-0033-RELAY
   - 05-0034-RELAY
   - 05-0035-RELAY
@@ -9975,6 +9965,7 @@ proxy-groups:
   - 05-0038-RELAY
   - 05-0039-RELAY
   - 05-0040-US
+  - 05-0041-RELAY
   - 05-0042-RELAY
   - 05-0043-RELAY
   - 05-0045-RELAY
@@ -9986,16 +9977,16 @@ proxy-groups:
   - 05-0051-RELAY
   - 05-0052-US
   - 05-0053-RELAY
-  - 05-1082-RELAY
-  - 05-1083-RELAY
-  - 05-1084-US
+  - 05-1084-RELAY
   - 05-1085-RELAY
-  - 05-1086-RELAY
+  - 05-1086-US
   - 05-1087-RELAY
   - 05-1088-RELAY
   - 05-1089-RELAY
   - 05-1090-RELAY
   - 05-1091-RELAY
+  - 05-1092-RELAY
+  - 05-1093-RELAY
   - 06-0054-RELAY
   - 06-0055-RELAY
   - 06-0056-RELAY
@@ -10108,10 +10099,8 @@ proxy-groups:
   - 07-0264-RELAY
   - 07-0272-RELAY
   - 07-0280-RELAY
-  - 07-1093-RELAY
   - 07-1094-RELAY
   - 07-1095-RELAY
-  - 07-1096-RELAY
   - 07-1097-RELAY
   - 07-1098-RELAY
   - 07-1099-RELAY
@@ -10132,27 +10121,28 @@ proxy-groups:
   - 07-1114-RELAY
   - 07-1115-RELAY
   - 07-1116-RELAY
-  - 08-0281-US
+  - 07-1117-RELAY
+  - 08-0282-US
   - 08-0283-HK
-  - 08-0286-GR
-  - 08-0288-HK
-  - 08-0290-RELAY
-  - 08-0292-RELAY
-  - 08-0293-MD
-  - 08-0295-MT
-  - 08-0297-HK
-  - 08-0298-LT
+  - 08-0285-MD
+  - 08-0287-RELAY
+  - 08-0289-RELAY
+  - 08-0291-GR
+  - 08-0293-RELAY
+  - 08-0294-RELAY
   - 08-0299-HK
-  - 08-1117-HK
+  - 08-0304-HK
   - 08-1118-HK
   - 08-1119-HK
   - 08-1120-HK
-  - 08-1121-LT
-  - 08-1122-HR
-  - 08-1123-RELAY
-  - 08-1124-HK
-  - 08-1125-RELAY
-  - 08-1126-RELAY
+  - 08-1121-HK
+  - 08-1122-HK
+  - 08-1123-HK
+  - 08-1124-LT
+  - 08-1125-HR
+  - 08-1126-HK
+  - 08-1127-RELAY
+  - 08-1128-RELAY
   - 09-0309-US
   - 09-0310-US
   - 09-0311-RELAY
@@ -10626,46 +10616,43 @@ proxy-groups:
   - 09-0910-HK
   - 09-0911-HK
   - 09-0912-HK
-  - 09-0913-DK
-  - 09-0914-HK
-  - 09-0916-HK
+  - 09-0913-HK
+  - 09-0914-DK
+  - 09-0915-HK
   - 09-0917-HK
-  - 09-0918-RO
-  - 09-0919-NO
-  - 09-0920-HK
-  - 09-0921-KR
-  - 09-0922-HK
+  - 09-0918-HK
+  - 09-0919-RO
+  - 09-0921-HK
+  - 09-0922-KR
   - 09-0923-HK
   - 09-0924-HK
-  - 09-0926-TW
-  - 09-0927-HK
+  - 09-0925-HK
+  - 09-0927-TW
   - 09-0928-HK
   - 09-0929-HK
   - 09-0930-HK
   - 09-0931-HK
-  - 09-0932-HK
   - 09-0933-HK
-  - 09-0934-PL
-  - 09-0935-HK
+  - 09-0934-HK
+  - 09-0935-PL
   - 09-0936-HK
   - 09-0937-HK
-  - 09-0939-HK
+  - 09-0938-HK
   - 09-0940-HK
   - 09-0941-HK
   - 09-0942-HK
-  - 09-0944-HK
+  - 09-0943-HK
   - 09-0945-HK
   - 09-0946-HK
   - 09-0947-HK
   - 09-0948-HK
   - 09-0949-HK
   - 09-0950-HK
-  - 09-0951-NL
-  - 09-0952-HK
+  - 09-0951-HK
   - 09-0953-HK
   - 09-0954-HK
   - 09-0955-HK
-  - 09-0956-SG
+  - 09-0956-HK
 - name: HK
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -10677,52 +10664,53 @@ proxy-groups:
   proxies:
   - 05-0037-HK
   - 08-0283-HK
-  - 08-0288-HK
-  - 08-0297-HK
   - 08-0299-HK
-  - 08-1117-HK
+  - 08-0304-HK
   - 08-1118-HK
   - 08-1119-HK
   - 08-1120-HK
-  - 08-1124-HK
+  - 08-1121-HK
+  - 08-1122-HK
+  - 08-1123-HK
+  - 08-1126-HK
   - 09-0907-HK
   - 09-0908-HK
   - 09-0909-HK
   - 09-0910-HK
   - 09-0911-HK
   - 09-0912-HK
-  - 09-0914-HK
-  - 09-0916-HK
+  - 09-0913-HK
+  - 09-0915-HK
   - 09-0917-HK
-  - 09-0920-HK
-  - 09-0922-HK
+  - 09-0918-HK
+  - 09-0921-HK
   - 09-0923-HK
   - 09-0924-HK
-  - 09-0927-HK
+  - 09-0925-HK
   - 09-0928-HK
   - 09-0929-HK
   - 09-0930-HK
   - 09-0931-HK
-  - 09-0932-HK
   - 09-0933-HK
-  - 09-0935-HK
+  - 09-0934-HK
   - 09-0936-HK
   - 09-0937-HK
-  - 09-0939-HK
+  - 09-0938-HK
   - 09-0940-HK
   - 09-0941-HK
   - 09-0942-HK
-  - 09-0944-HK
+  - 09-0943-HK
   - 09-0945-HK
   - 09-0946-HK
   - 09-0947-HK
   - 09-0948-HK
   - 09-0949-HK
   - 09-0950-HK
-  - 09-0952-HK
+  - 09-0951-HK
   - 09-0953-HK
   - 09-0954-HK
   - 09-0955-HK
+  - 09-0956-HK
   filter: (?i)港|HK|HongKong|hong kong
 - name: TW
   type: url-test
@@ -10733,7 +10721,7 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
-  - 09-0926-TW
+  - 09-0927-TW
   filter: 台湾|TW|Tw|Taiwan|新北|彰化|CHT|HINET
 - name: JP
   type: url-test
@@ -10756,7 +10744,7 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
-  - 09-0956-SG
+  - DIRECT
   filter: (?i)新|狮城|SG|Singapore
 - name: US
   type: url-test
@@ -10771,7 +10759,7 @@ proxy-groups:
   - 05-0012-US
   - 05-0040-US
   - 05-0052-US
-  - 05-1084-US
+  - 05-1086-US
   - 06-0153-US
   - 06-0167-US
   - 06-0168-US
@@ -10780,7 +10768,7 @@ proxy-groups:
   - 06-0173-US
   - 07-0176-US
   - 07-0177-US
-  - 08-0281-US
+  - 08-0282-US
   - 09-0309-US
   - 09-0310-US
   - 09-0312-US

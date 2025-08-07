@@ -443,7 +443,7 @@ proxies:
     headers:
       Host: jp.laoyoutiao.link
     path: /
-- name: 05-1023-RELAY
+- name: 05-1020-RELAY
   network: ws
   port: 8443
   server: 190.93.246.246
@@ -456,7 +456,7 @@ proxies:
     headers:
       Host: bitget1.asdasd.click
     path: /?ed=2560fp=chrome
-- name: 05-1024-RELAY
+- name: 05-1021-RELAY
   network: ws
   port: 443
   server: arvind.ns.cloudflare.com
@@ -469,7 +469,7 @@ proxies:
     headers:
       Host: edgb.aimercc.dpdns.org
     path: /?ed=2560
-- name: 05-1025-RELAY
+- name: 05-1022-RELAY
   network: ws
   port: 443
   server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
@@ -482,7 +482,7 @@ proxies:
     headers:
       Host: zx01.ylka.dpdns.org
     path: /
-- name: 05-1026-RELAY
+- name: 05-1023-RELAY
   network: ws
   port: 443
   server: sage.ns.cloudflare.com
@@ -495,7 +495,7 @@ proxies:
     headers:
       Host: edgb.aimercc.dpdns.org
     path: /?ed=2560
-- name: 05-1027-RELAY
+- name: 05-1024-RELAY
   network: ws
   port: 443
   server: fonts.net
@@ -508,7 +508,7 @@ proxies:
     headers:
       Host: rAyAn-uS-2.MeDiCaLhIsToRy.iR
     path: /Rayan_Config
-- name: 05-1028-RELAY
+- name: 05-1025-RELAY
   network: ws
   port: 443
   server: ipw.gfdv54cvghhgfhgj-njhgj64.info
@@ -521,7 +521,7 @@ proxies:
     headers:
       Host: 638880231667527799.madrid-prx-dnraaao.info
     path: /jzkedews
-- name: 05-1029-RELAY
+- name: 05-1026-RELAY
   network: ws
   port: 8880
   server: 91.193.58.72
@@ -534,7 +534,7 @@ proxies:
     headers:
       Host: kjgx.laoyoutiao.link
     path: /freecodesfreecodes
-- name: 05-1030-RELAY
+- name: 05-1027-RELAY
   network: ws
   port: 443
   server: ipw.gfdv54cvghhgfhgj-njhgj64.info
@@ -547,7 +547,7 @@ proxies:
     headers:
       Host: 638886055652728185.warsaw-prx-dnraaao.info
     path: /zmgbizws
-- name: 05-1031-RELAY
+- name: 05-1028-RELAY
   network: ws
   port: 8880
   server: 91.193.58.60
@@ -560,7 +560,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /Telegram
-- name: 05-1032-RELAY
+- name: 05-1029-RELAY
   network: ws
   port: 8880
   server: 91.193.58.100
@@ -573,7 +573,7 @@ proxies:
     headers:
       Host: sk.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3
-- name: 05-1033-RELAY
+- name: 05-1030-RELAY
   network: ws
   port: 8880
   server: 91.193.58.194
@@ -586,7 +586,7 @@ proxies:
     headers:
       Host: kjgx.laoyoutiao.link
     path: /freecodesfreecodes
-- name: 05-1034-RELAY
+- name: 05-1031-RELAY
   network: ws
   port: 8443
   server: 190.93.245.232
@@ -599,7 +599,7 @@ proxies:
     headers:
       Host: bitget1.asdasd.click
     path: /
-- name: 05-1035-RELAY
+- name: 05-1032-RELAY
   network: ws
   port: 8880
   server: 46.254.93.3
@@ -612,7 +612,7 @@ proxies:
     headers:
       Host: bitget1.asdasd.click
     path: /Telegram🇨🇳
-- name: 05-1036-RELAY
+- name: 05-1033-RELAY
   network: ws
   port: 8880
   server: 185.174.138.251
@@ -625,7 +625,7 @@ proxies:
     headers:
       Host: cf.d3z.net
     path: /Telegram🇨🇳 %40WangCai2 /?ed=2560fp=chrome
-- name: 05-1037-RELAY
+- name: 05-1034-RELAY
   network: ws
   port: 8880
   server: 185.251.82.143
@@ -684,6 +684,9 @@ proxy-groups:
   - 05-0031-RELAY
   - 05-0032-RELAY
   - 05-0033-RELAY
+  - 05-1020-RELAY
+  - 05-1021-RELAY
+  - 05-1022-RELAY
   - 05-1023-RELAY
   - 05-1024-RELAY
   - 05-1025-RELAY
@@ -696,9 +699,6 @@ proxy-groups:
   - 05-1032-RELAY
   - 05-1033-RELAY
   - 05-1034-RELAY
-  - 05-1035-RELAY
-  - 05-1036-RELAY
-  - 05-1037-RELAY
 - name: Best
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -750,6 +750,9 @@ proxy-groups:
   - 05-0031-RELAY
   - 05-0032-RELAY
   - 05-0033-RELAY
+  - 05-1020-RELAY
+  - 05-1021-RELAY
+  - 05-1022-RELAY
   - 05-1023-RELAY
   - 05-1024-RELAY
   - 05-1025-RELAY
@@ -762,9 +765,6 @@ proxy-groups:
   - 05-1032-RELAY
   - 05-1033-RELAY
   - 05-1034-RELAY
-  - 05-1035-RELAY
-  - 05-1036-RELAY
-  - 05-1037-RELAY
 - name: HK
   type: url-test
   url: https://www.gstatic.com/generate_204

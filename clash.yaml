@@ -70,6 +70,19 @@ dns:
   - https://doh.pub/dns-query
   - https://dns.alidns.com/dns-query
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 05-0000-SG
+  network: ws
+  port: 20086
+  server: 13.250.31.140
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2bc77c31-fe51-4c1f-92b3-dae7b77636cb
+  ws-opts:
+    path: /
 - name: 05-0001-FR
   password: dongtaiwang.com
   port: 5355
@@ -329,19 +342,6 @@ proxies:
     headers:
       Host: jp.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3
-- alterId: 2
-  cipher: auto
-  name: 05-0023-CN
-  network: ws
-  port: 30805
-  server: v5.heduian.link
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    path: /oooo
 - name: 05-0024-RELAY
   network: ws
   port: 8880
@@ -355,6 +355,12 @@ proxies:
     headers:
       Host: ip.langmanshanxi.top
     path: /TelegramU0001F1E8U0001F1F3 %40WangCai2
+- cipher: aes-256-cfb
+  name: 05-0025-SK
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 156.146.40.194
+  type: ss
 - name: 05-0027-RELAY
   network: ws
   port: 8880
@@ -569,7 +575,7 @@ proxies:
     headers:
       Host: kjgx.laoyoutiao.link
     path: /
-- name: 05-1107-RELAY
+- name: 05-1108-RELAY
   network: ws
   port: 8880
   server: 185.251.81.251
@@ -582,14 +588,14 @@ proxies:
     headers:
       Host: cf.d3z.net
     path: /Telegram🇨🇳
-- name: 05-1108-CN
+- name: 05-1109-CN
   password: 253bc477d4e43c209f2d427272968280
   port: 461
   server: 36.156.102.125
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 05-1109-RELAY
+- name: 05-1110-RELAY
   network: ws
   port: 8880
   server: 176.124.223.3
@@ -602,7 +608,7 @@ proxies:
     headers:
       Host: bitget1.asdasd.click
     path: /Telegram🇨🇳
-- name: 05-1110-RELAY
+- name: 05-1111-RELAY
   network: ws
   port: 8880
   server: 205.233.181.251
@@ -615,7 +621,7 @@ proxies:
     headers:
       Host: cf.d3z.net
     path: /Telegram🇨🇳 %40WangCai2
-- name: 05-1111-RELAY
+- name: 05-1112-RELAY
   network: ws
   port: 8880
   server: 45.159.219.254
@@ -628,7 +634,7 @@ proxies:
     headers:
       Host: yg.bantony199.top
     path: /Telegram🇨🇳
-- name: 05-1112-RELAY
+- name: 05-1113-RELAY
   network: ws
   port: 8880
   server: 104.129.164.251
@@ -657,6 +663,7 @@ proxy-groups:
   type: select
   filter: .*
   proxies:
+  - 05-0000-SG
   - 05-0001-FR
   - 05-0002-NL
   - 05-0003-FR
@@ -678,8 +685,8 @@ proxy-groups:
   - 05-0019-RELAY
   - 05-0020-RELAY
   - 05-0022-RELAY
-  - 05-0023-CN
   - 05-0024-RELAY
+  - 05-0025-SK
   - 05-0027-RELAY
   - 05-0028-RELAY
   - 05-0029-RELAY
@@ -697,12 +704,12 @@ proxy-groups:
   - 05-0042-RELAY
   - 05-0043-HK
   - 05-0044-RELAY
-  - 05-1107-RELAY
-  - 05-1108-CN
-  - 05-1109-RELAY
+  - 05-1108-RELAY
+  - 05-1109-CN
   - 05-1110-RELAY
   - 05-1111-RELAY
   - 05-1112-RELAY
+  - 05-1113-RELAY
 - name: Best
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -724,6 +731,7 @@ proxy-groups:
   tolerance: 50
   filter: .*
   proxies:
+  - 05-0000-SG
   - 05-0001-FR
   - 05-0002-NL
   - 05-0003-FR
@@ -745,8 +753,8 @@ proxy-groups:
   - 05-0019-RELAY
   - 05-0020-RELAY
   - 05-0022-RELAY
-  - 05-0023-CN
   - 05-0024-RELAY
+  - 05-0025-SK
   - 05-0027-RELAY
   - 05-0028-RELAY
   - 05-0029-RELAY
@@ -764,12 +772,12 @@ proxy-groups:
   - 05-0042-RELAY
   - 05-0043-HK
   - 05-0044-RELAY
-  - 05-1107-RELAY
-  - 05-1108-CN
-  - 05-1109-RELAY
+  - 05-1108-RELAY
+  - 05-1109-CN
   - 05-1110-RELAY
   - 05-1111-RELAY
   - 05-1112-RELAY
+  - 05-1113-RELAY
 - name: HK
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -812,7 +820,7 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
-  - DIRECT
+  - 05-0000-SG
   filter: (?i)新|狮城|SG|Singapore
 - name: US
   type: url-test

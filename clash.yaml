@@ -2228,6 +2228,21 @@ proxies:
     headers:
       Host: jp.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 %40WangCai2 /?ed=2560
+- cipher: aes-256-gcm
+  name: 06-0188-SC
+  password: 0b191076d18f
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: hk6v1.dsjsapp.com
+    mode: websocket
+    mux: true
+    path: /ugiibpkbca
+    restls: false
+    skip-cert-verify: true
+    tls: true
+  port: 636
+  server: 156.251.179.136
+  type: ss
 - name: 06-0189-RELAY
   network: ws
   port: 8880
@@ -2318,7 +2333,7 @@ proxies:
   up: 20 Mbps
 - alterId: 0
   cipher: auto
-  name: 08-0330-RELAY
+  name: 08-0331-RELAY
   network: ws
   port: 80
   server: test.flha.ru
@@ -2331,7 +2346,7 @@ proxies:
     path: /2bab6b8f-8d6e-463a-8331-b9de3d56921d-vmess
 - alterId: 0
   cipher: auto
-  name: 08-0331-RELAY
+  name: 08-0332-RELAY
   network: ws
   port: 2083
   server: cc2dash.89060004.xyz
@@ -7819,6 +7834,19 @@ proxies:
     headers:
       Host: yg.bantony199.top
     path: /
+- alterId: 0
+  cipher: auto
+  name: 09-0772-US
+  network: ws
+  port: 20086
+  server: 154.29.149.222
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 718d0445-ef14-499b-b645-acb6cc721dcf
+  ws-opts:
+    path: /
 - name: 09-0774-RELAY
   network: ws
   port: 8443
@@ -10605,12 +10633,6 @@ proxies:
     headers:
       Host: vle.amclubsapp.dpdns.org
     path: /?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 09-1031-US
-  password: 360e21d21977dc11
-  port: 57456
-  server: 104.167.197.25
-  type: ss
 - name: 09-1032-RELAY
   network: ws
   port: 8443
@@ -11344,12 +11366,6 @@ proxies:
     headers:
       Host: edgb.esslh.filegear-sg.me
     path: /?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 09-1170-HK
-  password: ljqdalu13..
-  port: 8319
-  server: 18.162.146.85
-  type: ss
 - name: 09-1171-JP
   network: ws
   port: 47001
@@ -11427,28 +11443,22 @@ proxies:
       Host: tTTtTTT67.459.PP.uA
     path: /5UW2C42lpZ7Dj4VDwVOkZfoq
 - cipher: chacha20-ietf-poly1305
-  name: 09-1182-HK
-  password: ljqdalu13..
-  port: 8316
-  server: 18.162.146.85
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 09-1184-AE
   password: cvII85TrW6n0OGyfpHVS1u
   port: 8080
   server: 151.242.251.153
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-1185-HK
-  password: ljqdalu13..
-  port: 8313
-  server: 18.162.146.85
   type: ss
 - cipher: aes-256-cfb
   name: 09-1186-BG
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 37.19.203.147
+  type: ss
+- cipher: aes-256-cfb
+  name: 09-1187-FR
+  password: amazonskr05
+  port: 443
+  server: 13.38.30.95
   type: ss
 - alterId: 0
   cipher: auto
@@ -11495,12 +11505,6 @@ proxies:
   uuid: 58fe1542-5290-40ad-815a-77707a81afe5
   ws-opts:
     path: /IOebhLMhl1CTbFHbL95myfRX2
-- cipher: aes-256-cfb
-  name: 09-1192-DE
-  password: a3GFYt36Sm82Vys9
-  port: 9000
-  server: 80.92.204.106
-  type: ss
 - name: 09-1193-JP
   network: ws
   port: 51002
@@ -11539,6 +11543,12 @@ proxies:
     headers:
       Host: at.xiejiang.dpdns.org
     path: /XYXY0721
+- cipher: chacha20-ietf-poly1305
+  name: 09-1199-CO
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 181.119.30.20
+  type: ss
 - alterId: 0
   cipher: auto
   name: 09-1200-GB
@@ -11755,12 +11765,6 @@ proxies:
   sni: bing.com
   type: hysteria2
 - cipher: aes-256-cfb
-  name: 09-1225-DE
-  password: S7KwUu7yBy58S3Ga
-  port: 9042
-  server: 80.92.204.106
-  type: ss
-- cipher: aes-256-cfb
   name: 09-1226-DE
   password: Sn5B7jTqr76aCJT8
   port: 9097
@@ -11890,6 +11894,19 @@ proxies:
   ws-opts:
     headers:
       Host: edgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 09-1243-PL
+  network: ws
+  port: 443
+  server: 45.144.48.48
+  servername: edgb.esslh.filegear-sg.me
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edgb.esslh.filegear-sg.me
     path: /?ed=2560
 - name: 09-1244-PL
   network: ws
@@ -12124,6 +12141,7 @@ proxy-groups:
   - 06-0185-US
   - 06-0186-RELAY
   - 06-0187-RELAY
+  - 06-0188-SC
   - 06-0189-RELAY
   - 06-0190-US
   - 06-0191-SC
@@ -12131,8 +12149,8 @@ proxy-groups:
   - 06-0194-SC
   - 07-0324-RELAY
   - 08-0328-US
-  - 08-0330-RELAY
   - 08-0331-RELAY
+  - 08-0332-RELAY
   - 08-0335-RELAY
   - 08-0336-RELAY
   - 09-0337-US
@@ -12566,6 +12584,7 @@ proxy-groups:
   - 09-0769-RELAY
   - 09-0770-RELAY
   - 09-0771-AT
+  - 09-0772-US
   - 09-0774-RELAY
   - 09-0775-RELAY
   - 09-0776-RELAY
@@ -12801,7 +12820,6 @@ proxy-groups:
   - 09-1028-US
   - 09-1029-RELAY
   - 09-1030-RELAY
-  - 09-1031-US
   - 09-1032-RELAY
   - 09-1033-RELAY
   - 09-1035-NOWHERE
@@ -12881,7 +12899,6 @@ proxy-groups:
   - 09-1167-FI
   - 09-1168-RELAY
   - 09-1169-JP
-  - 09-1170-HK
   - 09-1171-JP
   - 09-1172-CZ
   - 09-1174-JP
@@ -12890,19 +12907,18 @@ proxy-groups:
   - 09-1177-NL
   - 09-1178-AE
   - 09-1179-RELAY
-  - 09-1182-HK
   - 09-1184-AE
-  - 09-1185-HK
   - 09-1186-BG
+  - 09-1187-FR
   - 09-1188-GB
   - 09-1189-JP
   - 09-1190-AR
   - 09-1191-CA
-  - 09-1192-DE
   - 09-1193-JP
   - 09-1196-LT
   - 09-1197-NO
   - 09-1198-RELAY
+  - 09-1199-CO
   - 09-1200-GB
   - 09-1202-LT
   - 09-1203-GB
@@ -12923,7 +12939,6 @@ proxy-groups:
   - 09-1219-JP
   - 09-1223-HK
   - 09-1224-SG
-  - 09-1225-DE
   - 09-1226-DE
   - 09-1227-HK
   - 09-1228-SG
@@ -12939,6 +12954,7 @@ proxy-groups:
   - 09-1239-GOOGLE
   - 09-1240-NL
   - 09-1241-PL
+  - 09-1243-PL
   - 09-1244-PL
   - 09-1245-JP
   - 09-1249-SG
@@ -13134,6 +13150,7 @@ proxy-groups:
   - 06-0185-US
   - 06-0186-RELAY
   - 06-0187-RELAY
+  - 06-0188-SC
   - 06-0189-RELAY
   - 06-0190-US
   - 06-0191-SC
@@ -13141,8 +13158,8 @@ proxy-groups:
   - 06-0194-SC
   - 07-0324-RELAY
   - 08-0328-US
-  - 08-0330-RELAY
   - 08-0331-RELAY
+  - 08-0332-RELAY
   - 08-0335-RELAY
   - 08-0336-RELAY
   - 09-0337-US
@@ -13576,6 +13593,7 @@ proxy-groups:
   - 09-0769-RELAY
   - 09-0770-RELAY
   - 09-0771-AT
+  - 09-0772-US
   - 09-0774-RELAY
   - 09-0775-RELAY
   - 09-0776-RELAY
@@ -13811,7 +13829,6 @@ proxy-groups:
   - 09-1028-US
   - 09-1029-RELAY
   - 09-1030-RELAY
-  - 09-1031-US
   - 09-1032-RELAY
   - 09-1033-RELAY
   - 09-1035-NOWHERE
@@ -13891,7 +13908,6 @@ proxy-groups:
   - 09-1167-FI
   - 09-1168-RELAY
   - 09-1169-JP
-  - 09-1170-HK
   - 09-1171-JP
   - 09-1172-CZ
   - 09-1174-JP
@@ -13900,19 +13916,18 @@ proxy-groups:
   - 09-1177-NL
   - 09-1178-AE
   - 09-1179-RELAY
-  - 09-1182-HK
   - 09-1184-AE
-  - 09-1185-HK
   - 09-1186-BG
+  - 09-1187-FR
   - 09-1188-GB
   - 09-1189-JP
   - 09-1190-AR
   - 09-1191-CA
-  - 09-1192-DE
   - 09-1193-JP
   - 09-1196-LT
   - 09-1197-NO
   - 09-1198-RELAY
+  - 09-1199-CO
   - 09-1200-GB
   - 09-1202-LT
   - 09-1203-GB
@@ -13933,7 +13948,6 @@ proxy-groups:
   - 09-1219-JP
   - 09-1223-HK
   - 09-1224-SG
-  - 09-1225-DE
   - 09-1226-DE
   - 09-1227-HK
   - 09-1228-SG
@@ -13949,6 +13963,7 @@ proxy-groups:
   - 09-1239-GOOGLE
   - 09-1240-NL
   - 09-1241-PL
+  - 09-1243-PL
   - 09-1244-PL
   - 09-1245-JP
   - 09-1249-SG
@@ -13962,9 +13977,6 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
-  - 09-1170-HK
-  - 09-1182-HK
-  - 09-1185-HK
   - 09-1223-HK
   - 09-1227-HK
   filter: (?i)港|HK|HongKong|hong kong
@@ -14086,6 +14098,7 @@ proxy-groups:
   - 09-0750-US
   - 09-0752-US
   - 09-0763-US
+  - 09-0772-US
   - 09-0779-US
   - 09-0788-US
   - 09-0789-US
@@ -14130,7 +14143,6 @@ proxy-groups:
   - 09-1025-US
   - 09-1026-US
   - 09-1028-US
-  - 09-1031-US
   - 09-1039-US
   - 09-1042-US
   - 09-1063-US

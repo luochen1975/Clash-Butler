@@ -2323,21 +2323,6 @@ proxies:
   skip-cert-verify: true
   sni: torjan.xn--xhq44j.eu.org
   type: trojan
-- cipher: aes-256-gcm
-  name: 06-0192-SC
-  password: 0b191076d18f
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: hk6v1.dsjsapp.com
-    mode: websocket
-    mux: true
-    path: /ugiibpkbca
-    restls: false
-    skip-cert-verify: true
-    tls: true
-  port: 636
-  server: 156.251.179.139
-  type: ss
 - name: 07-0322-RELAY
   network: ws
   port: 8080
@@ -9646,13 +9631,6 @@ proxies:
     headers:
       Host: vle.amclubsdns.dpdns.org
     path: /?ed=2560
-- name: 09-1055-US
-  password: 5CBqBh6MeDq6GajcilBiDg==
-  port: 61001
-  server: 192.227.152.86
-  skip-cert-verify: true
-  sni: 192-227-152-86.nip.io
-  type: hysteria2
 - name: 09-1056-RELAY
   network: ws
   port: 443
@@ -10210,7 +10188,6 @@ proxy-groups:
   - 06-0188-US
   - 06-0189-SC
   - 06-0191-US
-  - 06-0192-SC
   - 07-0322-RELAY
   - 08-0327-US
   - 08-0329-RELAY
@@ -10799,7 +10776,6 @@ proxy-groups:
   - 09-0999-RELAY
   - 09-1051-RELAY
   - 09-1053-RELAY
-  - 09-1055-US
   - 09-1056-RELAY
   - 09-1057-RELAY
   - 09-1059-US
@@ -11029,7 +11005,6 @@ proxy-groups:
   - 06-0188-US
   - 06-0189-SC
   - 06-0191-US
-  - 06-0192-SC
   - 07-0322-RELAY
   - 08-0327-US
   - 08-0329-RELAY
@@ -11618,7 +11593,6 @@ proxy-groups:
   - 09-0999-RELAY
   - 09-1051-RELAY
   - 09-1053-RELAY
-  - 09-1055-US
   - 09-1056-RELAY
   - 09-1057-RELAY
   - 09-1059-US
@@ -11780,7 +11754,6 @@ proxy-groups:
   - 09-0944-US
   - 09-0967-US
   - 09-0995-US
-  - 09-1055-US
   - 09-1059-US
   - 09-1063-US
   - 09-1070-US

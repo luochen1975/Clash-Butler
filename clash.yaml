@@ -2246,6 +2246,21 @@ proxies:
     headers:
       Host: jp.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 %40WangCai2fp=chrome
+- cipher: aes-256-gcm
+  name: 06-0185-SC
+  password: 0b191076d18f
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: hk6v1.dsjsapp.com
+    mode: websocket
+    mux: true
+    path: /ugiibpkbca
+    restls: false
+    skip-cert-verify: true
+    tls: true
+  port: 636
+  server: 156.251.179.136
+  type: ss
 - name: 06-0186-US
   network: ws
   port: 8880
@@ -2308,6 +2323,21 @@ proxies:
   skip-cert-verify: true
   sni: torjan.xn--xhq44j.eu.org
   type: trojan
+- cipher: aes-256-gcm
+  name: 06-0192-SC
+  password: 0b191076d18f
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: hk6v1.dsjsapp.com
+    mode: websocket
+    mux: true
+    path: /ugiibpkbca
+    restls: false
+    skip-cert-verify: true
+    tls: true
+  port: 636
+  server: 156.251.179.139
+  type: ss
 - name: 07-0322-RELAY
   network: ws
   port: 8080
@@ -7290,19 +7320,6 @@ proxies:
     headers:
       Host: hk.laoyoutiao.link
     path: /Telegram
-- name: 09-0732-RELAY
-  network: ws
-  port: 443
-  server: 104.18.2.26
-  servername: rAyAn-s08.PaRaStOo.dPdNs.oRg
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4768df-0fbb-4cc1-8fd3-7c6fea95742a
-  ws-opts:
-    headers:
-      Host: rAyAn-s08.PaRaStOo.dPdNs.oRg
-    path: /Rayan_Config
 - name: 09-0733-RELAY
   network: ws
   port: 80
@@ -8926,19 +8943,6 @@ proxies:
     headers:
       Host: ex.sue.x10.mx
     path: /Telegram🇨🇳
-- name: 09-0924-RELAY
-  network: ws
-  port: 443
-  server: 172.67.218.209
-  servername: pPP0.89890604.xYZ
-  tls: true
-  type: vless
-  udp: true
-  uuid: fa050497-fc2a-45ee-89c0-96670c4ecb65
-  ws-opts:
-    headers:
-      Host: ppp0.89890604.xyz
-    path: /0USILhLWoWgQPuXTwt
 - name: 09-0925-RELAY
   network: ws
   port: 443
@@ -9148,19 +9152,6 @@ proxies:
     headers:
       Host: vle.amclubssss.dpdns.org
     path: /?ed=2560
-- name: 09-0946-RELAY
-  network: ws
-  port: 443
-  server: 104.18.215.66
-  servername: rAyAn-d08.lEiLa.dPdNs.oRG
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7a80a8d9-92f9-4f0a-8352-9005a8215ab8
-  ws-opts:
-    headers:
-      Host: rAyAn-d08.lEiLa.dPdNs.oRG
-    path: /Rayan_Config
 - name: 09-0947-RELAY
   network: ws
   port: 8880
@@ -9317,19 +9308,6 @@ proxies:
     headers:
       Host: JJANGESN.SBs
     path: /
-- name: 09-0965-RELAY
-  network: ws
-  port: 443
-  server: 172.66.40.139
-  servername: rAyAn-e12.PaRaStOo.dPdNs.oRg
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4768df-0fbb-4cc1-8fd3-7c6fea95742a
-  ws-opts:
-    headers:
-      Host: rAyAn-e12.PaRaStOo.dPdNs.oRg
-    path: /Rayan_Config
 - name: 09-0967-US
   network: ws
   port: 8880
@@ -9369,19 +9347,6 @@ proxies:
     headers:
       Host: frieren.albedo.ddns-ip.net
     path: /proxyip=ayaka.shorekeeper.ir
-- name: 09-0970-RELAY
-  network: ws
-  port: 443
-  server: 104.18.12.51
-  servername: RayAN-Y09.pAraStOo.DpdNs.oRg
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4768df-0fbb-4cc1-8fd3-7c6fea95742a
-  ws-opts:
-    headers:
-      Host: RayAN-Y09.pAraStOo.DpdNs.oRg
-    path: /Rayan_Config
 - name: 09-0971-RELAY
   network: ws
   port: 8880
@@ -9681,19 +9646,6 @@ proxies:
     headers:
       Host: vle.amclubsdns.dpdns.org
     path: /?ed=2560
-- name: 09-1054-RELAY
-  network: ws
-  port: 443
-  server: 104.17.88.51
-  servername: rAyAn-t10.PaRaStOo.dPdNs.oRg
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4768df-0fbb-4cc1-8fd3-7c6fea95742a
-  ws-opts:
-    headers:
-      Host: rAyAn-t10.PaRaStOo.dPdNs.oRg
-    path: /Rayan_Config
 - name: 09-1055-US
   password: 5CBqBh6MeDq6GajcilBiDg==
   port: 61001
@@ -10252,11 +10204,13 @@ proxy-groups:
   - 06-0182-RELAY
   - 06-0183-US
   - 06-0184-RELAY
+  - 06-0185-SC
   - 06-0186-US
   - 06-0187-RELAY
   - 06-0188-US
   - 06-0189-SC
   - 06-0191-US
+  - 06-0192-SC
   - 07-0322-RELAY
   - 08-0327-US
   - 08-0329-RELAY
@@ -10658,7 +10612,6 @@ proxy-groups:
   - 09-0729-RELAY
   - 09-0730-RELAY
   - 09-0731-RELAY
-  - 09-0732-RELAY
   - 09-0733-RELAY
   - 09-0734-RELAY
   - 09-0735-RELAY
@@ -10789,7 +10742,6 @@ proxy-groups:
   - 09-0921-RELAY
   - 09-0922-RELAY
   - 09-0923-US
-  - 09-0924-RELAY
   - 09-0925-RELAY
   - 09-0926-RELAY
   - 09-0927-RELAY
@@ -10807,7 +10759,6 @@ proxy-groups:
   - 09-0942-US
   - 09-0944-US
   - 09-0945-RELAY
-  - 09-0946-RELAY
   - 09-0947-RELAY
   - 09-0948-RELAY
   - 09-0950-RELAY
@@ -10820,11 +10771,9 @@ proxy-groups:
   - 09-0960-NOWHERE
   - 09-0963-RELAY
   - 09-0964-RELAY
-  - 09-0965-RELAY
   - 09-0967-US
   - 09-0968-RELAY
   - 09-0969-RELAY
-  - 09-0970-RELAY
   - 09-0971-RELAY
   - 09-0972-RELAY
   - 09-0973-RELAY
@@ -10850,7 +10799,6 @@ proxy-groups:
   - 09-0999-RELAY
   - 09-1051-RELAY
   - 09-1053-RELAY
-  - 09-1054-RELAY
   - 09-1055-US
   - 09-1056-RELAY
   - 09-1057-RELAY
@@ -11075,11 +11023,13 @@ proxy-groups:
   - 06-0182-RELAY
   - 06-0183-US
   - 06-0184-RELAY
+  - 06-0185-SC
   - 06-0186-US
   - 06-0187-RELAY
   - 06-0188-US
   - 06-0189-SC
   - 06-0191-US
+  - 06-0192-SC
   - 07-0322-RELAY
   - 08-0327-US
   - 08-0329-RELAY
@@ -11481,7 +11431,6 @@ proxy-groups:
   - 09-0729-RELAY
   - 09-0730-RELAY
   - 09-0731-RELAY
-  - 09-0732-RELAY
   - 09-0733-RELAY
   - 09-0734-RELAY
   - 09-0735-RELAY
@@ -11612,7 +11561,6 @@ proxy-groups:
   - 09-0921-RELAY
   - 09-0922-RELAY
   - 09-0923-US
-  - 09-0924-RELAY
   - 09-0925-RELAY
   - 09-0926-RELAY
   - 09-0927-RELAY
@@ -11630,7 +11578,6 @@ proxy-groups:
   - 09-0942-US
   - 09-0944-US
   - 09-0945-RELAY
-  - 09-0946-RELAY
   - 09-0947-RELAY
   - 09-0948-RELAY
   - 09-0950-RELAY
@@ -11643,11 +11590,9 @@ proxy-groups:
   - 09-0960-NOWHERE
   - 09-0963-RELAY
   - 09-0964-RELAY
-  - 09-0965-RELAY
   - 09-0967-US
   - 09-0968-RELAY
   - 09-0969-RELAY
-  - 09-0970-RELAY
   - 09-0971-RELAY
   - 09-0972-RELAY
   - 09-0973-RELAY
@@ -11673,7 +11618,6 @@ proxy-groups:
   - 09-0999-RELAY
   - 09-1051-RELAY
   - 09-1053-RELAY
-  - 09-1054-RELAY
   - 09-1055-US
   - 09-1056-RELAY
   - 09-1057-RELAY

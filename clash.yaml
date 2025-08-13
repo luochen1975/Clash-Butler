@@ -293,21 +293,6 @@ proxies:
     headers:
       Host: zoomgov.vipren.biz.id
     path: /193.123.81.105=443
-- cipher: aes-256-gcm
-  name: 05-0024-HK
-  password: 9bfdde71b4c0
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: newroot2v1.dsjsapp.com
-    mode: websocket
-    mux: true
-    path: /cauejypbltqt
-    restls: false
-    skip-cert-verify: true
-    tls: true
-  port: 636
-  server: 103.103.245.158
-  type: ss
 - name: 05-0026-RELAY
   network: ws
   password: Aimer
@@ -444,19 +429,6 @@ proxies:
     headers:
       Host: kjgx.laoyoutiao.link
     path: /Telegram🇨🇳 %40WangCai2
-- name: 05-0039-KR
-  network: ws
-  port: 50000
-  server: 112.162.27.122
-  servername: zoomgov.vipren.biz.id
-  tls: true
-  type: vless
-  udp: true
-  uuid: 101bbfad-fb11-4e99-9b66-b11659c26cff
-  ws-opts:
-    headers:
-      Host: zoomgov.vipren.biz.id
-    path: /112.162.27.122=50000
 - name: 05-0040-RELAY
   network: ws
   port: 443
@@ -543,19 +515,6 @@ proxies:
     headers:
       Host: barayeiranmahsang.ghormehsabzi.dpdns.org
     path: /
-- alterId: 0
-  cipher: auto
-  name: 05-0047-RELAY
-  network: ws
-  port: 80
-  server: test3.flha.ru
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9a81340d-f81b-4c76-8abb-f4d305c535c0
-  ws-opts:
-    path: /9a81340d-f81b-4c76-8abb-f4d305c535c0-vmess
 - alterId: 2
   cipher: auto
   name: 05-0048-HK
@@ -1242,11 +1201,11 @@ proxies:
   skip-cert-verify: true
   sni: epgb.aimercc.dpdns.org
   type: trojan
-- name: 06-0108-KR
+- name: 06-0115-KR
   network: ws
   password: Aimer
-  port: 50000
-  server: 115.22.115.218
+  port: 12902
+  server: 121.167.146.253
   skip-cert-verify: true
   sni: epgb.aimercc.dpdns.org
   type: trojan
@@ -3185,19 +3144,6 @@ proxies:
     headers:
       Host: v2ngsupply2.ip-ddns.com
     path: /ijiDwDw8BcM9ieHc?ed
-- name: 08-0419-RELAY
-  network: ws
-  port: 8443
-  server: 160.153.0.153
-  servername: InviNCIble.FAfA20.shOP
-  tls: true
-  type: vless
-  udp: true
-  uuid: 376734bc-4db8-4317-b451-af0262cb01c7
-  ws-opts:
-    headers:
-      Host: InviNCIble.FAfA20.shOP
-    path: /KvNugxSUpljMOjgF/NzguNDcuMTU3LjY=?ed=#Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560
 - cipher: aes-128-gcm
   name: 09-0420-US
   password: shadowsocks
@@ -4855,19 +4801,6 @@ proxies:
     headers:
       Host: yg.bantony199.top
     path: /Telegram🇨🇳 %40WangCai2 /?ed=2560
-- name: 09-0550-RELAY
-  network: ws
-  port: 80
-  server: 104.16.178.238
-  servername: little-bird-a235-ppal03.fosawaw121.workers.dev
-  tls: false
-  type: vless
-  udp: true
-  uuid: d4eddaf9-a660-4905-b835-cad98677b380
-  ws-opts:
-    headers:
-      Host: little-bird-a235-ppal03.fosawaw121.workers.dev
-    path: /?ed=2560
 - name: 09-0551-GB
   network: ws
   port: 8880
@@ -5604,19 +5537,6 @@ proxies:
     headers:
       Host: yg.bantony199.top
     path: /Telegram🇨🇳 %40WangCai2 /?ed=2560
-- name: 09-0608-RELAY
-  network: ws
-  port: 80
-  server: 45.131.5.111
-  servername: feng4.l1ut8bi9.workers.dev
-  tls: false
-  type: vless
-  udp: true
-  uuid: d6ff33a6-03bf-4338-8a63-62ab284a9466
-  ws-opts:
-    headers:
-      Host: feng4.l1ut8bi9.workers.dev
-    path: /Telegram
 - name: 09-0609-RELAY
   network: ws
   port: 443
@@ -6030,19 +5950,6 @@ proxies:
   ws-opts:
     headers:
       Host: proud-queen-55500071.cexonoc962.workers.dev
-    path: /?ed=2560
-- name: 09-0642-RELAY
-  network: ws
-  port: 80
-  server: 104.16.86.2
-  servername: 104.16.86.2
-  tls: false
-  type: vless
-  udp: true
-  uuid: 9f0eae34-97c1-4c07-8a55-438379981334
-  ws-opts:
-    headers:
-      Host: snowy-bush-4df8-ppal03.toxebex651.workers.dev
     path: /?ed=2560
 - name: 09-0643-RELAY
   network: ws
@@ -10714,12 +10621,20 @@ proxies:
     headers:
       Host: yg.bantony199.top
     path: /Telegram
-- cipher: chacha20-ietf-poly1305
-  name: 09-1046-US
-  password: 360e21d21977dc11
-  port: 57456
-  server: 104.167.197.25
+- cipher: rc4-md5
+  name: 09-1043-US
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 107.151.182.253
   type: ss
+- cipher: rc4-md5
+  name: 09-1044-US
+  obfs: plain
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  protocol: origin
+  server: 107.151.182.253
+  type: ssr
 - name: 09-1047-RELAY
   network: ws
   port: 80
@@ -11216,13 +11131,6 @@ proxies:
     headers:
       Host: edgb.aimercc.dpdns.org
     path: /?ed=2560
-- name: 09-1098-CA
-  password: 862e90e1-2f26-4506-b8b9-0adf20da05fc
-  port: 54530
-  server: 192.18.150.167
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
 - name: 09-1099-RELAY
   network: ws
   port: 2083
@@ -12342,12 +12250,6 @@ proxies:
   server: 45.87.175.22
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 09-1236-LT
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 45.87.175.35
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 09-1237-FR
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
@@ -12366,12 +12268,6 @@ proxies:
   server: 193.29.139.157
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 09-1240-LT
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.188
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 09-1242-AE
   password: QCXDxuDlTTMD7jtgHUjIoj
   port: 8080
@@ -12382,12 +12278,6 @@ proxies:
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 45.87.175.58
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-1244-LT
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.181
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 09-1245-LT
@@ -12484,12 +12374,6 @@ proxies:
   password: QCXDxuDlTTMD7jtgHUjIoj
   port: 8080
   server: 151.242.251.144
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-1265-NL
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 193.29.139.138
   type: ss
 - name: 09-1266-RELAY
   network: ws
@@ -12734,19 +12618,6 @@ proxies:
     headers:
       Host: edgb.aimercc.dpdns.org
     path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 09-1456-GB
-  network: ws
-  port: 20086
-  server: 8.208.84.194
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4790f95b-3794-49a4-a8e7-304c7fb0b23d
-  ws-opts:
-    path: /
 - name: 09-1458-KR
   network: ws
   port: 30029
@@ -12806,12 +12677,6 @@ proxies:
     tls: true
   port: 636
   server: 137.220.142.139
-  type: ss
-- cipher: aes-256-cfb
-  name: 09-1463-TR
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.123.101.241
   type: ss
 - name: 09-1464-HK
   network: ws
@@ -12912,6 +12777,21 @@ proxies:
   port: 8080
   server: 23.251.121.242
   type: ss
+- cipher: aes-256-gcm
+  name: 09-1475-SC
+  password: 0b191076d18f
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: hk6v1.dsjsapp.com
+    mode: websocket
+    mux: true
+    path: /ugiibpkbca
+    restls: false
+    skip-cert-verify: true
+    tls: true
+  port: 636
+  server: 156.251.179.136
+  type: ss
 - name: 09-1476-HK
   network: ws
   password: Aimer
@@ -12961,6 +12841,17 @@ proxies:
   port: 990
   server: 103.163.218.2
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 09-1483-TW
+  network: tcp
+  port: 20788
+  server: 45.121.48.174
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bfc630aa-4598-4481-9338-cac15e3e6b65
 - cipher: chacha20-ietf-poly1305
   name: 09-1484-CO
   password: f8f7aCzcPKbsF8p3
@@ -13027,275 +12918,38 @@ proxies:
   port: 989
   server: 89.46.238.35
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-1492-BO
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 185.93.173.218
+  type: ss
 - name: 09-1493-HK
   password: dda4f3bf-85fb-41bd-9d8e-77a8a02dbd59
   port: 1066
   server: 194.104.147.74
   skip-cert-verify: true
   type: trojan
-- name: 09-1495-KR
-  network: ws
-  port: 50000
-  server: 49.172.20.66
-  servername: edgb.aimercc.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edgb.aimercc.dpdns.org
-    path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
   name: 09-1496-SE
   password: _b6x5tfO1wZUxObuR_AIXg
   port: 1080
   server: 150.241.86.252
   type: ss
+- name: 09-1497-TW
+  network: ws
+  password: ttfang
+  port: 81
+  server: 103.106.230.186
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
 - cipher: aes-128-gcm
   name: 09-1498-US
   password: shadowsocks
   port: 443
   server: 173.244.56.9
   type: ss
-- name: 23-1553-RELAY
-  network: ws
-  port: 443
-  server: 104.21.32.1
-  servername: FqJEDazA7b2VofJ9iHeMX319rmO41l7b.paGEs.DeV
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0f0c8014-6c01-46b6-b0cc-2f76d6bae7f6
-  ws-opts:
-    headers:
-      Host: fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev
-    path: /Join---planB_proxy---BIA---planB_proxy---BIA---planB_proxy---BIA---planB_proxy=?ed=2560
-- name: 23-1554-IN
-  network: tcp
-  port: 49355
-  server: 45.88.183.164
-  servername: 45.88.183.164
-  tls: false
-  type: vless
-  udp: true
-  uuid: ef246c6f-6e7d-4286-af33-5485544b0ba8
-- flow: xtls-rprx-vision
-  name: 23-1556-FR
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4
-    short-id: f5
-  server: amazon-17.cristiano.name.ng
-  servername: store.steampowered.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4
-- name: 23-1557-US
-  network: tcp
-  port: 19011
-  server: 45.82.161.120
-  servername: 45.82.161.120
-  tls: false
-  type: vless
-  udp: true
-  uuid: 108920a8-65d6-41d5-c0ac-b2a118d36570
-- cipher: chacha20-ietf-poly1305
-  name: 23-1558-NL
-  password: ytyDsafkORMxiBdfrdR1kU
-  port: 52571
-  server: 194.87.216.218
-  type: ss
-- name: 23-1560-RELAY
-  network: ws
-  port: 443
-  server: ipw.gfdv54cvghhgfhgj-njhgj64.info
-  servername: F7yHwCmPgY.mEtAl5.OrG
-  tls: true
-  type: vless
-  udp: true
-  uuid: a5e0c391-accd-45a7-8bb9-99ffb9b09b16
-  ws-opts:
-    headers:
-      Host: F7yHwCmPgY.mEtAl5.OrG
-    path: /
-- name: 23-1561-RELAY
-  network: ws
-  port: 443
-  server: androidauthority.com
-  servername: rAyAn-cOnFiG-TeLeGrAm-a05.tRaNeH.DpDnS.OrG
-  tls: true
-  type: vless
-  udp: true
-  uuid: 102e5f34-1913-4dd3-a1f2-f831d891a490
-  ws-opts:
-    headers:
-      Host: rayan-config-telegram-a05.traneh.dpdns.org
-    path: /Rayan_Config
-- name: 23-1562-RELAY
-  network: ws
-  port: 80
-  server: 104.16.19.242
-  servername: winter-bush-f08c-ppal03.himigaw787.workers.dev
-  tls: false
-  type: vless
-  udp: true
-  uuid: 1853d1d2-1ccf-48e6-ae05-0c0bb285a8c4
-  ws-opts:
-    headers:
-      Host: winter-bush-f08c-ppal03.himigaw787.workers.dev
-    path: /?ed=2560#CF中转_0813044189
-- name: 23-1563-RELAY
-  network: ws
-  port: 443
-  server: 104.21.25.138
-  servername: Ppal03.EMAnUEL-KUhN.WoRKerS.deV
-  tls: true
-  type: vless
-  udp: true
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  ws-opts:
-    headers:
-      Host: ppAL03.emANuEl-KUhN.WORkERS.dEV
-    path: /izvdrDpYHr8zWWra?ed=2560
-- name: 23-1564-RELAY
-  network: ws
-  port: 443
-  server: 104.18.27.94
-  servername: esetsecuritylicense.inhkvez.workers.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: c4929932-34f8-46dd-8cd6-7b1539dc4416
-  ws-opts:
-    headers:
-      Host: esetsecuritylicense.inhkvez.workers.dev
-    path: /#4Kian-12027
-- name: 23-1565-RELAY
-  network: ws
-  port: 443
-  server: 104.24.30.89
-  servername: rAyAn-cOnFiG-TeLeGrAm-a03.tRaNeH.DpDnS.OrG
-  tls: true
-  type: vless
-  udp: true
-  uuid: 102e5f34-1913-4dd3-a1f2-f831d891a490
-  ws-opts:
-    headers:
-      Host: rayan-config-telegram-a03.traneh.dpdns.org
-    path: /Rayan_Config
-- name: 23-1566-RELAY
-  network: ws
-  port: 8080
-  server: 45.131.7.7
-  servername: ShaHrAmcOnfIgWoRKERcjsA9898.CoNfIGshaHrAmcOnfIg.woRKeRs.dev
-  tls: false
-  type: vless
-  udp: true
-  uuid: 260c4900-69a9-465c-8c3a-272eb1b4ec00
-  ws-opts:
-    headers:
-      Host: ShaHrAmcOnfIgWoRKERcjsA9898.CoNfIGshaHrAmcOnfIg.woRKeRs.dev
-    path: /Telegram%40WangCai2/?ed=2048#荷兰_081304300
-- cipher: chacha20-ietf-poly1305
-  name: 23-1567-LT
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 45.87.175.170
-  type: ss
-- name: 23-1568-RELAY
-  network: ws
-  port: 443
-  server: 104.17.64.70
-  servername: rAyAn-cOnFiG-TeLeGrAm-a06.tRaNeH.DpDnS.OrG
-  tls: true
-  type: vless
-  udp: true
-  uuid: 102e5f34-1913-4dd3-a1f2-f831d891a490
-  ws-opts:
-    headers:
-      Host: rayan-config-telegram-a06.traneh.dpdns.org
-    path: /Rayan_Config
-- name: 23-1569-RELAY
-  network: ws
-  port: 443
-  server: 104.19.4.191
-  servername: vpn870.tutorials26858.workers.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: affd5a9a-22fa-11ee-be56-0242ac120002
-  ws-opts:
-    headers:
-      Host: vpn870.tutorials26858.workers.dev
-    path: /#4Kian-11436
-- name: 23-1570-RELAY
-  network: ws
-  port: 80
-  server: 104.24.181.248
-  servername: delicate-feather-dc36-ppal03.shah-beck.workers.dev
-  tls: false
-  type: vless
-  udp: true
-  uuid: faa47bdc-8581-4e47-a557-35caa72681bd
-  ws-opts:
-    headers:
-      Host: delicate-feather-dc36-ppal03.shah-beck.workers.dev
-    path: /#CF中转_0813047701
-- name: 23-1571-RELAY
-  network: ws
-  port: 443
-  server: 104.24.31.89
-  servername: rAyAn-cOnFiG-TeLeGrAm-a03.tRaNeH.DpDnS.OrG
-  tls: true
-  type: vless
-  udp: true
-  uuid: 102e5f34-1913-4dd3-a1f2-f831d891a490
-  ws-opts:
-    headers:
-      Host: rayan-config-telegram-a03.traneh.dpdns.org
-    path: /Rayan_Config
-- name: 23-1572-RELAY
-  network: ws
-  port: 443
-  server: poloniex.com
-  servername: rAyAn-cOnFiG-TeLeGrAm-a01.tRaNeH.DpDnS.OrG
-  tls: true
-  type: vless
-  udp: true
-  uuid: 102e5f34-1913-4dd3-a1f2-f831d891a490
-  ws-opts:
-    headers:
-      Host: rayan-config-telegram-a01.traneh.dpdns.org
-    path: /Rayan_Config
-- name: 23-1573-RELAY
-  network: ws
-  port: 80
-  server: 172.67.218.90
-  servername: bLue-sNoW-a243.GeleNE5962.wOrKeRS.dEV
-  tls: false
-  type: vless
-  udp: true
-  uuid: 65b3cbba-e6ac-485a-9481-976a0415eab9
-  ws-opts:
-    headers:
-      Host: bLue-sNoW-a243.GeleNE5962.wOrKeRS.dEV
-    path: /#CF中转_0813046567
-- name: 23-1574-RELAY
-  network: ws
-  port: 443
-  server: vless.cillnet.my.id
-  servername: vless.cillnet.my.id
-  tls: true
-  type: vless
-  udp: true
-  uuid: 204d108c-a677-4be0-8bed-bba90345f4f1
-  ws-opts:
-    headers:
-      Host: vless.cillnet.my.id
-    path: /sgoracle#4Kian-6065
 proxy-groups:
 - name: PROXY
   type: select
@@ -13331,7 +12985,6 @@ proxy-groups:
   - 05-0021-RELAY
   - 05-0022-RELAY
   - 05-0023-RELAY
-  - 05-0024-HK
   - 05-0026-RELAY
   - 05-0027-RELAY
   - 05-0028-US
@@ -13344,7 +12997,6 @@ proxy-groups:
   - 05-0036-US
   - 05-0037-RELAY
   - 05-0038-RELAY
-  - 05-0039-KR
   - 05-0040-RELAY
   - 05-0041-RELAY
   - 05-0042-RELAY
@@ -13352,7 +13004,6 @@ proxy-groups:
   - 05-0044-HK
   - 05-0045-RELAY
   - 05-0046-RELAY
-  - 05-0047-RELAY
   - 05-0048-HK
   - 05-0049-RELAY
   - 05-0050-RELAY
@@ -13410,7 +13061,7 @@ proxy-groups:
   - 06-0105-GOOGLE
   - 06-0106-RELAY
   - 06-0107-RELAY
-  - 06-0108-KR
+  - 06-0115-KR
   - 06-0118-RELAY
   - 06-0119-RELAY
   - 06-0120-RELAY
@@ -13576,7 +13227,6 @@ proxy-groups:
   - 06-0285-RELAY
   - 06-0286-RELAY
   - 07-0415-RELAY
-  - 08-0419-RELAY
   - 09-0420-US
   - 09-0421-US
   - 09-0422-RELAY
@@ -13707,7 +13357,6 @@ proxy-groups:
   - 09-0547-GB
   - 09-0548-RELAY
   - 09-0549-RELAY
-  - 09-0550-RELAY
   - 09-0551-GB
   - 09-0552-RELAY
   - 09-0553-RELAY
@@ -13765,7 +13414,6 @@ proxy-groups:
   - 09-0605-RELAY
   - 09-0606-RELAY
   - 09-0607-RELAY
-  - 09-0608-RELAY
   - 09-0609-RELAY
   - 09-0610-US
   - 09-0611-RELAY
@@ -13799,7 +13447,6 @@ proxy-groups:
   - 09-0639-RELAY
   - 09-0640-RELAY
   - 09-0641-RELAY
-  - 09-0642-RELAY
   - 09-0643-RELAY
   - 09-0644-RELAY
   - 09-0645-RELAY
@@ -14196,7 +13843,8 @@ proxy-groups:
   - 09-1039-RELAY
   - 09-1040-US
   - 09-1042-RELAY
-  - 09-1046-US
+  - 09-1043-US
+  - 09-1044-US
   - 09-1047-RELAY
   - 09-1048-RELAY
   - 09-1049-RELAY
@@ -14238,7 +13886,6 @@ proxy-groups:
   - 09-1095-CA
   - 09-1096-RELAY
   - 09-1097-US
-  - 09-1098-CA
   - 09-1099-RELAY
   - 09-1100-US
   - 09-1102-RELAY
@@ -14344,14 +13991,11 @@ proxy-groups:
   - 09-1233-LT
   - 09-1234-NL
   - 09-1235-LT
-  - 09-1236-LT
   - 09-1237-FR
   - 09-1238-FR
   - 09-1239-NL
-  - 09-1240-LT
   - 09-1242-AE
   - 09-1243-LT
-  - 09-1244-LT
   - 09-1245-LT
   - 09-1246-LT
   - 09-1249-NL
@@ -14368,7 +14012,6 @@ proxy-groups:
   - 09-1262-FR
   - 09-1263-AE
   - 09-1264-AE
-  - 09-1265-NL
   - 09-1266-RELAY
   - 09-1267-LT
   - 09-1270-CO
@@ -14397,13 +14040,11 @@ proxy-groups:
   - 09-1453-RELAY
   - 09-1454-KR
   - 09-1455-GOOGLE
-  - 09-1456-GB
   - 09-1458-KR
   - 09-1459-IN
   - 09-1460-VN
   - 09-1461-HK
   - 09-1462-JP
-  - 09-1463-TR
   - 09-1464-HK
   - 09-1465-KR
   - 09-1466-KR
@@ -14415,12 +14056,14 @@ proxy-groups:
   - 09-1472-GR
   - 09-1473-KR
   - 09-1474-US
+  - 09-1475-SC
   - 09-1476-HK
   - 09-1477-SC
   - 09-1478-MK
   - 09-1479-SG
   - 09-1480-VN
   - 09-1481-VN
+  - 09-1483-TW
   - 09-1484-CO
   - 09-1485-NL
   - 09-1486-HK
@@ -14428,30 +14071,11 @@ proxy-groups:
   - 09-1488-IN
   - 09-1489-HK
   - 09-1491-LV
+  - 09-1492-BO
   - 09-1493-HK
-  - 09-1495-KR
   - 09-1496-SE
+  - 09-1497-TW
   - 09-1498-US
-  - 23-1553-RELAY
-  - 23-1554-IN
-  - 23-1556-FR
-  - 23-1557-US
-  - 23-1558-NL
-  - 23-1560-RELAY
-  - 23-1561-RELAY
-  - 23-1562-RELAY
-  - 23-1563-RELAY
-  - 23-1564-RELAY
-  - 23-1565-RELAY
-  - 23-1566-RELAY
-  - 23-1567-LT
-  - 23-1568-RELAY
-  - 23-1569-RELAY
-  - 23-1570-RELAY
-  - 23-1571-RELAY
-  - 23-1572-RELAY
-  - 23-1573-RELAY
-  - 23-1574-RELAY
 - name: Best
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -14492,7 +14116,6 @@ proxy-groups:
   - 05-0021-RELAY
   - 05-0022-RELAY
   - 05-0023-RELAY
-  - 05-0024-HK
   - 05-0026-RELAY
   - 05-0027-RELAY
   - 05-0028-US
@@ -14505,7 +14128,6 @@ proxy-groups:
   - 05-0036-US
   - 05-0037-RELAY
   - 05-0038-RELAY
-  - 05-0039-KR
   - 05-0040-RELAY
   - 05-0041-RELAY
   - 05-0042-RELAY
@@ -14513,7 +14135,6 @@ proxy-groups:
   - 05-0044-HK
   - 05-0045-RELAY
   - 05-0046-RELAY
-  - 05-0047-RELAY
   - 05-0048-HK
   - 05-0049-RELAY
   - 05-0050-RELAY
@@ -14571,7 +14192,7 @@ proxy-groups:
   - 06-0105-GOOGLE
   - 06-0106-RELAY
   - 06-0107-RELAY
-  - 06-0108-KR
+  - 06-0115-KR
   - 06-0118-RELAY
   - 06-0119-RELAY
   - 06-0120-RELAY
@@ -14737,7 +14358,6 @@ proxy-groups:
   - 06-0285-RELAY
   - 06-0286-RELAY
   - 07-0415-RELAY
-  - 08-0419-RELAY
   - 09-0420-US
   - 09-0421-US
   - 09-0422-RELAY
@@ -14868,7 +14488,6 @@ proxy-groups:
   - 09-0547-GB
   - 09-0548-RELAY
   - 09-0549-RELAY
-  - 09-0550-RELAY
   - 09-0551-GB
   - 09-0552-RELAY
   - 09-0553-RELAY
@@ -14926,7 +14545,6 @@ proxy-groups:
   - 09-0605-RELAY
   - 09-0606-RELAY
   - 09-0607-RELAY
-  - 09-0608-RELAY
   - 09-0609-RELAY
   - 09-0610-US
   - 09-0611-RELAY
@@ -14960,7 +14578,6 @@ proxy-groups:
   - 09-0639-RELAY
   - 09-0640-RELAY
   - 09-0641-RELAY
-  - 09-0642-RELAY
   - 09-0643-RELAY
   - 09-0644-RELAY
   - 09-0645-RELAY
@@ -15357,7 +14974,8 @@ proxy-groups:
   - 09-1039-RELAY
   - 09-1040-US
   - 09-1042-RELAY
-  - 09-1046-US
+  - 09-1043-US
+  - 09-1044-US
   - 09-1047-RELAY
   - 09-1048-RELAY
   - 09-1049-RELAY
@@ -15399,7 +15017,6 @@ proxy-groups:
   - 09-1095-CA
   - 09-1096-RELAY
   - 09-1097-US
-  - 09-1098-CA
   - 09-1099-RELAY
   - 09-1100-US
   - 09-1102-RELAY
@@ -15505,14 +15122,11 @@ proxy-groups:
   - 09-1233-LT
   - 09-1234-NL
   - 09-1235-LT
-  - 09-1236-LT
   - 09-1237-FR
   - 09-1238-FR
   - 09-1239-NL
-  - 09-1240-LT
   - 09-1242-AE
   - 09-1243-LT
-  - 09-1244-LT
   - 09-1245-LT
   - 09-1246-LT
   - 09-1249-NL
@@ -15529,7 +15143,6 @@ proxy-groups:
   - 09-1262-FR
   - 09-1263-AE
   - 09-1264-AE
-  - 09-1265-NL
   - 09-1266-RELAY
   - 09-1267-LT
   - 09-1270-CO
@@ -15558,13 +15171,11 @@ proxy-groups:
   - 09-1453-RELAY
   - 09-1454-KR
   - 09-1455-GOOGLE
-  - 09-1456-GB
   - 09-1458-KR
   - 09-1459-IN
   - 09-1460-VN
   - 09-1461-HK
   - 09-1462-JP
-  - 09-1463-TR
   - 09-1464-HK
   - 09-1465-KR
   - 09-1466-KR
@@ -15576,12 +15187,14 @@ proxy-groups:
   - 09-1472-GR
   - 09-1473-KR
   - 09-1474-US
+  - 09-1475-SC
   - 09-1476-HK
   - 09-1477-SC
   - 09-1478-MK
   - 09-1479-SG
   - 09-1480-VN
   - 09-1481-VN
+  - 09-1483-TW
   - 09-1484-CO
   - 09-1485-NL
   - 09-1486-HK
@@ -15589,30 +15202,11 @@ proxy-groups:
   - 09-1488-IN
   - 09-1489-HK
   - 09-1491-LV
+  - 09-1492-BO
   - 09-1493-HK
-  - 09-1495-KR
   - 09-1496-SE
+  - 09-1497-TW
   - 09-1498-US
-  - 23-1553-RELAY
-  - 23-1554-IN
-  - 23-1556-FR
-  - 23-1557-US
-  - 23-1558-NL
-  - 23-1560-RELAY
-  - 23-1561-RELAY
-  - 23-1562-RELAY
-  - 23-1563-RELAY
-  - 23-1564-RELAY
-  - 23-1565-RELAY
-  - 23-1566-RELAY
-  - 23-1567-LT
-  - 23-1568-RELAY
-  - 23-1569-RELAY
-  - 23-1570-RELAY
-  - 23-1571-RELAY
-  - 23-1572-RELAY
-  - 23-1573-RELAY
-  - 23-1574-RELAY
 - name: HK
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -15622,7 +15216,6 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
-  - 05-0024-HK
   - 05-0044-HK
   - 05-0048-HK
   - 09-1461-HK
@@ -15642,7 +15235,8 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
-  - DIRECT
+  - 09-1483-TW
+  - 09-1497-TW
   filter: 台湾|TW|Tw|Taiwan|新北|彰化|CHT|HINET
 - name: JP
   type: url-test
@@ -15775,7 +15369,8 @@ proxy-groups:
   - 09-1034-US
   - 09-1035-US
   - 09-1040-US
-  - 09-1046-US
+  - 09-1043-US
+  - 09-1044-US
   - 09-1055-US
   - 09-1057-US
   - 09-1059-US
@@ -15809,7 +15404,6 @@ proxy-groups:
   - 09-1284-US
   - 09-1474-US
   - 09-1498-US
-  - 23-1557-US
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: Claude
   type: url-test

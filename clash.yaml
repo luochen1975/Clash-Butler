@@ -588,6 +588,32 @@ proxies:
     headers:
       Host: zoomgov.vipren.biz.id
     path: /193.123.81.105=443
+- name: 05-0043-RELAY
+  network: ws
+  port: 443
+  server: blog.ruangguru.com.servpn.my.id
+  servername: blog.ruangguru.com.servpn.my.id
+  tls: true
+  type: vless
+  udp: true
+  uuid: 496e91a6-c90c-483d-adb1-133d04d8e725
+  ws-opts:
+    headers:
+      Host: blog.ruangguru.com.servpn.my.id
+    path: /sg1/?--VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY--
+- name: 05-0044-RELAY
+  network: ws
+  port: 443
+  server: app-stg.gopay.co.id.servpn.my.id
+  servername: app-stg.gopay.co.id.servpn.my.id
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3d7dd548-5456-4f28-8019-393fbfab3312
+  ws-opts:
+    headers:
+      Host: app-stg.gopay.co.id.servpn.my.id
+    path: /sg3/?--VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY--
 - name: 05-0045-RELAY
   network: ws
   port: 443
@@ -2778,6 +2804,8 @@ proxy-groups:
   - 05-0040-RELAY
   - 05-0041-RELAY
   - 05-0042-RELAY
+  - 05-0043-RELAY
+  - 05-0044-RELAY
   - 05-0045-RELAY
   - 05-0047-RELAY
   - 05-0048-RELAY
@@ -3005,6 +3033,8 @@ proxy-groups:
   - 05-0040-RELAY
   - 05-0041-RELAY
   - 05-0042-RELAY
+  - 05-0043-RELAY
+  - 05-0044-RELAY
   - 05-0045-RELAY
   - 05-0047-RELAY
   - 05-0048-RELAY

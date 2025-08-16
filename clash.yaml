@@ -3385,6 +3385,12 @@ proxies:
   server: 192.71.249.78
   type: ss
 - cipher: chacha20-ietf-poly1305
+  name: 09-0462-NL
+  password: VpKABcOpNNA0l5G2AVOmw8
+  port: 62685
+  server: 213.109.147.242
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: 09-0463-LT
   password: QCXDxuDlTTMD7jtgHUjIoj
   port: 8080
@@ -3514,22 +3520,10 @@ proxies:
   server: 154.90.62.168
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 09-0481-RU
-  password: f8f7aCzcPKbsF8p3
-  port: 990
-  server: 185.126.239.250
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 09-0482-AR
   password: f8f7aCzcPKbsF8p3
   port: 990
   server: 38.54.45.129
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0483-LT
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 45.87.175.22
   type: ss
 - cipher: aes-256-cfb
   name: 09-0484-LV
@@ -3537,23 +3531,11 @@ proxies:
   port: 989
   server: 89.46.238.35
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0485-LT
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 45.87.175.65
-  type: ss
 - cipher: aes-256-cfb
   name: 09-0486-KR
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 154.90.63.177
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0487-FR
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 45.158.171.66
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 09-0488-NL
@@ -3572,12 +3554,6 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 38.54.57.90
-  type: ss
-- cipher: aes-256-gcm
-  name: 09-0491-AE
-  password: 58092131-aeda-43f9-9f68-4140fcee9e90
-  port: 443
-  server: 45.134.13.46
   type: ss
 - name: 09-0492-DE
   password: 2ee85121-31de-4581-a492-eb00f606e392
@@ -5345,19 +5321,6 @@ proxies:
     headers:
       Host: yg.bantony199.top
     path: /Telegram🇨🇳
-- name: 09-0705-RELAY
-  network: ws
-  port: 443
-  server: 104.18.27.36
-  servername: 007.xingfu.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: d88937d0-ce43-4bf8-9df6-d632810ba9ff
-  ws-opts:
-    headers:
-      Host: 007.xingfu.qzz.io
-    path: /
 - name: 09-0706-US
   network: ws
   port: 8880
@@ -13068,6 +13031,7 @@ proxy-groups:
   - 09-0459-PR
   - 09-0460-ES
   - 09-0461-BE
+  - 09-0462-NL
   - 09-0463-LT
   - 09-0464-IN
   - 09-0465-PL
@@ -13086,17 +13050,12 @@ proxy-groups:
   - 09-0478-LT
   - 09-0479-MK
   - 09-0480-KR
-  - 09-0481-RU
   - 09-0482-AR
-  - 09-0483-LT
   - 09-0484-LV
-  - 09-0485-LT
   - 09-0486-KR
-  - 09-0487-FR
   - 09-0488-NL
   - 09-0489-IS
   - 09-0490-BR
-  - 09-0491-AE
   - 09-0492-DE
   - 09-0494-KZ
   - 09-0495-TR
@@ -13238,7 +13197,6 @@ proxy-groups:
   - 09-0699-RELAY
   - 09-0703-RELAY
   - 09-0704-GB
-  - 09-0705-RELAY
   - 09-0706-US
   - 09-0707-RELAY
   - 09-0708-RELAY
@@ -14167,6 +14125,7 @@ proxy-groups:
   - 09-0459-PR
   - 09-0460-ES
   - 09-0461-BE
+  - 09-0462-NL
   - 09-0463-LT
   - 09-0464-IN
   - 09-0465-PL
@@ -14185,17 +14144,12 @@ proxy-groups:
   - 09-0478-LT
   - 09-0479-MK
   - 09-0480-KR
-  - 09-0481-RU
   - 09-0482-AR
-  - 09-0483-LT
   - 09-0484-LV
-  - 09-0485-LT
   - 09-0486-KR
-  - 09-0487-FR
   - 09-0488-NL
   - 09-0489-IS
   - 09-0490-BR
-  - 09-0491-AE
   - 09-0492-DE
   - 09-0494-KZ
   - 09-0495-TR
@@ -14337,7 +14291,6 @@ proxy-groups:
   - 09-0699-RELAY
   - 09-0703-RELAY
   - 09-0704-GB
-  - 09-0705-RELAY
   - 09-0706-US
   - 09-0707-RELAY
   - 09-0708-RELAY

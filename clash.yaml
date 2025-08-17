@@ -4026,6 +4026,19 @@ proxies:
   uuid: b4bce500-11fe-4f8f-a344-01ac247af9bd
   ws-opts:
     path: /
+- alterId: 0
+  cipher: auto
+  name: 09-0363-US
+  network: ws
+  port: 20086
+  server: 82.29.132.9
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b2c61f53-a359-429c-900e-255f02def6be
+  ws-opts:
+    path: /
 - cipher: aes-128-cfb
   name: 09-0364-NL
   password: shadowsocks
@@ -4338,12 +4351,6 @@ proxies:
   port: 8080
   server: 45.158.171.110
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0416-DE
-  password: 9RviNa4tscjcmCB408vLSg
-  port: 44354
-  server: 46.101.245.131
-  type: ss
 - cipher: aes-256-cfb
   name: 09-0417-SK
   password: f8f7aCzcPKbsF8p3
@@ -4435,18 +4442,6 @@ proxies:
   port: 443
   server: 77.110.110.117
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0431-DE
-  password: a58fa62b4944ddbf
-  port: 57456
-  server: 147.45.178.200
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0432-FR
-  password: a58fa62b4944ddbf
-  port: 57456
-  server: 81.19.137.222
-  type: ss
 - cipher: aes-256-cfb
   name: 09-0433-MD
   password: f8f7aCzcPKbsF8p3
@@ -4526,12 +4521,6 @@ proxies:
   port: 9019
   server: 217.30.10.18
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0448-DE
-  password: 5ZQh4pssSk4aK1JG1XhBRg
-  port: 1080
-  server: 84.200.91.228
-  type: ss
 - alterId: 0
   cipher: auto
   name: 09-0449-DE
@@ -4569,6 +4558,19 @@ proxies:
   port: 31348
   server: 92.38.171.215
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 09-0454-KR
+  network: ws
+  port: 20086
+  server: 183.109.131.75
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b26c4803-0bca-467c-a245-c9a80bdd72ec
+  ws-opts:
+    path: /
 - cipher: aes-256-cfb
   name: 09-0455-VN
   password: f8f7aCzcPKbsF8p3
@@ -4684,6 +4686,12 @@ proxies:
   port: 8080
   server: 103.104.247.49
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0473-RU
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 185.126.239.250
+  type: ss
 - cipher: aes-256-cfb
   name: 09-0474-GR
   password: f8f7aCzcPKbsF8p3
@@ -4732,19 +4740,6 @@ proxies:
   port: 8080
   server: 45.87.175.22
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 09-0483-VN
-  network: ws
-  port: 20086
-  server: 161.248.30.3
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1006a928-2021-4a3b-beb5-d5853c6281c5
-  ws-opts:
-    path: /
 - cipher: aes-256-cfb
   name: 09-0484-LV
   password: f8f7aCzcPKbsF8p3
@@ -4763,18 +4758,6 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   port: 990
   server: 38.54.45.129
-  type: ss
-- cipher: chacha20-ietf
-  name: 09-0487-SG
-  password: asd123456
-  port: 8388
-  server: 103.36.91.23
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0488-BO
-  password: f8f7aCzcPKbsF8p3
-  port: 990
-  server: 185.93.173.218
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 09-0489-ID
@@ -5396,14 +5379,6 @@ proxies:
   protocol: origin
   server: 79.127.233.170
   type: ssr
-- cipher: rc4-md5
-  name: 09-0614-US
-  obfs: plain
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  protocol: origin
-  server: 107.151.182.253
-  type: ssr
 - name: 09-0619-RELAY
   network: ws
   port: 2083
@@ -5439,6 +5414,14 @@ proxies:
   skip-cert-verify: true
   sni: betashop.foz.rf.gd
   type: trojan
+- name: 09-0624-KR
+  network: ws
+  password: Aimer
+  port: 12331
+  server: 121.140.9.141
+  skip-cert-verify: true
+  sni: epgc.aimercc.dpdns.org
+  type: trojan
 - cipher: aes-256-cfb
   name: 09-0625-DE
   password: amazonskr05
@@ -5458,6 +5441,12 @@ proxies:
     headers:
       Host: edgc.esslh.filegear-sg.me
     path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 09-0627-NL
+  password: VpKABcOpNNA0l5G2AVOmw8
+  port: 62685
+  server: 213.109.147.242
+  type: ss
 - name: 09-0631-NL
   network: ws
   port: 2053
@@ -6255,6 +6244,19 @@ proxies:
   network: ws
   port: 8443
   server: 185.225.201.49
+  servername: xz.bgm2024.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      Host: xz.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 09-0703-US
+  network: ws
+  port: 443
+  server: 150.136.87.192
   servername: xz.bgm2024.dpdns.org
   tls: true
   type: vless
@@ -7326,6 +7328,19 @@ proxies:
     headers:
       Host: kjgx.laoyoutiao.link
     path: /Telegram%40WangCai2/?ed=2560
+- name: 09-0788-KR
+  network: ws
+  port: 12331
+  server: 121.140.9.141
+  servername: edgc.aimercc.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edgc.aimercc.dpdns.org
+    path: /?ed=2560
 - name: 09-0789-SE
   network: ws
   port: 443
@@ -8447,19 +8462,6 @@ proxies:
   port: 8313
   server: 18.162.146.85
   type: ss
-- name: 09-0883-HK
-  network: ws
-  port: 6666
-  server: 43.129.205.163
-  servername: edgc.esslh.filegear-sg.me
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edgc.esslh.filegear-sg.me
-    path: /?ed=2560
 - name: 09-0884-RELAY
   network: ws
   port: 8880
@@ -16436,6 +16438,7 @@ proxy-groups:
   - 09-0360-US
   - 09-0361-GB
   - 09-0362-US
+  - 09-0363-US
   - 09-0364-NL
   - 09-0365-LT
   - 09-0366-LT
@@ -16488,7 +16491,6 @@ proxy-groups:
   - 09-0413-SE
   - 09-0414-CZ
   - 09-0415-FR
-  - 09-0416-DE
   - 09-0417-SK
   - 09-0418-CH
   - 09-0419-NL
@@ -16503,8 +16505,6 @@ proxy-groups:
   - 09-0428-JP
   - 09-0429-CA
   - 09-0430-AT
-  - 09-0431-DE
-  - 09-0432-FR
   - 09-0433-MD
   - 09-0434-LT
   - 09-0436-AT
@@ -16517,12 +16517,12 @@ proxy-groups:
   - 09-0445-TR
   - 09-0446-PL
   - 09-0447-PL
-  - 09-0448-DE
   - 09-0449-DE
   - 09-0450-BE
   - 09-0451-FR
   - 09-0452-VN
   - 09-0453-ES
+  - 09-0454-KR
   - 09-0455-VN
   - 09-0456-PY
   - 09-0457-ID
@@ -16541,6 +16541,7 @@ proxy-groups:
   - 09-0470-HK
   - 09-0471-IN
   - 09-0472-NL
+  - 09-0473-RU
   - 09-0474-GR
   - 09-0475-LT
   - 09-0476-NL
@@ -16549,12 +16550,9 @@ proxy-groups:
   - 09-0479-HR
   - 09-0480-FR
   - 09-0481-LT
-  - 09-0483-VN
   - 09-0484-LV
   - 09-0485-DE
   - 09-0486-AR
-  - 09-0487-SG
-  - 09-0488-BO
   - 09-0489-ID
   - 09-0490-GB
   - 09-0491-KR
@@ -16628,13 +16626,14 @@ proxy-groups:
   - 09-0610-RELAY
   - 09-0611-RELAY
   - 09-0613-CA
-  - 09-0614-US
   - 09-0619-RELAY
   - 09-0620-SG
   - 09-0621-SG
   - 09-0623-RELAY
+  - 09-0624-KR
   - 09-0625-DE
   - 09-0626-JP
+  - 09-0627-NL
   - 09-0631-NL
   - 09-0641-US
   - 09-0643-RELAY
@@ -16697,6 +16696,7 @@ proxy-groups:
   - 09-0700-CH
   - 09-0701-TW
   - 09-0702-NL
+  - 09-0703-US
   - 09-0704-NL
   - 09-0705-SG
   - 09-0706-KR
@@ -16780,6 +16780,7 @@ proxy-groups:
   - 09-0785-BG
   - 09-0786-RELAY
   - 09-0787-RELAY
+  - 09-0788-KR
   - 09-0789-SE
   - 09-0790-RELAY
   - 09-0791-SE
@@ -16870,7 +16871,6 @@ proxy-groups:
   - 09-0880-RELAY
   - 09-0881-RELAY
   - 09-0882-HK
-  - 09-0883-HK
   - 09-0884-RELAY
   - 09-0885-RELAY
   - 09-0886-US
@@ -17822,6 +17822,7 @@ proxy-groups:
   - 09-0360-US
   - 09-0361-GB
   - 09-0362-US
+  - 09-0363-US
   - 09-0364-NL
   - 09-0365-LT
   - 09-0366-LT
@@ -17874,7 +17875,6 @@ proxy-groups:
   - 09-0413-SE
   - 09-0414-CZ
   - 09-0415-FR
-  - 09-0416-DE
   - 09-0417-SK
   - 09-0418-CH
   - 09-0419-NL
@@ -17889,8 +17889,6 @@ proxy-groups:
   - 09-0428-JP
   - 09-0429-CA
   - 09-0430-AT
-  - 09-0431-DE
-  - 09-0432-FR
   - 09-0433-MD
   - 09-0434-LT
   - 09-0436-AT
@@ -17903,12 +17901,12 @@ proxy-groups:
   - 09-0445-TR
   - 09-0446-PL
   - 09-0447-PL
-  - 09-0448-DE
   - 09-0449-DE
   - 09-0450-BE
   - 09-0451-FR
   - 09-0452-VN
   - 09-0453-ES
+  - 09-0454-KR
   - 09-0455-VN
   - 09-0456-PY
   - 09-0457-ID
@@ -17927,6 +17925,7 @@ proxy-groups:
   - 09-0470-HK
   - 09-0471-IN
   - 09-0472-NL
+  - 09-0473-RU
   - 09-0474-GR
   - 09-0475-LT
   - 09-0476-NL
@@ -17935,12 +17934,9 @@ proxy-groups:
   - 09-0479-HR
   - 09-0480-FR
   - 09-0481-LT
-  - 09-0483-VN
   - 09-0484-LV
   - 09-0485-DE
   - 09-0486-AR
-  - 09-0487-SG
-  - 09-0488-BO
   - 09-0489-ID
   - 09-0490-GB
   - 09-0491-KR
@@ -18014,13 +18010,14 @@ proxy-groups:
   - 09-0610-RELAY
   - 09-0611-RELAY
   - 09-0613-CA
-  - 09-0614-US
   - 09-0619-RELAY
   - 09-0620-SG
   - 09-0621-SG
   - 09-0623-RELAY
+  - 09-0624-KR
   - 09-0625-DE
   - 09-0626-JP
+  - 09-0627-NL
   - 09-0631-NL
   - 09-0641-US
   - 09-0643-RELAY
@@ -18083,6 +18080,7 @@ proxy-groups:
   - 09-0700-CH
   - 09-0701-TW
   - 09-0702-NL
+  - 09-0703-US
   - 09-0704-NL
   - 09-0705-SG
   - 09-0706-KR
@@ -18166,6 +18164,7 @@ proxy-groups:
   - 09-0785-BG
   - 09-0786-RELAY
   - 09-0787-RELAY
+  - 09-0788-KR
   - 09-0789-SE
   - 09-0790-RELAY
   - 09-0791-SE
@@ -18256,7 +18255,6 @@ proxy-groups:
   - 09-0880-RELAY
   - 09-0881-RELAY
   - 09-0882-HK
-  - 09-0883-HK
   - 09-0884-RELAY
   - 09-0885-RELAY
   - 09-0886-US
@@ -18869,7 +18867,6 @@ proxy-groups:
   - 09-0878-HK
   - 09-0879-HK
   - 09-0882-HK
-  - 09-0883-HK
   filter: (?i)港|HK|HongKong|hong kong
 - name: TW
   type: url-test
@@ -18915,7 +18912,6 @@ proxy-groups:
   tolerance: 50
   proxies:
   - 05-0001-SG
-  - 09-0487-SG
   - 09-0620-SG
   - 09-0621-SG
   - 09-0649-SG
@@ -18980,6 +18976,7 @@ proxy-groups:
   - 09-0359-US
   - 09-0360-US
   - 09-0362-US
+  - 09-0363-US
   - 09-0390-US
   - 09-0397-US
   - 09-0402-US
@@ -18997,7 +18994,6 @@ proxy-groups:
   - 09-0531-US
   - 09-0532-US
   - 09-0537-US
-  - 09-0614-US
   - 09-0641-US
   - 09-0644-US
   - 09-0646-US
@@ -19013,6 +19009,7 @@ proxy-groups:
   - 09-0687-US
   - 09-0689-US
   - 09-0692-US
+  - 09-0703-US
   - 09-0726-US
   - 09-0733-US
   - 09-0781-US

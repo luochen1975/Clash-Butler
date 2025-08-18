@@ -161,13 +161,6 @@ proxies:
     headers:
       Host: yd.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3
-- name: 05-0012-HK
-  password: NjEkAYYNqFKUbrksyW1COBtdpU
-  port: 2428
-  server: 47.239.220.214
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
 - name: 05-0013-RELAY
   network: ws
   port: 80
@@ -337,6 +330,19 @@ proxies:
     headers:
       Host: cf.d3z.net
     path: /Telegram🇨🇳
+- name: 05-0028-RELAY
+  network: ws
+  port: 443
+  server: blog.ruangguru.com.servpn.my.id
+  servername: blog.ruangguru.com.servpn.my.id
+  tls: true
+  type: vless
+  udp: true
+  uuid: 65a32d27-7a02-45a8-b90a-29f6bebc87ae
+  ws-opts:
+    headers:
+      Host: blog.ruangguru.com.servpn.my.id
+    path: /sg3/?--VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY--
 - name: 05-0029-RELAY
   network: ws
   port: 8880
@@ -584,19 +590,6 @@ proxies:
   uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
   ws-opts:
     path: /
-- alterId: 0
-  cipher: auto
-  name: 05-0049-RELAY
-  network: ws
-  port: 443
-  server: u1.huvicloud.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 04ddf6fd-2d5c-46ae-aa6c-6983a8c73725
-  ws-opts:
-    path: /04ddf6fd-2d5c-46ae-aa6c-6983a8c73725
 proxy-groups:
 - name: PROXY
   type: select
@@ -620,7 +613,6 @@ proxy-groups:
   - 05-0005-RELAY
   - 05-0006-RELAY
   - 05-0008-RELAY
-  - 05-0012-HK
   - 05-0013-RELAY
   - 05-0014-RELAY
   - 05-0016-RELAY
@@ -634,6 +626,7 @@ proxy-groups:
   - 05-0025-RELAY
   - 05-0026-RELAY
   - 05-0027-RELAY
+  - 05-0028-RELAY
   - 05-0029-RELAY
   - 05-0030-RELAY
   - 05-0031-RELAY
@@ -653,7 +646,6 @@ proxy-groups:
   - 05-0045-RELAY
   - 05-0046-RELAY
   - 05-0047-RELAY
-  - 05-0049-RELAY
 - name: Best
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -682,7 +674,6 @@ proxy-groups:
   - 05-0005-RELAY
   - 05-0006-RELAY
   - 05-0008-RELAY
-  - 05-0012-HK
   - 05-0013-RELAY
   - 05-0014-RELAY
   - 05-0016-RELAY
@@ -696,6 +687,7 @@ proxy-groups:
   - 05-0025-RELAY
   - 05-0026-RELAY
   - 05-0027-RELAY
+  - 05-0028-RELAY
   - 05-0029-RELAY
   - 05-0030-RELAY
   - 05-0031-RELAY
@@ -715,7 +707,6 @@ proxy-groups:
   - 05-0045-RELAY
   - 05-0046-RELAY
   - 05-0047-RELAY
-  - 05-0049-RELAY
 - name: HK
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -725,7 +716,7 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
-  - 05-0012-HK
+  - DIRECT
   filter: (?i)港|HK|HongKong|hong kong
 - name: TW
   type: url-test

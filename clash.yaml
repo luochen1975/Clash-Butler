@@ -72,13 +72,421 @@ dns:
 proxies:
 - name: 05-0000-RELAY
   network: ws
+  port: 443
+  server: 104.18.26.90
+  servername: maxnetvip-clgervip146.maxnetcloudservice.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c997eaff-4bab-4fff-92e5-8e14dc248dc4
+  ws-opts:
+    headers:
+      Host: maxnetvip-clgervip146.maxnetcloudservice.com
+    path: /linkws
+- name: 05-0002-US
+  network: ws
+  port: 443
+  server: 63.141.128.3
+  servername: bx1.bgm2024.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      Host: bx1.bgm2024.dpdns.org
+    path: /
+- name: 05-0003-RELAY
+  network: ws
+  port: 443
+  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
+  servername: bx1.bgm2024.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      Host: bx1.bgm2024.dpdns.org
+    path: /
+- name: 05-0007-SG
+  password: RzQrEkAmnGs86IhmSVUk9Q5cn9M
+  port: 30308
+  server: 47.236.104.81
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+- name: 05-0008-RELAY
+  network: ws
+  port: 80
+  server: 104.18.26.90
+  servername: blaze-can-118.blazecanada.site
+  tls: false
+  type: vless
+  udp: true
+  uuid: 3ac2de34-47c5-4dd5-afc0-8fb4b05d4077
+  ws-opts:
+    headers:
+      Host: blaze-can-118.blazecanada.site
+    path: /
+- name: 05-0010-RELAY
+  network: ws
+  port: 8880
+  server: 45.85.119.213
+  servername: 45.85.119.213
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+    path: /
+- name: 05-0011-RELAY
+  network: ws
+  port: 8880
+  server: 92.60.74.186
+  servername: Telegram-channel-WangCai2
+  tls: false
+  type: vless
+  udp: true
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /Telegram %40WangCai2
+- name: 05-0012-RELAY
+  network: ws
+  port: 8880
+  server: 92.53.189.87
+  servername: Telegram-channel-WangCai2
+  tls: false
+  type: vless
+  udp: true
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /Telegram🇨🇳 %40WangCai2
+- name: 05-0013-RELAY
+  network: ws
+  port: 8880
+  server: 91.193.58.73
+  servername: Telegram-channel-WangCai2
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+    path: /Telegram🇨🇳 %40WangCai2 /?ed=2560fp=chrome
+- name: 05-0014-RELAY
+  network: ws
+  port: 8880
+  server: 156.238.18.165
+  servername: kjgx.laoyoutiao.link
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+    path: /freecodes蘇小檸|華東電訊|解鎖Netflix
+- name: 05-0015-RELAY
+  network: ws
+  port: 8880
+  server: 5.10.245.251
+  servername: 5.10.245.251
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳
+- name: 05-0016-RELAY
+  network: ws
+  port: 8880
+  server: 185.238.228.156
+  servername: Telegram-channel-WangCai2
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+    path: /Telegram🇨🇳 %40WangCai2
+- name: 05-0017-RELAY
+  network: ws
+  port: 8880
+  server: 89.116.250.3
+  servername: Telegram-channel-WangCai2
+  tls: false
+  type: vless
+  udp: true
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+  ws-opts:
+    headers:
+      Host: bitget1.asdasd.click
+    path: /Telegram🇨🇳
+- name: 05-0018-RELAY
+  network: ws
+  port: 8880
+  server: 141.11.202.87
+  servername: Telegram-channel-WangCai2
+  tls: false
+  type: vless
+  udp: true
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /Telegram🇨🇳 %40WangCai2
+- name: 05-0019-RELAY
+  network: ws
+  port: 80
+  server: 141.193.213.147
+  servername: cs.laoyoutiao.link
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: cs.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3
+- name: 05-0020-GB
+  network: ws
+  port: 8880
+  server: 109.176.239.143
+  servername: 109.176.239.143
+  tls: false
+  type: vless
+  udp: true
+  uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
+  ws-opts:
+    headers:
+      Host: yg.bantony199.top
+    path: /Telegram🇨🇳 %40WangCai2
+- name: 05-0021-RELAY
+  network: ws
+  port: 8880
+  server: 159.242.242.251
+  servername: Telegram-channel-WangCai2
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳
+- name: 05-0023-RELAY
+  network: ws
+  port: 443
+  server: freexxx.ndeso.web.id
+  servername: freexxx.ndeso.web.id
+  tls: true
+  type: vless
+  udp: true
+  uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+  ws-opts:
+    headers:
+      Host: freexxx.ndeso.web.id
+    path: /Free-CF-Proxy-AT4?Join---i10VPN---Join---i10VPN---Join---i10VPN---Join---i10VPN
+- name: 05-0024-RELAY
+  network: ws
+  port: 443
+  server: 172.67.157.220
+  servername: XXCsDERT6.777159.XyZ
+  tls: true
+  type: vless
+  udp: true
+  uuid: ffcf7ec1-3e09-4821-b3d9-b426a107b73b
+  ws-opts:
+    headers:
+      Host: xxcsdert6.777159.xyz
+    path: /O9jlBCbIm3xr1D40NK
+- name: 05-0025-RELAY
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.80.108.216
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+- name: 05-0026-RELAY
+  network: ws
+  port: 443
+  server: www.meter.net
+  servername: mAXNetvIpAp-cLOuD76.netKh3.siTe
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b368bf6-5aac-413c-a77c-229fb984d5ae
+  ws-opts:
+    headers:
+      Host: mAXNetvIpAp-cLOuD76.netKh3.siTe
+    path: /linkws
+- name: 05-0027-RELAY
+  network: ws
   password: slch2024
   port: 8443
-  server: 104.18.3.108
+  server: 104.18.2.108
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
-- name: 05-0001-RELAY
+- name: 05-0029-RELAY
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 14.102.229.216
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+- name: 05-0031-RELAY
+  network: ws
+  port: 443
+  server: 104.26.7.214
+  servername: rayan-fg-5.medicalhistory.filegear-sg.me
+  tls: true
+  type: vless
+  udp: true
+  uuid: 56497add-68ca-4500-b8e2-9f7003382bbe
+  ws-opts:
+    headers:
+      Host: rayan-fg-5.medicalhistory.filegear-sg.me
+    path: /
+- name: 05-0032-RELAY
+  network: ws
+  port: 443
+  server: 104.17.4.197
+  servername: F1.paRsa.fiLegEar-Sg.Me
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8df60790-c903-4661-b85d-64c0009378e5
+  ws-opts:
+    headers:
+      Host: f1.parsa.filegear-sg.me
+    path: /
+- name: 05-0034-RELAY
+  network: ws
+  port: 8880
+  server: 190.93.246.63
+  servername: jp.laoyoutiao.link
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+    path: /Telegram🇨🇳 %40WangCai2
+- name: 05-0035-RELAY
+  network: ws
+  password: slch2024
+  port: 2096
+  server: www.visasoutheasteurope.com
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+- name: 05-0036-RELAY
+  network: ws
+  port: 443
+  server: 172.67.187.28
+  servername: uuuuUuUuUUgGghHjU.iRAn2035.dpdNS.ORG
+  tls: true
+  type: vless
+  udp: true
+  uuid: a94fafdb-10d6-46c2-be8a-5c2e8358fbb0
+  ws-opts:
+    headers:
+      Host: uuuuuuuuuuggghhju.iran2035.dpdns.org
+    path: /xeg9Fvgzc4aVkracmjyiKVby2Lp
+- name: 05-0037-RELAY
+  network: ws
+  port: 8880
+  server: 156.238.18.37
+  servername: kjgx.laoyoutiao.link
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+    path: /Telegram🇨🇳%40WangCai2
+- name: 06-0038-RELAY
+  network: ws
+  port: 8880
+  server: 94.140.0.156
+  servername: Telegram-channel-WangCai2
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 %40WangCai2 /?ed=2560
+- name: 06-0039-RELAY
+  network: ws
+  port: 8880
+  server: 103.245.229.63
+  servername: jp.laoyoutiao.link
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 %40WangCai2 /?ed=2560
+- name: 06-0040-RELAY
+  network: ws
+  port: 8880
+  server: 103.245.228.188
+  servername: Telegram-channel-WangCai2
+  tls: false
+  type: vless
+  udp: true
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /TelegramU0001F1E8U0001F1F3 %40WangCai2 /?ed=2560
+- name: 06-0041-RELAY
+  network: ws
+  port: 8880
+  server: 94.140.0.186
+  servername: Telegram-channel-WangCai2
+  tls: false
+  type: vless
+  udp: true
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /TelegramU0001F1E8U0001F1F3 %40WangCai2 /?ed=2560
+- name: 06-0042-RELAY
+  network: ws
+  port: 8880
+  server: 103.245.229.186
+  servername: Telegram-channel-WangCai2
+  tls: false
+  type: vless
+  udp: true
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /TelegramU0001F1E8U0001F1F3 %40WangCai2 /?ed=2560
+- name: 06-0043-RELAY
   network: ws
   port: 8880
   server: 103.245.228.156
@@ -91,7 +499,72 @@ proxies:
     headers:
       Host: kjgx.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 %40WangCai2
-- name: 05-0002-RELAY
+- name: 06-0044-RELAY
+  network: ws
+  port: 8880
+  server: 103.245.228.63
+  servername: jp.laoyoutiao.link
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3
+- name: 06-0045-RELAY
+  network: ws
+  port: 8880
+  server: 185.162.230.177
+  servername: Telegram-channel-WangCai2
+  tls: false
+  type: vless
+  udp: true
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /TelegramU0001F1E8U0001F1F3 %40WangCai2 /?ed=2560
+- name: 06-0046-RELAY
+  network: ws
+  port: 8880
+  server: 185.162.231.177
+  servername: Telegram-channel-WangCai2
+  tls: false
+  type: vless
+  udp: true
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /TelegramU0001F1E8U0001F1F3 %40WangCai2 /?ed=2560
+- name: 06-0047-AT
+  network: ws
+  port: 8880
+  server: 212.183.88.188
+  servername: Telegram-channel-WangCai2
+  tls: false
+  type: vless
+  udp: true
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /TelegramU0001F1E8U0001F1F3 %40WangCai2 /?ed=2560
+- name: 06-0048-AT
+  network: ws
+  port: 8880
+  server: 212.183.88.254
+  servername: yg.bantony199.top
+  tls: false
+  type: vless
+  udp: true
+  uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
+  ws-opts:
+    headers:
+      Host: yg.bantony199.top
+    path: /
+- name: 06-0049-RELAY
   network: ws
   port: 8880
   server: 103.169.142.186
@@ -103,559 +576,7 @@ proxies:
   ws-opts:
     headers:
       Host: ip.langmanshanxi.top
-    path: /TelegramU0001F1E8U0001F1F3 %40WangCai2
-- name: 05-0003-US
-  network: ws
-  password: tg-fq521free
-  port: 443
-  server: 198.62.62.67
-  skip-cert-verify: true
-  sni: torjan.xn--xhq44j.eu.org
-  type: trojan
-- name: 05-0004-RELAY
-  network: ws
-  port: 8880
-  server: 94.140.0.186
-  servername: Telegram-channel-WangCai2
-  tls: false
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /TelegramU0001F1E8U0001F1F3 %40WangCai2
-- name: 05-0005-RELAY
-  network: ws
-  port: 8880
-  server: 86.38.214.177
-  servername: Telegram-channel-WangCai2
-  tls: false
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /TelegramU0001F1E8U0001F1F3 %40WangCai2 /?ed=2560fp=chrome
-- name: 05-0006-RELAY
-  network: ws
-  port: 8880
-  server: 194.36.55.213
-  servername: jp.laoyoutiao.link
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: jp.laoyoutiao.link
-    path: /
-- name: 05-0007-RELAY
-  network: ws
-  port: 8880
-  server: 88.216.69.63
-  servername: jp.laoyoutiao.link
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: jp.laoyoutiao.link
-    path: /Telegram
-- name: 05-0009-RELAY
-  network: ws
-  port: 8880
-  server: 88.216.69.251
-  servername: cf.d3z.net
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-  ws-opts:
-    headers:
-      Host: cf.d3z.net
-    path: /TelegramU0001F1E8U0001F1F3 %40WangCai2
-- name: 05-0010-RELAY
-  network: ws
-  port: 8880
-  server: 74.49.214.186
-  servername: Telegram-channel-WangCai2
-  tls: false
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /TelegramU0001F1E8U0001F1F3 %40WangCai2
-- name: 05-0011-RELAY
-  network: ws
-  port: 8880
-  server: 45.8.211.63
-  servername: jp.laoyoutiao.link
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: jp.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 %40WangCai2 /?ed=2560fp=chrome
-- name: 05-0012-RELAY
-  network: ws
-  port: 8880
-  server: 193.9.49.188
-  servername: Telegram-channel-WangCai2
-  tls: false
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /TelegramU0001F1E8U0001F1F3 %40WangCai2
-- name: 05-0013-RELAY
-  network: ws
-  port: 8880
-  server: 92.53.188.168
-  servername: kjgx.laoyoutiao.link
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: kjgx.laoyoutiao.link
-    path: /Telegram%40freecodes
-- name: 05-0014-RELAY
-  network: ws
-  port: 8880
-  server: 62.72.166.251
-  servername: cf.d3z.net
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-  ws-opts:
-    headers:
-      Host: cf.d3z.net
-    path: /Telegram%40WangCai2
-- name: 05-0015-RELAY
-  network: ws
-  port: 8880
-  server: 140.99.233.186
-  servername: Telegram-channel-WangCai2
-  tls: false
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /TelegramU0001F1E8U0001F1F3 %40WangCai2
-- name: 05-0016-RELAY
-  network: ws
-  port: 8880
-  server: 108.165.216.63
-  servername: jp.laoyoutiao.link
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: jp.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 %40WangCai2 /?ed=2560fp=chrome
-- name: 05-0017-RELAY
-  network: ws
-  port: 8880
-  server: 92.53.191.177
-  servername: Telegram-channel-WangCai2
-  tls: false
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /TelegramU0001F1E8U0001F1F3 %40WangCai2 /?ed=2560fp=chrome
-- name: 05-0018-RELAY
-  network: ws
-  port: 8880
-  server: 31.43.179.251
-  servername: cf.d3z.net
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-  ws-opts:
-    headers:
-      Host: cf.d3z.net
-    path: /Telegram
-- name: 05-0019-RELAY
-  network: ws
-  port: 8880
-  server: 188.42.88.3
-  servername: Telegram-channel-WangCai2
-  tls: false
-  type: vless
-  udp: true
-  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
-  ws-opts:
-    headers:
-      Host: bitget1.asdasd.click
-    path: /TelegramU0001F1E8U0001F1F3
-- name: 05-0020-US
-  network: ws
-  port: 8880
-  server: 192.0.54.213
-  servername: jp.laoyoutiao.link
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: jp.laoyoutiao.link
-    path: /
-- name: 05-0021-RELAY
-  network: ws
-  port: 8880
-  server: 162.120.94.63
-  servername: jp.laoyoutiao.link
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: jp.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 %40WangCai2fp=chromefp=chromefp=chromefp=chrome
-- name: 05-0022-RELAY
-  network: ws
-  port: 8880
-  server: 185.148.106.251
-  servername: cf.d3z.net
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-  ws-opts:
-    headers:
-      Host: cf.d3z.net
-    path: /Telegram %40WangCai2
-- name: 05-0023-RELAY
-  network: ws
-  port: 8880
-  server: 66.81.247.213
-  servername: jp.laoyoutiao.link
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: jp.laoyoutiao.link
-    path: /
-- name: 05-0024-RELAY
-  network: ws
-  port: 8880
-  server: 62.72.166.177
-  servername: Telegram-channel-WangCai2
-  tls: false
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /TelegramU0001F1E8U0001F1F3 %40WangCai2 /?ed=2560fp=chrome
-- name: 05-0025-RELAY
-  network: ws
-  port: 8880
-  server: 45.159.219.177
-  servername: Telegram-channel-WangCai2
-  tls: false
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /TelegramU0001F1E8U0001F1F3 %40WangCai2 /?ed=2560fp=chrome
-- name: 05-0026-RELAY
-  network: ws
-  port: 8880
-  server: 156.238.18.143
-  servername: yd.laoyoutiao.link
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: yd.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3
-- name: 05-0027-RELAY
-  network: ws
-  port: 8880
-  server: 45.159.219.186
-  servername: Telegram-channel-WangCai2
-  tls: false
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /TelegramU0001F1E8U0001F1F3 %40WangCai2
-- name: 05-0028-RELAY
-  network: ws
-  port: 443
-  server: sourceforge.net
-  servername: rAyAn-cOnFiG-TeLeGrAm-a03.rAyAn.dPdNs.oRg
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1688039e-a45f-499e-b9f4-c098c87d3b32
-  ws-opts:
-    headers:
-      Host: rayan-config-telegram-a03.rayan.dpdns.org
-    path: /Rayan_Config
-- name: 05-0029-RELAY
-  network: ws
-  port: 8880
-  server: 91.209.253.168
-  servername: kjgx.laoyoutiao.link
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: kjgx.laoyoutiao.link
-    path: /Telegram%40WangCai2
-- name: 05-0030-KZ
-  network: ws
-  port: 8880
-  server: 194.76.18.213
-  servername: jp.laoyoutiao.link
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: jp.laoyoutiao.link
-    path: /
-- name: 05-0031-US
-  network: ws
-  port: 8880
-  server: 209.94.90.63
-  servername: jp.laoyoutiao.link
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: jp.laoyoutiao.link
-    path: /Telegram🇨🇳
-- name: 05-0032-RELAY
-  network: ws
-  port: 8880
-  server: 77.37.33.186
-  servername: Telegram-channel-WangCai2
-  tls: false
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /TelegramU0001F1E8U0001F1F3 %40WangCai2
-- name: 05-0033-RELAY
-  network: ws
-  port: 8880
-  server: 141.193.213.177
-  servername: Telegram-channel-WangCai2
-  tls: false
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /TelegramU0001F1E8U0001F1F3 %40WangCai2 /?ed=2560fp=chrome
-- name: 05-0034-RELAY
-  network: ws
-  port: 8880
-  server: 89.116.180.63
-  servername: jp.laoyoutiao.link
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: jp.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 %40WangCai2 /?ed=2560fp=chrome
-- name: 05-0036-RELAY
-  network: ws
-  port: 8880
-  server: 45.159.217.186
-  servername: Telegram-channel-WangCai2
-  tls: false
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /TelegramU0001F1E8U0001F1F3 %40WangCai2
-- name: 05-0037-RELAY
-  network: ws
-  password: ttfang
-  port: 2096
-  server: 45.131.5.216
-  skip-cert-verify: true
-  sni: ttfang.fange.me
-  type: trojan
-- name: 05-0038-RELAY
-  network: ws
-  password: ttfang
-  port: 2096
-  server: 45.80.111.216
-  skip-cert-verify: true
-  sni: ttfang.fange.me
-  type: trojan
-- name: 05-0039-RELAY
-  network: ws
-  password: ttfang
-  port: 2096
-  server: 45.159.216.216
-  skip-cert-verify: true
-  sni: ttfang.fange.me
-  type: trojan
-- name: 05-0040-RELAY
-  network: ws
-  port: 443
-  server: 104.19.152.246
-  servername: F1.paRsa.fiLegEar-Sg.Me
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8df60790-c903-4661-b85d-64c0009378e5
-  ws-opts:
-    headers:
-      Host: f1.parsa.filegear-sg.me
-    path: /
-- name: 05-0042-RELAY
-  network: ws
-  port: 443
-  server: 104.18.155.119
-  servername: rayan-karma.parvaneh.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 60882caa-4e74-42a2-be70-220755fc1551
-  ws-opts:
-    headers:
-      Host: rayan-karma.parvaneh.dpdns.org
-    path: /
-- name: 05-0044-US
-  network: ws
-  port: 443
-  server: 63.141.128.88
-  servername: bz.bgm2024.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      Host: bz.bgm2024.dpdns.org
-    path: /
-- name: 05-0045-US
-  network: ws
-  port: 443
-  server: 63.141.128.140
-  servername: bx1.bgm2024.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      Host: bx1.bgm2024.dpdns.org
-    path: /
-- name: 05-0046-US
-  network: ws
-  port: 443
-  server: 63.141.128.102
-  servername: bx1.bgm2024.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      Host: bx1.bgm2024.dpdns.org
-    path: /
-- name: 05-0047-RELAY
-  network: ws
-  port: 443
-  server: visa.com
-  servername: vle.amclubssss.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: d6b8011a-c725-435a-9fec-bf6d3530392c
-  ws-opts:
-    headers:
-      Host: vle.amclubssss.dpdns.org
-    path: /?ed=2560
-- name: 05-0048-RELAY
-  network: ws
-  port: 8880
-  server: 156.238.18.20
-  servername: sg.laoyoutiao.link
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: sg.laoyoutiao.link
-    path: /Telegram🇨🇳%40WangCai2/?ed
-- name: 05-0049-RELAY
-  network: ws
-  port: 443
-  server: 162.159.137.204
-  servername: 007.xingfu.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: d88937d0-ce43-4bf8-9df6-d632810ba9ff
-  ws-opts:
-    headers:
-      Host: 007.xingfu.qzz.io
-    path: /
-- name: 05-0050-RELAY
-  network: ws
-  port: 8880
-  server: 5.182.85.63
-  servername: sg.laoyoutiao.link
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: sg.laoyoutiao.link
-    path: /Telegram
+    path: /TelegramU0001F1E8U0001F1F3 %40WangCai2 /?ed=2560
 proxy-groups:
 - name: PROXY
   type: select
@@ -673,14 +594,10 @@ proxy-groups:
   filter: .*
   proxies:
   - 05-0000-RELAY
-  - 05-0001-RELAY
-  - 05-0002-RELAY
-  - 05-0003-US
-  - 05-0004-RELAY
-  - 05-0005-RELAY
-  - 05-0006-RELAY
-  - 05-0007-RELAY
-  - 05-0009-RELAY
+  - 05-0002-US
+  - 05-0003-RELAY
+  - 05-0007-SG
+  - 05-0008-RELAY
   - 05-0010-RELAY
   - 05-0011-RELAY
   - 05-0012-RELAY
@@ -691,34 +608,32 @@ proxy-groups:
   - 05-0017-RELAY
   - 05-0018-RELAY
   - 05-0019-RELAY
-  - 05-0020-US
+  - 05-0020-GB
   - 05-0021-RELAY
-  - 05-0022-RELAY
   - 05-0023-RELAY
   - 05-0024-RELAY
   - 05-0025-RELAY
   - 05-0026-RELAY
   - 05-0027-RELAY
-  - 05-0028-RELAY
   - 05-0029-RELAY
-  - 05-0030-KZ
-  - 05-0031-US
+  - 05-0031-RELAY
   - 05-0032-RELAY
-  - 05-0033-RELAY
   - 05-0034-RELAY
+  - 05-0035-RELAY
   - 05-0036-RELAY
   - 05-0037-RELAY
-  - 05-0038-RELAY
-  - 05-0039-RELAY
-  - 05-0040-RELAY
-  - 05-0042-RELAY
-  - 05-0044-US
-  - 05-0045-US
-  - 05-0046-US
-  - 05-0047-RELAY
-  - 05-0048-RELAY
-  - 05-0049-RELAY
-  - 05-0050-RELAY
+  - 06-0038-RELAY
+  - 06-0039-RELAY
+  - 06-0040-RELAY
+  - 06-0041-RELAY
+  - 06-0042-RELAY
+  - 06-0043-RELAY
+  - 06-0044-RELAY
+  - 06-0045-RELAY
+  - 06-0046-RELAY
+  - 06-0047-AT
+  - 06-0048-AT
+  - 06-0049-RELAY
 - name: Best
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -741,14 +656,10 @@ proxy-groups:
   filter: .*
   proxies:
   - 05-0000-RELAY
-  - 05-0001-RELAY
-  - 05-0002-RELAY
-  - 05-0003-US
-  - 05-0004-RELAY
-  - 05-0005-RELAY
-  - 05-0006-RELAY
-  - 05-0007-RELAY
-  - 05-0009-RELAY
+  - 05-0002-US
+  - 05-0003-RELAY
+  - 05-0007-SG
+  - 05-0008-RELAY
   - 05-0010-RELAY
   - 05-0011-RELAY
   - 05-0012-RELAY
@@ -759,34 +670,32 @@ proxy-groups:
   - 05-0017-RELAY
   - 05-0018-RELAY
   - 05-0019-RELAY
-  - 05-0020-US
+  - 05-0020-GB
   - 05-0021-RELAY
-  - 05-0022-RELAY
   - 05-0023-RELAY
   - 05-0024-RELAY
   - 05-0025-RELAY
   - 05-0026-RELAY
   - 05-0027-RELAY
-  - 05-0028-RELAY
   - 05-0029-RELAY
-  - 05-0030-KZ
-  - 05-0031-US
+  - 05-0031-RELAY
   - 05-0032-RELAY
-  - 05-0033-RELAY
   - 05-0034-RELAY
+  - 05-0035-RELAY
   - 05-0036-RELAY
   - 05-0037-RELAY
-  - 05-0038-RELAY
-  - 05-0039-RELAY
-  - 05-0040-RELAY
-  - 05-0042-RELAY
-  - 05-0044-US
-  - 05-0045-US
-  - 05-0046-US
-  - 05-0047-RELAY
-  - 05-0048-RELAY
-  - 05-0049-RELAY
-  - 05-0050-RELAY
+  - 06-0038-RELAY
+  - 06-0039-RELAY
+  - 06-0040-RELAY
+  - 06-0041-RELAY
+  - 06-0042-RELAY
+  - 06-0043-RELAY
+  - 06-0044-RELAY
+  - 06-0045-RELAY
+  - 06-0046-RELAY
+  - 06-0047-AT
+  - 06-0048-AT
+  - 06-0049-RELAY
 - name: HK
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -829,7 +738,7 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
-  - DIRECT
+  - 05-0007-SG
   filter: (?i)新|狮城|SG|Singapore
 - name: US
   type: url-test
@@ -840,12 +749,7 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
-  - 05-0003-US
-  - 05-0020-US
-  - 05-0031-US
-  - 05-0044-US
-  - 05-0045-US
-  - 05-0046-US
+  - 05-0002-US
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: Claude
   type: url-test

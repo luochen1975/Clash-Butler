@@ -286,6 +286,19 @@ proxies:
     headers:
       Host: 0FpNnDhS71.lIrA0xC8.iNfO
     path: /
+- name: 05-0018-RELAY
+  network: ws
+  port: 8443
+  server: www.speedtest.net
+  servername: server13.coin.name.ng
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8e615b78-0905-48bb-ab68-fb0dfdff7688
+  ws-opts:
+    headers:
+      Host: server13.coin.name.ng
+    path: /?---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---
 - name: 05-0019-RELAY
   network: ws
   port: 443
@@ -978,352 +991,15 @@ proxies:
     headers:
       Host: ip.langmanshanxi.top
     path: /TelegramU0001F1E8U0001F1F3 %40WangCai2 /?ed=2560
-- name: 06-0100-RELAY
-  network: ws
-  port: 8880
-  server: 147.185.161.251
-  servername: Telegram-channel-WangCai2
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-  ws-opts:
-    headers:
-      Host: cf.d3z.net
-    path: /TelegramU0001F1E8U0001F1F3 %40WangCai2 /?ed=2560
-- name: 06-0101-US
-  network: ws
-  port: 8880
-  server: 141.193.27.29
-  servername: hk.laoyoutiao.link
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /
-- name: 06-0102-RELAY
-  network: ws
-  port: 8880
-  server: 199.181.197.186
-  servername: Telegram-channel-WangCai2
-  tls: false
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /TelegramU0001F1E8U0001F1F3 %40WangCai2 /?ed=2560
-- name: 06-0103-RELAY
-  network: ws
-  port: 8880
-  server: 156.238.18.139
-  servername: yd.laoyoutiao.link
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: yd.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3
-- cipher: aes-256-gcm
-  name: 06-0104-SC
-  password: 23d03aa704c7
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: cmihk3v1.dsjsapp.com
-    mode: websocket
-    mux: true
-    path: /grqhyifio
-    restls: false
-    skip-cert-verify: true
-    tls: true
-  port: 636
-  server: 156.251.179.181
-  type: ss
-- name: 06-0105-RELAY
-  network: ws
-  port: 8880
-  server: 45.159.217.123
-  servername: sg.laoyoutiao.link
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: sg.laoyoutiao.link
-    path: /Telegram%40freecodes
-- name: 06-0106-RELAY
-  network: ws
-  port: 8880
-  server: 156.238.18.160
-  servername: yd.laoyoutiao.link
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: yd.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3
-- name: 06-0108-RELAY
-  network: ws
-  port: 8880
-  server: 185.148.104.63
-  servername: sg.laoyoutiao.link
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: sg.laoyoutiao.link
-    path: /Telegram🇨🇳
-- name: 06-0109-US
-  network: ws
-  port: 8880
-  server: 216.24.57.20
-  servername: us.laoyoutiao.link
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /Telegram%40WangCai2
-- name: 06-0110-RELAY
-  network: ws
-  port: 8880
-  server: 104.129.164.39
-  servername: ip.langmanshanxi.top
-  tls: false
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /Telegram🇨🇳
-- name: 06-0111-US
-  network: ws
-  port: 8880
-  server: 63.141.128.63
-  servername: jp.laoyoutiao.link
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: jp.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3
-- name: 06-0112-RELAY
-  network: ws
-  port: 8880
-  server: 195.13.55.247
-  servername: ex.sue.x10.mx
-  tls: false
-  type: vless
-  udp: true
-  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
-  ws-opts:
-    headers:
-      Host: ex.sue.x10.mx
-    path: /Telegram🇨🇳
-- name: 06-0113-RELAY
-  network: ws
-  port: 8880
-  server: 170.114.46.251
-  servername: cf.d3z.net
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-  ws-opts:
-    headers:
-      Host: cf.d3z.net
-    path: /Join---i10VPN---Join---i10VPN---Join---i10VPN---Join---i10VPN
-- name: 06-0114-RELAY
-  network: ws
-  port: 8880
-  server: 159.246.55.251
-  servername: cf.d3z.net
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-  ws-opts:
-    headers:
-      Host: cf.d3z.net
-    path: /Telegram
-- name: 06-0115-US
-  network: ws
-  port: 8880
-  server: 199.34.229.177
-  servername: Telegram-channel-WangCai2
-  tls: false
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /Telegram🇨🇳
-- name: 06-0116-US
-  network: ws
-  port: 8880
-  server: 209.94.90.63
-  servername: jp.laoyoutiao.link
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: jp.laoyoutiao.link
-    path: /Telegram🇨🇳
-- name: 06-0117-US
-  network: ws
-  port: 8880
-  server: 192.0.54.213
-  servername: jp.laoyoutiao.link
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: jp.laoyoutiao.link
-    path: /
-- name: 06-0118-RELAY
-  network: ws
-  port: 8880
-  server: 167.68.4.63
-  servername: jp.laoyoutiao.link
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: jp.laoyoutiao.link
-    path: /
-- name: 06-0119-RELAY
-  network: ws
-  port: 8880
-  server: 14.102.229.63
-  servername: jp.laoyoutiao.link
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: jp.laoyoutiao.link
-    path: /Telegram🇨🇳
-- name: 06-0120-US
-  network: ws
-  password: tg-fq521free
-  port: 443
-  server: 198.62.62.67
-  skip-cert-verify: true
-  sni: torjan.xn--xhq44j.eu.org
-  type: trojan
-- name: 06-0121-RELAY
+- name: 08-0150-US
   network: ws
   password: ttfang
   port: 2096
-  server: ttfang.fange.me
+  server: 45.40.152.194
   skip-cert-verify: true
   sni: ttfang.fange.me
   type: trojan
-- name: 06-0122-US
-  network: ws
-  password: tg-fq521free
-  port: 443
-  server: 216.24.57.30
-  skip-cert-verify: true
-  sni: torjan.xn--xhq44j.eu.org
-  type: trojan
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: 50 Mbps
-  name: 08-0132-US
-  port: 37872
-  protocol: udp
-  server: 108.181.24.77
-  skip-cert-verify: true
-  type: hysteria
-  up: 20 Mbps
-- name: 08-0134-US
-  network: ws
-  password: ttfang
-  port: 2096
-  server: 45.40.149.194
-  skip-cert-verify: true
-  sni: ttfang.fange.me
-  type: trojan
-- name: 08-0135-RELAY
-  network: ws
-  password: ttfang
-  port: 2096
-  server: 66.81.247.194
-  skip-cert-verify: true
-  sni: ttfang.fange.me
-  type: trojan
-- name: 08-0136-US
-  network: ws
-  password: ttfang
-  port: 2096
-  server: 45.40.150.194
-  skip-cert-verify: true
-  sni: ttfang.fange.me
-  type: trojan
-- name: 08-0137-US
-  network: ws
-  password: ttfang
-  port: 2096
-  server: 50.62.175.194
-  skip-cert-verify: true
-  sni: ttfang.fange.me
-  type: trojan
-- name: 08-0138-RELAY
-  network: ws
-  port: 2087
-  server: www.visa.com.sg
-  servername: vl.hongkong6.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 90c7ad5e-cd15-4314-b39b-aeabd397d592
-  ws-opts:
-    headers:
-      Host: vl.hongkong6.qzz.io
-    path: /?ed=2560
-- name: 08-0139-US
-  network: ws
-  password: ttfang
-  port: 2096
-  server: 45.40.144.194
-  skip-cert-verify: true
-  sni: ttfang.fange.me
-  type: trojan
-- name: 08-0140-US
-  network: ws
-  password: ttfang
-  port: 2096
-  server: 45.40.146.194
-  skip-cert-verify: true
-  sni: ttfang.fange.me
-  type: trojan
-- name: 08-0141-US
+- name: 08-0151-US
   network: ws
   password: ttfang
   port: 2096
@@ -1331,15 +1007,7 @@ proxies:
   skip-cert-verify: true
   sni: ttfang.fange.me
   type: trojan
-- name: 08-0142-US
-  network: ws
-  password: ttfang
-  port: 2096
-  server: 50.62.172.194
-  skip-cert-verify: true
-  sni: ttfang.fange.me
-  type: trojan
-- name: 08-0143-US
+- name: 08-0152-US
   network: ws
   password: ttfang
   port: 2096
@@ -1347,83 +1015,11 @@ proxies:
   skip-cert-verify: true
   sni: ttfang.fange.me
   type: trojan
-- name: 08-0144-US
+- name: 08-0153-RELAY
   network: ws
   password: ttfang
   port: 2096
-  server: 72.167.25.194
-  skip-cert-verify: true
-  sni: ttfang.fange.me
-  type: trojan
-- name: 08-0145-US
-  network: ws
-  password: ttfang
-  port: 2096
-  server: 45.40.148.194
-  skip-cert-verify: true
-  sni: ttfang.fange.me
-  type: trojan
-- name: 08-0146-US
-  network: ws
-  password: ttfang
-  port: 2096
-  server: 45.40.154.194
-  skip-cert-verify: true
-  sni: ttfang.fange.me
-  type: trojan
-- name: 08-0147-US
-  network: ws
-  password: ttfang
-  port: 2096
-  server: 72.167.242.194
-  skip-cert-verify: true
-  sni: ttfang.fange.me
-  type: trojan
-- name: 08-0148-RELAY
-  network: ws
-  password: ttfang
-  port: 2096
-  server: 5.10.246.194
-  skip-cert-verify: true
-  sni: ttfang.fange.me
-  type: trojan
-- name: 08-0149-US
-  network: ws
-  password: ttfang
-  port: 2096
-  server: 45.40.155.194
-  skip-cert-verify: true
-  sni: ttfang.fange.me
-  type: trojan
-- name: 08-0150-RELAY
-  network: ws
-  password: ttfang
-  port: 2096
-  server: 45.80.110.194
-  skip-cert-verify: true
-  sni: ttfang.fange.me
-  type: trojan
-- name: 08-0151-RELAY
-  network: ws
-  password: ttfang
-  port: 2096
-  server: 74.49.214.194
-  skip-cert-verify: true
-  sni: ttfang.fange.me
-  type: trojan
-- name: 08-0152-US
-  network: ws
-  password: ttfang
-  port: 2096
-  server: 50.62.173.194
-  skip-cert-verify: true
-  sni: ttfang.fange.me
-  type: trojan
-- name: 08-0153-US
-  network: ws
-  password: ttfang
-  port: 2096
-  server: 50.62.198.194
+  server: 25.25.25.194
   skip-cert-verify: true
   sni: ttfang.fange.me
   type: trojan
@@ -1431,7 +1027,7 @@ proxies:
   network: ws
   password: ttfang
   port: 2096
-  server: 50.62.174.194
+  server: 50.62.89.194
   skip-cert-verify: true
   sni: ttfang.fange.me
   type: trojan
@@ -1439,7 +1035,7 @@ proxies:
   network: ws
   password: ttfang
   port: 2096
-  server: 45.146.201.194
+  server: 5.10.246.194
   skip-cert-verify: true
   sni: ttfang.fange.me
   type: trojan
@@ -1447,7 +1043,23 @@ proxies:
   network: ws
   password: ttfang
   port: 2096
-  server: 5.175.141.194
+  server: 45.159.219.194
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+- name: 08-0157-RELAY
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.85.118.194
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+- name: 08-0158-RELAY
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 92.60.74.194
   skip-cert-verify: true
   sni: ttfang.fange.me
   type: trojan
@@ -1484,6 +1096,7 @@ proxy-groups:
   - 05-0015-RELAY
   - 05-0016-RELAY
   - 05-0017-RELAY
+  - 05-0018-RELAY
   - 05-0019-RELAY
   - 05-0020-RELAY
   - 05-0021-RELAY
@@ -1538,52 +1151,15 @@ proxy-groups:
   - 06-0097-RELAY
   - 06-0098-RELAY
   - 06-0099-RELAY
-  - 06-0100-RELAY
-  - 06-0101-US
-  - 06-0102-RELAY
-  - 06-0103-RELAY
-  - 06-0104-SC
-  - 06-0105-RELAY
-  - 06-0106-RELAY
-  - 06-0108-RELAY
-  - 06-0109-US
-  - 06-0110-RELAY
-  - 06-0111-US
-  - 06-0112-RELAY
-  - 06-0113-RELAY
-  - 06-0114-RELAY
-  - 06-0115-US
-  - 06-0116-US
-  - 06-0117-US
-  - 06-0118-RELAY
-  - 06-0119-RELAY
-  - 06-0120-US
-  - 06-0121-RELAY
-  - 06-0122-US
-  - 08-0132-US
-  - 08-0134-US
-  - 08-0135-RELAY
-  - 08-0136-US
-  - 08-0137-US
-  - 08-0138-RELAY
-  - 08-0139-US
-  - 08-0140-US
-  - 08-0141-US
-  - 08-0142-US
-  - 08-0143-US
-  - 08-0144-US
-  - 08-0145-US
-  - 08-0146-US
-  - 08-0147-US
-  - 08-0148-RELAY
-  - 08-0149-US
-  - 08-0150-RELAY
-  - 08-0151-RELAY
+  - 08-0150-US
+  - 08-0151-US
   - 08-0152-US
-  - 08-0153-US
+  - 08-0153-RELAY
   - 08-0154-US
   - 08-0155-RELAY
   - 08-0156-RELAY
+  - 08-0157-RELAY
+  - 08-0158-RELAY
 - name: Best
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -1622,6 +1198,7 @@ proxy-groups:
   - 05-0015-RELAY
   - 05-0016-RELAY
   - 05-0017-RELAY
+  - 05-0018-RELAY
   - 05-0019-RELAY
   - 05-0020-RELAY
   - 05-0021-RELAY
@@ -1676,52 +1253,15 @@ proxy-groups:
   - 06-0097-RELAY
   - 06-0098-RELAY
   - 06-0099-RELAY
-  - 06-0100-RELAY
-  - 06-0101-US
-  - 06-0102-RELAY
-  - 06-0103-RELAY
-  - 06-0104-SC
-  - 06-0105-RELAY
-  - 06-0106-RELAY
-  - 06-0108-RELAY
-  - 06-0109-US
-  - 06-0110-RELAY
-  - 06-0111-US
-  - 06-0112-RELAY
-  - 06-0113-RELAY
-  - 06-0114-RELAY
-  - 06-0115-US
-  - 06-0116-US
-  - 06-0117-US
-  - 06-0118-RELAY
-  - 06-0119-RELAY
-  - 06-0120-US
-  - 06-0121-RELAY
-  - 06-0122-US
-  - 08-0132-US
-  - 08-0134-US
-  - 08-0135-RELAY
-  - 08-0136-US
-  - 08-0137-US
-  - 08-0138-RELAY
-  - 08-0139-US
-  - 08-0140-US
-  - 08-0141-US
-  - 08-0142-US
-  - 08-0143-US
-  - 08-0144-US
-  - 08-0145-US
-  - 08-0146-US
-  - 08-0147-US
-  - 08-0148-RELAY
-  - 08-0149-US
-  - 08-0150-RELAY
-  - 08-0151-RELAY
+  - 08-0150-US
+  - 08-0151-US
   - 08-0152-US
-  - 08-0153-US
+  - 08-0153-RELAY
   - 08-0154-US
   - 08-0155-RELAY
   - 08-0156-RELAY
+  - 08-0157-RELAY
+  - 08-0158-RELAY
 - name: HK
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -1775,30 +1315,9 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
-  - 06-0101-US
-  - 06-0109-US
-  - 06-0111-US
-  - 06-0115-US
-  - 06-0116-US
-  - 06-0117-US
-  - 06-0120-US
-  - 06-0122-US
-  - 08-0132-US
-  - 08-0134-US
-  - 08-0136-US
-  - 08-0137-US
-  - 08-0139-US
-  - 08-0140-US
-  - 08-0141-US
-  - 08-0142-US
-  - 08-0143-US
-  - 08-0144-US
-  - 08-0145-US
-  - 08-0146-US
-  - 08-0147-US
-  - 08-0149-US
+  - 08-0150-US
+  - 08-0151-US
   - 08-0152-US
-  - 08-0153-US
   - 08-0154-US
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: Claude

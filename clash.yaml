@@ -613,12 +613,6 @@ proxies:
     headers:
       Host: sg.laoyoutiao.link
     path: /Telegram🇨🇳
-- cipher: aes-256-cfb
-  name: 06-0063-NL
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.23.63
-  type: ss
 - name: 06-0064-GB
   network: ws
   port: 8880
@@ -1370,17 +1364,18 @@ proxies:
   type: hysteria
   up: 20 Mbps
 - name: 08-0150-US
-  password: de8854c7-fa17-4266-ae18-50a9732a0c4e
-  port: 3001
-  server: us2.1010991.xyz
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 50.62.88.194
   skip-cert-verify: true
-  sni: us2.1010991.xyz
-  type: hysteria2
+  sni: ttfang.fange.me
+  type: trojan
 - name: 08-0151-US
   network: ws
   password: ttfang
   port: 2096
-  server: 50.62.172.194
+  server: 50.62.174.194
   skip-cert-verify: true
   sni: ttfang.fange.me
   type: trojan
@@ -1396,19 +1391,11 @@ proxies:
   network: ws
   password: ttfang
   port: 2096
-  server: 50.62.174.194
+  server: 45.40.146.194
   skip-cert-verify: true
   sni: ttfang.fange.me
   type: trojan
-- name: 08-0154-RELAY
-  network: ws
-  password: ttfang
-  port: 2096
-  server: 66.81.247.194
-  skip-cert-verify: true
-  sni: ttfang.fange.me
-  type: trojan
-- name: 08-0155-US
+- name: 08-0154-US
   network: ws
   password: ttfang
   port: 2096
@@ -1416,7 +1403,7 @@ proxies:
   skip-cert-verify: true
   sni: ttfang.fange.me
   type: trojan
-- name: 08-0156-US
+- name: 08-0155-US
   network: ws
   password: ttfang
   port: 2096
@@ -1424,11 +1411,19 @@ proxies:
   skip-cert-verify: true
   sni: ttfang.fange.me
   type: trojan
-- name: 08-0157-RELAY
+- name: 08-0156-US
   network: ws
   password: ttfang
   port: 2096
-  server: 66.235.200.194
+  server: 45.40.150.194
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+- name: 08-0157-US
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 50.62.91.194
   skip-cert-verify: true
   sni: ttfang.fange.me
   type: trojan
@@ -1436,7 +1431,7 @@ proxies:
   network: ws
   password: ttfang
   port: 2096
-  server: 72.167.242.194
+  server: 45.40.148.194
   skip-cert-verify: true
   sni: ttfang.fange.me
   type: trojan
@@ -1444,7 +1439,7 @@ proxies:
   network: ws
   password: ttfang
   port: 2096
-  server: 45.40.146.194
+  server: 72.167.241.194
   skip-cert-verify: true
   sni: ttfang.fange.me
   type: trojan
@@ -1452,7 +1447,7 @@ proxies:
   network: ws
   password: ttfang
   port: 2096
-  server: 45.40.144.194
+  server: 50.62.172.194
   skip-cert-verify: true
   sni: ttfang.fange.me
   type: trojan
@@ -1460,7 +1455,7 @@ proxies:
   network: ws
   password: ttfang
   port: 2096
-  server: 45.40.145.194
+  server: 72.167.242.194
   skip-cert-verify: true
   sni: ttfang.fange.me
   type: trojan
@@ -1468,7 +1463,7 @@ proxies:
   network: ws
   password: ttfang
   port: 2096
-  server: 45.40.150.194
+  server: 50.62.175.194
   skip-cert-verify: true
   sni: ttfang.fange.me
   type: trojan
@@ -1488,11 +1483,11 @@ proxies:
   skip-cert-verify: true
   sni: ttfang.fange.me
   type: trojan
-- name: 08-0165-US
+- name: 08-0165-RELAY
   network: ws
   password: ttfang
   port: 2096
-  server: 63.141.128.194
+  server: 66.81.247.194
   skip-cert-verify: true
   sni: ttfang.fange.me
   type: trojan
@@ -1500,7 +1495,7 @@ proxies:
   network: ws
   password: ttfang
   port: 2096
-  server: 50.62.91.194
+  server: 45.40.144.194
   skip-cert-verify: true
   sni: ttfang.fange.me
   type: trojan
@@ -1508,15 +1503,15 @@ proxies:
   network: ws
   password: ttfang
   port: 2096
-  server: 69.84.182.194
+  server: 45.40.154.194
   skip-cert-verify: true
   sni: ttfang.fange.me
   type: trojan
-- name: 08-0168-RELAY
+- name: 08-0168-US
   network: ws
   password: ttfang
   port: 2096
-  server: 77.75.199.194
+  server: 45.40.155.194
   skip-cert-verify: true
   sni: ttfang.fange.me
   type: trojan
@@ -1524,23 +1519,31 @@ proxies:
   network: ws
   password: ttfang
   port: 2096
-  server: 50.62.175.194
+  server: 69.84.182.194
   skip-cert-verify: true
   sni: ttfang.fange.me
   type: trojan
-- name: 08-0170-RELAY
+- name: 08-0170-US
   network: ws
   password: ttfang
   port: 2096
-  server: 103.116.7.194
+  server: 50.62.90.194
   skip-cert-verify: true
   sni: ttfang.fange.me
   type: trojan
-- name: 08-0171-RELAY
+- name: 08-0171-US
   network: ws
   password: ttfang
   port: 2096
-  server: 45.80.108.194
+  server: 50.62.195.194
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+- name: 08-0172-RELAY
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 5.182.34.194
   skip-cert-verify: true
   sni: ttfang.fange.me
   type: trojan
@@ -1606,7 +1609,6 @@ proxy-groups:
   - 06-0053-RELAY
   - 06-0059-RELAY
   - 06-0061-FR
-  - 06-0063-NL
   - 06-0064-GB
   - 06-0065-GB
   - 06-0069-RELAY
@@ -1671,10 +1673,10 @@ proxy-groups:
   - 08-0151-US
   - 08-0152-US
   - 08-0153-US
-  - 08-0154-RELAY
+  - 08-0154-US
   - 08-0155-US
   - 08-0156-US
-  - 08-0157-RELAY
+  - 08-0157-US
   - 08-0158-US
   - 08-0159-US
   - 08-0160-US
@@ -1682,13 +1684,14 @@ proxy-groups:
   - 08-0162-US
   - 08-0163-US
   - 08-0164-US
-  - 08-0165-US
+  - 08-0165-RELAY
   - 08-0166-US
   - 08-0167-US
-  - 08-0168-RELAY
+  - 08-0168-US
   - 08-0169-US
-  - 08-0170-RELAY
-  - 08-0171-RELAY
+  - 08-0170-US
+  - 08-0171-US
+  - 08-0172-RELAY
 - name: Best
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -1756,7 +1759,6 @@ proxy-groups:
   - 06-0053-RELAY
   - 06-0059-RELAY
   - 06-0061-FR
-  - 06-0063-NL
   - 06-0064-GB
   - 06-0065-GB
   - 06-0069-RELAY
@@ -1821,10 +1823,10 @@ proxy-groups:
   - 08-0151-US
   - 08-0152-US
   - 08-0153-US
-  - 08-0154-RELAY
+  - 08-0154-US
   - 08-0155-US
   - 08-0156-US
-  - 08-0157-RELAY
+  - 08-0157-US
   - 08-0158-US
   - 08-0159-US
   - 08-0160-US
@@ -1832,13 +1834,14 @@ proxy-groups:
   - 08-0162-US
   - 08-0163-US
   - 08-0164-US
-  - 08-0165-US
+  - 08-0165-RELAY
   - 08-0166-US
   - 08-0167-US
-  - 08-0168-RELAY
+  - 08-0168-US
   - 08-0169-US
-  - 08-0170-RELAY
-  - 08-0171-RELAY
+  - 08-0170-US
+  - 08-0171-US
+  - 08-0172-RELAY
 - name: HK
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -1907,8 +1910,10 @@ proxy-groups:
   - 08-0151-US
   - 08-0152-US
   - 08-0153-US
+  - 08-0154-US
   - 08-0155-US
   - 08-0156-US
+  - 08-0157-US
   - 08-0158-US
   - 08-0159-US
   - 08-0160-US
@@ -1916,10 +1921,12 @@ proxy-groups:
   - 08-0162-US
   - 08-0163-US
   - 08-0164-US
-  - 08-0165-US
   - 08-0166-US
   - 08-0167-US
+  - 08-0168-US
   - 08-0169-US
+  - 08-0170-US
+  - 08-0171-US
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: Claude
   type: url-test

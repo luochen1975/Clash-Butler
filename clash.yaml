@@ -613,6 +613,12 @@ proxies:
     headers:
       Host: sg.laoyoutiao.link
     path: /Telegram🇨🇳
+- cipher: aes-256-cfb
+  name: 06-0063-NL
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 51.15.23.63
+  type: ss
 - name: 06-0064-GB
   network: ws
   port: 8880
@@ -1370,12 +1376,6 @@ proxies:
   skip-cert-verify: true
   type: hysteria
   up: 20 Mbps
-- cipher: chacha20-ietf-poly1305
-  name: 08-0151-TW
-  password: ae223226-ead3-450c-b4dc-803072b2decb
-  port: 10145
-  server: 125.228.162.233
-  type: ss
 - name: 08-0152-US
   network: ws
   password: ttfang
@@ -1550,6 +1550,7 @@ proxy-groups:
   - 06-0053-RELAY
   - 06-0059-RELAY
   - 06-0061-FR
+  - 06-0063-NL
   - 06-0064-GB
   - 06-0065-GB
   - 06-0069-RELAY
@@ -1611,7 +1612,6 @@ proxy-groups:
   - 06-0138-US
   - 08-0148-US
   - 08-0149-US
-  - 08-0151-TW
   - 08-0152-US
   - 08-0153-RELAY
   - 08-0154-RELAY
@@ -1693,6 +1693,7 @@ proxy-groups:
   - 06-0053-RELAY
   - 06-0059-RELAY
   - 06-0061-FR
+  - 06-0063-NL
   - 06-0064-GB
   - 06-0065-GB
   - 06-0069-RELAY
@@ -1754,7 +1755,6 @@ proxy-groups:
   - 06-0138-US
   - 08-0148-US
   - 08-0149-US
-  - 08-0151-TW
   - 08-0152-US
   - 08-0153-RELAY
   - 08-0154-RELAY
@@ -1789,7 +1789,7 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
-  - 08-0151-TW
+  - DIRECT
   filter: 台湾|TW|Tw|Taiwan|新北|彰化|CHT|HINET
 - name: JP
   type: url-test

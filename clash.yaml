@@ -70,19 +70,6 @@ dns:
   - https://doh.pub/dns-query
   - https://dns.alidns.com/dns-query
 proxies:
-- name: 05-0000-RELAY
-  network: ws
-  port: 8880
-  server: 195.26.229.3
-  servername: Telegram-channel-freecodes
-  tls: false
-  type: vless
-  udp: true
-  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
-  ws-opts:
-    headers:
-      Host: bitget1.asdasd.click
-    path: /TelegramU0001F1E8U0001F1F3
 - alpn:
   - h3
   auth-str: dongtaiwang.com
@@ -107,32 +94,6 @@ proxies:
     headers:
       Host: aio.loophole.Biz.iD
     path: /aioproxybot/8.215.59.6-443
-- name: 05-0010-RELAY
-  network: ws
-  port: 8443
-  server: 190.93.246.246
-  servername: bitget1.asdasd.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
-  ws-opts:
-    headers:
-      Host: bitget1.asdasd.click
-    path: /
-- name: 05-0012-RELAY
-  network: ws
-  port: 8443
-  server: 190.93.245.232
-  servername: bitget1.asdasd.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
-  ws-opts:
-    headers:
-      Host: bitget1.asdasd.click
-    path: /
 - name: 05-0014-RELAY
   network: ws
   port: 8443
@@ -183,19 +144,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 78b4fb57-39d7-4e9d-dd38-c9a38322bcb2
-- name: 06-0031-GB
-  network: ws
-  port: 8880
-  server: 109.176.239.3
-  servername: Telegram-channel-WangCai2
-  tls: false
-  type: vless
-  udp: true
-  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
-  ws-opts:
-    headers:
-      Host: bitget1.asdasd.click
-    path: /Telegram
 proxy-groups:
 - name: PROXY
   type: select
@@ -212,16 +160,12 @@ proxy-groups:
   type: select
   filter: .*
   proxies:
-  - 05-0000-RELAY
   - 05-0007-FR
   - 05-0008-RELAY
-  - 05-0010-RELAY
-  - 05-0012-RELAY
   - 05-0014-RELAY
   - 05-0015-RELAY
   - 05-0020-RELAY
   - 05-0021-ES
-  - 06-0031-GB
 - name: Best
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -243,16 +187,12 @@ proxy-groups:
   tolerance: 50
   filter: .*
   proxies:
-  - 05-0000-RELAY
   - 05-0007-FR
   - 05-0008-RELAY
-  - 05-0010-RELAY
-  - 05-0012-RELAY
   - 05-0014-RELAY
   - 05-0015-RELAY
   - 05-0020-RELAY
   - 05-0021-ES
-  - 06-0031-GB
 - name: HK
   type: url-test
   url: https://www.gstatic.com/generate_204

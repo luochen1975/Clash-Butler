@@ -70,19 +70,6 @@ dns:
   - https://doh.pub/dns-query
   - https://dns.alidns.com/dns-query
 proxies:
-- name: 05-0002-RELAY
-  network: ws
-  port: 443
-  server: backus1.dh03.shop
-  servername: backus1.dh03.shop
-  tls: true
-  type: vless
-  udp: true
-  uuid: 71504eaf-29ac-4190-89d1-dd9ce2c9ee14
-  ws-opts:
-    headers:
-      Host: backus1.dh03.shop
-    path: /higate
 - alpn:
   - h3
   auth-str: dongtaiwang.com
@@ -94,19 +81,6 @@ proxies:
   skip-cert-verify: true
   type: hysteria
   up: 20 Mbps
-- name: 05-0005-RELAY
-  network: ws
-  port: 443
-  server: ico.org.uk
-  servername: hiddifyreplace2.safavidempire.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: fc264e2f-753b-43fd-878c-c8f82b4bc502
-  ws-opts:
-    headers:
-      Host: hiddifyreplace2.safavidempire.org
-    path: /76fe1f74-5804-4a5a-8b9d-5f877d90a9c6
 - name: 05-0006-RELAY
   network: ws
   port: 80
@@ -133,19 +107,6 @@ proxies:
     headers:
       Host: aio.loophole.Biz.iD
     path: /aioproxybot/8.215.59.6-443
-- name: 05-0012-RELAY
-  network: ws
-  port: 443
-  server: 172.66.44.59
-  servername: gkH7imOMi--3t3xcStZT8pp4dlZUEsKN.PagEs.deV
-  tls: true
-  type: vless
-  udp: true
-  uuid: b6bae6ff-4e6b-40ad-8277-43ae2d71cde8
-  ws-opts:
-    headers:
-      Host: gkh7imomi--3t3xcstzt8pp4dlzueskn.pages.dev
-    path: /aFvPTEM508c8nQOb/YnBiLnlvdXNlZi5pc2VnYXJvLmNvbQ==?---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---
 - name: 05-0013-RELAY
   network: ws
   port: 443
@@ -159,6 +120,19 @@ proxies:
     headers:
       Host: 2free2.aparatir.xyz
     path: /admin
+- name: 05-0015-RELAY
+  network: ws
+  port: 443
+  server: 104.18.13.145
+  servername: usa.rtot.me
+  tls: true
+  type: vless
+  udp: true
+  uuid: f19ed531-81cb-433e-8746-1a69e009f9df
+  ws-opts:
+    headers:
+      Host: usa.rtot.me
+    path: /bing
 - name: 05-0016-RELAY
   network: ws
   port: 8443
@@ -188,13 +162,11 @@ proxy-groups:
   type: select
   filter: .*
   proxies:
-  - 05-0002-RELAY
   - 05-0004-US
-  - 05-0005-RELAY
   - 05-0006-RELAY
   - 05-0009-RELAY
-  - 05-0012-RELAY
   - 05-0013-RELAY
+  - 05-0015-RELAY
   - 05-0016-RELAY
 - name: Best
   type: url-test
@@ -217,13 +189,11 @@ proxy-groups:
   tolerance: 50
   filter: .*
   proxies:
-  - 05-0002-RELAY
   - 05-0004-US
-  - 05-0005-RELAY
   - 05-0006-RELAY
   - 05-0009-RELAY
-  - 05-0012-RELAY
   - 05-0013-RELAY
+  - 05-0015-RELAY
   - 05-0016-RELAY
 - name: HK
   type: url-test

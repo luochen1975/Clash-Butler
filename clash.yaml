@@ -70,22 +70,80 @@ dns:
   - https://doh.pub/dns-query
   - https://dns.alidns.com/dns-query
 proxies:
+- name: 05-0002-RELAY
+  network: ws
+  port: 443
+  server: backus1.dh03.shop
+  servername: backus1.dh03.shop
+  tls: true
+  type: vless
+  udp: true
+  uuid: 71504eaf-29ac-4190-89d1-dd9ce2c9ee14
+  ws-opts:
+    headers:
+      Host: backus1.dh03.shop
+    path: /higate
+- cipher: aes-256-cfb
+  name: 05-0003-DE
+  password: amazonskr05
+  port: 443
+  server: 18.195.55.29
+  type: ss
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   down: 50 Mbps
-  name: 05-0007-FR
-  port: 15010
+  name: 05-0004-US
+  port: 37872
   protocol: udp
-  server: 195.154.200.40
+  server: 108.181.24.77
   skip-cert-verify: true
   type: hysteria
   up: 20 Mbps
-- name: 05-0008-RELAY
+- name: 05-0005-RELAY
+  network: ws
+  port: 443
+  server: ico.org.uk
+  servername: hiddifyreplace2.safavidempire.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: fc264e2f-753b-43fd-878c-c8f82b4bc502
+  ws-opts:
+    headers:
+      Host: hiddifyreplace2.safavidempire.org
+    path: /76fe1f74-5804-4a5a-8b9d-5f877d90a9c6
+- name: 05-0006-RELAY
   network: ws
   port: 80
-  server: 104.21.7.229
-  servername: 104.21.7.229
+  server: tgju.org
+  servername: SeRvER02.VtNEt.InFO
+  tls: false
+  type: vless
+  udp: true
+  uuid: 2b277eea-66b2-4f3a-b934-46225c1f5e6f
+  ws-opts:
+    headers:
+      Host: SeRvER02.VtNEt.InFO
+    path: /
+- name: 05-0008-RELAY
+  network: ws
+  port: 8443
+  server: www.speedtest.net
+  servername: lease-15.access.name.ng
+  tls: true
+  type: vless
+  udp: true
+  uuid: ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4
+  ws-opts:
+    headers:
+      Host: lease-15.access.name.ng
+    path: /
+- name: 05-0009-RELAY
+  network: ws
+  port: 80
+  server: 172.67.188.18
+  servername: 172.67.188.18
   tls: false
   type: vless
   udp: true
@@ -94,56 +152,71 @@ proxies:
     headers:
       Host: aio.loophole.Biz.iD
     path: /aioproxybot/8.215.59.6-443
-- name: 05-0014-RELAY
+- name: 05-0010-RELAY
   network: ws
-  port: 8443
-  server: www.speedtest.net
-  servername: hetzner-9.cfuk.name.ng
+  port: 443
+  server: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+  servername: HPgbaG3g9kIk7asE4cn1Tt8InExOZr4nji7.pages.dev
   tls: true
   type: vless
   udp: true
-  uuid: ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4
+  uuid: 0503fa3c-f914-4421-a1e5-72c1f8d781a2
   ws-opts:
     headers:
-      Host: hetzner-9.cfuk.name.ng
-    path: /
+      Host: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+    path: /D5DmXLFJw0WqKdoZ/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM=
+- name: 05-0012-RELAY
+  network: ws
+  port: 443
+  server: 172.66.44.59
+  servername: gkH7imOMi--3t3xcStZT8pp4dlZUEsKN.PagEs.deV
+  tls: true
+  type: vless
+  udp: true
+  uuid: b6bae6ff-4e6b-40ad-8277-43ae2d71cde8
+  ws-opts:
+    headers:
+      Host: gkh7imomi--3t3xcstzt8pp4dlzueskn.pages.dev
+    path: /aFvPTEM508c8nQOb/YnBiLnlvdXNlZi5pc2VnYXJvLmNvbQ==?---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---
+- name: 05-0013-RELAY
+  network: ws
+  port: 443
+  server: 172.66.40.99
+  servername: 2free2.aparatir.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: b4705d70-6252-494c-b26c-c39cbeafd216
+  ws-opts:
+    headers:
+      Host: 2free2.aparatir.xyz
+    path: /admin
 - name: 05-0015-RELAY
   network: ws
-  port: 8080
-  server: fastcup.net
-  servername: fastcup.net
-  tls: false
+  port: 443
+  server: 104.18.13.145
+  servername: usa.rtot.me
+  tls: true
   type: vless
   udp: true
-  uuid: 56c852c2-9517-4c13-ae18-bf0bee41706a
+  uuid: f19ed531-81cb-433e-8746-1a69e009f9df
   ws-opts:
     headers:
-      Host: cdn-node-oss-99.paofu.de
-    path: /profile/telegram%40ssrsub
-- name: 05-0020-RELAY
+      Host: usa.rtot.me
+    path: /bing
+- name: 05-0016-RELAY
   network: ws
-  port: 80
-  server: aio.loophole.biz.id
-  servername: aio.loophole.biz.id
-  tls: false
+  port: 8443
+  server: 172.67.153.156
+  servername: ovhwuxian.pai50288.uk
+  tls: true
   type: vless
   udp: true
-  uuid: f282b878-8711-45a1-8c69-5564172123c1
+  uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
   ws-opts:
     headers:
-      Host: aio.loophole.biz.id
-    path: /aioproxybot/129.150.49.58-18650
-- alterId: 0
-  cipher: auto
-  name: 05-0021-ES
-  network: tcp
-  port: 32020
-  server: 185.236.26.111
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 78b4fb57-39d7-4e9d-dd38-c9a38322bcb2
+      Host: ovhwuxian.pai50288.uk
+    path: /57ba2ab1
 proxy-groups:
 - name: PROXY
   type: select
@@ -160,12 +233,18 @@ proxy-groups:
   type: select
   filter: .*
   proxies:
-  - 05-0007-FR
+  - 05-0002-RELAY
+  - 05-0003-DE
+  - 05-0004-US
+  - 05-0005-RELAY
+  - 05-0006-RELAY
   - 05-0008-RELAY
-  - 05-0014-RELAY
+  - 05-0009-RELAY
+  - 05-0010-RELAY
+  - 05-0012-RELAY
+  - 05-0013-RELAY
   - 05-0015-RELAY
-  - 05-0020-RELAY
-  - 05-0021-ES
+  - 05-0016-RELAY
 - name: Best
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -187,12 +266,18 @@ proxy-groups:
   tolerance: 50
   filter: .*
   proxies:
-  - 05-0007-FR
+  - 05-0002-RELAY
+  - 05-0003-DE
+  - 05-0004-US
+  - 05-0005-RELAY
+  - 05-0006-RELAY
   - 05-0008-RELAY
-  - 05-0014-RELAY
+  - 05-0009-RELAY
+  - 05-0010-RELAY
+  - 05-0012-RELAY
+  - 05-0013-RELAY
   - 05-0015-RELAY
-  - 05-0020-RELAY
-  - 05-0021-ES
+  - 05-0016-RELAY
 - name: HK
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -246,7 +331,7 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
-  - DIRECT
+  - 05-0004-US
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: Claude
   type: url-test

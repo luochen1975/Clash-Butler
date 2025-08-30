@@ -70,6 +70,19 @@ dns:
   - https://doh.pub/dns-query
   - https://dns.alidns.com/dns-query
 proxies:
+- name: 05-0002-RELAY
+  network: ws
+  port: 443
+  server: backus1.dh03.shop
+  servername: backus1.dh03.shop
+  tls: true
+  type: vless
+  udp: true
+  uuid: 71504eaf-29ac-4190-89d1-dd9ce2c9ee14
+  ws-opts:
+    headers:
+      Host: backus1.dh03.shop
+    path: /higate
 - alpn:
   - h3
   auth-str: dongtaiwang.com
@@ -81,6 +94,19 @@ proxies:
   skip-cert-verify: true
   type: hysteria
   up: 20 Mbps
+- name: 05-0005-RELAY
+  network: ws
+  port: 443
+  server: ico.org.uk
+  servername: hiddifyreplace2.safavidempire.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: fc264e2f-753b-43fd-878c-c8f82b4bc502
+  ws-opts:
+    headers:
+      Host: hiddifyreplace2.safavidempire.org
+    path: /76fe1f74-5804-4a5a-8b9d-5f877d90a9c6
 - name: 05-0006-RELAY
   network: ws
   port: 80
@@ -133,19 +159,6 @@ proxies:
     headers:
       Host: usa.rtot.me
     path: /bing
-- name: 05-0016-RELAY
-  network: ws
-  port: 8443
-  server: 172.67.153.156
-  servername: ovhwuxian.pai50288.uk
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
-  ws-opts:
-    headers:
-      Host: ovhwuxian.pai50288.uk
-    path: /57ba2ab1
 proxy-groups:
 - name: PROXY
   type: select
@@ -162,12 +175,13 @@ proxy-groups:
   type: select
   filter: .*
   proxies:
+  - 05-0002-RELAY
   - 05-0004-US
+  - 05-0005-RELAY
   - 05-0006-RELAY
   - 05-0009-RELAY
   - 05-0013-RELAY
   - 05-0015-RELAY
-  - 05-0016-RELAY
 - name: Best
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -189,12 +203,13 @@ proxy-groups:
   tolerance: 50
   filter: .*
   proxies:
+  - 05-0002-RELAY
   - 05-0004-US
+  - 05-0005-RELAY
   - 05-0006-RELAY
   - 05-0009-RELAY
   - 05-0013-RELAY
   - 05-0015-RELAY
-  - 05-0016-RELAY
 - name: HK
   type: url-test
   url: https://www.gstatic.com/generate_204

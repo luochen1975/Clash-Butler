@@ -245,6 +245,12 @@ proxies:
   server: 193.29.139.217
   type: ss
 - cipher: chacha20-ietf-poly1305
+  name: 09-0082-US
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 64.74.163.130
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: 09-0083-NL
   password: QCXDxuDlTTMD7jtgHUjIoj
   port: 8080
@@ -391,6 +397,7 @@ proxy-groups:
   - 09-0079-GB
   - 09-0080-AE
   - 09-0081-NL
+  - 09-0082-US
   - 09-0083-NL
   - 09-0084-GB
   - 09-0085-NL
@@ -458,6 +465,7 @@ proxy-groups:
   - 09-0079-GB
   - 09-0080-AE
   - 09-0081-NL
+  - 09-0082-US
   - 09-0083-NL
   - 09-0084-GB
   - 09-0085-NL
@@ -538,6 +546,7 @@ proxy-groups:
   - 09-0060-US
   - 09-0062-US
   - 09-0063-US
+  - 09-0082-US
   - 09-0091-US
   - 09-0092-US
   - 09-0099-US

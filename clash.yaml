@@ -70,71 +70,26 @@ dns:
   - https://doh.pub/dns-query
   - https://dns.alidns.com/dns-query
 proxies:
-- name: 09-0050-DE
-  password: 79c4fe11-9787-406b-bf94-c1c1dbf59e28
-  port: 31468
-  server: 77.223.214.193
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- cipher: aes-256-cfb
-  name: 09-0052-CA
-  obfs: plain
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  protocol: origin
-  server: 79.127.233.170
-  type: ssr
 - cipher: chacha20-ietf-poly1305
-  name: 09-0053-NL
-  password: zI7kiNZ0UfV9cXB73a4nRD
-  port: 24206
-  server: 164.92.156.41
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0054-FR
-  password: a58fa62b4944ddbf
-  port: 57456
-  server: 81.19.137.222
-  type: ss
-- cipher: aes-256-cfb
-  name: 09-0055-IN
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 134.209.147.198
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0058-US
-  password: 360e21d21977dc11
-  port: 57456
-  server: 104.167.197.25
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0059-LT
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 45.87.175.28
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0060-DE
-  password: 9RviNa4tscjcmCB408vLSg
-  port: 44354
-  server: 46.101.245.131
+  name: 09-0050-NL
+  password: VpKABcOpNNA0l5G2AVOmw8
+  port: 62685
+  server: 213.109.147.242
   type: ss
 - alterId: 0
   cipher: auto
-  name: 09-0062-AE
+  name: 09-0051-US
   network: tcp
   port: 443
-  server: 89.31.120.192
+  server: 165.140.216.141
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 44537595-9ccc-4b83-8936-5f9ad3229019
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
 - alterId: 0
   cipher: none
-  name: 09-0063-AU
+  name: 09-0052-AU
   network: tcp
   port: 443
   server: 103.57.249.204
@@ -145,551 +100,486 @@ proxies:
   uuid: f13143a7-542d-49ec-9428-098142b6977c
 - alterId: 0
   cipher: auto
-  name: 09-0064-IN
+  name: 09-0054-AE
   network: tcp
   port: 443
-  server: 188.208.141.177
+  server: 89.31.120.192
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 0970834f-5b4d-44da-d890-19dcb2a72d4c
+  uuid: 44537595-9ccc-4b83-8936-5f9ad3229019
 - cipher: aes-256-cfb
-  name: 09-0066-HR
+  name: 09-0056-HR
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 46.183.184.60
   type: ss
-- cipher: aes-128-gcm
-  name: 09-0068-US
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.168
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0069-NL
-  password: VpKABcOpNNA0l5G2AVOmw8
-  port: 62685
-  server: 213.109.147.242
+- cipher: aes-256-cfb
+  name: 09-0057-IN
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 134.209.147.198
   type: ss
 - cipher: aes-128-gcm
-  name: 09-0070-US
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.167
-  type: ss
-- cipher: aes-128-gcm
-  name: 09-0071-US
-  password: shadowsocks
-  port: 443
-  server: 37.19.198.160
-  type: ss
-- name: 09-0072-US
-  password: TeoP0vNz791156o3UuGb8eBY
-  port: 22740
-  server: 38.34.6.180
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-- cipher: aes-128-gcm
-  name: 09-0073-US
+  name: 09-0058-US
   password: shadowsocks
   port: 443
   server: 156.146.38.170
   type: ss
 - cipher: aes-128-gcm
-  name: 09-0074-US
+  name: 09-0059-US
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.167
+  type: ss
+- cipher: aes-128-gcm
+  name: 09-0060-US
   password: shadowsocks
   port: 443
   server: 37.19.198.243
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0075-US
-  password: f8f7aCzcPKbsF8p3
-  port: 990
-  server: 64.74.163.130
-  type: ss
 - cipher: aes-128-gcm
-  name: 09-0076-US
+  name: 09-0061-US
   password: shadowsocks
   port: 443
-  server: 173.244.56.9
+  server: 37.19.198.160
   type: ss
 - cipher: aes-128-gcm
-  name: 09-0077-US
+  name: 09-0062-US
   password: shadowsocks
   port: 443
-  server: 212.102.47.132
+  server: 156.146.38.169
   type: ss
-- name: 09-0078-SG
-  password: 5OiuCsPmULZ0lJwts89fegLJE
-  port: 17193
-  server: 47.129.100.149
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
 - cipher: aes-128-gcm
-  name: 09-0079-US
+  name: 09-0063-US
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.168
+  type: ss
+- cipher: aes-128-gcm
+  name: 09-0064-US
   password: shadowsocks
   port: 443
   server: 212.102.47.130
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0080-CA
+- cipher: aes-128-gcm
+  name: 09-0065-US
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.132
+  type: ss
+- cipher: aes-256-cfb
+  name: 09-0066-CA
   password: f8f7aCzcPKbsF8p3
-  port: 990
+  port: 989
   server: 79.127.233.170
   type: ss
 - cipher: rc4-md5
-  name: 09-0081-US
+  name: 09-0067-US
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 23.251.121.242
   type: ss
-- name: 09-0082-SG
-  password: 3hszBhqVsUhqOOFWJlev6k6Tkc
-  port: 22509
-  server: 47.129.217.4
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-- name: 09-0083-DE
-  network: ws
-  port: 443
-  server: 93.185.158.14
-  servername: uk.rtot.me
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00651706-0d2d-448b-80f2-7678f3e5187c
-  ws-opts:
-    headers:
-      Host: uk.rtot.me
-    path: /bing
 - cipher: chacha20-ietf-poly1305
-  name: 09-0084-US
-  password: f8f7aCzcPKbsF8p3
-  port: 990
-  server: 104.192.226.106
-  type: ss
-- cipher: aes-128-gcm
-  name: 09-0085-US
-  password: shadowsocks
-  port: 443
-  server: 212.102.47.131
-  type: ss
-- cipher: aes-256-cfb
-  name: 09-0086-CA
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 79.127.233.170
-  type: ss
-- cipher: aes-256-cfb
-  name: 09-0087-NL
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.17.169
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0088-FR
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 45.158.171.110
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0089-NL
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.235
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0090-LT
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.188
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0091-LT
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.171
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0092-LT
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 45.87.175.92
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0093-AE
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 151.242.251.144
-  type: ss
-- cipher: aes-256-cfb
-  name: 09-0094-FR
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 195.154.185.174
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0095-LT
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.166
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0096-NL
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 193.29.139.189
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0097-FR
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 45.158.171.60
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0098-AE
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 151.242.251.153
-  type: ss
-- cipher: aes-128-gcm
-  name: 09-0099-GB
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.196
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0100-NL
+  name: 09-0068-NL
   password: QCXDxuDlTTMD7jtgHUjIoj
   port: 8080
   server: 193.29.139.217
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 09-0101-NL
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.202
-  type: ss
-- cipher: aes-128-gcm
-  name: 09-0102-GB
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.195
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0103-LT
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.192
-  type: ss
-- cipher: aes-128-gcm
-  name: 09-0104-GB
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.78
-  type: ss
-- cipher: aes-128-gcm
-  name: 09-0105-GB
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.81
-  type: ss
-- cipher: aes-128-gcm
-  name: 09-0106-GB
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.80
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0107-NL
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 193.29.139.227
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0108-NL
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 193.29.139.138
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0109-NL
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.251
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0110-LT
+  name: 09-0069-AE
   password: 4a2rfixophdjffa8KVA4Aa
   port: 8080
-  server: 45.87.175.181
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0111-AE
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 151.242.251.131
-  type: ss
-- cipher: aes-128-gcm
-  name: 09-0112-GB
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.198
-  type: ss
-- cipher: aes-128-gcm
-  name: 09-0113-GB
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.194
-  type: ss
-- cipher: aes-128-gcm
-  name: 09-0114-GB
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.79
-  type: ss
-- cipher: aes-128-gcm
-  name: 09-0115-GB
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.193
-  type: ss
-- cipher: aes-128-gcm
-  name: 09-0116-GB
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.197
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0117-NL
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 193.29.139.157
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0118-AE
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 151.242.251.147
-  type: ss
-- cipher: aes-256-cfb
-  name: 09-0119-FR
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 195.154.169.198
-  type: ss
-- cipher: aes-256-cfb
-  name: 09-0120-SE
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 121.127.46.147
-  type: ss
-- cipher: aes-128-gcm
-  name: 09-0121-CH
-  password: shadowsocks
-  port: 443
-  server: 156.146.62.162
-  type: ss
-- cipher: aes-256-cfb
-  name: 09-0122-SK
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 156.146.40.194
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0123-CZ
-  password: f8f7aCzcPKbsF8p3
-  port: 990
-  server: 195.181.160.6
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0124-CA
-  password: JIhN6rBKkaEboLNXVSv5rq
-  port: 80
-  server: 142.4.216.225
-  type: ss
-- cipher: aes-128-gcm
-  name: 09-0125-CH
-  password: shadowsocks
-  port: 443
-  server: 156.146.62.164
-  type: ss
-- cipher: aes-128-gcm
-  name: 09-0126-CH
-  password: shadowsocks
-  port: 443
-  server: 156.146.62.163
+  server: 151.242.251.144
   type: ss
 - cipher: aes-128-cfb
-  name: 09-0127-NL
+  name: 09-0070-NL
   password: shadowsocks
   port: 443
   server: 109.201.152.181
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 09-0129-FR
+  name: 09-0071-AE
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 151.242.251.153
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0072-NL
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 193.29.139.157
+  type: ss
+- cipher: aes-128-gcm
+  name: 09-0073-US
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.131
+  type: ss
+- cipher: aes-256-cfb
+  name: 09-0074-NL
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 51.15.17.169
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0075-AE
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 151.242.251.147
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0076-FR
   password: QCXDxuDlTTMD7jtgHUjIoj
   port: 8080
   server: 45.158.171.146
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 09-0130-NO
-  password: f8f7aCzcPKbsF8p3
-  port: 990
-  server: 185.213.23.226
-  type: ss
-- cipher: aes-256-cfb
-  name: 09-0131-NO
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.213.23.226
-  type: ss
-- cipher: aes-256-cfb
-  name: 09-0132-FI
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 37.143.129.230
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0133-NL
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  name: 09-0077-AE
+  password: QCXDxuDlTTMD7jtgHUjIoj
   port: 8080
-  server: 103.104.247.47
+  server: 151.242.251.131
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0078-NL
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 193.29.139.227
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0080-LT
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.87.175.166
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0081-NL
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 193.29.139.138
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0082-LT
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.181
   type: ss
 - cipher: aes-256-cfb
-  name: 09-0134-BG
+  name: 09-0083-FR
   password: f8f7aCzcPKbsF8p3
   port: 989
-  server: 37.19.203.147
+  server: 195.154.169.198
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0135-AT
-  password: eUh4lSpi7nOYj0vSrqLUh0
-  port: 8506
-  server: 95.163.176.37
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0136-ES
+- cipher: aes-256-cfb
+  name: 09-0084-FR
   password: f8f7aCzcPKbsF8p3
-  port: 990
-  server: 45.154.206.192
+  port: 989
+  server: 195.154.185.174
   type: ss
 - cipher: aes-128-gcm
-  name: 09-0137-JP
+  name: 09-0085-GB
   password: shadowsocks
   port: 443
-  server: 149.22.87.204
+  server: 212.102.53.193
+  type: ss
+- cipher: aes-128-gcm
+  name: 09-0086-GB
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.194
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 09-0138-PY
+  name: 09-0087-CA
   password: f8f7aCzcPKbsF8p3
   port: 990
-  server: 38.165.233.18
+  server: 79.127.233.170
+  type: ss
+- cipher: aes-128-gcm
+  name: 09-0088-GB
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.79
+  type: ss
+- cipher: aes-128-gcm
+  name: 09-0089-GB
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.197
+  type: ss
+- cipher: aes-128-gcm
+  name: 09-0090-GB
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.195
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0091-US
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 64.74.163.130
+  type: ss
+- cipher: aes-128-gcm
+  name: 09-0092-GB
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.81
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0093-CZ
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 195.181.160.6
+  type: ss
+- cipher: aes-128-gcm
+  name: 09-0094-GB
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.196
+  type: ss
+- cipher: aes-128-gcm
+  name: 09-0095-GB
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.80
+  type: ss
+- cipher: aes-128-gcm
+  name: 09-0096-GB
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.198
+  type: ss
+- cipher: aes-128-gcm
+  name: 09-0097-GB
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.78
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0098-NL
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 193.29.139.189
+  type: ss
+- cipher: aes-128-gcm
+  name: 09-0099-CH
+  password: shadowsocks
+  port: 443
+  server: 156.146.62.162
+  type: ss
+- cipher: aes-128-gcm
+  name: 09-0100-CH
+  password: shadowsocks
+  port: 443
+  server: 156.146.62.163
+  type: ss
+- cipher: aes-128-gcm
+  name: 09-0101-CH
+  password: shadowsocks
+  port: 443
+  server: 156.146.62.164
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0102-US
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 104.192.226.106
   type: ss
 - cipher: aes-256-cfb
-  name: 09-0139-MD
+  name: 09-0103-SK
   password: f8f7aCzcPKbsF8p3
   port: 989
-  server: 185.153.197.5
+  server: 156.146.40.194
   type: ss
 - cipher: aes-256-cfb
-  name: 09-0140-BE
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 192.71.249.78
-  type: ss
-- cipher: aes-256-cfb
-  name: 09-0141-US
+  name: 09-0104-US
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 104.192.226.106
   type: ss
 - cipher: aes-256-cfb
-  name: 09-0142-DK
+  name: 09-0106-SE
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 121.127.46.147
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0108-CA
+  password: JIhN6rBKkaEboLNXVSv5rq
+  port: 80
+  server: 142.4.216.225
+  type: ss
+- cipher: aes-128-gcm
+  name: 09-0109-JP
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.204
+  type: ss
+- cipher: aes-256-cfb
+  name: 09-0110-BG
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 37.19.203.147
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0111-ES
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 45.154.206.192
+  type: ss
+- cipher: aes-256-cfb
+  name: 09-0112-FI
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 37.143.129.230
+  type: ss
+- cipher: aes-256-cfb
+  name: 09-0113-DK
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 192.36.27.94
   type: ss
+- cipher: aes-256-cfb
+  name: 09-0114-BE
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 192.71.249.78
+  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 09-0143-NL
+  name: 09-0115-NL
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 103.104.247.49
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 09-0144-LT
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 45.87.175.154
-  type: ss
-- cipher: aes-256-cfb
-  name: 09-0145-CO
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 154.223.16.212
+  name: 09-0117-AT
+  password: eUh4lSpi7nOYj0vSrqLUh0
+  port: 8506
+  server: 95.163.176.37
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 09-0146-FR
+  name: 09-0118-PY
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 38.165.233.18
+  type: ss
+- cipher: aes-256-cfb
+  name: 09-0119-MD
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.153.197.5
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0120-FR
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 45.158.171.60
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0121-LT
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 8080
+  server: 45.87.175.192
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0122-FR
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 45.158.171.70
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0123-FR
   password: qXvO7zYU7KeaB0Md7DQLow
   port: 1080
   server: 51.195.119.47
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0124-NO
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 185.213.23.226
+  type: ss
 - cipher: aes-256-cfb
-  name: 09-0147-PY
+  name: 09-0125-RS
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 194.71.126.31
+  type: ss
+- cipher: aes-256-cfb
+  name: 09-0126-PY
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 38.165.233.93
   type: ss
-- name: 09-0148-JP
-  password: qq4Wc9UakExypzw4Jd00fWqrDTY
-  port: 22712
-  server: 8.209.223.212
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-- cipher: aes-128-gcm
-  name: 09-0150-GB
-  password: shadowsocks
-  port: 443
-  server: 141.98.101.178
+- cipher: chacha20-ietf-poly1305
+  name: 09-0127-NL
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 103.104.247.47
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 09-0151-AR
-  password: f8f7aCzcPKbsF8p3
-  port: 990
-  server: 38.54.45.129
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0152-CO
+  name: 09-0128-CO
   password: f8f7aCzcPKbsF8p3
   port: 990
   server: 181.119.30.20
   type: ss
 - cipher: aes-256-cfb
-  name: 09-0153-BR
+  name: 09-0129-NO
   password: f8f7aCzcPKbsF8p3
   port: 989
-  server: 38.54.57.90
+  server: 185.213.23.226
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 09-0154-NL
-  password: SjdGCHwafjktt1rzpGxTKYTvVBWb8Xa6E5DTr6MzbdHQSwvpLiDczj3n6MBjy2uyFSzgqgvCWsDQmpM4VQzfPzyGYF58wdyD
-  port: 42029
-  server: 208.67.105.196
+  name: 09-0131-LT
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 45.87.175.154
   type: ss
-- cipher: aes-256-cfb
-  name: 09-0156-KR
+- cipher: chacha20-ietf-poly1305
+  name: 09-0132-FR
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 45.158.171.66
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0134-NL
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.240
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0135-NL
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.251
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0136-LT
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.199
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0137-HK
+  password: ljqdalu13..
+  port: 8313
+  server: 18.162.146.85
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0138-HK
+  password: ljqdalu13..
+  port: 8319
+  server: 18.162.146.85
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0139-AR
   password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 154.90.62.168
+  port: 990
+  server: 38.54.45.129
   type: ss
 - alterId: 0
   cipher: auto
-  name: 09-0157-US
+  name: 09-0142-US
   network: ws
   port: 20086
   server: 206.206.80.227
@@ -701,86 +591,119 @@ proxies:
   ws-opts:
     path: /
 - cipher: aes-256-cfb
-  name: 09-0158-IS
+  name: 09-0143-KR
   password: f8f7aCzcPKbsF8p3
   port: 989
-  server: 37.235.49.152
+  server: 154.90.63.177
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 09-0159-PR
-  password: f8f7aCzcPKbsF8p3
-  port: 990
-  server: 185.47.255.22
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0160-RO
-  password: f8f7aCzcPKbsF8p3
-  port: 990
-  server: 185.126.237.38
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0161-PL
-  password: f8f7aCzcPKbsF8p3
-  port: 990
-  server: 92.118.205.228
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0162-LT
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 45.87.175.35
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0164-CA
-  password: Kuiqk2cP0BMWrgme9IfEvp
-  port: 443
-  server: 38.180.211.126
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0165-LT
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 45.87.175.58
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0166-LT
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 45.87.175.69
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0167-HK
-  password: f8f7aCzcPKbsF8p3
-  port: 990
-  server: 203.23.128.33
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0168-HK
-  password: ljqdalu13..
-  port: 8313
-  server: 18.162.146.85
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0169-HK
-  password: ljqdalu13..
-  port: 8319
-  server: 18.162.146.85
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0170-LT
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 45.87.175.65
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0171-HK
+  name: 09-0144-HK
   password: ljqdalu13..
   port: 8316
   server: 18.162.146.85
   type: ss
+- cipher: aes-256-cfb
+  name: 09-0145-CO
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 154.223.16.212
+  type: ss
+- cipher: aes-256-cfb
+  name: 09-0146-KR
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 154.90.62.168
+  type: ss
+- cipher: aes-256-cfb
+  name: 09-0147-BR
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 38.54.57.90
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0149-RO
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 185.126.237.38
+  type: ss
+- cipher: aes-256-cfb
+  name: 09-0150-TW
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 154.223.20.79
+  type: ss
+- cipher: aes-256-cfb
+  name: 09-0151-VN
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 103.163.218.2
+  type: ss
+- name: 09-0152-HK
+  password: 2ee85121-31de-4581-a492-eb00f606e392
+  port: 443
+  server: 103.252.116.138
+  skip-cert-verify: true
+  sni: hk.freeguard.org
+  type: trojan
+- name: 09-0153-SE
+  password: 2ee85121-31de-4581-a492-eb00f606e392
+  port: 443
+  server: 45.91.171.116
+  skip-cert-verify: true
+  sni: sto.freeguard.org
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 09-0154-CY
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 134.255.210.49
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0155-NL
+  password: SjdGCHwafjktt1rzpGxTKYTvVBWb8Xa6E5DTr6MzbdHQSwvpLiDczj3n6MBjy2uyFSzgqgvCWsDQmpM4VQzfPzyGYF58wdyD
+  port: 42029
+  server: 208.67.105.196
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0156-VN
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 103.163.218.2
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0157-NL
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 193.29.139.179
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0158-NL
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.202
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0159-LT
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 45.87.175.69
+  type: ss
+- name: 09-0160-US
+  password: 2ee85121-31de-4581-a492-eb00f606e392
+  port: 443
+  server: 198.46.152.83
+  skip-cert-verify: true
+  sni: sj3.freeguard.org
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 09-0161-VN
+  password: Nk9asglDzHzjktVzTkvhaA
+  port: 443
+  server: 160.19.78.75
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 09-0172-US
+  name: 09-0162-US
   network: ws
   port: 20086
   server: 137.175.124.167
@@ -791,171 +714,9 @@ proxies:
   uuid: b4bce500-11fe-4f8f-a344-01ac247af9bd
   ws-opts:
     path: /
-- cipher: chacha20-ietf
-  name: 09-0173-SG
-  password: asd123456
-  port: 8388
-  server: 103.36.91.23
-  type: ss
-- cipher: aes-256-cfb
-  name: 09-0174-TW
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 154.223.20.79
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0175-LT
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.164
-  type: ss
-- cipher: aes-256-cfb
-  name: 09-0177-GR
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 192.71.166.102
-  type: ss
-- cipher: aes-256-cfb
-  name: 09-0178-GR
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 192.71.166.100
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0179-TR
-  password: f8f7aCzcPKbsF8p3
-  port: 990
-  server: 185.123.101.241
-  type: ss
-- cipher: aes-256-cfb
-  name: 09-0180-TR
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.123.101.241
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0181-FR
-  password: mSQiuT5jR17nyWgcXOPrTW
-  port: 8594
-  server: 77.105.166.12
-  type: ss
-- cipher: aes-256-cfb
-  name: 09-0184-MT
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 171.22.254.17
-  type: ss
-- cipher: aes-256-cfb
-  name: 09-0187-RS
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 194.71.126.31
-  type: ss
-- cipher: aes-256-cfb
-  name: 09-0188-MK
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 46.183.185.15
-  type: ss
-- cipher: aes-256-cfb
-  name: 09-0189-MK
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 46.183.185.37
-  type: ss
-- name: 09-0190-SE
-  password: 2ee85121-31de-4581-a492-eb00f606e392
-  port: 443
-  server: 45.91.171.116
-  skip-cert-verify: true
-  sni: sto.freeguard.org
-  type: trojan
-- cipher: aes-256-cfb
-  name: 09-0191-KR
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 154.90.63.177
-  type: ss
-- name: 09-0192-HK
-  password: 2ee85121-31de-4581-a492-eb00f606e392
-  port: 443
-  server: 103.252.116.138
-  skip-cert-verify: true
-  sni: hk.freeguard.org
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 09-0196-VN
-  password: Nk9asglDzHzjktVzTkvhaA
-  port: 443
-  server: 160.19.78.75
-  type: ss
-- name: 09-0197-RELAY
-  network: ws
-  password: slch2024
-  port: 2083
-  server: 104.18.3.26
-  skip-cert-verify: true
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-- name: 09-0198-RELAY
-  network: ws
-  password: slch2024
-  port: 8443
-  server: 104.18.3.108
-  skip-cert-verify: true
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-- name: 09-0200-RELAY
-  network: ws
-  password: slch2024
-  port: 443
-  server: 104.18.2.150
-  skip-cert-verify: true
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-- name: 09-0201-RELAY
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 104.18.15.201
-  skip-cert-verify: true
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-- name: 09-0202-RELAY
-  network: ws
-  password: slch2024
-  port: 8443
-  server: 104.18.2.108
-  skip-cert-verify: true
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-- name: 09-0203-RELAY
-  network: ws
-  password: slch2024
-  port: 2053
-  server: 104.18.4.250
-  skip-cert-verify: true
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-- name: 09-0204-RELAY
-  network: ws
-  password: slch2024
-  port: 2087
-  server: 104.18.13.51
-  skip-cert-verify: true
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-- name: 09-0205-RELAY
-  network: ws
-  password: slch2024
-  port: 443
-  server: 104.18.3.150
-  skip-cert-verify: true
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 09-0206-TW
+  name: 09-0163-TW
   network: ws
   port: 20521
   server: 103.61.139.137
@@ -966,8 +727,233 @@ proxies:
   uuid: f8d93cfb-3d5d-447c-a697-16496dd74697
   ws-opts:
     path: /
+- cipher: aes-256-cfb
+  name: 09-0164-TR
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.123.101.241
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0165-FR
+  password: mSQiuT5jR17nyWgcXOPrTW
+  port: 8594
+  server: 77.105.166.12
+  type: ss
+- cipher: aes-256-cfb
+  name: 09-0166-IS
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 37.235.49.168
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0167-TR
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 185.123.101.241
+  type: ss
+- cipher: aes-256-cfb
+  name: 09-0168-MT
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 171.22.254.17
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0169-LT
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 45.87.175.65
+  type: ss
+- cipher: aes-128-gcm
+  name: 09-0170-GB
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.178
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0171-LT
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 45.87.175.157
+  type: ss
+- cipher: aes-256-cfb
+  name: 09-0172-IS
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 37.235.49.152
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0173-HK
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 203.23.128.33
+  type: ss
+- name: 09-0174-US
+  password: dongtaiwang.com
+  port: 63015
+  server: 108.181.5.130
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
+- name: 09-0175-US
+  password: dongtaiwang.com
+  port: 22222
+  server: 208.87.243.187
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- name: 09-0176-FR
+  password: dongtaiwang.com
+  port: 5355
+  server: 51.159.111.32
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- name: 09-0177-HK
+  password: NjEkAYYNqFKUbrksyW1COBtdpU
+  port: 2428
+  server: 47.239.220.214
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+- name: 09-0178-FR
+  password: 07c122ad-50b2-4f61-9435-efcf112bb10b
+  port: 49303
+  server: 172.252.236.213
+  skip-cert-verify: true
+  sni: real.getafreenode.sbs
+  type: hysteria2
+- name: 09-0179-UA
+  password: 07c122ad-50b2-4f61-9435-efcf112bb10b
+  port: 43429
+  server: 185.126.255.78
+  skip-cert-verify: true
+  sni: real.getafreenode.sbs
+  type: hysteria2
+- name: 09-0180-DE
+  password: 79c4fe11-9787-406b-bf94-c1c1dbf59e28
+  port: 31468
+  server: 77.223.214.193
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- name: 09-0181-US
+  password: TeoP0vNz791156o3UuGb8eBY
+  port: 22740
+  server: 38.34.6.180
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 09-0182-LT
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.171
+  type: ss
+- name: 09-0183-SG
+  password: 5OiuCsPmULZ0lJwts89fegLJE
+  port: 17193
+  server: 47.129.100.149
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+- name: 09-0184-RELAY
+  network: ws
+  port: 443
+  server: 104.18.13.145
+  servername: usa.rtot.me
+  tls: true
+  type: vless
+  udp: true
+  uuid: f19ed531-81cb-433e-8746-1a69e009f9df
+  ws-opts:
+    headers:
+      Host: usa.rtot.me
+    path: /bing
+- name: 09-0185-SG
+  password: 3hszBhqVsUhqOOFWJlev6k6Tkc
+  port: 22509
+  server: 47.129.217.4
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+- name: 09-0186-RELAY
+  network: ws
+  password: slch2024
+  port: 2083
+  server: 104.18.3.26
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+- name: 09-0187-RELAY
+  network: ws
+  password: slch2024
+  port: 8443
+  server: 104.18.3.108
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+- name: 09-0188-RELAY
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 104.18.15.201
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+- name: 09-0189-RELAY
+  network: ws
+  password: slch2024
+  port: 443
+  server: 104.18.2.150
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+- name: 09-0190-RELAY
+  network: ws
+  password: slch2024
+  port: 8443
+  server: 104.18.2.108
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+- name: 09-0191-RELAY
+  network: ws
+  password: slch2024
+  port: 2087
+  server: 104.18.13.51
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 09-0192-LT
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 45.87.175.92
+  type: ss
+- name: 09-0193-RELAY
+  network: ws
+  password: slch2024
+  port: 2053
+  server: 104.18.4.250
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+- name: 09-0194-RELAY
+  network: ws
+  password: slch2024
+  port: 443
+  server: 104.18.3.150
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 09-0196-LT
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 45.87.175.58
+  type: ss
 - cipher: aes-128-cfb
-  name: 09-0210-CA
+  name: 09-0197-CA
   obfs: http_post
   password: $$Turb0VPN$$
   port: 443
@@ -976,7 +962,7 @@ proxies:
   type: ssr
 - alterId: 64
   cipher: auto
-  name: 09-0211-US
+  name: 09-0200-US
   network: tcp
   port: 30002
   server: 38.12.83.217
@@ -985,15 +971,22 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 09-0205-JP
+  password: qq4Wc9UakExypzw4Jd00fWqrDTY
+  port: 22712
+  server: 8.209.223.212
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
 - cipher: chacha20-ietf-poly1305
-  name: 09-0218-AE
+  name: 09-0206-AE
   password: 4a2rfixophdjffa8KVA4Aa
   port: 8080
   server: 151.242.251.153
   type: ss
 - alterId: 0
   cipher: auto
-  name: 09-0219-US
+  name: 09-0207-US
   network: ws
   port: 8443
   server: 38.107.236.166
@@ -1004,18 +997,17 @@ proxies:
   uuid: 0c17318b-d8e7-4816-a6a2-ab873a3bcc8b
   ws-opts:
     path: /vmess/
-- name: 09-0220-US
-  password: xxoo
-  port: 443
-  server: 138.197.5.103
-  skip-cert-verify: true
-  sni: us.blazeppn.info
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 09-0208-PR
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 185.47.255.22
+  type: ss
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   down: 50 Mbps
-  name: 09-0222-NL
+  name: 09-0209-NL
   port: 49003
   protocol: udp
   server: 51.159.226.1
@@ -1023,36 +1015,41 @@ proxies:
   type: hysteria
   up: 20 Mbps
 - cipher: chacha20-ietf-poly1305
-  name: 09-0223-IN
+  name: 09-0210-IN
   password: WgACwLy1BPk47JOzHyA7zu
   port: 47347
   server: 167.71.235.238
   type: ss
-- cipher: aes-128-gcm
-  name: 09-0234-JP
-  password: 940031a6-fd32-4d6b-901d-77b7f943698e
-  port: 50414
-  server: 111.168.32.181
+- cipher: aes-256-cfb
+  name: 09-0211-GR
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 192.71.166.100
   type: ss
-- name: 09-0246-DE
+- name: 09-0219-DE
   password: 45b46edb-679b-4ea5-befd-88c05bb94f80
   port: 2056
   server: 84.200.87.248
   skip-cert-verify: true
   sni: de.eyucdn.xyz
   type: hysteria2
-- name: 09-0247-FR
-  password: 1ce1df7962f71c6f
-  port: 8443
-  server: 51.195.255.103
-  skip-cert-verify: true
-  sni: uk-03.allhubb.info
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 09-0248-NL
-  password: LMSNh21TrXjR2ok25Q2nE8ENT2zoBmPvka3RCCUAHZELCnWoekVjvaf89qwcRkdbxEfep2bc2aUtmnxqvF1ayQRez1JHjULj
-  port: 52952
-  server: 141.98.4.67
+- cipher: aes-256-cfb
+  name: 09-0235-SI
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 192.71.244.150
+  type: ss
+- cipher: aes-256-cfb
+  name: 09-0239-GR
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 192.71.166.102
+  type: ss
+- cipher: aes-256-cfb
+  name: 09-0240-MK
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 46.183.185.37
   type: ss
 proxy-groups:
 - name: PROXY
@@ -1070,155 +1067,154 @@ proxy-groups:
   type: select
   filter: .*
   proxies:
-  - 09-0050-DE
-  - 09-0052-CA
-  - 09-0053-NL
-  - 09-0054-FR
-  - 09-0055-IN
+  - 09-0050-NL
+  - 09-0051-US
+  - 09-0052-AU
+  - 09-0054-AE
+  - 09-0056-HR
+  - 09-0057-IN
   - 09-0058-US
-  - 09-0059-LT
-  - 09-0060-DE
-  - 09-0062-AE
-  - 09-0063-AU
-  - 09-0064-IN
-  - 09-0066-HR
-  - 09-0068-US
-  - 09-0069-NL
-  - 09-0070-US
-  - 09-0071-US
-  - 09-0072-US
+  - 09-0059-US
+  - 09-0060-US
+  - 09-0061-US
+  - 09-0062-US
+  - 09-0063-US
+  - 09-0064-US
+  - 09-0065-US
+  - 09-0066-CA
+  - 09-0067-US
+  - 09-0068-NL
+  - 09-0069-AE
+  - 09-0070-NL
+  - 09-0071-AE
+  - 09-0072-NL
   - 09-0073-US
-  - 09-0074-US
-  - 09-0075-US
-  - 09-0076-US
-  - 09-0077-US
-  - 09-0078-SG
-  - 09-0079-US
-  - 09-0080-CA
-  - 09-0081-US
-  - 09-0082-SG
-  - 09-0083-DE
-  - 09-0084-US
-  - 09-0085-US
-  - 09-0086-CA
-  - 09-0087-NL
-  - 09-0088-FR
-  - 09-0089-NL
-  - 09-0090-LT
-  - 09-0091-LT
-  - 09-0092-LT
-  - 09-0093-AE
-  - 09-0094-FR
-  - 09-0095-LT
-  - 09-0096-NL
-  - 09-0097-FR
-  - 09-0098-AE
-  - 09-0099-GB
-  - 09-0100-NL
-  - 09-0101-NL
-  - 09-0102-GB
-  - 09-0103-LT
-  - 09-0104-GB
-  - 09-0105-GB
-  - 09-0106-GB
-  - 09-0107-NL
-  - 09-0108-NL
-  - 09-0109-NL
-  - 09-0110-LT
-  - 09-0111-AE
-  - 09-0112-GB
-  - 09-0113-GB
-  - 09-0114-GB
-  - 09-0115-GB
-  - 09-0116-GB
-  - 09-0117-NL
-  - 09-0118-AE
-  - 09-0119-FR
-  - 09-0120-SE
-  - 09-0121-CH
-  - 09-0122-SK
-  - 09-0123-CZ
-  - 09-0124-CA
-  - 09-0125-CH
-  - 09-0126-CH
+  - 09-0074-NL
+  - 09-0075-AE
+  - 09-0076-FR
+  - 09-0077-AE
+  - 09-0078-NL
+  - 09-0080-LT
+  - 09-0081-NL
+  - 09-0082-LT
+  - 09-0083-FR
+  - 09-0084-FR
+  - 09-0085-GB
+  - 09-0086-GB
+  - 09-0087-CA
+  - 09-0088-GB
+  - 09-0089-GB
+  - 09-0090-GB
+  - 09-0091-US
+  - 09-0092-GB
+  - 09-0093-CZ
+  - 09-0094-GB
+  - 09-0095-GB
+  - 09-0096-GB
+  - 09-0097-GB
+  - 09-0098-NL
+  - 09-0099-CH
+  - 09-0100-CH
+  - 09-0101-CH
+  - 09-0102-US
+  - 09-0103-SK
+  - 09-0104-US
+  - 09-0106-SE
+  - 09-0108-CA
+  - 09-0109-JP
+  - 09-0110-BG
+  - 09-0111-ES
+  - 09-0112-FI
+  - 09-0113-DK
+  - 09-0114-BE
+  - 09-0115-NL
+  - 09-0117-AT
+  - 09-0118-PY
+  - 09-0119-MD
+  - 09-0120-FR
+  - 09-0121-LT
+  - 09-0122-FR
+  - 09-0123-FR
+  - 09-0124-NO
+  - 09-0125-RS
+  - 09-0126-PY
   - 09-0127-NL
-  - 09-0129-FR
-  - 09-0130-NO
-  - 09-0131-NO
-  - 09-0132-FI
-  - 09-0133-NL
-  - 09-0134-BG
-  - 09-0135-AT
-  - 09-0136-ES
-  - 09-0137-JP
-  - 09-0138-PY
-  - 09-0139-MD
-  - 09-0140-BE
-  - 09-0141-US
-  - 09-0142-DK
-  - 09-0143-NL
-  - 09-0144-LT
+  - 09-0128-CO
+  - 09-0129-NO
+  - 09-0131-LT
+  - 09-0132-FR
+  - 09-0134-NL
+  - 09-0135-NL
+  - 09-0136-LT
+  - 09-0137-HK
+  - 09-0138-HK
+  - 09-0139-AR
+  - 09-0142-US
+  - 09-0143-KR
+  - 09-0144-HK
   - 09-0145-CO
-  - 09-0146-FR
-  - 09-0147-PY
-  - 09-0148-JP
-  - 09-0150-GB
-  - 09-0151-AR
-  - 09-0152-CO
-  - 09-0153-BR
-  - 09-0154-NL
-  - 09-0156-KR
-  - 09-0157-US
-  - 09-0158-IS
-  - 09-0159-PR
-  - 09-0160-RO
-  - 09-0161-PL
-  - 09-0162-LT
-  - 09-0164-CA
-  - 09-0165-LT
-  - 09-0166-LT
-  - 09-0167-HK
-  - 09-0168-HK
-  - 09-0169-HK
-  - 09-0170-LT
-  - 09-0171-HK
-  - 09-0172-US
-  - 09-0173-SG
-  - 09-0174-TW
-  - 09-0175-LT
-  - 09-0177-GR
-  - 09-0178-GR
-  - 09-0179-TR
-  - 09-0180-TR
-  - 09-0181-FR
-  - 09-0184-MT
-  - 09-0187-RS
-  - 09-0188-MK
-  - 09-0189-MK
-  - 09-0190-SE
-  - 09-0191-KR
-  - 09-0192-HK
-  - 09-0196-VN
-  - 09-0197-RELAY
-  - 09-0198-RELAY
-  - 09-0200-RELAY
-  - 09-0201-RELAY
-  - 09-0202-RELAY
-  - 09-0203-RELAY
-  - 09-0204-RELAY
-  - 09-0205-RELAY
-  - 09-0206-TW
-  - 09-0210-CA
-  - 09-0211-US
-  - 09-0218-AE
-  - 09-0219-US
-  - 09-0220-US
-  - 09-0222-NL
-  - 09-0223-IN
-  - 09-0234-JP
-  - 09-0246-DE
-  - 09-0247-FR
-  - 09-0248-NL
+  - 09-0146-KR
+  - 09-0147-BR
+  - 09-0149-RO
+  - 09-0150-TW
+  - 09-0151-VN
+  - 09-0152-HK
+  - 09-0153-SE
+  - 09-0154-CY
+  - 09-0155-NL
+  - 09-0156-VN
+  - 09-0157-NL
+  - 09-0158-NL
+  - 09-0159-LT
+  - 09-0160-US
+  - 09-0161-VN
+  - 09-0162-US
+  - 09-0163-TW
+  - 09-0164-TR
+  - 09-0165-FR
+  - 09-0166-IS
+  - 09-0167-TR
+  - 09-0168-MT
+  - 09-0169-LT
+  - 09-0170-GB
+  - 09-0171-LT
+  - 09-0172-IS
+  - 09-0173-HK
+  - 09-0174-US
+  - 09-0175-US
+  - 09-0176-FR
+  - 09-0177-HK
+  - 09-0178-FR
+  - 09-0179-UA
+  - 09-0180-DE
+  - 09-0181-US
+  - 09-0182-LT
+  - 09-0183-SG
+  - 09-0184-RELAY
+  - 09-0185-SG
+  - 09-0186-RELAY
+  - 09-0187-RELAY
+  - 09-0188-RELAY
+  - 09-0189-RELAY
+  - 09-0190-RELAY
+  - 09-0191-RELAY
+  - 09-0192-LT
+  - 09-0193-RELAY
+  - 09-0194-RELAY
+  - 09-0196-LT
+  - 09-0197-CA
+  - 09-0200-US
+  - 09-0205-JP
+  - 09-0206-AE
+  - 09-0207-US
+  - 09-0208-PR
+  - 09-0209-NL
+  - 09-0210-IN
+  - 09-0211-GR
+  - 09-0219-DE
+  - 09-0235-SI
+  - 09-0239-GR
+  - 09-0240-MK
 - name: Best
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -1240,155 +1236,154 @@ proxy-groups:
   tolerance: 50
   filter: .*
   proxies:
-  - 09-0050-DE
-  - 09-0052-CA
-  - 09-0053-NL
-  - 09-0054-FR
-  - 09-0055-IN
+  - 09-0050-NL
+  - 09-0051-US
+  - 09-0052-AU
+  - 09-0054-AE
+  - 09-0056-HR
+  - 09-0057-IN
   - 09-0058-US
-  - 09-0059-LT
-  - 09-0060-DE
-  - 09-0062-AE
-  - 09-0063-AU
-  - 09-0064-IN
-  - 09-0066-HR
-  - 09-0068-US
-  - 09-0069-NL
-  - 09-0070-US
-  - 09-0071-US
-  - 09-0072-US
+  - 09-0059-US
+  - 09-0060-US
+  - 09-0061-US
+  - 09-0062-US
+  - 09-0063-US
+  - 09-0064-US
+  - 09-0065-US
+  - 09-0066-CA
+  - 09-0067-US
+  - 09-0068-NL
+  - 09-0069-AE
+  - 09-0070-NL
+  - 09-0071-AE
+  - 09-0072-NL
   - 09-0073-US
-  - 09-0074-US
-  - 09-0075-US
-  - 09-0076-US
-  - 09-0077-US
-  - 09-0078-SG
-  - 09-0079-US
-  - 09-0080-CA
-  - 09-0081-US
-  - 09-0082-SG
-  - 09-0083-DE
-  - 09-0084-US
-  - 09-0085-US
-  - 09-0086-CA
-  - 09-0087-NL
-  - 09-0088-FR
-  - 09-0089-NL
-  - 09-0090-LT
-  - 09-0091-LT
-  - 09-0092-LT
-  - 09-0093-AE
-  - 09-0094-FR
-  - 09-0095-LT
-  - 09-0096-NL
-  - 09-0097-FR
-  - 09-0098-AE
-  - 09-0099-GB
-  - 09-0100-NL
-  - 09-0101-NL
-  - 09-0102-GB
-  - 09-0103-LT
-  - 09-0104-GB
-  - 09-0105-GB
-  - 09-0106-GB
-  - 09-0107-NL
-  - 09-0108-NL
-  - 09-0109-NL
-  - 09-0110-LT
-  - 09-0111-AE
-  - 09-0112-GB
-  - 09-0113-GB
-  - 09-0114-GB
-  - 09-0115-GB
-  - 09-0116-GB
-  - 09-0117-NL
-  - 09-0118-AE
-  - 09-0119-FR
-  - 09-0120-SE
-  - 09-0121-CH
-  - 09-0122-SK
-  - 09-0123-CZ
-  - 09-0124-CA
-  - 09-0125-CH
-  - 09-0126-CH
+  - 09-0074-NL
+  - 09-0075-AE
+  - 09-0076-FR
+  - 09-0077-AE
+  - 09-0078-NL
+  - 09-0080-LT
+  - 09-0081-NL
+  - 09-0082-LT
+  - 09-0083-FR
+  - 09-0084-FR
+  - 09-0085-GB
+  - 09-0086-GB
+  - 09-0087-CA
+  - 09-0088-GB
+  - 09-0089-GB
+  - 09-0090-GB
+  - 09-0091-US
+  - 09-0092-GB
+  - 09-0093-CZ
+  - 09-0094-GB
+  - 09-0095-GB
+  - 09-0096-GB
+  - 09-0097-GB
+  - 09-0098-NL
+  - 09-0099-CH
+  - 09-0100-CH
+  - 09-0101-CH
+  - 09-0102-US
+  - 09-0103-SK
+  - 09-0104-US
+  - 09-0106-SE
+  - 09-0108-CA
+  - 09-0109-JP
+  - 09-0110-BG
+  - 09-0111-ES
+  - 09-0112-FI
+  - 09-0113-DK
+  - 09-0114-BE
+  - 09-0115-NL
+  - 09-0117-AT
+  - 09-0118-PY
+  - 09-0119-MD
+  - 09-0120-FR
+  - 09-0121-LT
+  - 09-0122-FR
+  - 09-0123-FR
+  - 09-0124-NO
+  - 09-0125-RS
+  - 09-0126-PY
   - 09-0127-NL
-  - 09-0129-FR
-  - 09-0130-NO
-  - 09-0131-NO
-  - 09-0132-FI
-  - 09-0133-NL
-  - 09-0134-BG
-  - 09-0135-AT
-  - 09-0136-ES
-  - 09-0137-JP
-  - 09-0138-PY
-  - 09-0139-MD
-  - 09-0140-BE
-  - 09-0141-US
-  - 09-0142-DK
-  - 09-0143-NL
-  - 09-0144-LT
+  - 09-0128-CO
+  - 09-0129-NO
+  - 09-0131-LT
+  - 09-0132-FR
+  - 09-0134-NL
+  - 09-0135-NL
+  - 09-0136-LT
+  - 09-0137-HK
+  - 09-0138-HK
+  - 09-0139-AR
+  - 09-0142-US
+  - 09-0143-KR
+  - 09-0144-HK
   - 09-0145-CO
-  - 09-0146-FR
-  - 09-0147-PY
-  - 09-0148-JP
-  - 09-0150-GB
-  - 09-0151-AR
-  - 09-0152-CO
-  - 09-0153-BR
-  - 09-0154-NL
-  - 09-0156-KR
-  - 09-0157-US
-  - 09-0158-IS
-  - 09-0159-PR
-  - 09-0160-RO
-  - 09-0161-PL
-  - 09-0162-LT
-  - 09-0164-CA
-  - 09-0165-LT
-  - 09-0166-LT
-  - 09-0167-HK
-  - 09-0168-HK
-  - 09-0169-HK
-  - 09-0170-LT
-  - 09-0171-HK
-  - 09-0172-US
-  - 09-0173-SG
-  - 09-0174-TW
-  - 09-0175-LT
-  - 09-0177-GR
-  - 09-0178-GR
-  - 09-0179-TR
-  - 09-0180-TR
-  - 09-0181-FR
-  - 09-0184-MT
-  - 09-0187-RS
-  - 09-0188-MK
-  - 09-0189-MK
-  - 09-0190-SE
-  - 09-0191-KR
-  - 09-0192-HK
-  - 09-0196-VN
-  - 09-0197-RELAY
-  - 09-0198-RELAY
-  - 09-0200-RELAY
-  - 09-0201-RELAY
-  - 09-0202-RELAY
-  - 09-0203-RELAY
-  - 09-0204-RELAY
-  - 09-0205-RELAY
-  - 09-0206-TW
-  - 09-0210-CA
-  - 09-0211-US
-  - 09-0218-AE
-  - 09-0219-US
-  - 09-0220-US
-  - 09-0222-NL
-  - 09-0223-IN
-  - 09-0234-JP
-  - 09-0246-DE
-  - 09-0247-FR
-  - 09-0248-NL
+  - 09-0146-KR
+  - 09-0147-BR
+  - 09-0149-RO
+  - 09-0150-TW
+  - 09-0151-VN
+  - 09-0152-HK
+  - 09-0153-SE
+  - 09-0154-CY
+  - 09-0155-NL
+  - 09-0156-VN
+  - 09-0157-NL
+  - 09-0158-NL
+  - 09-0159-LT
+  - 09-0160-US
+  - 09-0161-VN
+  - 09-0162-US
+  - 09-0163-TW
+  - 09-0164-TR
+  - 09-0165-FR
+  - 09-0166-IS
+  - 09-0167-TR
+  - 09-0168-MT
+  - 09-0169-LT
+  - 09-0170-GB
+  - 09-0171-LT
+  - 09-0172-IS
+  - 09-0173-HK
+  - 09-0174-US
+  - 09-0175-US
+  - 09-0176-FR
+  - 09-0177-HK
+  - 09-0178-FR
+  - 09-0179-UA
+  - 09-0180-DE
+  - 09-0181-US
+  - 09-0182-LT
+  - 09-0183-SG
+  - 09-0184-RELAY
+  - 09-0185-SG
+  - 09-0186-RELAY
+  - 09-0187-RELAY
+  - 09-0188-RELAY
+  - 09-0189-RELAY
+  - 09-0190-RELAY
+  - 09-0191-RELAY
+  - 09-0192-LT
+  - 09-0193-RELAY
+  - 09-0194-RELAY
+  - 09-0196-LT
+  - 09-0197-CA
+  - 09-0200-US
+  - 09-0205-JP
+  - 09-0206-AE
+  - 09-0207-US
+  - 09-0208-PR
+  - 09-0209-NL
+  - 09-0210-IN
+  - 09-0211-GR
+  - 09-0219-DE
+  - 09-0235-SI
+  - 09-0239-GR
+  - 09-0240-MK
 - name: HK
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -1398,11 +1393,12 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
-  - 09-0167-HK
-  - 09-0168-HK
-  - 09-0169-HK
-  - 09-0171-HK
-  - 09-0192-HK
+  - 09-0137-HK
+  - 09-0138-HK
+  - 09-0144-HK
+  - 09-0152-HK
+  - 09-0173-HK
+  - 09-0177-HK
   filter: (?i)港|HK|HongKong|hong kong
 - name: TW
   type: url-test
@@ -1413,8 +1409,8 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
-  - 09-0174-TW
-  - 09-0206-TW
+  - 09-0150-TW
+  - 09-0163-TW
   filter: 台湾|TW|Tw|Taiwan|新北|彰化|CHT|HINET
 - name: JP
   type: url-test
@@ -1425,9 +1421,8 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
-  - 09-0137-JP
-  - 09-0148-JP
-  - 09-0234-JP
+  - 09-0109-JP
+  - 09-0205-JP
   filter: (?i)日|东京|大阪|JP|Japan|Tokyo|Osaka|Saitama
 - name: SG
   type: url-test
@@ -1438,9 +1433,8 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
-  - 09-0078-SG
-  - 09-0082-SG
-  - 09-0173-SG
+  - 09-0183-SG
+  - 09-0185-SG
   filter: (?i)新|狮城|SG|Singapore
 - name: US
   type: url-test
@@ -1451,26 +1445,28 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
+  - 09-0051-US
   - 09-0058-US
-  - 09-0068-US
-  - 09-0070-US
-  - 09-0071-US
-  - 09-0072-US
+  - 09-0059-US
+  - 09-0060-US
+  - 09-0061-US
+  - 09-0062-US
+  - 09-0063-US
+  - 09-0064-US
+  - 09-0065-US
+  - 09-0067-US
   - 09-0073-US
-  - 09-0074-US
-  - 09-0075-US
-  - 09-0076-US
-  - 09-0077-US
-  - 09-0079-US
-  - 09-0081-US
-  - 09-0084-US
-  - 09-0085-US
-  - 09-0141-US
-  - 09-0157-US
-  - 09-0172-US
-  - 09-0211-US
-  - 09-0219-US
-  - 09-0220-US
+  - 09-0091-US
+  - 09-0102-US
+  - 09-0104-US
+  - 09-0142-US
+  - 09-0160-US
+  - 09-0162-US
+  - 09-0174-US
+  - 09-0175-US
+  - 09-0181-US
+  - 09-0200-US
+  - 09-0207-US
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: Claude
   type: url-test

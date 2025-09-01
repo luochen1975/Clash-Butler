@@ -607,12 +607,6 @@ proxies:
   server: 193.29.139.189
   type: ss
 - cipher: aes-256-cfb
-  name: 09-0142-PL
-  password: GA9KzeEgvfxNrgmM
-  port: 9019
-  server: 217.30.10.18
-  type: ss
-- cipher: aes-256-cfb
   name: 09-0143-IS
   password: f8f7aCzcPKbsF8p3
   port: 989
@@ -647,6 +641,12 @@ proxies:
   password: SjdGCHwafjktt1rzpGxTKYTvVBWb8Xa6E5DTr6MzbdHQSwvpLiDczj3n6MBjy2uyFSzgqgvCWsDQmpM4VQzfPzyGYF58wdyD
   port: 42029
   server: 208.67.105.196
+  type: ss
+- cipher: aes-256-gcm
+  name: 09-0149-US
+  password: XKFKl2rULjIp74
+  port: 8009
+  server: 23.157.40.101
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 09-0150-LT
@@ -722,17 +722,18 @@ proxies:
   port: 443
   server: 160.19.78.75
   type: ss
+- name: 09-0161-SE
+  password: 2ee85121-31de-4581-a492-eb00f606e392
+  port: 443
+  server: 45.91.171.116
+  skip-cert-verify: true
+  sni: sto.freeguard.org
+  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 09-0162-ID
   password: f8f7aCzcPKbsF8p3
   port: 990
   server: 154.205.159.100
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0163-DE
-  password: a58fa62b4944ddbf
-  port: 57456
-  server: 147.45.178.200
   type: ss
 - cipher: aes-128-gcm
   name: 09-0164-GB
@@ -799,6 +800,13 @@ proxies:
   server: 40.233.102.224
   skip-cert-verify: true
   sni: www.bing.com
+  type: hysteria2
+- name: 09-0174-GB
+  password: 7GEEGxAfgQaVPQX0PGk7lIuj3I
+  port: 10820
+  server: 158.41.110.234
+  skip-cert-verify: true
+  sni: bing.com
   type: hysteria2
 - cipher: aes-256-gcm
   name: 09-0176-JP
@@ -1038,19 +1046,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 0970834f-5b4d-44da-d890-19dcb2a72d4c
-- cipher: chacha20-ietf-poly1305
-  name: 09-0231-PR
-  password: f8f7aCzcPKbsF8p3
-  port: 990
-  server: 185.47.255.22
-  type: ss
-- name: 09-0232-HK
-  password: 20d43425-938f-4163-9b4f-8fb7377f6885
-  port: 40001
-  server: 38.207.142.50
-  skip-cert-verify: true
-  sni: xg.dimoyun.top
-  type: hysteria2
 - cipher: aes-256-cfb
   name: 09-0233-GR
   password: f8f7aCzcPKbsF8p3
@@ -1101,19 +1096,6 @@ proxies:
   skip-cert-verify: true
   sni: 4.daka778.top
   type: hysteria2
-- name: 09-0242-SG
-  network: ws
-  port: 443
-  server: 43.159.98.26
-  servername: hk3.kaipi.link
-  tls: true
-  type: vless
-  udp: true
-  uuid: d8665d45-8103-46e9-9cb7-8902bb7559b4
-  ws-opts:
-    headers:
-      Host: hk3.kaipi.link
-    path: /texaws
 proxy-groups:
 - name: PROXY
   type: select
@@ -1217,13 +1199,13 @@ proxy-groups:
   - 09-0139-HK
   - 09-0140-LT
   - 09-0141-NL
-  - 09-0142-PL
   - 09-0143-IS
   - 09-0144-TW
   - 09-0145-HK
   - 09-0146-CO
   - 09-0147-LT
   - 09-0148-NL
+  - 09-0149-US
   - 09-0150-LT
   - 09-0151-LT
   - 09-0152-NL
@@ -1235,8 +1217,8 @@ proxy-groups:
   - 09-0158-CY
   - 09-0159-US
   - 09-0160-VN
+  - 09-0161-SE
   - 09-0162-ID
-  - 09-0163-DE
   - 09-0164-GB
   - 09-0165-US
   - 09-0166-NL
@@ -1246,6 +1228,7 @@ proxy-groups:
   - 09-0171-FR
   - 09-0172-US
   - 09-0173-CA
+  - 09-0174-GB
   - 09-0176-JP
   - 09-0178-US
   - 09-0179-CA
@@ -1274,8 +1257,6 @@ proxy-groups:
   - 09-0208-SI
   - 09-0210-IN
   - 09-0215-IN
-  - 09-0231-PR
-  - 09-0232-HK
   - 09-0233-GR
   - 09-0234-RU
   - 09-0235-FR
@@ -1283,7 +1264,6 @@ proxy-groups:
   - 09-0238-MK
   - 09-0239-US
   - 09-0241-RU
-  - 09-0242-SG
 - name: Best
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -1392,13 +1372,13 @@ proxy-groups:
   - 09-0139-HK
   - 09-0140-LT
   - 09-0141-NL
-  - 09-0142-PL
   - 09-0143-IS
   - 09-0144-TW
   - 09-0145-HK
   - 09-0146-CO
   - 09-0147-LT
   - 09-0148-NL
+  - 09-0149-US
   - 09-0150-LT
   - 09-0151-LT
   - 09-0152-NL
@@ -1410,8 +1390,8 @@ proxy-groups:
   - 09-0158-CY
   - 09-0159-US
   - 09-0160-VN
+  - 09-0161-SE
   - 09-0162-ID
-  - 09-0163-DE
   - 09-0164-GB
   - 09-0165-US
   - 09-0166-NL
@@ -1421,6 +1401,7 @@ proxy-groups:
   - 09-0171-FR
   - 09-0172-US
   - 09-0173-CA
+  - 09-0174-GB
   - 09-0176-JP
   - 09-0178-US
   - 09-0179-CA
@@ -1449,8 +1430,6 @@ proxy-groups:
   - 09-0208-SI
   - 09-0210-IN
   - 09-0215-IN
-  - 09-0231-PR
-  - 09-0232-HK
   - 09-0233-GR
   - 09-0234-RU
   - 09-0235-FR
@@ -1458,7 +1437,6 @@ proxy-groups:
   - 09-0238-MK
   - 09-0239-US
   - 09-0241-RU
-  - 09-0242-SG
 - name: HK
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -1472,7 +1450,6 @@ proxy-groups:
   - 09-0126-HK
   - 09-0139-HK
   - 09-0145-HK
-  - 09-0232-HK
   filter: (?i)港|HK|HongKong|hong kong
 - name: TW
   type: url-test
@@ -1510,7 +1487,6 @@ proxy-groups:
   proxies:
   - 09-0190-SG
   - 09-0194-SG
-  - 09-0242-SG
   filter: (?i)新|狮城|SG|Singapore
 - name: US
   type: url-test
@@ -1538,6 +1514,7 @@ proxy-groups:
   - 09-0100-US
   - 09-0123-US
   - 09-0129-US
+  - 09-0149-US
   - 09-0159-US
   - 09-0165-US
   - 09-0169-US

@@ -660,29 +660,11 @@ proxies:
   port: 8080
   server: 45.87.175.35
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0151-LT
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 45.87.175.69
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0152-NL
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.202
-  type: ss
 - cipher: aes-128-gcm
   name: 09-0153-NL
   password: shadowsocks
   port: 443
   server: 149.34.244.68
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0154-NL
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 193.29.139.179
   type: ss
 - cipher: aes-256-cfb
   name: 09-0155-BR
@@ -715,6 +697,13 @@ proxies:
   port: 443
   server: 160.19.78.75
   type: ss
+- name: 09-0161-SE
+  password: 2ee85121-31de-4581-a492-eb00f606e392
+  port: 443
+  server: 45.91.171.116
+  skip-cert-verify: true
+  sni: sto.freeguard.org
+  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 09-0162-ID
   password: f8f7aCzcPKbsF8p3
@@ -752,12 +741,6 @@ proxies:
   port: 62685
   server: 213.109.147.242
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0167-LT
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 45.87.175.157
-  type: ss
 - name: 09-0169-US
   password: 5CBqBh6MeDq6GajcilBiDg==
   port: 61001
@@ -779,6 +762,13 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
+- name: 09-0172-US
+  password: dongtaiwang.com
+  port: 22222
+  server: 208.87.243.187
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
 - name: 09-0173-CA
   password: 2429bee3-e0c1-47dd-b420-75e6512b184b
   port: 30300
@@ -786,6 +776,28 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
+- name: 09-0174-GB
+  password: 7GEEGxAfgQaVPQX0PGk7lIuj3I
+  port: 10820
+  server: 158.41.110.234
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+- cipher: aes-256-gcm
+  name: 09-0175-SC
+  password: 9969db7a2f51
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: hk6v1.dsjsapp.com
+    mode: websocket
+    mux: true
+    path: /fgsauuoqxwx
+    restls: false
+    skip-cert-verify: true
+    tls: true
+  port: 443
+  server: 156.251.179.135
+  type: ss
 - cipher: aes-256-gcm
   name: 09-0176-JP
   password: zJcvujpsXt
@@ -939,19 +951,6 @@ proxies:
   protocol: auth_aes128_md5
   server: 45.154.204.13
   type: ssr
-- name: 09-0198-RELAY
-  network: ws
-  port: 443
-  server: 104.18.13.145
-  servername: usa.rtot.me
-  tls: true
-  type: vless
-  udp: true
-  uuid: f19ed531-81cb-433e-8746-1a69e009f9df
-  ws-opts:
-    headers:
-      Host: usa.rtot.me
-    path: /bing
 - cipher: chacha20-ietf-poly1305
   name: 09-0200-LT
   password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -1036,13 +1035,6 @@ proxies:
   port: 990
   server: 185.47.255.22
   type: ss
-- name: 09-0232-HK
-  password: 20d43425-938f-4163-9b4f-8fb7377f6885
-  port: 40001
-  server: 38.207.142.50
-  skip-cert-verify: true
-  sni: xg.dimoyun.top
-  type: hysteria2
 - cipher: aes-256-cfb
   name: 09-0233-GR
   password: f8f7aCzcPKbsF8p3
@@ -1100,19 +1092,6 @@ proxies:
   skip-cert-verify: true
   sni: 4.daka778.top
   type: hysteria2
-- name: 09-0242-SG
-  network: ws
-  port: 443
-  server: 43.159.98.26
-  servername: hk3.kaipi.link
-  tls: true
-  type: vless
-  udp: true
-  uuid: d8665d45-8103-46e9-9cb7-8902bb7559b4
-  ws-opts:
-    headers:
-      Host: hk3.kaipi.link
-    path: /texaws
 proxy-groups:
 - name: PROXY
   type: select
@@ -1225,25 +1204,25 @@ proxy-groups:
   - 09-0148-NL
   - 09-0149-US
   - 09-0150-LT
-  - 09-0151-LT
-  - 09-0152-NL
   - 09-0153-NL
-  - 09-0154-NL
   - 09-0155-BR
   - 09-0156-IN
   - 09-0158-CY
   - 09-0159-US
   - 09-0160-VN
+  - 09-0161-SE
   - 09-0162-ID
   - 09-0163-DE
   - 09-0164-GB
   - 09-0165-US
   - 09-0166-NL
-  - 09-0167-LT
   - 09-0169-US
   - 09-0170-US
   - 09-0171-FR
+  - 09-0172-US
   - 09-0173-CA
+  - 09-0174-GB
+  - 09-0175-SC
   - 09-0176-JP
   - 09-0178-US
   - 09-0179-CA
@@ -1262,7 +1241,6 @@ proxy-groups:
   - 09-0194-SG
   - 09-0195-AE
   - 09-0196-CA
-  - 09-0198-RELAY
   - 09-0200-LT
   - 09-0202-US
   - 09-0203-JP
@@ -1274,7 +1252,6 @@ proxy-groups:
   - 09-0210-IN
   - 09-0215-IN
   - 09-0231-PR
-  - 09-0232-HK
   - 09-0233-GR
   - 09-0234-RU
   - 09-0235-FR
@@ -1283,7 +1260,6 @@ proxy-groups:
   - 09-0239-US
   - 09-0240-DE
   - 09-0241-RU
-  - 09-0242-SG
 - name: Best
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -1401,25 +1377,25 @@ proxy-groups:
   - 09-0148-NL
   - 09-0149-US
   - 09-0150-LT
-  - 09-0151-LT
-  - 09-0152-NL
   - 09-0153-NL
-  - 09-0154-NL
   - 09-0155-BR
   - 09-0156-IN
   - 09-0158-CY
   - 09-0159-US
   - 09-0160-VN
+  - 09-0161-SE
   - 09-0162-ID
   - 09-0163-DE
   - 09-0164-GB
   - 09-0165-US
   - 09-0166-NL
-  - 09-0167-LT
   - 09-0169-US
   - 09-0170-US
   - 09-0171-FR
+  - 09-0172-US
   - 09-0173-CA
+  - 09-0174-GB
+  - 09-0175-SC
   - 09-0176-JP
   - 09-0178-US
   - 09-0179-CA
@@ -1438,7 +1414,6 @@ proxy-groups:
   - 09-0194-SG
   - 09-0195-AE
   - 09-0196-CA
-  - 09-0198-RELAY
   - 09-0200-LT
   - 09-0202-US
   - 09-0203-JP
@@ -1450,7 +1425,6 @@ proxy-groups:
   - 09-0210-IN
   - 09-0215-IN
   - 09-0231-PR
-  - 09-0232-HK
   - 09-0233-GR
   - 09-0234-RU
   - 09-0235-FR
@@ -1459,7 +1433,6 @@ proxy-groups:
   - 09-0239-US
   - 09-0240-DE
   - 09-0241-RU
-  - 09-0242-SG
 - name: HK
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -1473,7 +1446,6 @@ proxy-groups:
   - 09-0126-HK
   - 09-0139-HK
   - 09-0145-HK
-  - 09-0232-HK
   filter: (?i)港|HK|HongKong|hong kong
 - name: TW
   type: url-test
@@ -1511,7 +1483,6 @@ proxy-groups:
   - 09-0190-SG
   - 09-0194-SG
   - 09-0209-SG
-  - 09-0242-SG
   filter: (?i)新|狮城|SG|Singapore
 - name: US
   type: url-test
@@ -1544,6 +1515,7 @@ proxy-groups:
   - 09-0165-US
   - 09-0169-US
   - 09-0170-US
+  - 09-0172-US
   - 09-0178-US
   - 09-0192-US
   - 09-0202-US

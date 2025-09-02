@@ -728,6 +728,12 @@ proxies:
   port: 443
   server: 77.110.110.117
   type: ss
+- cipher: aes-256-cfb
+  name: 09-0170-NL
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 51.15.23.63
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 09-0171-NL
   password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -906,12 +912,6 @@ proxies:
   skip-cert-verify: true
   sni: rc8.freeguard.org
   type: trojan
-- cipher: aes-256-cfb
-  name: 09-0199-MK
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 46.183.185.15
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 09-0200-LT
   password: QCXDxuDlTTMD7jtgHUjIoj
@@ -944,17 +944,49 @@ proxies:
   sni: sj3.freeguard.org
   type: trojan
 - cipher: chacha20-ietf-poly1305
+  name: 09-0205-NL
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.240
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0206-FR
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 45.158.171.66
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0207-FR
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 45.158.171.70
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: 09-0208-VN
   password: Nk9asglDzHzjktVzTkvhaA
   port: 443
   server: 160.19.78.75
   type: ss
+- name: 09-0209-US
+  password: 5CBqBh6MeDq6GajcilBiDg==
+  port: 61001
+  server: 192.227.152.86
+  skip-cert-verify: true
+  sni: 192-227-152-86.nip.io
+  type: hysteria2
 - name: 09-0210-FR
   password: dongtaiwang.com
   port: 5355
   server: 51.159.111.32
   skip-cert-verify: true
   sni: www.bing.com
+  type: hysteria2
+- name: 09-0211-HK
+  password: NjEkAYYNqFKUbrksyW1COBtdpU
+  port: 2428
+  server: 47.239.220.214
+  skip-cert-verify: true
+  sni: bing.com
   type: hysteria2
 - name: 09-0212-GB
   password: 7GEEGxAfgQaVPQX0PGk7lIuj3I
@@ -1874,19 +1906,6 @@ proxies:
   uuid: 0c17318b-d8e7-4816-a6a2-ab873a3bcc8b
   ws-opts:
     path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: 09-0348-HK
-  network: ws
-  port: 80
-  server: 219.78.148.97
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-  ws-opts:
-    path: /
 - name: 09-0351-DE
   password: 45b46edb-679b-4ea5-befd-88c05bb94f80
   port: 2056
@@ -1944,48 +1963,6 @@ proxies:
   port: 52952
   server: 141.98.4.67
   type: ss
-- name: 09-0360-JP
-  password: 253bc477d4e43c209f2d427272968280
-  port: 9160
-  server: 3.112.231.21
-  skip-cert-verify: true
-  sni: 23.45.86.28
-  type: trojan
-- name: 09-0361-JP
-  password: 253bc477d4e43c209f2d427272968280
-  port: 4613
-  server: 3.112.231.21
-  skip-cert-verify: true
-  sni: 23.45.86.28
-  type: trojan
-- name: 09-0362-JP
-  password: 253bc477d4e43c209f2d427272968280
-  port: 4801
-  server: 3.112.231.21
-  skip-cert-verify: true
-  sni: 23.45.86.28
-  type: trojan
-- name: 09-0363-JP
-  password: 253bc477d4e43c209f2d427272968280
-  port: 3206
-  server: 3.112.231.21
-  skip-cert-verify: true
-  sni: 23.45.86.28
-  type: trojan
-- name: 09-0364-JP
-  password: 253bc477d4e43c209f2d427272968280
-  port: 4317
-  server: 3.112.231.21
-  skip-cert-verify: true
-  sni: 23.45.86.28
-  type: trojan
-- name: 09-0365-JP
-  password: 253bc477d4e43c209f2d427272968280
-  port: 1924
-  server: 3.112.231.21
-  skip-cert-verify: true
-  sni: 23.45.86.28
-  type: trojan
 - name: 09-0366-IR
   network: tcp
   port: 8443
@@ -1995,13 +1972,6 @@ proxies:
   type: vless
   udp: true
   uuid: 789d4f30-c31b-4762-8116-ed42574d5e85
-- name: 09-0367-JP
-  password: 253bc477d4e43c209f2d427272968280
-  port: 443
-  server: 18.181.147.224
-  skip-cert-verify: true
-  sni: fe2.update.microsoft.com
-  type: trojan
 proxy-groups:
 - name: PROXY
   type: select
@@ -2120,6 +2090,7 @@ proxy-groups:
   - 09-0167-AR
   - 09-0168-LT
   - 09-0169-AT
+  - 09-0170-NL
   - 09-0171-NL
   - 09-0172-NL
   - 09-0173-PL
@@ -2148,14 +2119,18 @@ proxy-groups:
   - 09-0196-IN
   - 09-0197-KR
   - 09-0198-US
-  - 09-0199-MK
   - 09-0200-LT
   - 09-0201-GR
   - 09-0202-NL
   - 09-0203-LT
   - 09-0204-US
+  - 09-0205-NL
+  - 09-0206-FR
+  - 09-0207-FR
   - 09-0208-VN
+  - 09-0209-US
   - 09-0210-FR
+  - 09-0211-HK
   - 09-0212-GB
   - 09-0213-DE
   - 09-0214-CA
@@ -2268,21 +2243,13 @@ proxy-groups:
   - 09-0326-IN
   - 09-0327-JP
   - 09-0328-US
-  - 09-0348-HK
   - 09-0351-DE
   - 09-0352-RELAY
   - 09-0353-HK
   - 09-0354-KR
   - 09-0355-TR
   - 09-0357-NL
-  - 09-0360-JP
-  - 09-0361-JP
-  - 09-0362-JP
-  - 09-0363-JP
-  - 09-0364-JP
-  - 09-0365-JP
   - 09-0366-IR
-  - 09-0367-JP
 - name: Best
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -2406,6 +2373,7 @@ proxy-groups:
   - 09-0167-AR
   - 09-0168-LT
   - 09-0169-AT
+  - 09-0170-NL
   - 09-0171-NL
   - 09-0172-NL
   - 09-0173-PL
@@ -2434,14 +2402,18 @@ proxy-groups:
   - 09-0196-IN
   - 09-0197-KR
   - 09-0198-US
-  - 09-0199-MK
   - 09-0200-LT
   - 09-0201-GR
   - 09-0202-NL
   - 09-0203-LT
   - 09-0204-US
+  - 09-0205-NL
+  - 09-0206-FR
+  - 09-0207-FR
   - 09-0208-VN
+  - 09-0209-US
   - 09-0210-FR
+  - 09-0211-HK
   - 09-0212-GB
   - 09-0213-DE
   - 09-0214-CA
@@ -2554,21 +2526,13 @@ proxy-groups:
   - 09-0326-IN
   - 09-0327-JP
   - 09-0328-US
-  - 09-0348-HK
   - 09-0351-DE
   - 09-0352-RELAY
   - 09-0353-HK
   - 09-0354-KR
   - 09-0355-TR
   - 09-0357-NL
-  - 09-0360-JP
-  - 09-0361-JP
-  - 09-0362-JP
-  - 09-0363-JP
-  - 09-0364-JP
-  - 09-0365-JP
   - 09-0366-IR
-  - 09-0367-JP
 - name: HK
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -2582,8 +2546,8 @@ proxy-groups:
   - 09-0176-HK
   - 09-0178-HK
   - 09-0190-HK
+  - 09-0211-HK
   - 09-0215-HK
-  - 09-0348-HK
   - 09-0353-HK
   filter: (?i)港|HK|HongKong|hong kong
 - name: TW
@@ -2609,13 +2573,6 @@ proxy-groups:
   - 09-0154-JP
   - 09-0323-JP
   - 09-0327-JP
-  - 09-0360-JP
-  - 09-0361-JP
-  - 09-0362-JP
-  - 09-0363-JP
-  - 09-0364-JP
-  - 09-0365-JP
-  - 09-0367-JP
   filter: (?i)日|东京|大阪|JP|Japan|Tokyo|Osaka|Saitama
 - name: SG
   type: url-test
@@ -2669,6 +2626,7 @@ proxy-groups:
   - 09-0195-US
   - 09-0198-US
   - 09-0204-US
+  - 09-0209-US
   - 09-0217-US
   - 09-0226-US
   - 09-0227-US

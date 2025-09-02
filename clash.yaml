@@ -83,12 +83,6 @@ proxies:
     headers:
       Host: tydfp.richard-motalebegarbashhamishe.info
     path: /tiger
-- name: 05-0001-RU
-  password: ee4a8f20-5467-4f12-bd87-ff21b7ba817c
-  port: 16187
-  server: 95.181.212.141
-  skip-cert-verify: true
-  type: hysteria2
 - name: 05-0002-RELAY
   network: ws
   password: slch2024
@@ -259,18 +253,6 @@ proxies:
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 06-0026-CN
-  password: D8FCC5C0-4AB6-4978-BAC7-55B31D67D76E
-  port: 31101
-  server: freed.themars.top
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 06-0027-CN
-  password: D8FCC5C0-4AB6-4978-BAC7-55B31D67D76E
-  port: 31102
-  server: freed.themars.top
-  type: ss
 - name: 06-0028-RELAY
   network: ws
   password: slch2024
@@ -314,12 +296,6 @@ proxies:
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 06-0042-TR
-  password: NbQNqngaIwS7
-  port: 443
-  server: 83.217.9.101
-  type: ss
 - name: 06-0044-RELAY
   network: ws
   port: 443
@@ -812,6 +788,12 @@ proxies:
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 09-0106-TR
+  password: qscavF5UviIL-8V-E4raBA
+  port: 2222
+  server: 62.133.63.226
+  type: ss
 - name: 09-0107-US
   network: ws
   password: slch2024
@@ -1172,12 +1154,6 @@ proxies:
   sni: bing.com
   type: hysteria2
 - cipher: aes-128-gcm
-  name: 09-0154-US
-  password: shadowsocks
-  port: 443
-  server: 173.244.56.9
-  type: ss
-- cipher: aes-128-gcm
   name: 09-0155-US
   password: shadowsocks
   port: 443
@@ -1277,6 +1253,12 @@ proxies:
   server: 103.104.247.49
   type: ss
 - cipher: chacha20-ietf-poly1305
+  name: 09-0171-LT
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.199
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: 09-0172-AE
   password: QCXDxuDlTTMD7jtgHUjIoj
   port: 8080
@@ -1295,12 +1277,6 @@ proxies:
   server: 109.201.152.181
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 09-0175-LT
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 45.87.175.58
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 09-0176-LT
   password: 1RWwXhwfAB5gAEozU4G2Pg
   port: 8080
@@ -1311,18 +1287,6 @@ proxies:
   password: QCXDxuDlTTMD7jtgHUjIoj
   port: 8080
   server: 45.87.175.154
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0178-LT
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.166
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0179-NL
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.251
   type: ss
 - alterId: 0
   cipher: auto
@@ -1354,6 +1318,12 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 51.15.17.169
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0184-NL
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 193.29.139.138
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 09-0185-NL
@@ -1572,6 +1542,18 @@ proxies:
   server: 212.102.53.81
   type: ss
 - cipher: chacha20-ietf-poly1305
+  name: 09-0221-DE
+  password: a58fa62b4944ddbf
+  port: 57456
+  server: 147.45.178.200
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0222-LT
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.181
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: 09-0223-FR
   password: a58fa62b4944ddbf
   port: 57456
@@ -1596,16 +1578,22 @@ proxies:
   server: 95.163.176.37
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 09-0229-DE
-  password: 5ZQh4pssSk4aK1JG1XhBRg
-  port: 1080
-  server: 84.200.91.228
+  name: 09-0228-RO
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 185.126.237.38
   type: ss
 - cipher: aes-128-gcm
   name: 09-0230-JP
   password: shadowsocks
   port: 443
   server: 149.22.87.204
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0232-RU
+  password: 360e21d21977dc11
+  port: 57456
+  server: 45.139.24.24
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 09-0233-PY
@@ -1637,6 +1625,12 @@ proxies:
   port: 990
   server: 181.119.30.20
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0238-LT
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 45.87.175.22
+  type: ss
 - cipher: aes-256-cfb
   name: 09-0239-DK
   password: f8f7aCzcPKbsF8p3
@@ -1648,6 +1642,12 @@ proxies:
   password: mSQiuT5jR17nyWgcXOPrTW
   port: 8594
   server: 77.105.166.12
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0241-LT
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.171
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 09-0242-LT
@@ -1716,12 +1716,6 @@ proxies:
   server: 154.90.63.177
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 09-0253-LT
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 45.87.175.65
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 09-0254-FR
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
@@ -1781,12 +1775,6 @@ proxies:
   port: 8319
   server: 18.162.146.85
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0265-LT
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 45.87.175.28
-  type: ss
 - cipher: aes-256-cfb
   name: 09-0266-IS
   password: f8f7aCzcPKbsF8p3
@@ -1800,16 +1788,16 @@ proxies:
   server: 46.183.185.37
   type: ss
 - cipher: aes-256-cfb
+  name: 09-0268-IN
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 134.209.147.198
+  type: ss
+- cipher: aes-256-cfb
   name: 09-0269-TW
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 154.223.20.79
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0270-ID
-  password: f8f7aCzcPKbsF8p3
-  port: 990
-  server: 154.205.159.100
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 09-0271-HK
@@ -1830,12 +1818,6 @@ proxies:
   uuid: 0abb7b9e-81ba-4336-8ca7-056866032ff3
   ws-opts:
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 09-0273-CY
-  password: f8f7aCzcPKbsF8p3
-  port: 990
-  server: 134.255.210.49
-  type: ss
 - cipher: rc4-md5
   name: 09-0274-US
   password: 14fFPrbezE3HDZzsMOr6
@@ -1849,12 +1831,6 @@ proxies:
   skip-cert-verify: true
   sni: sj3.freeguard.org
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 09-0276-VN
-  password: Nk9asglDzHzjktVzTkvhaA
-  port: 443
-  server: 160.19.78.75
-  type: ss
 - name: 09-0277-US
   password: 2ee85121-31de-4581-a492-eb00f606e392
   port: 443
@@ -1887,6 +1863,13 @@ proxies:
   port: 989
   server: 103.163.218.2
   type: ss
+- name: 09-0282-DE
+  password: 2ee85121-31de-4581-a492-eb00f606e392
+  port: 443
+  server: 185.208.207.217
+  skip-cert-verify: true
+  sni: dus.freeguard.org
+  type: trojan
 - name: 09-0283-SE
   password: 2ee85121-31de-4581-a492-eb00f606e392
   port: 443
@@ -1900,19 +1883,6 @@ proxies:
   port: 989
   server: 37.235.49.152
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 09-0286-TW
-  network: ws
-  port: 20521
-  server: 103.61.139.137
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f8d93cfb-3d5d-447c-a697-16496dd74697
-  ws-opts:
-    path: /
 - cipher: chacha20-ietf-poly1305
   name: 09-0288-TR
   password: f8f7aCzcPKbsF8p3
@@ -1935,6 +1905,12 @@ proxies:
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 09-0291-PL
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 92.118.205.228
+  type: ss
 - cipher: rc4-md5
   name: 09-0292-US
   password: 14fFPrbezE3HDZzsMOr6
@@ -2129,13 +2105,6 @@ proxies:
   port: 8080
   server: 193.108.119.230
   type: ss
-- name: 09-0318-DE
-  password: 45b46edb-679b-4ea5-befd-88c05bb94f80
-  port: 2056
-  server: 84.200.87.248
-  skip-cert-verify: true
-  sni: de.eyucdn.xyz
-  type: hysteria2
 - cipher: aes-256-gcm
   name: 09-0319-JP
   password: zJcvujpsXt
@@ -2259,13 +2228,13 @@ proxies:
   server: 192.71.166.102
   type: ss
 - cipher: aes-256-cfb
-  name: 09-0364-SI
+  name: 09-0363-SI
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 192.71.244.150
   type: ss
 - cipher: rc4-md5
-  name: 98-0365-US
+  name: 98-0364-US
   obfs: plain
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
@@ -2289,7 +2258,6 @@ proxy-groups:
   filter: .*
   proxies:
   - 05-0000-RELAY
-  - 05-0001-RU
   - 05-0002-RELAY
   - 05-0003-RELAY
   - 05-0004-RELAY
@@ -2305,14 +2273,11 @@ proxy-groups:
   - 05-0019-RELAY
   - 05-0020-RELAY
   - 06-0021-RELAY
-  - 06-0026-CN
-  - 06-0027-CN
   - 06-0028-RELAY
   - 06-0032-RELAY
   - 06-0035-HK
   - 06-0040-MD
   - 06-0041-RELAY
-  - 06-0042-TR
   - 06-0044-RELAY
   - 06-0045-RELAY
   - 06-0046-US
@@ -2372,6 +2337,7 @@ proxy-groups:
   - 09-0103-US
   - 09-0104-RELAY
   - 09-0105-RELAY
+  - 09-0106-TR
   - 09-0107-US
   - 09-0108-US
   - 09-0109-RELAY
@@ -2418,7 +2384,6 @@ proxy-groups:
   - 09-0151-US
   - 09-0152-US
   - 09-0153-JP
-  - 09-0154-US
   - 09-0155-US
   - 09-0156-SG
   - 09-0157-US
@@ -2434,18 +2399,17 @@ proxy-groups:
   - 09-0168-AE
   - 09-0169-AE
   - 09-0170-NL
+  - 09-0171-LT
   - 09-0172-AE
   - 09-0173-NL
   - 09-0174-NL
-  - 09-0175-LT
   - 09-0176-LT
   - 09-0177-LT
-  - 09-0178-LT
-  - 09-0179-NL
   - 09-0180-US
   - 09-0181-FR
   - 09-0182-FR
   - 09-0183-NL
+  - 09-0184-NL
   - 09-0185-NL
   - 09-0186-ES
   - 09-0187-NL
@@ -2482,19 +2446,24 @@ proxy-groups:
   - 09-0218-NL
   - 09-0219-CA
   - 09-0220-GB
+  - 09-0221-DE
+  - 09-0222-LT
   - 09-0223-FR
   - 09-0224-BG
   - 09-0226-LT
   - 09-0227-AT
-  - 09-0229-DE
+  - 09-0228-RO
   - 09-0230-JP
+  - 09-0232-RU
   - 09-0233-PY
   - 09-0234-US
   - 09-0235-US
   - 09-0236-NL
   - 09-0237-CO
+  - 09-0238-LT
   - 09-0239-DK
   - 09-0240-FR
+  - 09-0241-LT
   - 09-0242-LT
   - 09-0243-RS
   - 09-0244-NL
@@ -2506,7 +2475,6 @@ proxy-groups:
   - 09-0250-US
   - 09-0251-BR
   - 09-0252-KR
-  - 09-0253-LT
   - 09-0254-FR
   - 09-0255-BE
   - 09-0256-PR
@@ -2517,28 +2485,26 @@ proxy-groups:
   - 09-0262-KR
   - 09-0263-GR
   - 09-0264-HK
-  - 09-0265-LT
   - 09-0266-IS
   - 09-0267-MK
+  - 09-0268-IN
   - 09-0269-TW
-  - 09-0270-ID
   - 09-0271-HK
   - 09-0272-US
-  - 09-0273-CY
   - 09-0274-US
   - 09-0275-US
-  - 09-0276-VN
   - 09-0277-US
   - 09-0278-HK
   - 09-0279-VN
   - 09-0280-EC
   - 09-0281-VN
+  - 09-0282-DE
   - 09-0283-SE
   - 09-0285-IS
-  - 09-0286-TW
   - 09-0288-TR
   - 09-0289-RELAY
   - 09-0290-BR
+  - 09-0291-PL
   - 09-0292-US
   - 09-0293-RELAY
   - 09-0294-RELAY
@@ -2561,7 +2527,6 @@ proxy-groups:
   - 09-0315-AU
   - 09-0316-AE
   - 09-0317-DE
-  - 09-0318-DE
   - 09-0319-JP
   - 09-0342-KR
   - 09-0343-HK
@@ -2576,8 +2541,8 @@ proxy-groups:
   - 09-0360-NL
   - 09-0361-NL
   - 09-0362-GR
-  - 09-0364-SI
-  - 98-0365-US
+  - 09-0363-SI
+  - 98-0364-US
 - name: Best
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -2600,7 +2565,6 @@ proxy-groups:
   filter: .*
   proxies:
   - 05-0000-RELAY
-  - 05-0001-RU
   - 05-0002-RELAY
   - 05-0003-RELAY
   - 05-0004-RELAY
@@ -2616,14 +2580,11 @@ proxy-groups:
   - 05-0019-RELAY
   - 05-0020-RELAY
   - 06-0021-RELAY
-  - 06-0026-CN
-  - 06-0027-CN
   - 06-0028-RELAY
   - 06-0032-RELAY
   - 06-0035-HK
   - 06-0040-MD
   - 06-0041-RELAY
-  - 06-0042-TR
   - 06-0044-RELAY
   - 06-0045-RELAY
   - 06-0046-US
@@ -2683,6 +2644,7 @@ proxy-groups:
   - 09-0103-US
   - 09-0104-RELAY
   - 09-0105-RELAY
+  - 09-0106-TR
   - 09-0107-US
   - 09-0108-US
   - 09-0109-RELAY
@@ -2729,7 +2691,6 @@ proxy-groups:
   - 09-0151-US
   - 09-0152-US
   - 09-0153-JP
-  - 09-0154-US
   - 09-0155-US
   - 09-0156-SG
   - 09-0157-US
@@ -2745,18 +2706,17 @@ proxy-groups:
   - 09-0168-AE
   - 09-0169-AE
   - 09-0170-NL
+  - 09-0171-LT
   - 09-0172-AE
   - 09-0173-NL
   - 09-0174-NL
-  - 09-0175-LT
   - 09-0176-LT
   - 09-0177-LT
-  - 09-0178-LT
-  - 09-0179-NL
   - 09-0180-US
   - 09-0181-FR
   - 09-0182-FR
   - 09-0183-NL
+  - 09-0184-NL
   - 09-0185-NL
   - 09-0186-ES
   - 09-0187-NL
@@ -2793,19 +2753,24 @@ proxy-groups:
   - 09-0218-NL
   - 09-0219-CA
   - 09-0220-GB
+  - 09-0221-DE
+  - 09-0222-LT
   - 09-0223-FR
   - 09-0224-BG
   - 09-0226-LT
   - 09-0227-AT
-  - 09-0229-DE
+  - 09-0228-RO
   - 09-0230-JP
+  - 09-0232-RU
   - 09-0233-PY
   - 09-0234-US
   - 09-0235-US
   - 09-0236-NL
   - 09-0237-CO
+  - 09-0238-LT
   - 09-0239-DK
   - 09-0240-FR
+  - 09-0241-LT
   - 09-0242-LT
   - 09-0243-RS
   - 09-0244-NL
@@ -2817,7 +2782,6 @@ proxy-groups:
   - 09-0250-US
   - 09-0251-BR
   - 09-0252-KR
-  - 09-0253-LT
   - 09-0254-FR
   - 09-0255-BE
   - 09-0256-PR
@@ -2828,28 +2792,26 @@ proxy-groups:
   - 09-0262-KR
   - 09-0263-GR
   - 09-0264-HK
-  - 09-0265-LT
   - 09-0266-IS
   - 09-0267-MK
+  - 09-0268-IN
   - 09-0269-TW
-  - 09-0270-ID
   - 09-0271-HK
   - 09-0272-US
-  - 09-0273-CY
   - 09-0274-US
   - 09-0275-US
-  - 09-0276-VN
   - 09-0277-US
   - 09-0278-HK
   - 09-0279-VN
   - 09-0280-EC
   - 09-0281-VN
+  - 09-0282-DE
   - 09-0283-SE
   - 09-0285-IS
-  - 09-0286-TW
   - 09-0288-TR
   - 09-0289-RELAY
   - 09-0290-BR
+  - 09-0291-PL
   - 09-0292-US
   - 09-0293-RELAY
   - 09-0294-RELAY
@@ -2872,7 +2834,6 @@ proxy-groups:
   - 09-0315-AU
   - 09-0316-AE
   - 09-0317-DE
-  - 09-0318-DE
   - 09-0319-JP
   - 09-0342-KR
   - 09-0343-HK
@@ -2887,8 +2848,8 @@ proxy-groups:
   - 09-0360-NL
   - 09-0361-NL
   - 09-0362-GR
-  - 09-0364-SI
-  - 98-0365-US
+  - 09-0363-SI
+  - 98-0364-US
 - name: HK
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -2920,7 +2881,6 @@ proxy-groups:
   tolerance: 50
   proxies:
   - 09-0269-TW
-  - 09-0286-TW
   filter: 台湾|TW|Tw|Taiwan|新北|彰化|CHT|HINET
 - name: JP
   type: url-test
@@ -2987,7 +2947,6 @@ proxy-groups:
   - 09-0150-US
   - 09-0151-US
   - 09-0152-US
-  - 09-0154-US
   - 09-0155-US
   - 09-0157-US
   - 09-0158-US
@@ -3008,7 +2967,7 @@ proxy-groups:
   - 09-0310-US
   - 09-0313-US
   - 09-0357-US
-  - 98-0365-US
+  - 98-0364-US
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: Claude
   type: url-test

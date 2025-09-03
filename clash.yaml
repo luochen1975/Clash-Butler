@@ -105,12 +105,6 @@ proxies:
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 05-0004-TW
-  password: aabbbb6f-db62-4661-9f78-4fe2adbbec50
-  port: 10033
-  server: 125.229.191.104
-  type: ss
 - name: 05-0005-US
   password: de8854c7-fa17-4266-ae18-50a9732a0c4e
   port: 3001
@@ -197,6 +191,12 @@ proxies:
   uuid: 04ddf6fd-2d5c-46ae-aa6c-6983a8c73725
   ws-opts:
     path: /04ddf6fd-2d5c-46ae-aa6c-6983a8c73725
+- cipher: chacha20-ietf
+  name: 05-0022-SG
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
+  type: ss
 - name: 06-0029-RELAY
   network: ws
   password: slch2024
@@ -226,6 +226,15 @@ proxies:
   uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
   ws-opts:
     path: /
+- name: 06-0037-IR
+  network: tcp
+  port: 8443
+  server: cdn28.saloonak.ir
+  servername: cdn28.saloonak.ir
+  tls: false
+  type: vless
+  udp: true
+  uuid: 789d4f30-c31b-4762-8116-ed42574d5e85
 - cipher: aes-256-cfb
   name: 06-0041-MD
   password: f8f7aCzcPKbsF8p3
@@ -300,7 +309,6 @@ proxy-groups:
   - 05-0001-FR
   - 05-0002-RELAY
   - 05-0003-US
-  - 05-0004-TW
   - 05-0005-US
   - 05-0007-RELAY
   - 05-0010-DE
@@ -308,9 +316,11 @@ proxy-groups:
   - 05-0017-RELAY
   - 05-0018-RELAY
   - 05-0021-RELAY
+  - 05-0022-SG
   - 06-0029-RELAY
   - 06-0033-RELAY
   - 06-0036-HK
+  - 06-0037-IR
   - 06-0041-MD
   - 06-0042-RELAY
   - 06-0043-TR
@@ -342,7 +352,6 @@ proxy-groups:
   - 05-0001-FR
   - 05-0002-RELAY
   - 05-0003-US
-  - 05-0004-TW
   - 05-0005-US
   - 05-0007-RELAY
   - 05-0010-DE
@@ -350,9 +359,11 @@ proxy-groups:
   - 05-0017-RELAY
   - 05-0018-RELAY
   - 05-0021-RELAY
+  - 05-0022-SG
   - 06-0029-RELAY
   - 06-0033-RELAY
   - 06-0036-HK
+  - 06-0037-IR
   - 06-0041-MD
   - 06-0042-RELAY
   - 06-0043-TR
@@ -379,7 +390,7 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
-  - 05-0004-TW
+  - DIRECT
   filter: 台湾|TW|Tw|Taiwan|新北|彰化|CHT|HINET
 - name: JP
   type: url-test
@@ -401,7 +412,7 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
-  - DIRECT
+  - 05-0022-SG
   filter: (?i)新|狮城|SG|Singapore
 - name: US
   type: url-test

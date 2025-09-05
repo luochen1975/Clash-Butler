@@ -86,6 +86,13 @@ proxies:
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
+- name: 05-0003-US
+  password: 97f8e11a-683a-493d-839a-3340a7bc63fb
+  port: 37771
+  server: rb1.xiaohuolongjc.top
+  skip-cert-verify: true
+  sni: rb1.xiaohuolongjc.top
+  type: hysteria2
 - name: 05-0005-RELAY
   network: ws
   password: slch2024
@@ -489,7 +496,7 @@ proxies:
   network: ws
   password: slch2024
   port: 2096
-  server: 185.170.166.195
+  server: 185.162.230.195
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -497,7 +504,7 @@ proxies:
   network: ws
   password: slch2024
   port: 2096
-  server: 185.18.250.195
+  server: 185.193.28.195
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -505,7 +512,7 @@ proxies:
   network: ws
   password: slch2024
   port: 2096
-  server: 185.148.104.195
+  server: 185.174.138.195
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -513,7 +520,7 @@ proxies:
   network: ws
   password: slch2024
   port: 2096
-  server: 185.148.105.195
+  server: 195.245.221.195
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -521,15 +528,15 @@ proxies:
   network: ws
   password: slch2024
   port: 2096
-  server: 205.233.181.195
+  server: 185.148.104.195
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
-- name: 08-0060-US
+- name: 08-0060-RELAY
   network: ws
   password: slch2024
   port: 2096
-  server: 216.24.57.195
+  server: 194.53.53.195
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -537,7 +544,7 @@ proxies:
   network: ws
   password: slch2024
   port: 2096
-  server: 192.65.217.195
+  server: 205.233.181.195
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -545,7 +552,7 @@ proxies:
   network: ws
   password: slch2024
   port: 2096
-  server: 194.36.55.195
+  server: 192.65.217.195
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -553,7 +560,7 @@ proxies:
   network: ws
   password: slch2024
   port: 2096
-  server: 185.162.229.195
+  server: 194.152.44.195
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -561,15 +568,15 @@ proxies:
   network: ws
   password: slch2024
   port: 2096
-  server: 185.162.230.195
+  server: 185.238.228.195
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
-- name: 09-0065-RELAY
+- name: 08-0065-RELAY
   network: ws
   password: slch2024
   port: 2096
-  server: 213.241.198.195
+  server: 185.162.229.195
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -577,7 +584,7 @@ proxies:
   network: ws
   password: slch2024
   port: 2096
-  server: 185.174.138.195
+  server: 213.241.198.195
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -585,7 +592,7 @@ proxies:
   network: ws
   password: slch2024
   port: 2096
-  server: 185.238.228.195
+  server: 213.182.199.195
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -593,7 +600,7 @@ proxies:
   network: ws
   password: slch2024
   port: 2096
-  server: 213.182.199.195
+  server: 185.148.105.195
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -669,11 +676,11 @@ proxies:
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
-- name: 09-0078-US
+- name: 09-0078-RELAY
   network: ws
   password: slch2024
   port: 2096
-  server: 198.71.189.195
+  server: 185.18.250.195
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -681,7 +688,7 @@ proxies:
   network: ws
   password: slch2024
   port: 2096
-  server: 198.12.144.195
+  server: 198.71.189.195
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -689,7 +696,7 @@ proxies:
   network: ws
   password: slch2024
   port: 2096
-  server: 199.34.228.195
+  server: 198.12.144.195
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -697,7 +704,7 @@ proxies:
   network: ws
   password: slch2024
   port: 2096
-  server: 198.71.233.195
+  server: 216.24.57.195
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -705,15 +712,15 @@ proxies:
   network: ws
   password: slch2024
   port: 2096
-  server: 198.71.190.195
+  server: 199.34.228.195
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
-- name: 09-0083-RELAY
+- name: 09-0083-US
   network: ws
   password: slch2024
   port: 2096
-  server: 195.245.221.195
+  server: 198.71.233.195
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -721,15 +728,15 @@ proxies:
   network: ws
   password: slch2024
   port: 2096
-  server: 198.71.191.195
+  server: 198.71.190.195
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
-- name: 09-0085-RELAY
+- name: 09-0085-US
   network: ws
   password: slch2024
   port: 2096
-  server: 198.177.57.195
+  server: 198.71.191.195
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -737,7 +744,7 @@ proxies:
   network: ws
   password: slch2024
   port: 2096
-  server: 194.53.53.195
+  server: 198.177.57.195
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -745,7 +752,7 @@ proxies:
   network: ws
   password: slch2024
   port: 2096
-  server: 194.152.44.195
+  server: 194.59.5.195
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -753,7 +760,7 @@ proxies:
   network: ws
   password: slch2024
   port: 2096
-  server: 194.59.5.195
+  server: 194.36.55.195
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -913,7 +920,7 @@ proxies:
   network: ws
   password: slch2024
   port: 2096
-  server: 185.193.28.195
+  server: 185.170.166.195
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -957,6 +964,12 @@ proxies:
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
+- cipher: aes-256-cfb
+  name: 09-0114-MD
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.153.197.5
+  type: ss
 - cipher: aes-256-cfb
   name: 09-0115-CA
   obfs: plain
@@ -1074,12 +1087,6 @@ proxies:
   password: shadowsocks
   port: 443
   server: 37.19.198.160
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0136-US
-  password: f8f7aCzcPKbsF8p3
-  port: 990
-  server: 64.74.163.130
   type: ss
 - cipher: aes-128-gcm
   name: 09-0137-JP
@@ -1418,6 +1425,12 @@ proxies:
   server: 154.90.63.177
   type: ss
 - cipher: chacha20-ietf-poly1305
+  name: 09-0194-NO
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 185.213.23.226
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: 09-0195-NL
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
@@ -1430,10 +1443,22 @@ proxies:
   server: 37.235.49.168
   type: ss
 - cipher: chacha20-ietf-poly1305
+  name: 09-0197-LT
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 45.87.175.65
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: 09-0198-NL
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 103.104.247.47
+  type: ss
+- cipher: aes-256-cfb
+  name: 09-0199-VN
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 103.163.218.2
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 09-0200-LT
@@ -1464,6 +1489,12 @@ proxies:
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 193.29.139.240
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 09-0206-NL
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.251
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 09-0207-NL
@@ -1599,12 +1630,6 @@ proxies:
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 193.108.119.230
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0228-IN
-  password: f8f7aCzcPKbsF8p3
-  port: 990
-  server: 134.209.147.198
   type: ss
 - name: 09-0229-US
   password: 2ee85121-31de-4581-a492-eb00f606e392
@@ -1947,12 +1972,6 @@ proxies:
   port: 1052
   server: 203.231.242.12
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 09-0289-LT
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 45.87.175.92
-  type: ss
 - cipher: aes-256-cfb
   name: 09-0290-IN
   password: f8f7aCzcPKbsF8p3
@@ -1972,6 +1991,12 @@ proxies:
     headers:
       Host: ovhwuxian.pai50288.uk
     path: /57ba2ab1
+- cipher: chacha20-ietf-poly1305
+  name: 09-0294-PL
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 92.118.205.228
+  type: ss
 - cipher: aes-256-cfb
   name: 09-0295-LV
   password: f8f7aCzcPKbsF8p3
@@ -1984,15 +2009,6 @@ proxies:
   port: 8080
   server: 45.87.175.171
   type: ss
-- name: 23-0350-IN
-  network: tcp
-  port: 49355
-  server: 45.88.183.164
-  servername: 45.88.183.164
-  tls: false
-  type: vless
-  udp: true
-  uuid: ef246c6f-6e7d-4286-af33-5485544b0ba8
 proxy-groups:
 - name: PROXY
   type: select
@@ -2011,6 +2027,7 @@ proxy-groups:
   proxies:
   - 05-0001-RELAY
   - 05-0002-US
+  - 05-0003-US
   - 05-0005-RELAY
   - 05-0007-RELAY
   - 05-0008-RELAY
@@ -2062,12 +2079,12 @@ proxy-groups:
   - 08-0057-RELAY
   - 08-0058-RELAY
   - 08-0059-RELAY
-  - 08-0060-US
+  - 08-0060-RELAY
   - 08-0061-RELAY
   - 08-0062-RELAY
   - 08-0063-RELAY
   - 08-0064-RELAY
-  - 09-0065-RELAY
+  - 08-0065-RELAY
   - 09-0066-RELAY
   - 09-0067-RELAY
   - 09-0068-RELAY
@@ -2080,14 +2097,14 @@ proxy-groups:
   - 09-0075-RELAY
   - 09-0076-US
   - 09-0077-US
-  - 09-0078-US
+  - 09-0078-RELAY
   - 09-0079-US
   - 09-0080-US
   - 09-0081-US
   - 09-0082-US
-  - 09-0083-RELAY
+  - 09-0083-US
   - 09-0084-US
-  - 09-0085-RELAY
+  - 09-0085-US
   - 09-0086-RELAY
   - 09-0087-RELAY
   - 09-0088-RELAY
@@ -2116,6 +2133,7 @@ proxy-groups:
   - 09-0111-RELAY
   - 09-0112-RELAY
   - 09-0113-RELAY
+  - 09-0114-MD
   - 09-0115-CA
   - 09-0117-LT
   - 09-0118-US
@@ -2135,7 +2153,6 @@ proxy-groups:
   - 09-0133-US
   - 09-0134-US
   - 09-0135-US
-  - 09-0136-US
   - 09-0137-JP
   - 09-0138-US
   - 09-0139-FR
@@ -2192,14 +2209,18 @@ proxy-groups:
   - 09-0191-NL
   - 09-0192-VN
   - 09-0193-KR
+  - 09-0194-NO
   - 09-0195-NL
   - 09-0196-IS
+  - 09-0197-LT
   - 09-0198-NL
+  - 09-0199-VN
   - 09-0200-LT
   - 09-0202-FR
   - 09-0203-RO
   - 09-0204-NL
   - 09-0205-NL
+  - 09-0206-NL
   - 09-0207-NL
   - 09-0208-FR
   - 09-0209-NL
@@ -2221,7 +2242,6 @@ proxy-groups:
   - 09-0225-IS
   - 09-0226-GR
   - 09-0227-DE
-  - 09-0228-IN
   - 09-0229-US
   - 09-0230-AT
   - 09-0231-HK
@@ -2260,12 +2280,11 @@ proxy-groups:
   - 09-0286-HK
   - 09-0287-SG
   - 09-0288-KR
-  - 09-0289-LT
   - 09-0290-IN
   - 09-0291-RELAY
+  - 09-0294-PL
   - 09-0295-LV
   - 23-0349-LT
-  - 23-0350-IN
 - name: Best
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -2289,6 +2308,7 @@ proxy-groups:
   proxies:
   - 05-0001-RELAY
   - 05-0002-US
+  - 05-0003-US
   - 05-0005-RELAY
   - 05-0007-RELAY
   - 05-0008-RELAY
@@ -2340,12 +2360,12 @@ proxy-groups:
   - 08-0057-RELAY
   - 08-0058-RELAY
   - 08-0059-RELAY
-  - 08-0060-US
+  - 08-0060-RELAY
   - 08-0061-RELAY
   - 08-0062-RELAY
   - 08-0063-RELAY
   - 08-0064-RELAY
-  - 09-0065-RELAY
+  - 08-0065-RELAY
   - 09-0066-RELAY
   - 09-0067-RELAY
   - 09-0068-RELAY
@@ -2358,14 +2378,14 @@ proxy-groups:
   - 09-0075-RELAY
   - 09-0076-US
   - 09-0077-US
-  - 09-0078-US
+  - 09-0078-RELAY
   - 09-0079-US
   - 09-0080-US
   - 09-0081-US
   - 09-0082-US
-  - 09-0083-RELAY
+  - 09-0083-US
   - 09-0084-US
-  - 09-0085-RELAY
+  - 09-0085-US
   - 09-0086-RELAY
   - 09-0087-RELAY
   - 09-0088-RELAY
@@ -2394,6 +2414,7 @@ proxy-groups:
   - 09-0111-RELAY
   - 09-0112-RELAY
   - 09-0113-RELAY
+  - 09-0114-MD
   - 09-0115-CA
   - 09-0117-LT
   - 09-0118-US
@@ -2413,7 +2434,6 @@ proxy-groups:
   - 09-0133-US
   - 09-0134-US
   - 09-0135-US
-  - 09-0136-US
   - 09-0137-JP
   - 09-0138-US
   - 09-0139-FR
@@ -2470,14 +2490,18 @@ proxy-groups:
   - 09-0191-NL
   - 09-0192-VN
   - 09-0193-KR
+  - 09-0194-NO
   - 09-0195-NL
   - 09-0196-IS
+  - 09-0197-LT
   - 09-0198-NL
+  - 09-0199-VN
   - 09-0200-LT
   - 09-0202-FR
   - 09-0203-RO
   - 09-0204-NL
   - 09-0205-NL
+  - 09-0206-NL
   - 09-0207-NL
   - 09-0208-FR
   - 09-0209-NL
@@ -2499,7 +2523,6 @@ proxy-groups:
   - 09-0225-IS
   - 09-0226-GR
   - 09-0227-DE
-  - 09-0228-IN
   - 09-0229-US
   - 09-0230-AT
   - 09-0231-HK
@@ -2538,12 +2561,11 @@ proxy-groups:
   - 09-0286-HK
   - 09-0287-SG
   - 09-0288-KR
-  - 09-0289-LT
   - 09-0290-IN
   - 09-0291-RELAY
+  - 09-0294-PL
   - 09-0295-LV
   - 23-0349-LT
-  - 23-0350-IN
 - name: HK
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -2604,6 +2626,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - 05-0002-US
+  - 05-0003-US
   - 06-0040-US
   - 06-0041-US
   - 06-0043-US
@@ -2612,16 +2635,16 @@ proxy-groups:
   - 06-0050-US
   - 06-0051-US
   - 06-0053-US
-  - 08-0060-US
   - 09-0073-US
   - 09-0076-US
   - 09-0077-US
-  - 09-0078-US
   - 09-0079-US
   - 09-0080-US
   - 09-0081-US
   - 09-0082-US
+  - 09-0083-US
   - 09-0084-US
+  - 09-0085-US
   - 09-0090-US
   - 09-0091-US
   - 09-0092-US
@@ -2640,7 +2663,6 @@ proxy-groups:
   - 09-0133-US
   - 09-0134-US
   - 09-0135-US
-  - 09-0136-US
   - 09-0138-US
   - 09-0171-US
   - 09-0172-US

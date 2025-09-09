@@ -121,7 +121,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 05-0126-HK
+  name: 05-0124-HK
   network: ws
   port: 80
   server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
@@ -132,7 +132,7 @@ proxies:
   uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
   ws-opts:
     path: /
-- name: 05-0127-RELAY
+- name: 05-0125-RELAY
   network: ws
   password: slch2024
   port: 2096
@@ -140,7 +140,7 @@ proxies:
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
-- name: 05-0128-RELAY
+- name: 05-0126-RELAY
   network: ws
   password: slch2024
   port: 2096
@@ -148,14 +148,14 @@ proxies:
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
-- name: 05-0129-AT
+- name: 05-0127-AT
   password: 1c90ba9c-05ec-4fc1-9d2c-3d5459bef2af
   port: 27015
   server: hyleet.fitness
   skip-cert-verify: true
   sni: hyleet.fitness
   type: hysteria2
-- name: 05-0130-US
+- name: 05-0128-US
   network: ws
   password: slch2024
   port: 2096
@@ -163,7 +163,7 @@ proxies:
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
-- name: 05-0131-RELAY
+- name: 05-0129-RELAY
   network: ws
   password: slch2024
   port: 2096
@@ -175,14 +175,14 @@ proxies:
   - h3
   auth-str: dongtaiwang.com
   down: 50 Mbps
-  name: 05-0132-FR
+  name: 05-0130-FR
   port: 15010
   protocol: udp
   server: 195.154.200.40
   skip-cert-verify: true
   type: hysteria
   up: 20 Mbps
-- name: 05-0133-RELAY
+- name: 05-0131-RELAY
   network: ws
   password: slch2024
   port: 2096
@@ -190,7 +190,7 @@ proxies:
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
-- name: 05-0134-RELAY
+- name: 05-0132-RELAY
   network: ws
   password: slch2024
   port: 2096
@@ -198,7 +198,7 @@ proxies:
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
-- name: 05-0135-US
+- name: 05-0133-US
   network: ws
   password: slch2024
   port: 2096
@@ -444,16 +444,16 @@ proxy-groups:
   - 05-0003-IR
   - 05-0004-RELAY
   - 05-0005-RELAY
-  - 05-0126-HK
-  - 05-0127-RELAY
-  - 05-0128-RELAY
-  - 05-0129-AT
-  - 05-0130-US
+  - 05-0124-HK
+  - 05-0125-RELAY
+  - 05-0126-RELAY
+  - 05-0127-AT
+  - 05-0128-US
+  - 05-0129-RELAY
+  - 05-0130-FR
   - 05-0131-RELAY
-  - 05-0132-FR
-  - 05-0133-RELAY
-  - 05-0134-RELAY
-  - 05-0135-US
+  - 05-0132-RELAY
+  - 05-0133-US
   - 06-0007-RELAY
   - 06-0008-RELAY
   - 06-0009-AT
@@ -508,16 +508,16 @@ proxy-groups:
   - 05-0003-IR
   - 05-0004-RELAY
   - 05-0005-RELAY
-  - 05-0126-HK
-  - 05-0127-RELAY
-  - 05-0128-RELAY
-  - 05-0129-AT
-  - 05-0130-US
+  - 05-0124-HK
+  - 05-0125-RELAY
+  - 05-0126-RELAY
+  - 05-0127-AT
+  - 05-0128-US
+  - 05-0129-RELAY
+  - 05-0130-FR
   - 05-0131-RELAY
-  - 05-0132-FR
-  - 05-0133-RELAY
-  - 05-0134-RELAY
-  - 05-0135-US
+  - 05-0132-RELAY
+  - 05-0133-US
   - 06-0007-RELAY
   - 06-0008-RELAY
   - 06-0009-AT
@@ -554,7 +554,7 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
-  - 05-0126-HK
+  - 05-0124-HK
   filter: (?i)港|HK|HongKong|hong kong
 - name: TW
   type: url-test
@@ -599,8 +599,8 @@ proxy-groups:
   tolerance: 50
   proxies:
   - 05-0000-US
-  - 05-0130-US
-  - 05-0135-US
+  - 05-0128-US
+  - 05-0133-US
   - 06-0035-US
   - 06-0038-US
   - 06-0039-US

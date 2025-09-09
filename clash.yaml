@@ -724,7 +724,7 @@ proxies:
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
-- name: 08-0165-RELAY
+- name: 08-0164-RELAY
   network: ws
   password: slch2024
   port: 2096
@@ -732,7 +732,7 @@ proxies:
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
-- name: 08-0166-RELAY
+- name: 08-0165-RELAY
   network: ws
   password: slch2024
   port: 2096
@@ -740,7 +740,7 @@ proxies:
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
-- name: 08-0167-RELAY
+- name: 08-0166-RELAY
   network: ws
   password: slch2024
   port: 2096
@@ -748,7 +748,7 @@ proxies:
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
-- name: 08-0168-RELAY
+- name: 08-0167-RELAY
   network: ws
   password: slch2024
   port: 2096
@@ -756,7 +756,7 @@ proxies:
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
-- name: 08-0169-US
+- name: 08-0168-US
   network: ws
   password: slch2024
   port: 2096
@@ -764,7 +764,7 @@ proxies:
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
-- name: 08-0170-US
+- name: 08-0169-US
   network: ws
   password: slch2024
   port: 2096
@@ -772,7 +772,7 @@ proxies:
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
-- name: 08-0171-RELAY
+- name: 08-0170-RELAY
   network: ws
   password: slch2024
   port: 2096
@@ -780,7 +780,7 @@ proxies:
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
-- name: 08-0172-RELAY
+- name: 08-0171-RELAY
   network: ws
   password: slch2024
   port: 2096
@@ -824,25 +824,6 @@ proxies:
   port: 989
   server: 104.192.226.106
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 23-0117-NL
-  password: 9tqhMdIrTkgQ46PvhyAtMH
-  port: 443
-  server: 92.112.126.90
-  type: ss
-- name: 23-0127-RELAY
-  network: ws
-  port: 80
-  server: BeWilDerED-poEM.SEOtooLsfOrYOu.cO.uk
-  servername: BeWilDerED-poEM.SEOtooLsfOrYOu.cO.uk
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0f4865d9-9405-4703-a282-46e326e6d9e7
-  ws-opts:
-    headers:
-      Host: BeWilDerED-poEM.SEOtooLsfOrYOu.cO.uk
-    path: /
 - cipher: chacha20-ietf-poly1305
   name: 23-0132-LT
   password: 4a2rfixophdjffa8KVA4Aa
@@ -955,22 +936,20 @@ proxy-groups:
   - 08-0161-RELAY
   - 08-0162-RELAY
   - 08-0163-RELAY
+  - 08-0164-RELAY
   - 08-0165-RELAY
   - 08-0166-RELAY
   - 08-0167-RELAY
-  - 08-0168-RELAY
+  - 08-0168-US
   - 08-0169-US
-  - 08-0170-US
+  - 08-0170-RELAY
   - 08-0171-RELAY
-  - 08-0172-RELAY
   - 23-0083-AT
   - 23-0084-AT
   - 23-0086-AT
   - 23-0087-AT
   - 23-0088-AT
   - 23-0100-US
-  - 23-0117-NL
-  - 23-0127-RELAY
   - 23-0132-LT
   - 23-0133-IN
 - name: Best
@@ -1075,22 +1054,20 @@ proxy-groups:
   - 08-0161-RELAY
   - 08-0162-RELAY
   - 08-0163-RELAY
+  - 08-0164-RELAY
   - 08-0165-RELAY
   - 08-0166-RELAY
   - 08-0167-RELAY
-  - 08-0168-RELAY
+  - 08-0168-US
   - 08-0169-US
-  - 08-0170-US
+  - 08-0170-RELAY
   - 08-0171-RELAY
-  - 08-0172-RELAY
   - 23-0083-AT
   - 23-0084-AT
   - 23-0086-AT
   - 23-0087-AT
   - 23-0088-AT
   - 23-0100-US
-  - 23-0117-NL
-  - 23-0127-RELAY
   - 23-0132-LT
   - 23-0133-IN
 - name: HK
@@ -1166,8 +1143,8 @@ proxy-groups:
   - 08-0147-US
   - 08-0151-US
   - 08-0159-US
+  - 08-0168-US
   - 08-0169-US
-  - 08-0170-US
   - 23-0100-US
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: Claude

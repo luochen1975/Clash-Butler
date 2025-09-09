@@ -162,19 +162,6 @@ proxies:
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 05-0143-HK
-  network: ws
-  port: 80
-  server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-  ws-opts:
-    path: /
 - name: 05-0144-RELAY
   network: ws
   password: slch2024
@@ -863,12 +850,32 @@ proxies:
   port: 989
   server: 104.192.226.106
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 23-0132-LT
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.171
-  type: ss
+- name: 23-0126-RELAY
+  network: ws
+  port: 80
+  server: sweeT-coMBInATIOn.SeOtooLsFORyOU.co.Uk
+  servername: sweeT-coMBInATIOn.SeOtooLsFORyOU.co.Uk
+  tls: false
+  type: vless
+  udp: true
+  uuid: 05020a61-3c0c-4ead-b256-7851ff905a75
+  ws-opts:
+    headers:
+      Host: sweeT-coMBInATIOn.SeOtooLsFORyOU.co.Uk
+    path: /
+- name: 23-0127-RELAY
+  network: ws
+  port: 80
+  server: BeWilDerED-poEM.SEOtooLsfOrYOu.cO.uk
+  servername: BeWilDerED-poEM.SEOtooLsfOrYOu.cO.uk
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0f4865d9-9405-4703-a282-46e326e6d9e7
+  ws-opts:
+    headers:
+      Host: BeWilDerED-poEM.SEOtooLsfOrYOu.cO.uk
+    path: /
 - name: 23-0133-IN
   network: tcp
   port: 49355
@@ -904,7 +911,6 @@ proxy-groups:
   - 05-0011-RELAY
   - 05-0141-FR
   - 05-0142-RELAY
-  - 05-0143-HK
   - 05-0144-RELAY
   - 05-0145-US
   - 06-0022-RELAY
@@ -992,7 +998,8 @@ proxy-groups:
   - 23-0087-AT
   - 23-0088-AT
   - 23-0100-US
-  - 23-0132-LT
+  - 23-0126-RELAY
+  - 23-0127-RELAY
   - 23-0133-IN
 - name: Best
   type: url-test
@@ -1025,7 +1032,6 @@ proxy-groups:
   - 05-0011-RELAY
   - 05-0141-FR
   - 05-0142-RELAY
-  - 05-0143-HK
   - 05-0144-RELAY
   - 05-0145-US
   - 06-0022-RELAY
@@ -1113,7 +1119,8 @@ proxy-groups:
   - 23-0087-AT
   - 23-0088-AT
   - 23-0100-US
-  - 23-0132-LT
+  - 23-0126-RELAY
+  - 23-0127-RELAY
   - 23-0133-IN
 - name: HK
   type: url-test
@@ -1125,7 +1132,6 @@ proxy-groups:
   tolerance: 50
   proxies:
   - 05-0001-HK
-  - 05-0143-HK
   - 08-0146-HK
   - 08-0165-HK
   filter: (?i)港|HK|HongKong|hong kong

@@ -857,12 +857,19 @@ proxies:
   port: 989
   server: 104.192.226.106
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 23-0102-NL
-  password: 9tqhMdIrTkgQ46PvhyAtMH
-  port: 443
-  server: 92.112.126.90
-  type: ss
+- name: 23-0112-RELAY
+  network: ws
+  port: 80
+  server: BeWilDerED-poEM.SEOtooLsfOrYOu.cO.uk
+  servername: BeWilDerED-poEM.SEOtooLsfOrYOu.cO.uk
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0f4865d9-9405-4703-a282-46e326e6d9e7
+  ws-opts:
+    headers:
+      Host: BeWilDerED-poEM.SEOtooLsfOrYOu.cO.uk
+    path: /
 - cipher: chacha20-ietf-poly1305
   name: 23-0117-LT
   password: 4a2rfixophdjffa8KVA4Aa
@@ -993,7 +1000,7 @@ proxy-groups:
   - 23-0072-AT
   - 23-0073-AT
   - 23-0085-US
-  - 23-0102-NL
+  - 23-0112-RELAY
   - 23-0117-LT
   - 23-0118-IN
 - name: Best
@@ -1116,7 +1123,7 @@ proxy-groups:
   - 23-0072-AT
   - 23-0073-AT
   - 23-0085-US
-  - 23-0102-NL
+  - 23-0112-RELAY
   - 23-0117-LT
   - 23-0118-IN
 - name: HK

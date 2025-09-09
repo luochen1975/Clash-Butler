@@ -857,6 +857,18 @@ proxies:
   port: 989
   server: 104.192.226.106
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 23-0102-NL
+  password: 9tqhMdIrTkgQ46PvhyAtMH
+  port: 443
+  server: 92.112.126.90
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 23-0117-LT
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.171
+  type: ss
 - name: 23-0118-IN
   network: tcp
   port: 49355
@@ -981,6 +993,8 @@ proxy-groups:
   - 23-0072-AT
   - 23-0073-AT
   - 23-0085-US
+  - 23-0102-NL
+  - 23-0117-LT
   - 23-0118-IN
 - name: Best
   type: url-test
@@ -1102,6 +1116,8 @@ proxy-groups:
   - 23-0072-AT
   - 23-0073-AT
   - 23-0085-US
+  - 23-0102-NL
+  - 23-0117-LT
   - 23-0118-IN
 - name: HK
   type: url-test

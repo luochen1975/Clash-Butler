@@ -158,19 +158,6 @@ proxies:
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
-- name: 05-0022-RELAY
-  network: ws
-  port: 443
-  server: hdfynpv2c1.farvaharforever.com
-  servername: hdfynpv2c1.farvaharforever.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e959d53c-91e9-459d-a332-d59ae89b3b4c
-  ws-opts:
-    headers:
-      Host: hdfynpv2c1.farvaharforever.com
-    path: /Iyq035lnud9R8ruNNrqGxZZ2
 - name: 05-0023-RELAY
   network: ws
   port: 443
@@ -899,6 +886,36 @@ proxies:
   port: 443
   server: hackney-latest-strike.freesocks.work
   type: ss
+- cipher: aes-256-gcm
+  name: 23-0095-AT
+  password: 0a914e9a-3e3b-470f-a267-7ea7083c45bb
+  port: 443
+  server: 77.110.110.240
+  type: ss
+- cipher: aes-256-gcm
+  name: 23-0096-AT
+  password: a7f082c1-0d12-4609-b6bf-e760b668cf23
+  port: 443
+  server: 77.110.110.240
+  type: ss
+- cipher: aes-256-gcm
+  name: 23-0098-AT
+  password: 102ad3da-2d55-49d6-b8c8-2d7e04df33ca
+  port: 443
+  server: 77.110.110.240
+  type: ss
+- cipher: aes-256-gcm
+  name: 23-0099-AT
+  password: 3f40bf3d-2f1e-4f43-bf54-e5fe742a3b4e
+  port: 443
+  server: 77.110.110.240
+  type: ss
+- cipher: aes-256-gcm
+  name: 23-0100-AT
+  password: d70ef8b5-6048-4c0d-be4d-fc60399b0f45
+  port: 443
+  server: 77.110.110.240
+  type: ss
 - cipher: aes-256-cfb
   name: 23-0112-US
   password: f8f7aCzcPKbsF8p3
@@ -906,11 +923,24 @@ proxies:
   server: 104.192.226.106
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 23-0144-LT
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.171
+  name: 23-0129-NL
+  password: 9tqhMdIrTkgQ46PvhyAtMH
+  port: 443
+  server: 92.112.126.90
   type: ss
+- name: 23-0139-RELAY
+  network: ws
+  port: 80
+  server: BeWilDerED-poEM.SEOtooLsfOrYOu.cO.uk
+  servername: BeWilDerED-poEM.SEOtooLsfOrYOu.cO.uk
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0f4865d9-9405-4703-a282-46e326e6d9e7
+  ws-opts:
+    headers:
+      Host: BeWilDerED-poEM.SEOtooLsfOrYOu.cO.uk
+    path: /
 proxy-groups:
 - name: PROXY
   type: select
@@ -938,7 +968,6 @@ proxy-groups:
   - 05-0010-RELAY
   - 05-0011-RELAY
   - 05-0012-RELAY
-  - 05-0022-RELAY
   - 05-0023-RELAY
   - 05-0025-RELAY
   - 05-0026-RELAY
@@ -1027,8 +1056,14 @@ proxy-groups:
   - 08-0179-RELAY
   - 08-0180-RELAY
   - 08-0181-US
+  - 23-0095-AT
+  - 23-0096-AT
+  - 23-0098-AT
+  - 23-0099-AT
+  - 23-0100-AT
   - 23-0112-US
-  - 23-0144-LT
+  - 23-0129-NL
+  - 23-0139-RELAY
 - name: Best
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -1061,7 +1096,6 @@ proxy-groups:
   - 05-0010-RELAY
   - 05-0011-RELAY
   - 05-0012-RELAY
-  - 05-0022-RELAY
   - 05-0023-RELAY
   - 05-0025-RELAY
   - 05-0026-RELAY
@@ -1150,8 +1184,14 @@ proxy-groups:
   - 08-0179-RELAY
   - 08-0180-RELAY
   - 08-0181-US
+  - 23-0095-AT
+  - 23-0096-AT
+  - 23-0098-AT
+  - 23-0099-AT
+  - 23-0100-AT
   - 23-0112-US
-  - 23-0144-LT
+  - 23-0129-NL
+  - 23-0139-RELAY
 - name: HK
   type: url-test
   url: https://www.gstatic.com/generate_204

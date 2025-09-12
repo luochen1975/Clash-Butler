@@ -298,7 +298,7 @@ proxies:
   network: ws
   password: slch2024
   port: 2096
-  server: 199.34.230.87
+  server: 192.0.54.87
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -306,7 +306,7 @@ proxies:
   network: ws
   password: slch2024
   port: 2096
-  server: 192.0.54.87
+  server: 199.34.230.87
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -314,7 +314,7 @@ proxies:
   network: ws
   password: slch2024
   port: 2096
-  server: 185.148.106.195
+  server: 194.36.55.195
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -322,7 +322,7 @@ proxies:
   network: ws
   password: slch2024
   port: 2096
-  server: 194.36.55.195
+  server: 185.148.106.195
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -415,24 +415,18 @@ proxies:
   port: 989
   server: 104.192.226.106
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 23-0125-NL
-  password: 9tqhMdIrTkgQ46PvhyAtMH
-  port: 443
-  server: 92.112.126.90
-  type: ss
-- name: 23-0131-RELAY
+- name: 23-0134-RELAY
   network: ws
   port: 80
-  server: fierce-data.seotoolsforyou.co.uk
-  servername: fierce-data.seotoolsforyou.co.uk
+  server: sweeT-coMBInATIOn.SeOtooLsFORyOU.co.Uk
+  servername: sweeT-coMBInATIOn.SeOtooLsFORyOU.co.Uk
   tls: false
   type: vless
   udp: true
-  uuid: c313c27c-97ff-45ed-ab5c-64641af5debc
+  uuid: 05020a61-3c0c-4ead-b256-7851ff905a75
   ws-opts:
     headers:
-      Host: fierce-data.seotoolsforyou.co.uk
+      Host: sweeT-coMBInATIOn.SeOtooLsFORyOU.co.Uk
     path: /
 - cipher: chacha20-ietf-poly1305
   name: 23-0140-LT
@@ -510,8 +504,7 @@ proxy-groups:
   - 23-0095-AT
   - 23-0096-AT
   - 23-0108-US
-  - 23-0125-NL
-  - 23-0131-RELAY
+  - 23-0134-RELAY
   - 23-0140-LT
   - 23-0141-IN
 - name: Best
@@ -580,8 +573,7 @@ proxy-groups:
   - 23-0095-AT
   - 23-0096-AT
   - 23-0108-US
-  - 23-0125-NL
-  - 23-0131-RELAY
+  - 23-0134-RELAY
   - 23-0140-LT
   - 23-0141-IN
 - name: HK

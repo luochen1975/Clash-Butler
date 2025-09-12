@@ -286,21 +286,7 @@ proxies:
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 08-0086-US
-  password: XUMTygEM1jVYIvysXKqA5T
-  port: 443
-  server: hackney-latest-strike.freesocks.work
-  type: ss
-- name: 08-0087-US
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 192.0.54.87
-  skip-cert-verify: true
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-- name: 08-0088-KZ
+- name: 08-0086-KZ
   network: ws
   password: slch2024
   port: 2096
@@ -308,7 +294,7 @@ proxies:
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
-- name: 08-0089-US
+- name: 08-0087-US
   network: ws
   password: slch2024
   port: 2096
@@ -316,9 +302,39 @@ proxies:
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
+- name: 08-0088-US
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 192.0.54.87
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+- name: 08-0089-RELAY
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 185.148.106.195
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+- name: 08-0090-RELAY
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 194.36.55.195
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 08-0149-US
+  password: XUMTygEM1jVYIvysXKqA5T
+  port: 443
+  server: hackney-latest-strike.freesocks.work
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 08-0148-FR
+  name: 08-0150-FR
   network: tcp
   port: 28213
   server: 135.125.182.74
@@ -327,7 +343,7 @@ proxies:
   type: vmess
   udp: true
   uuid: 81852771-76fb-4e94-e4f1-4e37a698a49a
-- name: 08-0149-RELAY
+- name: 08-0151-RELAY
   network: ws
   password: slch2024
   port: 2096
@@ -335,7 +351,7 @@ proxies:
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
-- name: 08-0150-US
+- name: 08-0152-US
   network: ws
   password: slch2024
   port: 2096
@@ -344,26 +360,18 @@ proxies:
   sni: ocost-dy.wmlefl.cc
   type: trojan
 - cipher: aes-256-cfb
-  name: 08-0151-MD
+  name: 08-0153-MD
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 185.153.197.5
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 08-0152-VN
+  name: 08-0154-VN
   password: Nk9asglDzHzjktVzTkvhaA
   port: 443
   server: arxfw2b78fi2q9hzylhn.freesocks.work
   type: ss
-- name: 08-0153-RELAY
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 194.36.55.195
-  skip-cert-verify: true
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-- name: 08-0154-AT
+- name: 08-0155-AT
   network: ws
   password: slch2024
   port: 2096
@@ -372,74 +380,48 @@ proxies:
   sni: ocost-dy.wmlefl.cc
   type: trojan
 - cipher: aes-256-gcm
-  name: 23-0090-AT
+  name: 23-0091-AT
   password: 0a914e9a-3e3b-470f-a267-7ea7083c45bb
   port: 443
   server: 77.110.110.240
   type: ss
 - cipher: aes-256-gcm
-  name: 23-0091-AT
+  name: 23-0092-AT
   password: a7f082c1-0d12-4609-b6bf-e760b668cf23
   port: 443
   server: 77.110.110.240
   type: ss
 - cipher: aes-256-gcm
-  name: 23-0093-AT
+  name: 23-0094-AT
   password: 102ad3da-2d55-49d6-b8c8-2d7e04df33ca
   port: 443
   server: 77.110.110.240
   type: ss
 - cipher: aes-256-gcm
-  name: 23-0094-AT
+  name: 23-0095-AT
   password: 3f40bf3d-2f1e-4f43-bf54-e5fe742a3b4e
   port: 443
   server: 77.110.110.240
   type: ss
 - cipher: aes-256-gcm
-  name: 23-0095-AT
+  name: 23-0096-AT
   password: d70ef8b5-6048-4c0d-be4d-fc60399b0f45
   port: 443
   server: 77.110.110.240
   type: ss
 - cipher: aes-256-cfb
-  name: 23-0107-US
+  name: 23-0108-US
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 104.192.226.106
   type: ss
-- name: 23-0114-RELAY
-  network: ws
-  port: 8443
-  server: 172.66.47.140
-  servername: V2RayMinER.PAGeS.Dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3c918c19-a5bd-4f2c-9b30-03c681c93ddc
-  ws-opts:
-    headers:
-      Host: v2rayminer.pages.dev
-    path: /WwPEDup8yShFB1Wp/NzguNDYuNzMuNDk=?ed=2560
-- name: 23-0121-RELAY
-  network: ws
-  port: 443
-  server: www.speedtest.net
-  servername: V2RaYmiNEr.PaGES.dEv
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3c918c19-a5bd-4f2c-9b30-03c681c93ddc
-  ws-opts:
-    headers:
-      Host: v2rayminer.pages.dev
-    path: /
 - cipher: chacha20-ietf-poly1305
-  name: 23-0124-NL
+  name: 23-0125-NL
   password: 9tqhMdIrTkgQ46PvhyAtMH
   port: 443
   server: 92.112.126.90
   type: ss
-- name: 23-0130-RELAY
+- name: 23-0131-RELAY
   network: ws
   port: 80
   server: fierce-data.seotoolsforyou.co.uk
@@ -452,26 +434,13 @@ proxies:
     headers:
       Host: fierce-data.seotoolsforyou.co.uk
     path: /
-- name: 23-0134-RELAY
-  network: ws
-  port: 80
-  server: BeWilDerED-poEM.SEOtooLsfOrYOu.cO.uk
-  servername: BeWilDerED-poEM.SEOtooLsfOrYOu.cO.uk
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0f4865d9-9405-4703-a282-46e326e6d9e7
-  ws-opts:
-    headers:
-      Host: BeWilDerED-poEM.SEOtooLsfOrYOu.cO.uk
-    path: /
 - cipher: chacha20-ietf-poly1305
-  name: 23-0139-LT
+  name: 23-0140-LT
   password: 4a2rfixophdjffa8KVA4Aa
   port: 8080
   server: 45.87.175.171
   type: ss
-- name: 23-0140-IN
+- name: 23-0141-IN
   network: tcp
   port: 49355
   server: 45.88.183.164
@@ -523,30 +492,28 @@ proxy-groups:
   - 06-0083-RELAY
   - 06-0084-US
   - 06-0085-US
-  - 08-0086-US
+  - 08-0086-KZ
   - 08-0087-US
-  - 08-0088-KZ
-  - 08-0089-US
-  - 08-0148-FR
-  - 08-0149-RELAY
-  - 08-0150-US
-  - 08-0151-MD
-  - 08-0152-VN
-  - 08-0153-RELAY
-  - 08-0154-AT
-  - 23-0090-AT
+  - 08-0088-US
+  - 08-0089-RELAY
+  - 08-0090-RELAY
+  - 08-0149-US
+  - 08-0150-FR
+  - 08-0151-RELAY
+  - 08-0152-US
+  - 08-0153-MD
+  - 08-0154-VN
+  - 08-0155-AT
   - 23-0091-AT
-  - 23-0093-AT
+  - 23-0092-AT
   - 23-0094-AT
   - 23-0095-AT
-  - 23-0107-US
-  - 23-0114-RELAY
-  - 23-0121-RELAY
-  - 23-0124-NL
-  - 23-0130-RELAY
-  - 23-0134-RELAY
-  - 23-0139-LT
-  - 23-0140-IN
+  - 23-0096-AT
+  - 23-0108-US
+  - 23-0125-NL
+  - 23-0131-RELAY
+  - 23-0140-LT
+  - 23-0141-IN
 - name: Best
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -595,30 +562,28 @@ proxy-groups:
   - 06-0083-RELAY
   - 06-0084-US
   - 06-0085-US
-  - 08-0086-US
+  - 08-0086-KZ
   - 08-0087-US
-  - 08-0088-KZ
-  - 08-0089-US
-  - 08-0148-FR
-  - 08-0149-RELAY
-  - 08-0150-US
-  - 08-0151-MD
-  - 08-0152-VN
-  - 08-0153-RELAY
-  - 08-0154-AT
-  - 23-0090-AT
+  - 08-0088-US
+  - 08-0089-RELAY
+  - 08-0090-RELAY
+  - 08-0149-US
+  - 08-0150-FR
+  - 08-0151-RELAY
+  - 08-0152-US
+  - 08-0153-MD
+  - 08-0154-VN
+  - 08-0155-AT
   - 23-0091-AT
-  - 23-0093-AT
+  - 23-0092-AT
   - 23-0094-AT
   - 23-0095-AT
-  - 23-0107-US
-  - 23-0114-RELAY
-  - 23-0121-RELAY
-  - 23-0124-NL
-  - 23-0130-RELAY
-  - 23-0134-RELAY
-  - 23-0139-LT
-  - 23-0140-IN
+  - 23-0096-AT
+  - 23-0108-US
+  - 23-0125-NL
+  - 23-0131-RELAY
+  - 23-0140-LT
+  - 23-0141-IN
 - name: HK
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -685,11 +650,11 @@ proxy-groups:
   - 06-0078-US
   - 06-0084-US
   - 06-0085-US
-  - 08-0086-US
   - 08-0087-US
-  - 08-0089-US
-  - 08-0150-US
-  - 23-0107-US
+  - 08-0088-US
+  - 08-0149-US
+  - 08-0152-US
+  - 23-0108-US
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: Claude
   type: url-test

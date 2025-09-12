@@ -173,6 +173,19 @@ proxies:
     headers:
       Host: v2raynselling.kir-rasol-kir.workers.dev
     path: /
+- name: 05-0020-RELAY
+  network: ws
+  port: 80
+  server: 104.20.43.81
+  servername: 104.20.43.81
+  tls: false
+  type: vless
+  udp: true
+  uuid: 7e74ff43-3a90-48b3-8372-7d92a045c2d4
+  ws-opts:
+    headers:
+      Host: light-presence.oneeat.co
+    path: /
 - name: 05-0024-DE
   network: ws
   port: 31904
@@ -644,18 +657,19 @@ proxies:
   port: 989
   server: 104.192.226.106
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 23-0118-NL
-  password: 9tqhMdIrTkgQ46PvhyAtMH
-  port: 443
-  server: 92.112.126.90
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 23-0133-LT
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.171
-  type: ss
+- name: 23-0128-RELAY
+  network: ws
+  port: 80
+  server: BeWilDerED-poEM.SEOtooLsfOrYOu.cO.uk
+  servername: BeWilDerED-poEM.SEOtooLsfOrYOu.cO.uk
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0f4865d9-9405-4703-a282-46e326e6d9e7
+  ws-opts:
+    headers:
+      Host: BeWilDerED-poEM.SEOtooLsfOrYOu.cO.uk
+    path: /
 - name: 23-0134-IN
   network: tcp
   port: 49355
@@ -692,6 +706,7 @@ proxy-groups:
   - 05-0015-RELAY
   - 05-0016-RELAY
   - 05-0018-RELAY
+  - 05-0020-RELAY
   - 05-0024-DE
   - 06-0026-AT
   - 06-0027-RELAY
@@ -752,8 +767,7 @@ proxy-groups:
   - 23-0088-AT
   - 23-0089-AT
   - 23-0101-US
-  - 23-0118-NL
-  - 23-0133-LT
+  - 23-0128-RELAY
   - 23-0134-IN
 - name: Best
   type: url-test
@@ -787,6 +801,7 @@ proxy-groups:
   - 05-0015-RELAY
   - 05-0016-RELAY
   - 05-0018-RELAY
+  - 05-0020-RELAY
   - 05-0024-DE
   - 06-0026-AT
   - 06-0027-RELAY
@@ -847,8 +862,7 @@ proxy-groups:
   - 23-0088-AT
   - 23-0089-AT
   - 23-0101-US
-  - 23-0118-NL
-  - 23-0133-LT
+  - 23-0128-RELAY
   - 23-0134-IN
 - name: HK
   type: url-test

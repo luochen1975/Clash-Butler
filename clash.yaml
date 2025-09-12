@@ -160,45 +160,6 @@ proxies:
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
-- name: 05-0018-RELAY
-  network: ws
-  port: 8080
-  server: 104.26.4.60
-  servername: 104.26.4.60
-  tls: false
-  type: vless
-  udp: true
-  uuid: d345d11e-c424-4583-b36e-527ab1f0afa4
-  ws-opts:
-    headers:
-      Host: v2raynselling.kir-rasol-kir.workers.dev
-    path: /
-- name: 05-0020-RELAY
-  network: ws
-  port: 80
-  server: 104.20.43.81
-  servername: 104.20.43.81
-  tls: false
-  type: vless
-  udp: true
-  uuid: 7e74ff43-3a90-48b3-8372-7d92a045c2d4
-  ws-opts:
-    headers:
-      Host: light-presence.oneeat.co
-    path: /
-- name: 05-0024-DE
-  network: ws
-  port: 31904
-  server: 5.75.196.223
-  servername: 5.75.196.223
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2d9472c7-f416-4c27-b1e3-9456d621d366
-  ws-opts:
-    headers:
-      Host: 5.75.196.223
-    path: /telegram-pedsea---telegram-pedsea---telegram-pedsea---telegram-pedsea---telegram-pedsea---telegram-pedsea---telegram-pedsea---telegram-pedsea---telegram-pedsea---telegram-pedsea---telegram-pedsea---telegram-pedsea---telegram-pedsea---telegram-pedsea---telegram-pedsea---telegram-pedsea---telegram-pedsea---
 - name: 06-0026-AT
   network: ws
   password: slch2024
@@ -567,19 +528,19 @@ proxies:
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
-- name: 08-0082-KZ
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 194.76.18.87
-  skip-cert-verify: true
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-- name: 08-0083-US
+- name: 08-0082-US
   network: ws
   password: slch2024
   port: 2096
   server: 192.0.54.87
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+- name: 08-0083-KZ
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 194.76.18.87
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -657,6 +618,19 @@ proxies:
   port: 989
   server: 104.192.226.106
   type: ss
+- name: 23-0127-RELAY
+  network: ws
+  port: 80
+  server: sweeT-coMBInATIOn.SeOtooLsFORyOU.co.Uk
+  servername: sweeT-coMBInATIOn.SeOtooLsFORyOU.co.Uk
+  tls: false
+  type: vless
+  udp: true
+  uuid: 05020a61-3c0c-4ead-b256-7851ff905a75
+  ws-opts:
+    headers:
+      Host: sweeT-coMBInATIOn.SeOtooLsFORyOU.co.Uk
+    path: /
 - name: 23-0128-RELAY
   network: ws
   port: 80
@@ -705,9 +679,6 @@ proxy-groups:
   - 05-0008-RELAY
   - 05-0015-RELAY
   - 05-0016-RELAY
-  - 05-0018-RELAY
-  - 05-0020-RELAY
-  - 05-0024-DE
   - 06-0026-AT
   - 06-0027-RELAY
   - 06-0028-RELAY
@@ -754,8 +725,8 @@ proxy-groups:
   - 06-0079-RELAY
   - 06-0080-RELAY
   - 06-0081-US
-  - 08-0082-KZ
-  - 08-0083-US
+  - 08-0082-US
+  - 08-0083-KZ
   - 08-0142-US
   - 08-0143-US
   - 08-0144-RELAY
@@ -767,6 +738,7 @@ proxy-groups:
   - 23-0088-AT
   - 23-0089-AT
   - 23-0101-US
+  - 23-0127-RELAY
   - 23-0128-RELAY
   - 23-0134-IN
 - name: Best
@@ -800,9 +772,6 @@ proxy-groups:
   - 05-0008-RELAY
   - 05-0015-RELAY
   - 05-0016-RELAY
-  - 05-0018-RELAY
-  - 05-0020-RELAY
-  - 05-0024-DE
   - 06-0026-AT
   - 06-0027-RELAY
   - 06-0028-RELAY
@@ -849,8 +818,8 @@ proxy-groups:
   - 06-0079-RELAY
   - 06-0080-RELAY
   - 06-0081-US
-  - 08-0082-KZ
-  - 08-0083-US
+  - 08-0082-US
+  - 08-0083-KZ
   - 08-0142-US
   - 08-0143-US
   - 08-0144-RELAY
@@ -862,6 +831,7 @@ proxy-groups:
   - 23-0088-AT
   - 23-0089-AT
   - 23-0101-US
+  - 23-0127-RELAY
   - 23-0128-RELAY
   - 23-0134-IN
 - name: HK
@@ -930,7 +900,7 @@ proxy-groups:
   - 06-0070-US
   - 06-0071-US
   - 06-0081-US
-  - 08-0083-US
+  - 08-0082-US
   - 08-0142-US
   - 08-0143-US
   - 08-0145-US

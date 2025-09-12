@@ -286,15 +286,9 @@ proxies:
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
-- cipher: aes-256-cfb
-  name: 08-0086-MD
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.153.197.5
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 08-0087-FR
+  name: 08-0086-FR
   network: tcp
   port: 28213
   server: 135.125.182.74
@@ -303,7 +297,19 @@ proxies:
   type: vmess
   udp: true
   uuid: 81852771-76fb-4e94-e4f1-4e37a698a49a
-- name: 08-0088-RELAY
+- cipher: aes-256-cfb
+  name: 08-0087-MD
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.153.197.5
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 08-0088-VN
+  password: Nk9asglDzHzjktVzTkvhaA
+  port: 443
+  server: arxfw2b78fi2q9hzylhn.freesocks.work
+  type: ss
+- name: 08-0089-RELAY
   network: ws
   password: slch2024
   port: 2096
@@ -311,19 +317,11 @@ proxies:
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
-- name: 08-0089-US
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 192.0.54.87
-  skip-cert-verify: true
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
 - name: 08-0090-US
   network: ws
   password: slch2024
   port: 2096
-  server: 199.34.230.87
+  server: 192.0.54.87
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -343,11 +341,11 @@ proxies:
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
-- name: 08-0093-AT
+- name: 08-0093-US
   network: ws
   password: slch2024
   port: 2096
-  server: 212.183.88.87
+  server: 199.34.230.87
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -356,6 +354,14 @@ proxies:
   password: slch2024
   port: 2096
   server: 194.36.55.195
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+- name: 08-0153-AT
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 212.183.88.87
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -524,15 +530,16 @@ proxy-groups:
   - 06-0083-RELAY
   - 06-0084-US
   - 06-0085-US
-  - 08-0086-MD
-  - 08-0087-FR
-  - 08-0088-RELAY
-  - 08-0089-US
+  - 08-0086-FR
+  - 08-0087-MD
+  - 08-0088-VN
+  - 08-0089-RELAY
   - 08-0090-US
   - 08-0091-KZ
   - 08-0092-US
-  - 08-0093-AT
+  - 08-0093-US
   - 08-0094-RELAY
+  - 08-0153-AT
   - 23-0095-AT
   - 23-0096-AT
   - 23-0098-AT
@@ -595,15 +602,16 @@ proxy-groups:
   - 06-0083-RELAY
   - 06-0084-US
   - 06-0085-US
-  - 08-0086-MD
-  - 08-0087-FR
-  - 08-0088-RELAY
-  - 08-0089-US
+  - 08-0086-FR
+  - 08-0087-MD
+  - 08-0088-VN
+  - 08-0089-RELAY
   - 08-0090-US
   - 08-0091-KZ
   - 08-0092-US
-  - 08-0093-AT
+  - 08-0093-US
   - 08-0094-RELAY
+  - 08-0153-AT
   - 23-0095-AT
   - 23-0096-AT
   - 23-0098-AT
@@ -684,9 +692,9 @@ proxy-groups:
   - 06-0078-US
   - 06-0084-US
   - 06-0085-US
-  - 08-0089-US
   - 08-0090-US
   - 08-0092-US
+  - 08-0093-US
   - 23-0112-US
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: Claude

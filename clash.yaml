@@ -439,19 +439,6 @@ proxies:
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
-- name: 05-0183-SG
-  network: ws
-  port: 443
-  server: d13.zulahost.us
-  servername: d13.zulahost.us
-  tls: true
-  type: vless
-  udp: true
-  uuid: d4a65f70-ccc3-45a0-984d-0c283dff38ff
-  ws-opts:
-    headers:
-      Host: d13.zulahost.us
-    path: /40602/wsgoogle
 - name: 05-0184-US
   network: ws
   password: slch2024
@@ -820,11 +807,30 @@ proxies:
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
-- cipher: aes-256-cfb
-  name: 23-0121-US
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 104.192.226.106
+- cipher: chacha20-ietf-poly1305
+  name: 23-0138-NL
+  password: 9tqhMdIrTkgQ46PvhyAtMH
+  port: 443
+  server: 92.112.126.90
+  type: ss
+- name: 23-0147-RELAY
+  network: ws
+  port: 80
+  server: sweeT-coMBInATIOn.SeOtooLsFORyOU.co.Uk
+  servername: sweeT-coMBInATIOn.SeOtooLsFORyOU.co.Uk
+  tls: false
+  type: vless
+  udp: true
+  uuid: 05020a61-3c0c-4ead-b256-7851ff905a75
+  ws-opts:
+    headers:
+      Host: sweeT-coMBInATIOn.SeOtooLsFORyOU.co.Uk
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 23-0153-LT
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.171
   type: ss
 - name: 23-0154-IN
   network: tcp
@@ -895,7 +901,6 @@ proxy-groups:
   - 05-0180-RELAY
   - 05-0181-RELAY
   - 05-0182-RELAY
-  - 05-0183-SG
   - 05-0184-US
   - 05-0185-RELAY
   - 05-0186-RELAY
@@ -942,7 +947,9 @@ proxy-groups:
   - 06-0070-US
   - 06-0071-RELAY
   - 06-0188-RELAY
-  - 23-0121-US
+  - 23-0138-NL
+  - 23-0147-RELAY
+  - 23-0153-LT
   - 23-0154-IN
 - name: Best
   type: url-test
@@ -1009,7 +1016,6 @@ proxy-groups:
   - 05-0180-RELAY
   - 05-0181-RELAY
   - 05-0182-RELAY
-  - 05-0183-SG
   - 05-0184-US
   - 05-0185-RELAY
   - 05-0186-RELAY
@@ -1056,7 +1062,9 @@ proxy-groups:
   - 06-0070-US
   - 06-0071-RELAY
   - 06-0188-RELAY
-  - 23-0121-US
+  - 23-0138-NL
+  - 23-0147-RELAY
+  - 23-0153-LT
   - 23-0154-IN
 - name: HK
   type: url-test
@@ -1101,7 +1109,7 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
-  - 05-0183-SG
+  - DIRECT
   filter: (?i)新|狮城|SG|Singapore
 - name: US
   type: url-test
@@ -1131,7 +1139,6 @@ proxy-groups:
   - 06-0066-US
   - 06-0069-US
   - 06-0070-US
-  - 23-0121-US
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: Claude
   type: url-test

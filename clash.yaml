@@ -865,6 +865,14 @@ proxies:
   network: ws
   password: slch2024
   port: 2096
+  server: 185.221.160.195
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+- name: 08-0167-RELAY
+  network: ws
+  password: slch2024
+  port: 2096
   server: 194.36.55.195
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
@@ -1090,6 +1098,7 @@ proxy-groups:
   - 06-0083-US
   - 08-0084-US
   - 08-0085-RELAY
+  - 08-0167-RELAY
   - 23-0086-AT
   - 23-0087-AT
   - 23-0089-AT
@@ -1213,6 +1222,7 @@ proxy-groups:
   - 06-0083-US
   - 08-0084-US
   - 08-0085-RELAY
+  - 08-0167-RELAY
   - 23-0086-AT
   - 23-0087-AT
   - 23-0089-AT

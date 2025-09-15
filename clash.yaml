@@ -83,6 +83,13 @@ proxies:
     headers:
       Host: joss.krikkrik.tech
     path: /Free-VPN-CF-Geo-Project/AT2
+- name: 05-0004-US
+  password: 8eb7c190-7f94-4ad6-9b19-b35ea5456275
+  port: 37011
+  server: yg.foldjc.top
+  skip-cert-verify: true
+  sni: yg.foldjc.top
+  type: hysteria2
 - cipher: aes-256-cfb
   name: 05-0005-NL
   password: f8f7aCzcPKbsF8p3
@@ -160,20 +167,6 @@ proxies:
     headers:
       Host: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua
     path: /telegram%40V2ray_Alpha
-- grpc-opts:
-    grpc-service-name: vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl
-  name: 05-0015-SE
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: TIvPO8pe4ICvHUItzR-S4966pToAcugMSDUvJFS6ah0
-    short-id: 4cdd84908413
-  server: wndisdkvwmqyod.curfuffled.com
-  servername: tgju.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 87de526a-5fdb-425d-9683-d2a2251d731f
 - name: 05-0016-RELAY
   network: ws
   port: 443
@@ -239,7 +232,7 @@ proxies:
     path: /
 - grpc-opts:
     grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  name: 05-0119-FR
+  name: 05-0115-FR
   network: grpc
   port: 25365
   server: 141.227.178.165
@@ -249,14 +242,14 @@ proxies:
   udp: true
   uuid: 919526f8-86c8-4f43-b5f7-91eea1368bad
 - cipher: chacha20-ietf-poly1305
-  name: 05-0120-ES
+  name: 05-0116-ES
   password: jHH8Kgfd6IXpvx2svCVG1H
   port: 8443
   server: 5.188.181.41
   type: ss
 - grpc-opts:
     grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  name: 05-0121-GB
+  name: 05-0117-GB
   network: grpc
   port: 25365
   server: 51.89.230.180
@@ -266,14 +259,14 @@ proxies:
   udp: true
   uuid: 72c17850-c1a8-4915-a437-45de2645a6e1
 - cipher: chacha20-ietf-poly1305
-  name: 05-0122-FI
+  name: 05-0118-FI
   password: Qcsukn6qSHlKiTnh08a9Cb
   port: 8443
   server: 94.237.105.27
   type: ss
 - grpc-opts:
     grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  name: 05-0123-FR
+  name: 05-0119-FR
   network: grpc
   port: 25365
   server: 141.227.180.211
@@ -282,7 +275,7 @@ proxies:
   type: vless
   udp: true
   uuid: 1375d9a1-dece-4bbb-8131-29e06afd8ca4
-- name: 05-0124-RELAY
+- name: 05-0120-RELAY
   network: ws
   port: 443
   server: 104.21.16.1
@@ -321,45 +314,32 @@ proxies:
   server: 38.54.57.90
   type: ss
 - cipher: aes-256-cfb
-  name: 08-0051-MD
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.153.197.5
-  type: ss
-- cipher: aes-256-cfb
-  name: 08-0053-HR
+  name: 08-0051-HR
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 46.183.184.60
   type: ss
 - cipher: aes-256-cfb
-  name: 08-0056-GR
+  name: 08-0052-GR
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 192.71.166.100
   type: ss
+- cipher: aes-128-gcm
+  name: 08-0056-US
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.167
+  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 08-0060-NL
+  name: 08-0121-NL
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 103.104.247.49
   type: ss
-- name: 08-0126-RELAY
-  network: ws
-  port: 8443
-  server: 104.21.3.219
-  servername: ovhwuxian.pai50288.uk
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
-  ws-opts:
-    headers:
-      Host: ovhwuxian.pai50288.uk
-    path: /57ba2ab1
 - alterId: 0
   cipher: auto
-  name: 08-0127-US
+  name: 08-0123-US
   network: ws
   port: 20086
   server: 206.206.80.227
@@ -371,25 +351,12 @@ proxies:
   ws-opts:
     path: /
 - cipher: aes-256-cfb
-  name: 23-0078-US
+  name: 23-0074-US
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 104.192.226.106
   type: ss
-- name: 23-0101-RELAY
-  network: ws
-  port: 80
-  server: fierce-data.seotoolsforyou.co.uk
-  servername: fierce-data.seotoolsforyou.co.uk
-  tls: false
-  type: vless
-  udp: true
-  uuid: c313c27c-97ff-45ed-ab5c-64641af5debc
-  ws-opts:
-    headers:
-      Host: fierce-data.seotoolsforyou.co.uk
-    path: /
-- name: 23-0104-RELAY
+- name: 23-0100-RELAY
   network: ws
   port: 80
   server: sweeT-coMBInATIOn.SeOtooLsFORyOU.co.Uk
@@ -402,21 +369,6 @@ proxies:
     headers:
       Host: sweeT-coMBInATIOn.SeOtooLsFORyOU.co.Uk
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 23-0110-LT
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.171
-  type: ss
-- name: 23-0111-IN
-  network: tcp
-  port: 49355
-  server: 45.88.183.164
-  servername: 45.88.183.164
-  tls: false
-  type: vless
-  udp: true
-  uuid: ef246c6f-6e7d-4286-af33-5485544b0ba8
 proxy-groups:
 - name: PROXY
   type: select
@@ -434,6 +386,7 @@ proxy-groups:
   filter: .*
   proxies:
   - 05-0002-AT
+  - 05-0004-US
   - 05-0005-NL
   - 05-0006-US
   - 05-0007-FR
@@ -442,32 +395,27 @@ proxy-groups:
   - 05-0010-RU
   - 05-0011-FR
   - 05-0013-RELAY
-  - 05-0015-SE
   - 05-0016-RELAY
   - 05-0017-FR
   - 05-0019-RELAY
   - 05-0020-RELAY
   - 05-0021-RELAY
+  - 05-0115-FR
+  - 05-0116-ES
+  - 05-0117-GB
+  - 05-0118-FI
   - 05-0119-FR
-  - 05-0120-ES
-  - 05-0121-GB
-  - 05-0122-FI
-  - 05-0123-FR
-  - 05-0124-RELAY
+  - 05-0120-RELAY
   - 06-0035-NL
   - 08-0049-KR
   - 08-0050-BR
-  - 08-0051-MD
-  - 08-0053-HR
-  - 08-0056-GR
-  - 08-0060-NL
-  - 08-0126-RELAY
-  - 08-0127-US
-  - 23-0078-US
-  - 23-0101-RELAY
-  - 23-0104-RELAY
-  - 23-0110-LT
-  - 23-0111-IN
+  - 08-0051-HR
+  - 08-0052-GR
+  - 08-0056-US
+  - 08-0121-NL
+  - 08-0123-US
+  - 23-0074-US
+  - 23-0100-RELAY
 - name: Best
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -490,6 +438,7 @@ proxy-groups:
   filter: .*
   proxies:
   - 05-0002-AT
+  - 05-0004-US
   - 05-0005-NL
   - 05-0006-US
   - 05-0007-FR
@@ -498,32 +447,27 @@ proxy-groups:
   - 05-0010-RU
   - 05-0011-FR
   - 05-0013-RELAY
-  - 05-0015-SE
   - 05-0016-RELAY
   - 05-0017-FR
   - 05-0019-RELAY
   - 05-0020-RELAY
   - 05-0021-RELAY
+  - 05-0115-FR
+  - 05-0116-ES
+  - 05-0117-GB
+  - 05-0118-FI
   - 05-0119-FR
-  - 05-0120-ES
-  - 05-0121-GB
-  - 05-0122-FI
-  - 05-0123-FR
-  - 05-0124-RELAY
+  - 05-0120-RELAY
   - 06-0035-NL
   - 08-0049-KR
   - 08-0050-BR
-  - 08-0051-MD
-  - 08-0053-HR
-  - 08-0056-GR
-  - 08-0060-NL
-  - 08-0126-RELAY
-  - 08-0127-US
-  - 23-0078-US
-  - 23-0101-RELAY
-  - 23-0104-RELAY
-  - 23-0110-LT
-  - 23-0111-IN
+  - 08-0051-HR
+  - 08-0052-GR
+  - 08-0056-US
+  - 08-0121-NL
+  - 08-0123-US
+  - 23-0074-US
+  - 23-0100-RELAY
 - name: HK
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -577,9 +521,11 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
+  - 05-0004-US
   - 05-0006-US
-  - 08-0127-US
-  - 23-0078-US
+  - 08-0056-US
+  - 08-0123-US
+  - 23-0074-US
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: Claude
   type: url-test

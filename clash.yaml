@@ -87,12 +87,6 @@ proxies:
   port: 8443
   server: 5.188.181.41
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 05-0003-DE
-  password: Yx2sF4XRHe7rS8Ng6elm7B
-  port: 8443
-  server: 83.172.138.149
-  type: ss
 - name: 05-0004-AT
   network: ws
   port: 443
@@ -174,7 +168,7 @@ proxies:
     headers:
       Host: work-86a.pages.dev
     path: /hzwrfa95ue5btfoy?---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---/dnbultvses5wywdlcy5kzxysz29vzhzwbi1jzgmucgfnzxmuzgv2lgvwzwl1czmxnc5wywdlcy5kzxysywphec5jbg91zgzsyxjllmnvbsxwbwxtewf6zc5wywdlcy5kzxysbmwuc3bpcmfrby5jb20snzbgcvkwdkg5bc5haudhmy5pckcsd3d3lnnwzwvkdgvzdc5uzxqszw4uanbnzm9ybwf0lmlylgzhbi5qcgdmb3jtyxquaxisymxlc3mubmv0d29yayxob2wuanbnzm9ybwf0lmlylhvzys52axnhlmnvbq==
-- name: 05-0122-RELAY
+- name: 05-0118-RELAY
   network: ws
   port: 443
   server: 104.21.80.1
@@ -187,7 +181,7 @@ proxies:
     headers:
       Host: joss.krikkrik.tech
     path: /Free-VPN-CF-Geo-Project/CH1
-- name: 05-0123-RELAY
+- name: 05-0119-RELAY
   network: ws
   port: 2053
   server: 141.101.120.100
@@ -200,7 +194,7 @@ proxies:
     headers:
       Host: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua
     path: /telegram%40V2ray_Alpha
-- name: 05-0124-RELAY
+- name: 05-0120-RELAY
   network: ws
   port: 2053
   server: 141.101.120.15
@@ -213,7 +207,7 @@ proxies:
     headers:
       Host: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua
     path: /
-- name: 05-0125-RELAY
+- name: 05-0121-RELAY
   network: ws
   port: 2053
   server: 141.101.121.34
@@ -226,7 +220,7 @@ proxies:
     headers:
       Host: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua
     path: /
-- name: 05-0126-RELAY
+- name: 05-0122-RELAY
   network: ws
   port: 2096
   server: 1750926563683.tencentapp.cn
@@ -239,26 +233,94 @@ proxies:
     headers:
       Host: 1750926570965.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua
     path: /
-- name: 06-0039-NL
+- name: 06-0040-NL
   network: ws
-  port: 26129
-  server: 164.92.145.207
-  servername: soft98.ir
+  port: 22231
+  server: 159.223.235.238
+  servername: 159.223.235.238
   tls: false
   type: vless
   udp: true
-  uuid: acc1a984-2a8b-4dce-ab45-d294e6f3e451
+  uuid: d39ae55e-234b-4365-9263-a7e20ebbe233
   ws-opts:
     headers:
-      Host: soft98.ir
-    path: /winrar
-- cipher: chacha20-ietf-poly1305
-  name: 23-0112-LT
-  password: 4a2rfixophdjffa8KVA4Aa
+      Host: 159.223.235.238
+    path: /
+- cipher: rc4-md5
+  name: 08-0051-US
+  password: 14fFPrbezE3HDZzsMOr6
   port: 8080
-  server: 45.87.175.171
+  server: 23.251.121.242
   type: ss
-- name: 23-0113-IN
+- cipher: aes-256-cfb
+  name: 08-0052-KR
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 154.90.63.177
+  type: ss
+- cipher: aes-256-cfb
+  name: 08-0053-NL
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 51.15.17.169
+  type: ss
+- cipher: aes-256-cfb
+  name: 08-0054-BR
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 38.54.57.90
+  type: ss
+- cipher: aes-256-cfb
+  name: 08-0055-PY
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 38.165.233.93
+  type: ss
+- cipher: aes-256-cfb
+  name: 08-0056-HR
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 46.183.184.60
+  type: ss
+- cipher: aes-256-cfb
+  name: 08-0058-MD
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.153.197.5
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 08-0059-US
+  network: ws
+  port: 20086
+  server: 206.206.80.227
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0abb7b9e-81ba-4336-8ca7-056866032ff3
+  ws-opts:
+    path: /
+- cipher: aes-256-cfb
+  name: 23-0077-US
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 104.192.226.106
+  type: ss
+- name: 23-0100-RELAY
+  network: ws
+  port: 80
+  server: fierce-data.seotoolsforyou.co.uk
+  servername: fierce-data.seotoolsforyou.co.uk
+  tls: false
+  type: vless
+  udp: true
+  uuid: c313c27c-97ff-45ed-ab5c-64641af5debc
+  ws-opts:
+    headers:
+      Host: fierce-data.seotoolsforyou.co.uk
+    path: /
+- name: 23-0110-IN
   network: tcp
   port: 49355
   server: 45.88.183.164
@@ -285,7 +347,6 @@ proxy-groups:
   proxies:
   - 05-0001-FR
   - 05-0002-ES
-  - 05-0003-DE
   - 05-0004-AT
   - 05-0007-GB
   - 05-0009-FI
@@ -293,14 +354,23 @@ proxy-groups:
   - 05-0016-DE
   - 05-0021-RELAY
   - 05-0024-RELAY
+  - 05-0118-RELAY
+  - 05-0119-RELAY
+  - 05-0120-RELAY
+  - 05-0121-RELAY
   - 05-0122-RELAY
-  - 05-0123-RELAY
-  - 05-0124-RELAY
-  - 05-0125-RELAY
-  - 05-0126-RELAY
-  - 06-0039-NL
-  - 23-0112-LT
-  - 23-0113-IN
+  - 06-0040-NL
+  - 08-0051-US
+  - 08-0052-KR
+  - 08-0053-NL
+  - 08-0054-BR
+  - 08-0055-PY
+  - 08-0056-HR
+  - 08-0058-MD
+  - 08-0059-US
+  - 23-0077-US
+  - 23-0100-RELAY
+  - 23-0110-IN
 - name: Best
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -324,7 +394,6 @@ proxy-groups:
   proxies:
   - 05-0001-FR
   - 05-0002-ES
-  - 05-0003-DE
   - 05-0004-AT
   - 05-0007-GB
   - 05-0009-FI
@@ -332,14 +401,23 @@ proxy-groups:
   - 05-0016-DE
   - 05-0021-RELAY
   - 05-0024-RELAY
+  - 05-0118-RELAY
+  - 05-0119-RELAY
+  - 05-0120-RELAY
+  - 05-0121-RELAY
   - 05-0122-RELAY
-  - 05-0123-RELAY
-  - 05-0124-RELAY
-  - 05-0125-RELAY
-  - 05-0126-RELAY
-  - 06-0039-NL
-  - 23-0112-LT
-  - 23-0113-IN
+  - 06-0040-NL
+  - 08-0051-US
+  - 08-0052-KR
+  - 08-0053-NL
+  - 08-0054-BR
+  - 08-0055-PY
+  - 08-0056-HR
+  - 08-0058-MD
+  - 08-0059-US
+  - 23-0077-US
+  - 23-0100-RELAY
+  - 23-0110-IN
 - name: HK
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -393,7 +471,9 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
-  - DIRECT
+  - 08-0051-US
+  - 08-0059-US
+  - 23-0077-US
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: Claude
   type: url-test

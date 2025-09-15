@@ -174,18 +174,7 @@ proxies:
     headers:
       Host: work-86a.pages.dev
     path: /hzwrfa95ue5btfoy?---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---/dnbultvses5wywdlcy5kzxysz29vzhzwbi1jzgmucgfnzxmuzgv2lgvwzwl1czmxnc5wywdlcy5kzxysywphec5jbg91zgzsyxjllmnvbsxwbwxtewf6zc5wywdlcy5kzxysbmwuc3bpcmfrby5jb20snzbgcvkwdkg5bc5haudhmy5pckcsd3d3lnnwzwvkdgvzdc5uzxqszw4uanbnzm9ybwf0lmlylgzhbi5qcgdmb3jtyxquaxisymxlc3mubmv0d29yayxob2wuanbnzm9ybwf0lmlylhvzys52axnhlmnvbq==
-- grpc-opts:
-    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  name: 05-0119-FR
-  network: grpc
-  port: 25365
-  server: 141.94.213.115
-  servername: 141.94.213.115
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2715b5fc-a3a8-49dd-8c10-55f18f3030c5
-- name: 05-0120-RELAY
+- name: 05-0122-RELAY
   network: ws
   port: 443
   server: 104.21.80.1
@@ -198,7 +187,7 @@ proxies:
     headers:
       Host: joss.krikkrik.tech
     path: /Free-VPN-CF-Geo-Project/CH1
-- name: 05-0121-RELAY
+- name: 05-0123-RELAY
   network: ws
   port: 2053
   server: 141.101.120.100
@@ -211,7 +200,7 @@ proxies:
     headers:
       Host: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua
     path: /telegram%40V2ray_Alpha
-- name: 05-0122-RELAY
+- name: 05-0124-RELAY
   network: ws
   port: 2053
   server: 141.101.120.15
@@ -224,7 +213,7 @@ proxies:
     headers:
       Host: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua
     path: /
-- name: 05-0123-RELAY
+- name: 05-0125-RELAY
   network: ws
   port: 2053
   server: 141.101.121.34
@@ -237,7 +226,7 @@ proxies:
     headers:
       Host: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua
     path: /
-- name: 05-0124-RELAY
+- name: 05-0126-RELAY
   network: ws
   port: 2096
   server: 1750926563683.tencentapp.cn
@@ -263,87 +252,13 @@ proxies:
     headers:
       Host: soft98.ir
     path: /winrar
-- name: 06-0040-NL
-  network: ws
-  port: 22231
-  server: 159.223.235.238
-  servername: 159.223.235.238
-  tls: false
-  type: vless
-  udp: true
-  uuid: d39ae55e-234b-4365-9263-a7e20ebbe233
-  ws-opts:
-    headers:
-      Host: 159.223.235.238
-    path: /
-- name: 06-0044-DE
-  password: 9e76767d-4bfa-4f04-a800-42e2f63afed2
-  port: 443
-  server: de.viefast.net
-  skip-cert-verify: true
-  sni: csapp.catch.net.tw
-  type: trojan
-- cipher: rc4-md5
-  name: 08-0051-US
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 23.251.121.242
-  type: ss
-- cipher: aes-256-cfb
-  name: 08-0052-KR
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 154.90.63.177
-  type: ss
-- cipher: aes-256-cfb
-  name: 08-0053-NL
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.17.169
-  type: ss
-- cipher: aes-256-cfb
-  name: 08-0054-BR
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 38.54.57.90
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 08-0055-VN
-  password: Nk9asglDzHzjktVzTkvhaA
-  port: 443
-  server: arxfw2b78fi2q9hzylhn.freesocks.work
-  type: ss
-- cipher: aes-256-cfb
-  name: 08-0056-PY
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 38.165.233.93
-  type: ss
-- cipher: aes-256-cfb
-  name: 08-0057-HR
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 46.183.184.60
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 08-0127-US
-  password: 360e21d21977dc11
-  port: 57456
-  server: 104.167.197.25
-  type: ss
-- cipher: aes-256-cfb
-  name: 23-0078-US
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 104.192.226.106
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 23-0110-LT
+  name: 23-0112-LT
   password: 4a2rfixophdjffa8KVA4Aa
   port: 8080
   server: 45.87.175.171
   type: ss
-- name: 23-0111-IN
+- name: 23-0113-IN
   network: tcp
   port: 49355
   server: 45.88.183.164
@@ -378,26 +293,14 @@ proxy-groups:
   - 05-0016-DE
   - 05-0021-RELAY
   - 05-0024-RELAY
-  - 05-0119-FR
-  - 05-0120-RELAY
-  - 05-0121-RELAY
   - 05-0122-RELAY
   - 05-0123-RELAY
   - 05-0124-RELAY
+  - 05-0125-RELAY
+  - 05-0126-RELAY
   - 06-0039-NL
-  - 06-0040-NL
-  - 06-0044-DE
-  - 08-0051-US
-  - 08-0052-KR
-  - 08-0053-NL
-  - 08-0054-BR
-  - 08-0055-VN
-  - 08-0056-PY
-  - 08-0057-HR
-  - 08-0127-US
-  - 23-0078-US
-  - 23-0110-LT
-  - 23-0111-IN
+  - 23-0112-LT
+  - 23-0113-IN
 - name: Best
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -429,26 +332,14 @@ proxy-groups:
   - 05-0016-DE
   - 05-0021-RELAY
   - 05-0024-RELAY
-  - 05-0119-FR
-  - 05-0120-RELAY
-  - 05-0121-RELAY
   - 05-0122-RELAY
   - 05-0123-RELAY
   - 05-0124-RELAY
+  - 05-0125-RELAY
+  - 05-0126-RELAY
   - 06-0039-NL
-  - 06-0040-NL
-  - 06-0044-DE
-  - 08-0051-US
-  - 08-0052-KR
-  - 08-0053-NL
-  - 08-0054-BR
-  - 08-0055-VN
-  - 08-0056-PY
-  - 08-0057-HR
-  - 08-0127-US
-  - 23-0078-US
-  - 23-0110-LT
-  - 23-0111-IN
+  - 23-0112-LT
+  - 23-0113-IN
 - name: HK
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -502,9 +393,7 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
-  - 08-0051-US
-  - 08-0127-US
-  - 23-0078-US
+  - DIRECT
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: Claude
   type: url-test

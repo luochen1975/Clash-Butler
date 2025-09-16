@@ -221,19 +221,6 @@ proxies:
   type: vless
   udp: true
   uuid: 871e1c55-f4e7-4c6a-8d9f-0957f98d1fe5
-- flow: xtls-rprx-vision
-  name: 05-0019-RU
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8
-    short-id: 16895459a2c7768d
-  server: ru.sfasti.ru
-  servername: ru.sfasti.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6fae85ca-395a-4f27-9eb2-75123befc475
 - name: 05-0020-FR
   network: ws
   port: 80
@@ -247,6 +234,19 @@ proxies:
     headers:
       Host: wWw.speEDtEST.NeT
     path: /wslinws?ed
+- name: 05-0021-RELAY
+  network: ws
+  port: 443
+  server: 104.21.28.82
+  servername: backhaxus.dh04.shop
+  tls: true
+  type: vless
+  udp: true
+  uuid: 71504eaf-29ac-4190-89d1-dd9ce2c9ee14
+  ws-opts:
+    headers:
+      Host: backhaxus.dh04.shop
+    path: /
 - grpc-opts:
     grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
   name: 05-0022-FR
@@ -288,7 +288,7 @@ proxies:
   uuid: 24244970-2b14-47e6-b0c1-95cecc9bcc3c
 - grpc-opts:
     grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  name: 05-0107-FR
+  name: 05-0105-FR
   network: grpc
   port: 11230
   server: 141.227.166.22
@@ -299,7 +299,7 @@ proxies:
   uuid: a1015799-6c9a-4bab-8ad0-8c9444d46fa0
 - grpc-opts:
     grpc-service-name: vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl
-  name: 05-0108-SE
+  name: 05-0106-SE
   network: grpc
   port: 443
   reality-opts:
@@ -313,7 +313,7 @@ proxies:
   uuid: 4e3ae3d4-9e7b-4866-97d3-8127439f0050
 - alterId: 0
   cipher: auto
-  name: 05-0109-HK
+  name: 05-0107-HK
   network: ws
   port: 20521
   server: 47.86.16.127
@@ -326,7 +326,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 05-0110-HK
+  name: 05-0108-HK
   network: ws
   port: 16545
   server: 8.218.240.45
@@ -339,20 +339,7 @@ proxies:
     path: /arki
 - alterId: 0
   cipher: auto
-  name: 05-0111-HK
-  network: ws
-  port: 36361
-  server: 47.242.228.101
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5fc8df4e-e541-4f7b-95e8-7ee05a2c6cc9
-  ws-opts:
-    path: /arki
-- alterId: 0
-  cipher: auto
-  name: 05-0112-US
+  name: 05-0110-US
   network: tcp
   port: 59674
   server: 43.162.114.137
@@ -361,7 +348,7 @@ proxies:
   type: vmess
   udp: true
   uuid: 6a4ce5b9-0d60-4a21-a8fe-897798019500
-- name: 05-0113-RELAY
+- name: 05-0111-RELAY
   network: ws
   port: 2053
   server: 1750925873250.tencentapp.cn
@@ -374,7 +361,7 @@ proxies:
     headers:
       Host: 1750925873250.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua
     path: /
-- name: 05-0114-FI
+- name: 05-0112-FI
   network: tcp
   port: 300
   server: 37.27.21.187
@@ -383,14 +370,6 @@ proxies:
   type: vless
   udp: true
   uuid: 122451e5-5b01-48bb-bdca-de3e96c8a19e
-- name: 06-0029-RELAY
-  network: ws
-  password: wb6368
-  port: 2087
-  server: 92.243.75.49
-  skip-cert-verify: true
-  sni: hsdgbuys.pages.dev
-  type: trojan
 - cipher: rc4-md5
   name: 06-0030-US
   password: 14fFPrbezE3HDZzsMOr6
@@ -423,7 +402,7 @@ proxies:
     headers:
       Host: iamdt.pages.dev
     path: /
-- name: 06-0115-NL
+- name: 06-0113-NL
   network: ws
   port: 22231
   server: 159.223.235.238
@@ -443,23 +422,60 @@ proxies:
   server: 51.15.17.169
   type: ss
 - cipher: aes-256-cfb
-  name: 08-0036-KR
+  name: 08-0037-KR
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 154.90.63.177
   type: ss
 - cipher: aes-256-cfb
-  name: 08-0037-HR
+  name: 08-0038-HR
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 46.183.184.60
   type: ss
 - cipher: aes-256-cfb
-  name: 08-0038-BR
+  name: 08-0040-BR
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 38.54.57.90
   type: ss
+- cipher: aes-256-cfb
+  name: 08-0043-SI
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 91.132.94.200
+  type: ss
+- cipher: aes-256-cfb
+  name: 08-0045-MT
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 171.22.254.17
+  type: ss
+- cipher: aes-256-cfb
+  name: 23-0064-US
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 104.192.226.106
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 23-0081-NL
+  password: 9tqhMdIrTkgQ46PvhyAtMH
+  port: 443
+  server: 92.112.126.90
+  type: ss
+- name: 23-0087-RELAY
+  network: ws
+  port: 80
+  server: fierce-data.seotoolsforyou.co.uk
+  servername: fierce-data.seotoolsforyou.co.uk
+  tls: false
+  type: vless
+  udp: true
+  uuid: c313c27c-97ff-45ed-ab5c-64641af5debc
+  ws-opts:
+    headers:
+      Host: fierce-data.seotoolsforyou.co.uk
+    path: /
 proxy-groups:
 - name: PROXY
   type: select
@@ -490,29 +506,32 @@ proxy-groups:
   - 05-0016-AT
   - 05-0017-DE
   - 05-0018-AE
-  - 05-0019-RU
   - 05-0020-FR
+  - 05-0021-RELAY
   - 05-0022-FR
   - 05-0023-DE
   - 05-0024-FI
   - 05-0025-FR
-  - 05-0107-FR
-  - 05-0108-SE
-  - 05-0109-HK
-  - 05-0110-HK
-  - 05-0111-HK
-  - 05-0112-US
-  - 05-0113-RELAY
-  - 05-0114-FI
-  - 06-0029-RELAY
+  - 05-0105-FR
+  - 05-0106-SE
+  - 05-0107-HK
+  - 05-0108-HK
+  - 05-0110-US
+  - 05-0111-RELAY
+  - 05-0112-FI
   - 06-0030-US
   - 06-0031-RELAY
   - 06-0032-RELAY
-  - 06-0115-NL
+  - 06-0113-NL
   - 08-0034-NL
-  - 08-0036-KR
-  - 08-0037-HR
-  - 08-0038-BR
+  - 08-0037-KR
+  - 08-0038-HR
+  - 08-0040-BR
+  - 08-0043-SI
+  - 08-0045-MT
+  - 23-0064-US
+  - 23-0081-NL
+  - 23-0087-RELAY
 - name: Best
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -548,29 +567,32 @@ proxy-groups:
   - 05-0016-AT
   - 05-0017-DE
   - 05-0018-AE
-  - 05-0019-RU
   - 05-0020-FR
+  - 05-0021-RELAY
   - 05-0022-FR
   - 05-0023-DE
   - 05-0024-FI
   - 05-0025-FR
-  - 05-0107-FR
-  - 05-0108-SE
-  - 05-0109-HK
-  - 05-0110-HK
-  - 05-0111-HK
-  - 05-0112-US
-  - 05-0113-RELAY
-  - 05-0114-FI
-  - 06-0029-RELAY
+  - 05-0105-FR
+  - 05-0106-SE
+  - 05-0107-HK
+  - 05-0108-HK
+  - 05-0110-US
+  - 05-0111-RELAY
+  - 05-0112-FI
   - 06-0030-US
   - 06-0031-RELAY
   - 06-0032-RELAY
-  - 06-0115-NL
+  - 06-0113-NL
   - 08-0034-NL
-  - 08-0036-KR
-  - 08-0037-HR
-  - 08-0038-BR
+  - 08-0037-KR
+  - 08-0038-HR
+  - 08-0040-BR
+  - 08-0043-SI
+  - 08-0045-MT
+  - 23-0064-US
+  - 23-0081-NL
+  - 23-0087-RELAY
 - name: HK
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -580,9 +602,8 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
-  - 05-0109-HK
-  - 05-0110-HK
-  - 05-0111-HK
+  - 05-0107-HK
+  - 05-0108-HK
   filter: (?i)港|HK|HongKong|hong kong
 - name: TW
   type: url-test
@@ -626,8 +647,9 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
-  - 05-0112-US
+  - 05-0110-US
   - 06-0030-US
+  - 23-0064-US
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: Claude
   type: url-test

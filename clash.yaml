@@ -87,6 +87,19 @@ proxies:
   port: 989
   server: 185.153.197.5
   type: ss
+- flow: xtls-rprx-vision
+  name: 05-0003-RU
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8
+    short-id: 16895459a2c7768d
+  server: ru.sfasti.ru
+  servername: ru.sfasti.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1a6fe500-59da-4598-8576-256f06765ffb
 - grpc-opts:
     grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
   name: 05-0004-FR
@@ -275,7 +288,7 @@ proxies:
   uuid: 24244970-2b14-47e6-b0c1-95cecc9bcc3c
 - grpc-opts:
     grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  name: 05-0121-FR
+  name: 05-0107-FR
   network: grpc
   port: 11230
   server: 141.227.166.22
@@ -286,7 +299,7 @@ proxies:
   uuid: a1015799-6c9a-4bab-8ad0-8c9444d46fa0
 - grpc-opts:
     grpc-service-name: vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl
-  name: 05-0122-SE
+  name: 05-0108-SE
   network: grpc
   port: 443
   reality-opts:
@@ -300,7 +313,7 @@ proxies:
   uuid: 4e3ae3d4-9e7b-4866-97d3-8127439f0050
 - alterId: 0
   cipher: auto
-  name: 05-0123-HK
+  name: 05-0109-HK
   network: ws
   port: 20521
   server: 47.86.16.127
@@ -313,7 +326,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 05-0124-HK
+  name: 05-0110-HK
   network: ws
   port: 16545
   server: 8.218.240.45
@@ -326,7 +339,7 @@ proxies:
     path: /arki
 - alterId: 0
   cipher: auto
-  name: 05-0125-HK
+  name: 05-0111-HK
   network: ws
   port: 36361
   server: 47.242.228.101
@@ -339,7 +352,7 @@ proxies:
     path: /arki
 - alterId: 0
   cipher: auto
-  name: 05-0126-US
+  name: 05-0112-US
   network: tcp
   port: 59674
   server: 43.162.114.137
@@ -348,7 +361,7 @@ proxies:
   type: vmess
   udp: true
   uuid: 6a4ce5b9-0d60-4a21-a8fe-897798019500
-- name: 05-0127-RELAY
+- name: 05-0113-RELAY
   network: ws
   port: 2053
   server: 1750925873250.tencentapp.cn
@@ -361,7 +374,7 @@ proxies:
     headers:
       Host: 1750925873250.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua
     path: /
-- name: 05-0128-FI
+- name: 05-0114-FI
   network: tcp
   port: 300
   server: 37.27.21.187
@@ -370,7 +383,47 @@ proxies:
   type: vless
   udp: true
   uuid: 122451e5-5b01-48bb-bdca-de3e96c8a19e
-- name: 06-0038-NL
+- name: 06-0029-RELAY
+  network: ws
+  password: wb6368
+  port: 2087
+  server: 92.243.75.49
+  skip-cert-verify: true
+  sni: hsdgbuys.pages.dev
+  type: trojan
+- cipher: rc4-md5
+  name: 06-0030-US
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 23.251.121.242
+  type: ss
+- name: 06-0031-RELAY
+  network: ws
+  port: 2096
+  server: 104.18.14.201
+  servername: iamdt.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 67c662fa-cd6a-474a-b55f-d50dc0a7e210
+  ws-opts:
+    headers:
+      Host: iamdt.pages.dev
+    path: /
+- name: 06-0032-RELAY
+  network: ws
+  port: 2096
+  server: 104.18.15.201
+  servername: iamdt.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 67c662fa-cd6a-474a-b55f-d50dc0a7e210
+  ws-opts:
+    headers:
+      Host: iamdt.pages.dev
+    path: /
+- name: 06-0115-NL
   network: ws
   port: 22231
   server: 159.223.235.238
@@ -383,89 +436,30 @@ proxies:
     headers:
       Host: 159.223.235.238
     path: /
-- cipher: rc4-md5
-  name: 08-0053-US
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 23.251.121.242
-  type: ss
 - cipher: aes-256-cfb
-  name: 08-0054-KR
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 154.90.63.177
-  type: ss
-- cipher: aes-256-cfb
-  name: 08-0056-BR
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 38.54.57.90
-  type: ss
-- cipher: aes-256-cfb
-  name: 08-0058-NL
+  name: 08-0034-NL
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 51.15.17.169
   type: ss
 - cipher: aes-256-cfb
-  name: 08-0059-HR
+  name: 08-0036-KR
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 154.90.63.177
+  type: ss
+- cipher: aes-256-cfb
+  name: 08-0037-HR
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 46.183.184.60
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 08-0060-VN
-  password: Nk9asglDzHzjktVzTkvhaA
-  port: 443
-  server: arxfw2b78fi2q9hzylhn.freesocks.work
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: 08-0129-HK
-  network: ws
-  port: 80
-  server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-  ws-opts:
-    path: /
 - cipher: aes-256-cfb
-  name: 23-0079-US
+  name: 08-0038-BR
   password: f8f7aCzcPKbsF8p3
   port: 989
-  server: 104.192.226.106
+  server: 38.54.57.90
   type: ss
-- name: 23-0105-RELAY
-  network: ws
-  port: 80
-  server: sweeT-coMBInATIOn.SeOtooLsFORyOU.co.Uk
-  servername: sweeT-coMBInATIOn.SeOtooLsFORyOU.co.Uk
-  tls: false
-  type: vless
-  udp: true
-  uuid: 05020a61-3c0c-4ead-b256-7851ff905a75
-  ws-opts:
-    headers:
-      Host: sweeT-coMBInATIOn.SeOtooLsFORyOU.co.Uk
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 23-0111-LT
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.171
-  type: ss
-- name: 23-0112-IN
-  network: tcp
-  port: 49355
-  server: 45.88.183.164
-  servername: 45.88.183.164
-  tls: false
-  type: vless
-  udp: true
-  uuid: ef246c6f-6e7d-4286-af33-5485544b0ba8
 proxy-groups:
 - name: PROXY
   type: select
@@ -484,6 +478,7 @@ proxy-groups:
   proxies:
   - 05-0000-FR
   - 05-0001-MD
+  - 05-0003-RU
   - 05-0004-FR
   - 05-0006-NL
   - 05-0007-RELAY
@@ -501,26 +496,23 @@ proxy-groups:
   - 05-0023-DE
   - 05-0024-FI
   - 05-0025-FR
-  - 05-0121-FR
-  - 05-0122-SE
-  - 05-0123-HK
-  - 05-0124-HK
-  - 05-0125-HK
-  - 05-0126-US
-  - 05-0127-RELAY
-  - 05-0128-FI
-  - 06-0038-NL
-  - 08-0053-US
-  - 08-0054-KR
-  - 08-0056-BR
-  - 08-0058-NL
-  - 08-0059-HR
-  - 08-0060-VN
-  - 08-0129-HK
-  - 23-0079-US
-  - 23-0105-RELAY
-  - 23-0111-LT
-  - 23-0112-IN
+  - 05-0107-FR
+  - 05-0108-SE
+  - 05-0109-HK
+  - 05-0110-HK
+  - 05-0111-HK
+  - 05-0112-US
+  - 05-0113-RELAY
+  - 05-0114-FI
+  - 06-0029-RELAY
+  - 06-0030-US
+  - 06-0031-RELAY
+  - 06-0032-RELAY
+  - 06-0115-NL
+  - 08-0034-NL
+  - 08-0036-KR
+  - 08-0037-HR
+  - 08-0038-BR
 - name: Best
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -544,6 +536,7 @@ proxy-groups:
   proxies:
   - 05-0000-FR
   - 05-0001-MD
+  - 05-0003-RU
   - 05-0004-FR
   - 05-0006-NL
   - 05-0007-RELAY
@@ -561,26 +554,23 @@ proxy-groups:
   - 05-0023-DE
   - 05-0024-FI
   - 05-0025-FR
-  - 05-0121-FR
-  - 05-0122-SE
-  - 05-0123-HK
-  - 05-0124-HK
-  - 05-0125-HK
-  - 05-0126-US
-  - 05-0127-RELAY
-  - 05-0128-FI
-  - 06-0038-NL
-  - 08-0053-US
-  - 08-0054-KR
-  - 08-0056-BR
-  - 08-0058-NL
-  - 08-0059-HR
-  - 08-0060-VN
-  - 08-0129-HK
-  - 23-0079-US
-  - 23-0105-RELAY
-  - 23-0111-LT
-  - 23-0112-IN
+  - 05-0107-FR
+  - 05-0108-SE
+  - 05-0109-HK
+  - 05-0110-HK
+  - 05-0111-HK
+  - 05-0112-US
+  - 05-0113-RELAY
+  - 05-0114-FI
+  - 06-0029-RELAY
+  - 06-0030-US
+  - 06-0031-RELAY
+  - 06-0032-RELAY
+  - 06-0115-NL
+  - 08-0034-NL
+  - 08-0036-KR
+  - 08-0037-HR
+  - 08-0038-BR
 - name: HK
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -590,10 +580,9 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
-  - 05-0123-HK
-  - 05-0124-HK
-  - 05-0125-HK
-  - 08-0129-HK
+  - 05-0109-HK
+  - 05-0110-HK
+  - 05-0111-HK
   filter: (?i)港|HK|HongKong|hong kong
 - name: TW
   type: url-test
@@ -637,9 +626,8 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
-  - 05-0126-US
-  - 08-0053-US
-  - 23-0079-US
+  - 05-0112-US
+  - 06-0030-US
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: Claude
   type: url-test

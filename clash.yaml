@@ -70,12 +70,6 @@ dns:
   - https://doh.pub/dns-query
   - https://dns.alidns.com/dns-query
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 23-0068-NL
-  password: 9tqhMdIrTkgQ46PvhyAtMH
-  port: 443
-  server: 92.112.126.90
-  type: ss
 - name: 23-0084-IN
   network: tcp
   port: 49355
@@ -101,7 +95,6 @@ proxy-groups:
   type: select
   filter: .*
   proxies:
-  - 23-0068-NL
   - 23-0084-IN
 - name: Best
   type: url-test
@@ -124,7 +117,6 @@ proxy-groups:
   tolerance: 50
   filter: .*
   proxies:
-  - 23-0068-NL
   - 23-0084-IN
 - name: HK
   type: url-test

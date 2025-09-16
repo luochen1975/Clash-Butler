@@ -89,6 +89,12 @@ proxies:
     headers:
       Host: fierce-data.seotoolsforyou.co.uk
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 23-0084-LT
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.171
+  type: ss
 - name: 23-0085-IN
   network: tcp
   port: 49355
@@ -116,6 +122,7 @@ proxy-groups:
   proxies:
   - 23-0052-US
   - 23-0075-RELAY
+  - 23-0084-LT
   - 23-0085-IN
 - name: Best
   type: url-test
@@ -140,6 +147,7 @@ proxy-groups:
   proxies:
   - 23-0052-US
   - 23-0075-RELAY
+  - 23-0084-LT
   - 23-0085-IN
 - name: HK
   type: url-test

@@ -276,13 +276,7 @@ proxies:
   skip-cert-verify: true
   sni: in.viefast.net
   type: trojan
-- cipher: aes-256-cfb
-  name: 05-0108-NL
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.17.169
-  type: ss
-- name: 05-0109-RELAY
+- name: 05-0111-RELAY
   network: ws
   port: 443
   server: backus1.dh03.shop
@@ -299,7 +293,7 @@ proxies:
   - h3
   auth-str: dongtaiwang.com
   down: 50 Mbps
-  name: 05-0110-FR
+  name: 05-0112-FR
   port: 15010
   protocol: udp
   server: 195.154.200.40
@@ -308,7 +302,7 @@ proxies:
   up: 20 Mbps
 - alterId: 0
   cipher: auto
-  name: 05-0111-FR
+  name: 05-0113-FR
   network: ws
   port: 443
   server: 57.128.189.240
@@ -321,7 +315,7 @@ proxies:
     path: /linkvws
 - grpc-opts:
     grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  name: 05-0112-FR
+  name: 05-0114-FR
   network: grpc
   port: 31846
   server: 141.227.160.228
@@ -332,7 +326,7 @@ proxies:
   uuid: d4163749-abe1-4f84-a8c9-4972795892f2
 - grpc-opts:
     grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  name: 05-0113-FR
+  name: 05-0115-FR
   network: grpc
   port: 25365
   server: 141.227.134.153
@@ -341,7 +335,7 @@ proxies:
   type: vless
   udp: true
   uuid: 0a708abd-79b3-420d-a564-e8a1ff580f83
-- name: 05-0114-RELAY
+- name: 05-0116-RELAY
   network: ws
   port: 2096
   server: 1750926563683.tencentapp.cn
@@ -356,7 +350,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 05-0115-US
+  name: 05-0117-US
   network: ws
   port: 443
   server: 40.160.16.216
@@ -367,7 +361,7 @@ proxies:
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     path: /linkvws
-- name: 05-0116-ES
+- name: 05-0118-ES
   password: 9e76767d-4bfa-4f04-a800-42e2f63afed2
   port: 443
   server: es.viefast.net
@@ -437,6 +431,13 @@ proxies:
   port: 989
   server: 38.165.233.93
   type: ss
+- name: 06-0037-DE
+  password: 9e76767d-4bfa-4f04-a800-42e2f63afed2
+  port: 443
+  server: de.viefast.net
+  skip-cert-verify: true
+  sni: csapp.catch.net.tw
+  type: trojan
 - name: 06-0041-RELAY
   network: ws
   port: 2053
@@ -477,48 +478,60 @@ proxies:
       Host: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua
     path: /
 - cipher: aes-256-cfb
-  name: 06-0118-TW
+  name: 06-0119-TW
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 154.223.20.79
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 08-0048-US
+  password: p78naCf2EfOlRSLTX0wFVx
+  port: 443
+  server: pupas-shirting-unsung.freesocks.work
+  type: ss
 - cipher: aes-256-cfb
-  name: 08-0119-KR
+  name: 08-0052-NL
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 51.15.17.169
+  type: ss
+- cipher: aes-256-cfb
+  name: 08-0120-KR
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 154.90.63.177
   type: ss
 - cipher: aes-256-cfb
-  name: 08-0120-MD
+  name: 08-0121-MD
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 185.153.197.5
   type: ss
 - cipher: aes-256-cfb
-  name: 08-0121-GR
+  name: 08-0122-GR
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 192.71.166.100
   type: ss
 - cipher: aes-256-cfb
-  name: 08-0122-BR
+  name: 08-0123-BR
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 38.54.57.90
   type: ss
 - cipher: aes-256-cfb
-  name: 23-0067-US
+  name: 23-0070-US
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 104.192.226.106
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 23-0084-NL
+  name: 23-0087-NL
   password: 9tqhMdIrTkgQ46PvhyAtMH
   port: 443
   server: 92.112.126.90
   type: ss
-- name: 23-0090-RELAY
+- name: 23-0093-RELAY
   network: ws
   port: 80
   server: fierce-data.seotoolsforyou.co.uk
@@ -531,13 +544,26 @@ proxies:
     headers:
       Host: fierce-data.seotoolsforyou.co.uk
     path: /
+- name: 23-0096-RELAY
+  network: ws
+  port: 80
+  server: sweeT-coMBInATIOn.SeOtooLsFORyOU.co.Uk
+  servername: sweeT-coMBInATIOn.SeOtooLsFORyOU.co.Uk
+  tls: false
+  type: vless
+  udp: true
+  uuid: 05020a61-3c0c-4ead-b256-7851ff905a75
+  ws-opts:
+    headers:
+      Host: sweeT-coMBInATIOn.SeOtooLsFORyOU.co.Uk
+    path: /
 - cipher: chacha20-ietf-poly1305
-  name: 23-0099-LT
+  name: 23-0102-LT
   password: 4a2rfixophdjffa8KVA4Aa
   port: 8080
   server: 45.87.175.171
   type: ss
-- name: 23-0100-IN
+- name: 23-0103-IN
   network: tcp
   port: 49355
   server: 45.88.183.164
@@ -581,34 +607,37 @@ proxy-groups:
   - 05-0018-FR
   - 05-0020-PL
   - 05-0024-IN
-  - 05-0108-NL
-  - 05-0109-RELAY
-  - 05-0110-FR
-  - 05-0111-FR
+  - 05-0111-RELAY
   - 05-0112-FR
   - 05-0113-FR
-  - 05-0114-RELAY
-  - 05-0115-US
-  - 05-0116-ES
+  - 05-0114-FR
+  - 05-0115-FR
+  - 05-0116-RELAY
+  - 05-0117-US
+  - 05-0118-ES
   - 06-0028-FR
   - 06-0029-FR
   - 06-0031-LV
   - 06-0034-NL
   - 06-0035-PL
   - 06-0036-PY
+  - 06-0037-DE
   - 06-0041-RELAY
   - 06-0042-RELAY
   - 06-0043-RELAY
-  - 06-0118-TW
-  - 08-0119-KR
-  - 08-0120-MD
-  - 08-0121-GR
-  - 08-0122-BR
-  - 23-0067-US
-  - 23-0084-NL
-  - 23-0090-RELAY
-  - 23-0099-LT
-  - 23-0100-IN
+  - 06-0119-TW
+  - 08-0048-US
+  - 08-0052-NL
+  - 08-0120-KR
+  - 08-0121-MD
+  - 08-0122-GR
+  - 08-0123-BR
+  - 23-0070-US
+  - 23-0087-NL
+  - 23-0093-RELAY
+  - 23-0096-RELAY
+  - 23-0102-LT
+  - 23-0103-IN
 - name: Best
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -649,34 +678,37 @@ proxy-groups:
   - 05-0018-FR
   - 05-0020-PL
   - 05-0024-IN
-  - 05-0108-NL
-  - 05-0109-RELAY
-  - 05-0110-FR
-  - 05-0111-FR
+  - 05-0111-RELAY
   - 05-0112-FR
   - 05-0113-FR
-  - 05-0114-RELAY
-  - 05-0115-US
-  - 05-0116-ES
+  - 05-0114-FR
+  - 05-0115-FR
+  - 05-0116-RELAY
+  - 05-0117-US
+  - 05-0118-ES
   - 06-0028-FR
   - 06-0029-FR
   - 06-0031-LV
   - 06-0034-NL
   - 06-0035-PL
   - 06-0036-PY
+  - 06-0037-DE
   - 06-0041-RELAY
   - 06-0042-RELAY
   - 06-0043-RELAY
-  - 06-0118-TW
-  - 08-0119-KR
-  - 08-0120-MD
-  - 08-0121-GR
-  - 08-0122-BR
-  - 23-0067-US
-  - 23-0084-NL
-  - 23-0090-RELAY
-  - 23-0099-LT
-  - 23-0100-IN
+  - 06-0119-TW
+  - 08-0048-US
+  - 08-0052-NL
+  - 08-0120-KR
+  - 08-0121-MD
+  - 08-0122-GR
+  - 08-0123-BR
+  - 23-0070-US
+  - 23-0087-NL
+  - 23-0093-RELAY
+  - 23-0096-RELAY
+  - 23-0102-LT
+  - 23-0103-IN
 - name: HK
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -697,7 +729,7 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
-  - 06-0118-TW
+  - 06-0119-TW
   filter: 台湾|TW|Tw|Taiwan|新北|彰化|CHT|HINET
 - name: JP
   type: url-test
@@ -730,8 +762,9 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
-  - 05-0115-US
-  - 23-0067-US
+  - 05-0117-US
+  - 08-0048-US
+  - 23-0070-US
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: Claude
   type: url-test

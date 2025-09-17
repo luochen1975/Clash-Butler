@@ -70,13 +70,6 @@ dns:
   - https://doh.pub/dns-query
   - https://dns.alidns.com/dns-query
 proxies:
-- name: 05-0000-ES
-  password: 9e76767d-4bfa-4f04-a800-42e2f63afed2
-  port: 443
-  server: es.viefast.net
-  skip-cert-verify: true
-  sni: csapp.catch.net.tw
-  type: trojan
 - alterId: 1
   cipher: auto
   name: 05-0004-DE
@@ -411,21 +404,21 @@ proxies:
   port: 8443
   server: 154.205.134.132
   type: ss
+- name: 08-0050-HK
+  password: 1640ef52-2db0-44ab-b3f3-8690b762ebc9
+  port: 12000
+  server: 165.154.112.107
+  skip-cert-verify: true
+  type: trojan
 - cipher: aes-256-cfb
-  name: 06-0044-TW
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 154.223.20.79
-  type: ss
-- cipher: aes-256-cfb
-  name: 08-0052-NL
+  name: 08-0125-NL
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 51.15.17.169
   type: ss
 - alterId: 2
   cipher: auto
-  name: 08-0125-HK
+  name: 08-0126-HK
   network: ws
   port: 80
   server: hkt.gotochinatown.net
@@ -479,7 +472,6 @@ proxy-groups:
   type: select
   filter: .*
   proxies:
-  - 05-0000-ES
   - 05-0004-DE
   - 05-0005-FR
   - 05-0008-RELAY
@@ -510,9 +502,9 @@ proxy-groups:
   - 06-0036-KR
   - 06-0041-PL
   - 06-0042-SA
-  - 06-0044-TW
-  - 08-0052-NL
-  - 08-0125-HK
+  - 08-0050-HK
+  - 08-0125-NL
+  - 08-0126-HK
   - 23-0071-US
   - 23-0088-NL
   - 23-0103-LT
@@ -538,7 +530,6 @@ proxy-groups:
   tolerance: 50
   filter: .*
   proxies:
-  - 05-0000-ES
   - 05-0004-DE
   - 05-0005-FR
   - 05-0008-RELAY
@@ -569,9 +560,9 @@ proxy-groups:
   - 06-0036-KR
   - 06-0041-PL
   - 06-0042-SA
-  - 06-0044-TW
-  - 08-0052-NL
-  - 08-0125-HK
+  - 08-0050-HK
+  - 08-0125-NL
+  - 08-0126-HK
   - 23-0071-US
   - 23-0088-NL
   - 23-0103-LT
@@ -587,7 +578,8 @@ proxy-groups:
   proxies:
   - 05-0112-HK
   - 05-0113-HK
-  - 08-0125-HK
+  - 08-0050-HK
+  - 08-0126-HK
   filter: (?i)港|HK|HongKong|hong kong
 - name: TW
   type: url-test
@@ -598,7 +590,7 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
-  - 06-0044-TW
+  - DIRECT
   filter: 台湾|TW|Tw|Taiwan|新北|彰化|CHT|HINET
 - name: JP
   type: url-test

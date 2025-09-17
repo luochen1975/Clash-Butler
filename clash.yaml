@@ -70,6 +70,31 @@ dns:
   - https://doh.pub/dns-query
   - https://dns.alidns.com/dns-query
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 05-0000-DE
+  password: zaq1@WSXcde3$RFV
+  plugin: obfs
+  plugin-opts:
+    host: falkenstein.ticoag.fun
+    mode: tls
+    skip-cert-verify: true
+    tls: true
+  port: 26902
+  server: 23.165.200.112
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 05-0002-HK
+  network: ws
+  port: 80
+  server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    path: /
 - alterId: 2
   cipher: auto
   name: 05-0003-HK
@@ -89,19 +114,6 @@ proxies:
   port: 989
   server: 51.15.17.169
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 05-0005-RELAY
-  network: ws
-  port: 443
-  server: qqqqqqqqqqqqaaaa.www890604.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
-  ws-opts:
-    path: /6We3U9Df1WGxgFnoFPw1
 - alpn:
   - h3
   auth-str: dongtaiwang.com
@@ -181,6 +193,19 @@ proxies:
   uuid: 4981b98f-4943-4083-83aa-00b028f57a18
 - alterId: 0
   cipher: auto
+  name: 05-0016-HK
+  network: ws
+  port: 52512
+  server: aflzzul.meiquankongjian.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
+  ws-opts:
+    path: /564dfa20/
+- alterId: 0
+  cipher: auto
   name: 05-0017-DE
   network: tcp
   port: 8585
@@ -214,19 +239,6 @@ proxies:
     headers:
       Host: wWw.SpeEDTeSt.nEt
     path: /wslinka?ed
-- alterId: 2
-  cipher: auto
-  name: 06-0026-HK
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-  ws-opts:
-    path: /
 - flow: xtls-rprx-vision
   name: 06-0029-PL
   network: tcp
@@ -267,30 +279,30 @@ proxies:
       Host: crazy-identity.oneeat.co
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 08-0042-SA
+  name: 08-0043-SA
   password: g8BWaY8FYhKfVMOT9N0IIB
   port: 8443
   server: 154.205.134.132
   type: ss
 - cipher: aes-256-cfb
-  name: 08-0102-KR
+  name: 08-0103-KR
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 154.90.63.177
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 08-0103-VN
+  name: 08-0104-VN
   password: Nk9asglDzHzjktVzTkvhaA
   port: 443
   server: arxfw2b78fi2q9hzylhn.freesocks.work
   type: ss
 - cipher: aes-256-cfb
-  name: 23-0061-US
+  name: 23-0062-US
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 104.192.226.106
   type: ss
-- name: 23-0068-RELAY
+- name: 23-0069-RELAY
   network: ws
   port: 8443
   server: 172.66.47.140
@@ -303,7 +315,7 @@ proxies:
     headers:
       Host: v2rayminer.pages.dev
     path: /WwPEDup8yShFB1Wp/NzguNDYuNzMuNDk=?ed=2560
-- name: 23-0075-RELAY
+- name: 23-0076-RELAY
   network: ws
   port: 443
   server: www.speedtest.net
@@ -316,13 +328,7 @@ proxies:
     headers:
       Host: v2rayminer.pages.dev
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 23-0078-NL
-  password: 9tqhMdIrTkgQ46PvhyAtMH
-  port: 443
-  server: 92.112.126.90
-  type: ss
-- name: 23-0084-RELAY
+- name: 23-0085-RELAY
   network: ws
   port: 80
   server: fierce-data.seotoolsforyou.co.uk
@@ -335,7 +341,7 @@ proxies:
     headers:
       Host: fierce-data.seotoolsforyou.co.uk
     path: /
-- name: 23-0087-RELAY
+- name: 23-0088-RELAY
   network: ws
   port: 80
   server: sweeT-coMBInATIOn.SeOtooLsFORyOU.co.Uk
@@ -348,6 +354,21 @@ proxies:
     headers:
       Host: sweeT-coMBInATIOn.SeOtooLsFORyOU.co.Uk
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 23-0094-LT
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.171
+  type: ss
+- name: 23-0095-IN
+  network: tcp
+  port: 49355
+  server: 45.88.183.164
+  servername: 45.88.183.164
+  tls: false
+  type: vless
+  udp: true
+  uuid: ef246c6f-6e7d-4286-af33-5485544b0ba8
 proxy-groups:
 - name: PROXY
   type: select
@@ -364,9 +385,10 @@ proxy-groups:
   type: select
   filter: .*
   proxies:
+  - 05-0000-DE
+  - 05-0002-HK
   - 05-0003-HK
   - 05-0004-NL
-  - 05-0005-RELAY
   - 05-0006-FR
   - 05-0007-IT
   - 05-0008-FR
@@ -374,22 +396,23 @@ proxy-groups:
   - 05-0011-FR
   - 05-0013-FR
   - 05-0015-DE
+  - 05-0016-HK
   - 05-0017-DE
   - 05-0018-GB
   - 05-0019-FR
-  - 06-0026-HK
   - 06-0029-PL
   - 06-0032-RELAY
   - 06-0035-RELAY
-  - 08-0042-SA
-  - 08-0102-KR
-  - 08-0103-VN
-  - 23-0061-US
-  - 23-0068-RELAY
-  - 23-0075-RELAY
-  - 23-0078-NL
-  - 23-0084-RELAY
-  - 23-0087-RELAY
+  - 08-0043-SA
+  - 08-0103-KR
+  - 08-0104-VN
+  - 23-0062-US
+  - 23-0069-RELAY
+  - 23-0076-RELAY
+  - 23-0085-RELAY
+  - 23-0088-RELAY
+  - 23-0094-LT
+  - 23-0095-IN
 - name: Best
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -411,9 +434,10 @@ proxy-groups:
   tolerance: 50
   filter: .*
   proxies:
+  - 05-0000-DE
+  - 05-0002-HK
   - 05-0003-HK
   - 05-0004-NL
-  - 05-0005-RELAY
   - 05-0006-FR
   - 05-0007-IT
   - 05-0008-FR
@@ -421,22 +445,23 @@ proxy-groups:
   - 05-0011-FR
   - 05-0013-FR
   - 05-0015-DE
+  - 05-0016-HK
   - 05-0017-DE
   - 05-0018-GB
   - 05-0019-FR
-  - 06-0026-HK
   - 06-0029-PL
   - 06-0032-RELAY
   - 06-0035-RELAY
-  - 08-0042-SA
-  - 08-0102-KR
-  - 08-0103-VN
-  - 23-0061-US
-  - 23-0068-RELAY
-  - 23-0075-RELAY
-  - 23-0078-NL
-  - 23-0084-RELAY
-  - 23-0087-RELAY
+  - 08-0043-SA
+  - 08-0103-KR
+  - 08-0104-VN
+  - 23-0062-US
+  - 23-0069-RELAY
+  - 23-0076-RELAY
+  - 23-0085-RELAY
+  - 23-0088-RELAY
+  - 23-0094-LT
+  - 23-0095-IN
 - name: HK
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -446,8 +471,9 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
+  - 05-0002-HK
   - 05-0003-HK
-  - 06-0026-HK
+  - 05-0016-HK
   filter: (?i)港|HK|HongKong|hong kong
 - name: TW
   type: url-test
@@ -491,7 +517,7 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
-  - 23-0061-US
+  - 23-0062-US
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: Claude
   type: url-test

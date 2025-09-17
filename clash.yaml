@@ -239,13 +239,6 @@ proxies:
     headers:
       Host: wWw.SpeEDTeSt.nEt
     path: /wslinka?ed
-- name: 06-0024-FR
-  password: 9e76767d-4bfa-4f04-a800-42e2f63afed2
-  port: 443
-  server: fr.viefast.net
-  skip-cert-verify: true
-  sni: csapp.catch.net.tw
-  type: trojan
 - alterId: 2
   cipher: auto
   name: 06-0026-HK
@@ -299,13 +292,13 @@ proxies:
       Host: crazy-identity.oneeat.co
     path: /
 - cipher: aes-256-cfb
-  name: 08-0100-KR
+  name: 08-0102-KR
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 154.90.63.177
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 08-0101-VN
+  name: 08-0103-VN
   password: Nk9asglDzHzjktVzTkvhaA
   port: 443
   server: arxfw2b78fi2q9hzylhn.freesocks.work
@@ -341,13 +334,12 @@ proxy-groups:
   - 05-0017-DE
   - 05-0018-GB
   - 05-0019-FR
-  - 06-0024-FR
   - 06-0026-HK
   - 06-0029-PL
   - 06-0032-RELAY
   - 06-0035-RELAY
-  - 08-0100-KR
-  - 08-0101-VN
+  - 08-0102-KR
+  - 08-0103-VN
 - name: Best
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -384,13 +376,12 @@ proxy-groups:
   - 05-0017-DE
   - 05-0018-GB
   - 05-0019-FR
-  - 06-0024-FR
   - 06-0026-HK
   - 06-0029-PL
   - 06-0032-RELAY
   - 06-0035-RELAY
-  - 08-0100-KR
-  - 08-0101-VN
+  - 08-0102-KR
+  - 08-0103-VN
 - name: HK
   type: url-test
   url: https://www.gstatic.com/generate_204

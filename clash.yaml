@@ -70,6 +70,19 @@ dns:
   - https://doh.pub/dns-query
   - https://dns.alidns.com/dns-query
 proxies:
+- name: 06-0053-RELAY
+  network: ws
+  port: 443
+  server: 104.21.36.57
+  servername: orange.fullmargintraders.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4c835bff-4f4d-4608-bb21-120099089688
+  ws-opts:
+    headers:
+      Host: orange.fullmargintraders.com
+    path: /wsv/4c835bff-4f4d-4608-bb21-120099089688?ed=2048
 - name: 06-0128-RELAY
   network: ws
   port: 2053
@@ -153,15 +166,12 @@ proxies:
   port: 989
   server: 104.192.226.106
   type: ss
-- name: 23-0120-IN
-  network: tcp
-  port: 49355
-  server: 45.88.183.164
-  servername: 45.88.183.164
-  tls: false
-  type: vless
-  udp: true
-  uuid: ef246c6f-6e7d-4286-af33-5485544b0ba8
+- cipher: chacha20-ietf-poly1305
+  name: 23-0119-LT
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.171
+  type: ss
 proxy-groups:
 - name: PROXY
   type: select
@@ -178,6 +188,7 @@ proxy-groups:
   type: select
   filter: .*
   proxies:
+  - 06-0053-RELAY
   - 06-0128-RELAY
   - 06-0129-RELAY
   - 06-0130-RELAY
@@ -186,7 +197,7 @@ proxy-groups:
   - 08-0133-US
   - 08-0134-MD
   - 23-0087-US
-  - 23-0120-IN
+  - 23-0119-LT
 - name: Best
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -208,6 +219,7 @@ proxy-groups:
   tolerance: 50
   filter: .*
   proxies:
+  - 06-0053-RELAY
   - 06-0128-RELAY
   - 06-0129-RELAY
   - 06-0130-RELAY
@@ -216,7 +228,7 @@ proxy-groups:
   - 08-0133-US
   - 08-0134-MD
   - 23-0087-US
-  - 23-0120-IN
+  - 23-0119-LT
 - name: HK
   type: url-test
   url: https://www.gstatic.com/generate_204

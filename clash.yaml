@@ -70,57 +70,20 @@ dns:
   - https://doh.pub/dns-query
   - https://dns.alidns.com/dns-query
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 06-0036-HK
+- name: 06-0053-RELAY
   network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-  ws-opts:
-    path: /
-- cipher: aes-256-cfb
-  name: 06-0038-KR
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 154.90.63.177
-  type: ss
-- flow: xtls-rprx-vision
-  name: 06-0044-PL
-  network: tcp
   port: 443
-  reality-opts:
-    public-key: oNYCpjXjcYAV9qSWBt95N9dDUPhc_QnauJZ3kSJVeSQ
-    short-id: 2a22
-  server: poland20.clearorbitllc.com
-  servername: poland20.clearorbitllc.com
+  server: 104.21.36.57
+  servername: orange.fullmargintraders.com
   tls: true
   type: vless
   udp: true
-  uuid: e3847ec6-b2fc-4eb2-b919-174d986f882c
-- cipher: aes-256-cfb
-  name: 06-0045-PY
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 38.165.233.93
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 06-0047-TR
-  password: oC9c1kPkYbkg
-  port: 443
-  server: 83.217.9.210
-  type: ss
-- cipher: aes-256-cfb
-  name: 06-0049-TW
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 154.223.20.79
-  type: ss
-- name: 06-0144-RELAY
+  uuid: 4c835bff-4f4d-4608-bb21-120099089688
+  ws-opts:
+    headers:
+      Host: orange.fullmargintraders.com
+    path: /wsv/4c835bff-4f4d-4608-bb21-120099089688?ed=2048
+- name: 06-0129-RELAY
   network: ws
   port: 2053
   server: 141.101.120.100
@@ -133,7 +96,7 @@ proxies:
     headers:
       Host: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua
     path: /telegram%40V2ray_Alpha/?ed=2048
-- name: 06-0145-RELAY
+- name: 06-0130-RELAY
   network: ws
   port: 2053
   server: 141.101.121.34
@@ -146,7 +109,7 @@ proxies:
     headers:
       Host: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua
     path: /?ed=2048
-- name: 06-0146-RELAY
+- name: 06-0131-RELAY
   network: ws
   port: 2053
   server: 141.101.120.15
@@ -159,7 +122,7 @@ proxies:
     headers:
       Host: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua
     path: /?ed=2048
-- name: 06-0147-RELAY
+- name: 06-0132-RELAY
   network: ws
   port: 2053
   server: 141.101.121.107
@@ -172,7 +135,7 @@ proxies:
     headers:
       Host: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua
     path: /
-- name: 06-0148-RELAY
+- name: 06-0133-RELAY
   network: ws
   port: 2053
   server: 141.101.121.62
@@ -185,8 +148,14 @@ proxies:
     headers:
       Host: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 08-0069-US
+  password: p78naCf2EfOlRSLTX0wFVx
+  port: 443
+  server: pupas-shirting-unsung.freesocks.work
+  type: ss
 - cipher: aes-256-gcm
-  name: 08-0149-SC
+  name: 08-0134-SC
   password: 2b5fad3874e5
   plugin: v2ray-plugin
   plugin-opts:
@@ -200,14 +169,8 @@ proxies:
   port: 443
   server: 156.251.179.135
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 08-0150-US
-  password: p78naCf2EfOlRSLTX0wFVx
-  port: 443
-  server: pupas-shirting-unsung.freesocks.work
-  type: ss
 - cipher: aes-256-cfb
-  name: 08-0151-MD
+  name: 08-0135-MD
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 185.153.197.5
@@ -231,6 +194,12 @@ proxies:
     headers:
       Host: fierce-data.seotoolsforyou.co.uk
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 23-0120-LT
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.171
+  type: ss
 proxy-groups:
 - name: PROXY
   type: select
@@ -247,22 +216,18 @@ proxy-groups:
   type: select
   filter: .*
   proxies:
-  - 06-0036-HK
-  - 06-0038-KR
-  - 06-0044-PL
-  - 06-0045-PY
-  - 06-0047-TR
-  - 06-0049-TW
-  - 06-0144-RELAY
-  - 06-0145-RELAY
-  - 06-0146-RELAY
-  - 06-0147-RELAY
-  - 06-0148-RELAY
-  - 08-0149-SC
-  - 08-0150-US
-  - 08-0151-MD
+  - 06-0053-RELAY
+  - 06-0129-RELAY
+  - 06-0130-RELAY
+  - 06-0131-RELAY
+  - 06-0132-RELAY
+  - 06-0133-RELAY
+  - 08-0069-US
+  - 08-0134-SC
+  - 08-0135-MD
   - 23-0088-US
   - 23-0111-RELAY
+  - 23-0120-LT
 - name: Best
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -284,22 +249,18 @@ proxy-groups:
   tolerance: 50
   filter: .*
   proxies:
-  - 06-0036-HK
-  - 06-0038-KR
-  - 06-0044-PL
-  - 06-0045-PY
-  - 06-0047-TR
-  - 06-0049-TW
-  - 06-0144-RELAY
-  - 06-0145-RELAY
-  - 06-0146-RELAY
-  - 06-0147-RELAY
-  - 06-0148-RELAY
-  - 08-0149-SC
-  - 08-0150-US
-  - 08-0151-MD
+  - 06-0053-RELAY
+  - 06-0129-RELAY
+  - 06-0130-RELAY
+  - 06-0131-RELAY
+  - 06-0132-RELAY
+  - 06-0133-RELAY
+  - 08-0069-US
+  - 08-0134-SC
+  - 08-0135-MD
   - 23-0088-US
   - 23-0111-RELAY
+  - 23-0120-LT
 - name: HK
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -309,7 +270,7 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
-  - 06-0036-HK
+  - DIRECT
   filter: (?i)港|HK|HongKong|hong kong
 - name: TW
   type: url-test
@@ -320,7 +281,7 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
-  - 06-0049-TW
+  - DIRECT
   filter: 台湾|TW|Tw|Taiwan|新北|彰化|CHT|HINET
 - name: JP
   type: url-test
@@ -353,7 +314,7 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
-  - 08-0150-US
+  - 08-0069-US
   - 23-0088-US
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: Claude

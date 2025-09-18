@@ -94,6 +94,19 @@ proxies:
     headers:
       Host: 1750926573911.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua
     path: /Tel-%40V2ray_Alpha
+- name: 05-0004-RELAY
+  network: ws
+  port: 443
+  server: 104.18.35.85
+  servername: cf.vless.sandesh.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 060a8fe8-7175-4ded-94a5-d9808bc645b6
+  ws-opts:
+    headers:
+      Host: cf.vless.sandesh.fr
+    path: /
 - grpc-opts:
     grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
   name: 05-0005-FR
@@ -119,25 +132,6 @@ proxies:
   type: vless
   udp: true
   uuid: a13f48f0-ee23-4f89-8302-3670aebded28
-- cipher: chacha20-ietf
-  name: 05-0008-HK
-  password: asd123456
-  port: 8388
-  server: 103.149.182.191
-  type: ss
-- name: 05-0009-RELAY
-  network: ws
-  port: 443
-  server: ium3uojslvj2shb1yh8zu7etc34vmyfb.z8f5hmu0ue.workers.dev
-  servername: PmlMyazd.pagEs.Dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: b0e5da32-8bb4-4e65-94f1-99ddeefeaa5e
-  ws-opts:
-    headers:
-      Host: pmlmyazd.pages.dev
-    path: /XqtZ2JB0WH2bmNOL
 - name: 05-0010-RELAY
   network: ws
   port: 443
@@ -151,6 +145,19 @@ proxies:
     headers:
       Host: hdfynpv2c1.farvaharforever.com
     path: /Iyq035lnud9R8ruNNrqGxZZ2
+- name: 05-0011-RELAY
+  network: ws
+  port: 443
+  server: 172.67.187.28
+  servername: DDdDddDDDdddDT.IRan2035.dPDNS.oRg
+  tls: true
+  type: vless
+  udp: true
+  uuid: a94fafdb-10d6-46c2-be8a-5c2e8358fbb0
+  ws-opts:
+    headers:
+      Host: dddddddddddddt.iran2035.dpdns.org
+    path: /xeg9Fvgzc4aVkracmjyiKVby2Lp
 - name: 05-0012-RELAY
   network: ws
   port: 443
@@ -196,19 +203,19 @@ proxies:
     headers:
       Host: 1750293059309.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua
     path: /Telegram%40
-- name: 05-0018-RELAY
+- alterId: 0
+  cipher: auto
+  name: 05-0020-NOWHERE
   network: ws
-  port: 2087
-  server: nl.horizongatex.org
-  servername: nl.horizongatex.org
+  port: 443
+  server: tTtTttTttGgGGHHhnMk.iraN2035.DPDNS.ORG
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: vmess
   udp: true
-  uuid: 2988936d-3c33-4572-900c-40df2c63faa0
+  uuid: a94fafdb-10d6-46c2-be8a-5c2e8358fbb0
   ws-opts:
-    headers:
-      Host: nl.horizongatex.org
-    path: /
+    path: /CjJ9A46ZRHvgWvVcmjyiKVby2Lp
 - name: 05-0021-SG
   network: ws
   port: 11588
@@ -297,21 +304,40 @@ proxies:
   port: 989
   server: 154.223.20.79
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 08-0039-VN
+  password: Nk9asglDzHzjktVzTkvhaA
+  port: 443
+  server: arxfw2b78fi2q9hzylhn.freesocks.work
+  type: ss
+- alterId: 32
+  cipher: auto
+  name: 08-0041-US
+  network: ws
+  port: 443
+  server: vc.fly.dev
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
+  ws-opts:
+    path: /vc
 - cipher: aes-256-cfb
-  name: 08-0039-NL
+  name: 08-0102-NL
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 51.15.17.169
   type: ss
 - cipher: aes-256-cfb
-  name: 08-0043-MD
+  name: 08-0103-MD
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 185.153.197.5
   type: ss
 - alterId: 2
   cipher: auto
-  name: 08-0102-HK
+  name: 08-0104-HK
   network: ws
   port: 80
   server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
@@ -324,7 +350,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 08-0103-HK
+  name: 08-0105-HK
   network: ws
   port: 80
   server: hkt.gotochinatown.net
@@ -337,7 +363,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 08-0104-CA
+  name: 08-0106-CA
   network: ws
   port: 80
   server: 51.79.102.253
@@ -354,32 +380,12 @@ proxies:
   port: 989
   server: 104.192.226.106
   type: ss
-- name: 23-0084-RELAY
-  network: ws
-  port: 80
-  server: fierce-data.seotoolsforyou.co.uk
-  servername: fierce-data.seotoolsforyou.co.uk
-  tls: false
-  type: vless
-  udp: true
-  uuid: c313c27c-97ff-45ed-ab5c-64641af5debc
-  ws-opts:
-    headers:
-      Host: fierce-data.seotoolsforyou.co.uk
-    path: /
-- name: 23-0087-RELAY
-  network: ws
-  port: 80
-  server: sweeT-coMBInATIOn.SeOtooLsFORyOU.co.Uk
-  servername: sweeT-coMBInATIOn.SeOtooLsFORyOU.co.Uk
-  tls: false
-  type: vless
-  udp: true
-  uuid: 05020a61-3c0c-4ead-b256-7851ff905a75
-  ws-opts:
-    headers:
-      Host: sweeT-coMBInATIOn.SeOtooLsFORyOU.co.Uk
-    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 23-0093-LT
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.171
+  type: ss
 - name: 23-0094-IN
   network: tcp
   port: 49355
@@ -407,16 +413,16 @@ proxy-groups:
   proxies:
   - 05-0000-PL
   - 05-0001-RELAY
+  - 05-0004-RELAY
   - 05-0005-FR
   - 05-0006-SE
-  - 05-0008-HK
-  - 05-0009-RELAY
   - 05-0010-RELAY
+  - 05-0011-RELAY
   - 05-0012-RELAY
   - 05-0013-NL
   - 05-0014-DE
   - 05-0017-RELAY
-  - 05-0018-RELAY
+  - 05-0020-NOWHERE
   - 05-0021-SG
   - 05-0022-RELAY
   - 06-0023-BR
@@ -427,14 +433,15 @@ proxy-groups:
   - 06-0031-PL
   - 06-0032-PY
   - 06-0035-TW
-  - 08-0039-NL
-  - 08-0043-MD
-  - 08-0102-HK
-  - 08-0103-HK
-  - 08-0104-CA
+  - 08-0039-VN
+  - 08-0041-US
+  - 08-0102-NL
+  - 08-0103-MD
+  - 08-0104-HK
+  - 08-0105-HK
+  - 08-0106-CA
   - 23-0061-US
-  - 23-0084-RELAY
-  - 23-0087-RELAY
+  - 23-0093-LT
   - 23-0094-IN
 - name: Best
   type: url-test
@@ -459,16 +466,16 @@ proxy-groups:
   proxies:
   - 05-0000-PL
   - 05-0001-RELAY
+  - 05-0004-RELAY
   - 05-0005-FR
   - 05-0006-SE
-  - 05-0008-HK
-  - 05-0009-RELAY
   - 05-0010-RELAY
+  - 05-0011-RELAY
   - 05-0012-RELAY
   - 05-0013-NL
   - 05-0014-DE
   - 05-0017-RELAY
-  - 05-0018-RELAY
+  - 05-0020-NOWHERE
   - 05-0021-SG
   - 05-0022-RELAY
   - 06-0023-BR
@@ -479,14 +486,15 @@ proxy-groups:
   - 06-0031-PL
   - 06-0032-PY
   - 06-0035-TW
-  - 08-0039-NL
-  - 08-0043-MD
-  - 08-0102-HK
-  - 08-0103-HK
-  - 08-0104-CA
+  - 08-0039-VN
+  - 08-0041-US
+  - 08-0102-NL
+  - 08-0103-MD
+  - 08-0104-HK
+  - 08-0105-HK
+  - 08-0106-CA
   - 23-0061-US
-  - 23-0084-RELAY
-  - 23-0087-RELAY
+  - 23-0093-LT
   - 23-0094-IN
 - name: HK
   type: url-test
@@ -497,9 +505,8 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
-  - 05-0008-HK
-  - 08-0102-HK
-  - 08-0103-HK
+  - 08-0104-HK
+  - 08-0105-HK
   filter: (?i)港|HK|HongKong|hong kong
 - name: TW
   type: url-test
@@ -543,6 +550,7 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
+  - 08-0041-US
   - 23-0061-US
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: Claude

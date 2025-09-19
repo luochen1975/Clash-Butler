@@ -120,13 +120,6 @@ proxies:
     headers:
       Host: wWw.speEDtEST.NeT
     path: /wslinws
-- name: 05-0008-GB
-  password: 9e76767d-4bfa-4f04-a800-42e2f63afed2
-  port: 443
-  server: uk.viefast.net
-  skip-cert-verify: true
-  sni: csapp.catch.net.tw
-  type: trojan
 - grpc-opts:
     grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
   name: 05-0012-FR
@@ -193,6 +186,13 @@ proxies:
   type: vless
   udp: true
   uuid: 29e646a4-2fda-4495-83cc-e041b660fa21
+- name: 05-0021-IL
+  password: 9e76767d-4bfa-4f04-a800-42e2f63afed2
+  port: 443
+  server: telaviv.viefast.net
+  skip-cert-verify: true
+  sni: csapp.catch.net.tw
+  type: trojan
 - grpc-opts:
     grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
   name: 05-0022-FR
@@ -291,22 +291,16 @@ proxies:
       Host: do-syd1.008883.xyz
     path: /freev2.net?ed=2048
 - cipher: chacha20-ietf-poly1305
-  name: 06-0116-LT
+  name: 06-0117-LT
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 45.87.175.58
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 06-0117-LT
+  name: 06-0118-LT
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: ltnl15.saint.ydns.eu
-  type: ss
-- cipher: aes-256-cfb
-  name: 06-0118-PY
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 38.165.233.93
   type: ss
 - cipher: aes-256-cfb
   name: 06-0119-TW
@@ -314,35 +308,35 @@ proxies:
   port: 989
   server: 154.223.20.79
   type: ss
-- name: 08-0049-HK
+- cipher: aes-256-cfb
+  name: 08-0049-KR
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 154.90.62.168
+  type: ss
+- name: 08-0050-HK
   password: 1640ef52-2db0-44ab-b3f3-8690b762ebc9
   port: 12000
   server: 165.154.112.107
   skip-cert-verify: true
   type: trojan
 - cipher: aes-256-cfb
-  name: 08-0050-KR
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 154.90.62.168
-  type: ss
-- cipher: aes-256-cfb
-  name: 08-0051-KR
+  name: 08-0052-KR
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 154.90.63.177
   type: ss
 - cipher: aes-256-cfb
-  name: 08-0052-MD
+  name: 08-0053-MD
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 185.153.197.5
   type: ss
 - cipher: aes-256-cfb
-  name: 08-0054-BR
+  name: 08-0054-PY
   password: f8f7aCzcPKbsF8p3
   port: 989
-  server: 38.54.57.90
+  server: 38.165.233.93
   type: ss
 - cipher: aes-256-cfb
   name: 08-0055-NL
@@ -350,50 +344,64 @@ proxies:
   port: 989
   server: 51.15.17.169
   type: ss
+- cipher: rc4-md5
+  name: 08-0058-US
+  obfs: plain
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  protocol: origin
+  server: 107.151.182.253
+  type: ssr
 - cipher: aes-256-cfb
-  name: 08-0056-GR
+  name: 08-0120-BR
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 38.54.57.90
+  type: ss
+- cipher: aes-256-cfb
+  name: 08-0121-GR
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 192.71.166.100
   type: ss
+- name: 08-0122-RELAY
+  network: ws
+  port: 443
+  server: openai.com
+  servername: nkAnG2rEpLACE.airlineSHoma.Com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 101e6a7d-7d10-4859-a626-8a76daab4547
+  ws-opts:
+    headers:
+      Host: nkAnG2rEpLACE.airlineSHoma.Com
+    path: /?ed=2560
 - cipher: aes-256-cfb
-  name: 08-0120-HR
+  name: 08-0123-HR
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 46.183.184.60
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 08-0121-RELAY
-  network: ws
-  port: 80
-  server: test3.flha.ru
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9a81340d-f81b-4c76-8abb-f4d305c535c0
-  ws-opts:
-    path: /9a81340d-f81b-4c76-8abb-f4d305c535c0-vmess
 - cipher: chacha20-ietf-poly1305
-  name: 08-0122-AE
+  name: 08-0124-AE
   password: QCXDxuDlTTMD7jtgHUjIoj
   port: 8080
   server: 151.242.251.153
   type: ss
 - cipher: aes-128-gcm
-  name: 08-0123-US
+  name: 08-0125-US
   password: shadowsocks
   port: 443
   server: 156.146.38.170
   type: ss
 - cipher: aes-256-cfb
-  name: 23-0075-US
+  name: 23-0076-US
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 104.192.226.106
   type: ss
-- name: 23-0101-RELAY
+- name: 23-0102-RELAY
   network: ws
   port: 80
   server: sweeT-coMBInATIOn.SeOtooLsFORyOU.co.Uk
@@ -407,20 +415,11 @@ proxies:
       Host: sweeT-coMBInATIOn.SeOtooLsFORyOU.co.Uk
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 23-0107-LT
+  name: 23-0108-LT
   password: 4a2rfixophdjffa8KVA4Aa
   port: 8080
   server: 45.87.175.171
   type: ss
-- name: 23-0108-IN
-  network: tcp
-  port: 49355
-  server: 45.88.183.164
-  servername: 45.88.183.164
-  tls: false
-  type: vless
-  udp: true
-  uuid: ef246c6f-6e7d-4286-af33-5485544b0ba8
 proxy-groups:
 - name: PROXY
   type: select
@@ -441,13 +440,13 @@ proxy-groups:
   - 05-0001-RELAY
   - 05-0002-RELAY
   - 05-0005-FR
-  - 05-0008-GB
   - 05-0012-FR
   - 05-0013-DE
   - 05-0015-IT
   - 05-0016-FR
   - 05-0017-FR
   - 05-0020-FR
+  - 05-0021-IL
   - 05-0022-FR
   - 05-0023-GB
   - 05-0024-AT
@@ -457,25 +456,25 @@ proxy-groups:
   - 06-0042-PL
   - 06-0047-RELAY
   - 06-0048-RELAY
-  - 06-0116-LT
   - 06-0117-LT
-  - 06-0118-PY
+  - 06-0118-LT
   - 06-0119-TW
-  - 08-0049-HK
-  - 08-0050-KR
-  - 08-0051-KR
-  - 08-0052-MD
-  - 08-0054-BR
+  - 08-0049-KR
+  - 08-0050-HK
+  - 08-0052-KR
+  - 08-0053-MD
+  - 08-0054-PY
   - 08-0055-NL
-  - 08-0056-GR
-  - 08-0120-HR
-  - 08-0121-RELAY
-  - 08-0122-AE
-  - 08-0123-US
-  - 23-0075-US
-  - 23-0101-RELAY
-  - 23-0107-LT
-  - 23-0108-IN
+  - 08-0058-US
+  - 08-0120-BR
+  - 08-0121-GR
+  - 08-0122-RELAY
+  - 08-0123-HR
+  - 08-0124-AE
+  - 08-0125-US
+  - 23-0076-US
+  - 23-0102-RELAY
+  - 23-0108-LT
 - name: Best
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -501,13 +500,13 @@ proxy-groups:
   - 05-0001-RELAY
   - 05-0002-RELAY
   - 05-0005-FR
-  - 05-0008-GB
   - 05-0012-FR
   - 05-0013-DE
   - 05-0015-IT
   - 05-0016-FR
   - 05-0017-FR
   - 05-0020-FR
+  - 05-0021-IL
   - 05-0022-FR
   - 05-0023-GB
   - 05-0024-AT
@@ -517,25 +516,25 @@ proxy-groups:
   - 06-0042-PL
   - 06-0047-RELAY
   - 06-0048-RELAY
-  - 06-0116-LT
   - 06-0117-LT
-  - 06-0118-PY
+  - 06-0118-LT
   - 06-0119-TW
-  - 08-0049-HK
-  - 08-0050-KR
-  - 08-0051-KR
-  - 08-0052-MD
-  - 08-0054-BR
+  - 08-0049-KR
+  - 08-0050-HK
+  - 08-0052-KR
+  - 08-0053-MD
+  - 08-0054-PY
   - 08-0055-NL
-  - 08-0056-GR
-  - 08-0120-HR
-  - 08-0121-RELAY
-  - 08-0122-AE
-  - 08-0123-US
-  - 23-0075-US
-  - 23-0101-RELAY
-  - 23-0107-LT
-  - 23-0108-IN
+  - 08-0058-US
+  - 08-0120-BR
+  - 08-0121-GR
+  - 08-0122-RELAY
+  - 08-0123-HR
+  - 08-0124-AE
+  - 08-0125-US
+  - 23-0076-US
+  - 23-0102-RELAY
+  - 23-0108-LT
 - name: HK
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -545,7 +544,7 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
-  - 08-0049-HK
+  - 08-0050-HK
   filter: (?i)港|HK|HongKong|hong kong
 - name: TW
   type: url-test
@@ -589,8 +588,9 @@ proxy-groups:
   interval: 600
   tolerance: 50
   proxies:
-  - 08-0123-US
-  - 23-0075-US
+  - 08-0058-US
+  - 08-0125-US
+  - 23-0076-US
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: Claude
   type: url-test
